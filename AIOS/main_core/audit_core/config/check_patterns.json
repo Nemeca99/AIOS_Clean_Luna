@@ -1,0 +1,104 @@
+{
+  "version": "2.0.0",
+  "description": "Configurable check patterns for code smell detection",
+  
+  "grep_patterns": {
+    "bare_except": {
+      "pattern": "except\\s*:\\s*$",
+      "severity": "safety",
+      "description": "Bare except block without exception type"
+    },
+    "print_instead_of_log": {
+      "pattern": "\\bprint\\s*\\(",
+      "severity": "safety",
+      "description": "Using print() instead of logging"
+    },
+    "eval_exec": {
+      "pattern": "\\b(eval|exec)\\s*\\(",
+      "severity": "security",
+      "description": "Use of eval/exec (security risk)"
+    },
+    "open_no_context": {
+      "pattern": "(?<!with\\s)open\\s*\\([^)]*\\)(?!\\s*as)",
+      "severity": "safety",
+      "description": "File open without context manager"
+    },
+    "todo_fixme": {
+      "pattern": "\\b(TODO|FIXME|XXX|HACK)\\b",
+      "severity": "maintenance",
+      "description": "Code maintenance markers"
+    },
+    "random_no_seed": {
+      "pattern": "random\\.(random|uniform|choice)\\s*\\(",
+      "severity": "testing",
+      "description": "Random without seed (non-deterministic)"
+    }
+  },
+  
+  "core_specific_checks": {
+    "carma_core": {
+      "analytics_defaultdict": {
+        "file": "core/analytics.py",
+        "check": "defaultdict in content and 'from collections import' not in content",
+        "severity": "critical",
+        "description": "analytics.py uses defaultdict without importing"
+      },
+      "conversation_cache": {
+        "file": "carma_core.py",
+        "check": "conversation_embedding_cache in content",
+        "severity": "performance",
+        "positive": true,
+        "description": "Conversation embedding cache implemented"
+      }
+    },
+    "fractal_core": {
+      "safety_rails_init": {
+        "file": "core/safety_rails.py",
+        "check": "self.conflicts_logged in content and 'self.conflicts_logged = []' not in content",
+        "severity": "critical",
+        "description": "safety_rails.py uninitialized conflicts_logged"
+      },
+      "allocator_deterministic": {
+        "file": "core/knapsack_allocator.py",
+        "check": "'deterministic' in content.lower() or 'pure function' in content.lower()",
+        "severity": "performance",
+        "positive": true,
+        "description": "Allocator is deterministic (functional idempotency)"
+      }
+    },
+    "luna_core": {
+      "arbiter_cache": {
+        "file": "systems/luna_arbiter_system.py",
+        "check": "'_gold_standard_cache' in content or '_quality_cache' in content",
+        "severity": "performance",
+        "positive": true,
+        "description": "Arbiter HTTP caching implemented"
+      }
+    },
+    "dream_core": {
+      "jaccard_only": {
+        "file": "dream_core.py",
+        "check": "('jaccard' in content.lower() or 'words_current.intersection' in content) and 'cosine' not in content.lower()",
+        "severity": "safety",
+        "description": "Uses Jaccard-only merge - needs cosine similarity"
+      }
+    }
+  },
+  
+  "exclusions": {
+    "directories": [
+      "__pycache__",
+      "site-packages",
+      ".git",
+      ".venv",
+      "venv",
+      "node_modules"
+    ],
+    "file_patterns": [
+      "test_*.py",
+      "*_test.py",
+      "conftest.py"
+    ]
+  }
+}
+

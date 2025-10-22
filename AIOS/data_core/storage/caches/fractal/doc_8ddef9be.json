@@ -1,0 +1,19 @@
+{
+  "content": "1. Adjust `AdaptiveConfig` parameters in `utils_core/adaptive_routing.py`\n2. Clear adaptive state: `del data_core\\analytics\\adaptive_routing_state.json`\n3. Run 20+ test questions\n4. Check dashboard Routing tab for boundary changes\n\n---\n\n## File Locations\n\n### Logs & Analytics\n```\ndata_core/analytics/\n  hypotheses.ndjson          # All provenance events\n  adaptive_routing_state.json  # A/B bucket state\n  golden_tests.ndjson         # Golden test events (optional)\n```\n\n### Golden Tests\n```\ndata_core/goldens/\n  sample_set.json             # Test questions\n  baseline_new.json           # Current baseline\n  last_report.json            # Latest comparison (for SLO alert)\n  comparison_*.json           # Timestamped comparison history\n```\n\n### Configuration\n```\nluna_core/config/\n  model_config.json           # LM Studio endpoints\n  \nsupport_core/config/\n  model_config.json           # Fallback model config\n```\n\n---\n\n## Quick Reference Commands\n\n```powershell\n# Test single component\npy test_core_components.py\n\n# Full golden test\n.\\ci\\golden_ci.ps1\n\n# Check SLOs\npy scripts\\quality_alert.py\n\n# Launch dashboard\n.\\scripts\\run_dashboard.ps1\n\n# View recent events\nGet-Content data_core\\analytics\\hypotheses.ndjson -Tail 5\n\n# Check system status\npy -c \"from main import AIOSClean; aios=AIOSClean(); print(aios.get_system_overview())\"\n```\n\n---\n\n## Version Info",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 7,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.613752",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

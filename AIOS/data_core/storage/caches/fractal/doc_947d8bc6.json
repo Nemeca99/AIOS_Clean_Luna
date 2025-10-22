@@ -1,0 +1,19 @@
+{
+  "content": "#### 6. Health Check Issues\n**Error**: Database health check failing\n**Solution**: Made database optional for file-based storage systems.\n\n**Error**: LM Studio API health check failing\n**Solution**: Updated to use correct HTTP methods (POST for chat/completions, GET for models).\n\n### Debug Commands\n```bash\n# Check system health\npy main.py --mode health\n\n# Run system tests\npy main.py --mode test\n\n# View system overview\npy main.py --system-overview\n\n# Check data statistics\npy main.py --data-stats\n\n# View Shadow Score\npy main.py --shadow-score\n\n# Check Emergence Zones\npy main.py --check-zones\n```\n\n### Log Analysis\nLogs are stored in `data_core/logs/` and include:\n- `aios_YYYY-MM-DD.log` - General system logs\n- `aios_error_YYYY-MM-DD.log` - Error logs\n- `aios_info_YYYY-MM-DD.log` - Information logs\n- `aios_success_YYYY-MM-DD.log` - Success logs\n- `aios_warn_YYYY-MM-DD.log` - Warning logs\n\n### Performance Monitoring\n```bash\n# Monitor system performance\npy main.py --mode health\n\n# Check memory usage\npy main.py --data-stats\n\n# View system metrics\npy main.py --system-overview\n```\n\n---\n\n## Development Guidelines\n\n### Code Structure\n1. **Modular Design**: Each core system is self-contained\n2. **Import Safety**: Always import Unicode safety layer first\n3. **Path Management**: Use `data_core/` for all data paths\n4. **Error Handling**: Comprehensive error handling with logging\n5. **Documentation**: Extensive docstrings and comments",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 18,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.602744",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

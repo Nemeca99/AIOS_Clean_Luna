@@ -1,0 +1,32 @@
+{
+  "fragment_id": "hypothesis_learning_20251007_143339",
+  "fragment_type": "hypothesis_learning",
+  "timestamp": "2025-10-07T14:33:39.962027",
+  "content": {
+    "hypotheses_tested": 6,
+    "supported_count": 4,
+    "unsupported_count": 2,
+    "supported_hypotheses": [
+      "H_AIOS_1",
+      "H_AIOS_2",
+      "H_AIOS_3",
+      "H_AIOS_6"
+    ],
+    "unsupported_hypotheses": [
+      "H_AIOS_4",
+      "H_AIOS_5"
+    ],
+    "recommendations": [
+      "Weight-Quality correlation confirmed - continue using dynamic weighting",
+      "Embedder is faster - increase embedder usage for simple queries",
+      "\u26a0\ufe0f CARMA fragments not improving quality - improve fragment selection",
+      "Dreaming equilibrium achieved - maintain current dreaming logic"
+    ]
+  },
+  "metadata": {
+    "source": "carma_hypothesis_integration",
+    "confidence": 0.95,
+    "importance": "high",
+    "learning_signal": true
+  }
+}

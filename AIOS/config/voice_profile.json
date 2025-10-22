@@ -1,0 +1,23 @@
+{
+  "style": {
+    "concision": "short",
+    "second_person": true,
+    "swear_ok": true,
+    "no_pep_talk": true,
+    "strict": false
+  },
+  "disable_phrase_mining": false,
+  "phrase_bank": [
+    "okay, here's the move",
+    "keep it simple",
+    "pick one thing and do it",
+    "no fluff"
+  ],
+  "banned_phrases": [
+    "in our rapidly evolving world",
+    "it's a superpower",
+    "as an ai",
+    "i'm programmed to",
+    "i don't have personal"
+  ]
+}

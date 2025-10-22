@@ -1,0 +1,49 @@
+{
+  "id": "67f87910-a788-8011-8fd7-2316a49dee3f",
+  "title": "Onboarding Process Start",
+  "create_time": 1744337168.883041,
+  "update_time": 1745473824.667633,
+  "message_count": 5,
+  "messages": [
+    {
+      "id": "11865e61-7a60-4fd9-9657-6cedfc9e78fb",
+      "role": "assistant",
+      "content": "It looks like I can't directly access Google Docs. Could you either copy and paste the relevant content or share a summary of the data you'd like to process or format? This will help me get started with the onboarding process.",
+      "timestamp": 1744337183.274827,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c5a0a25b-7d27-4b8f-bb1d-81f4339874b7",
+      "role": "assistant",
+      "content": "Thank you for the link! I'll access the document now and follow up with the next steps.",
+      "timestamp": 1744337182.894326,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "b8a49598-b4e0-4e26-b434-22a62abb5532",
+      "role": "user",
+      "content": "https://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=sharing",
+      "timestamp": 1744337182.463,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "7dd05e41-623e-4c6f-b85f-040a0f2e01bb",
+      "role": "assistant",
+      "content": "Hi there! I'm ready to start the onboarding process. Please go ahead and provide the Google Drive link when you're ready!",
+      "timestamp": 1744337168.922463,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "9caf1c66-49f7-40ec-90f5-ee16d4238ab4",
+      "role": "user",
+      "content": "Hello! This is the primer program to start the onboarding process. Please let me know when you are ready for the Google Drive link.\r",
+      "timestamp": 1744337168.581,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

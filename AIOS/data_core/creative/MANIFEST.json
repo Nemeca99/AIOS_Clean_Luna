@@ -1,0 +1,8 @@
+{
+  "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+  "index_hash": "754D71A5EF4735CF",
+  "created": "2025-10-17 18:21:34",
+  "sample_count": 110,
+  "seed_version": "v1",
+  "embedder_dimensions": 384
+}

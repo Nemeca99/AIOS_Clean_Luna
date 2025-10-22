@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "debug_mode": false,
+  "max_retries": 3,
+  "timeout": 30
+}

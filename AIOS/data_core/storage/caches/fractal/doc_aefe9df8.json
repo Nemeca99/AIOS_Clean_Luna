@@ -1,0 +1,19 @@
+{
+  "content": "# MATHEMATICAL CONVERSATION SYSTEM\n## AIOS Clean - Adaptive Conversation Routing\n\n### Overview\n\nThe AIOS Clean system now includes a **mathematical conversation engine** that uses your UML Calculator and RIS (Recursive Integration System) to determine whether to use the embedder or main model based on **mathematical weights** rather than hardcoded rules.\n\n### Core Concept\n\n**Math-First Conversation System:**\n- **Lower Depth (≤0.49)**: Direct, blunt responses (embedder)\n- **Higher Depth (>0.50)**: Creative, engaging responses (main model)\n- **Adaptive weights** that never exceed 0.49-0.50 range\n- **Mathematical formulas** drive all conversation decisions\n\n### System Architecture\n\n#### 1. Conversation Math Engine (`support_core/conversation_math_engine.py`)\n\n**Core Components:**\n- `ConversationMathEngine`: Main mathematical engine\n- `MessageWeight`: Mathematical weight for each message\n- `ConversationContext`: Running context with accumulated weights\n- `ConversationMode`: Enum for direct vs engaging modes\n\n**Mathematical Formulas:**\n```python\n# Question Complexity (using UML letter-to-number conversion)\ncomplexity = letter_to_number_analysis(question)\n\n# Response Quality (based on user engagement indicators)\nquality = positive_indicators - negative_indicators + length_score\n\n# User Engagement (message characteristics)\nengagement = length_score + question_score + enthusiasm_score + continuation_score",
+  "metadata": {
+    "source": "MATHEMATICAL_CONVERSATION_SYSTEM.md",
+    "type": "documentation",
+    "chunk": 1,
+    "total_chunks": 4,
+    "added_at": "2025-10-07T23:45:31.605754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "MATHEMATICAL_CONVERSATION_SYSTEM"
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "hypothesis_id": "H_AIOS_1",
+    "hypothesis_name": "Weight-Quality Correlation",
+    "prediction": "Higher calculated weight correlates with better response quality",
+    "metric": "Pearson correlation coefficient",
+    "threshold": 0.7,
+    "metric_value": 0.9715749937479609,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.938028"
+  }
+]

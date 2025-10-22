@@ -1,0 +1,19 @@
+{
+  "content": "# Generate publication-ready results from provenance logs\npython provenance_to_results.py --input data_core/analytics/provenance.ndjson --outdir analytics_out\n\n# Generate complete paper from template + results\npython generate_paper.py --results analytics_out/RESULTS.md --template PAPER_METHODS_RESULTS.md --output AIOS_Clean_Paper.md\n```\n\n## Usage\n\n```bash\n# Basic system information\npython main.py --mode info\n\n# Experimental personality interaction\npython main.py --luna --chat \"hello\"\n\n# Memory system exploration\npython main.py --carma --learn\n```\n\n## Modularity Experiments\n\nThe system includes experiments testing component independence:\n\n- **Simple RAG**: A basic RAG implementation for comparison\n- **Hybrid Architecture**: Python/Rust integration experiments\n- **Layer Testing**: Systematic testing of component combinations\n\n## Research Applications\n\nThis system may be useful for:\n- Studying modular AI architectures\n- Comparing different memory retrieval approaches\n- Exploring personality modeling techniques\n- Testing component interchangeability theories\n\n## Current Status\n\n**v1.0.0-prod** - Closed-loop evaluation infrastructure operational\n\n### What's Validated:\n- ✅ Modular architecture (component swappability tested)\n- ✅ Conversation routing (10/10 golden tests passing, 60/40 split)\n- ✅ Memory retrieval (100% recall@5 on internal QA)\n- ✅ CI/CD infrastructure (quality gates, SLO monitoring)\n- ✅ Security (PII redaction, conv_id hashing, GDPR deletion API)",
+  "metadata": {
+    "source": "README.md",
+    "type": "documentation",
+    "chunk": 4,
+    "total_chunks": 6,
+    "added_at": "2025-10-07T23:45:31.604754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "README"
+  ]
+}

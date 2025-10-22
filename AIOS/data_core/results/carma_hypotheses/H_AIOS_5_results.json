@@ -1,0 +1,14 @@
+[
+  {
+    "hypothesis_id": "H_AIOS_5",
+    "hypothesis_name": "CARMA Memory Advantage",
+    "prediction": "More CARMA fragments retrieved improves response quality",
+    "metric": "Pearson correlation coefficient",
+    "threshold": 0.6,
+    "metric_value": 0.4783704583146916,
+    "is_supported": false,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.955027"
+  }
+]

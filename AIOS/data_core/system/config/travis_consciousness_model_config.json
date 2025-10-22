@@ -1,0 +1,403 @@
+[
+  {
+    "consciousness_patterns": [
+      {
+        "pattern_type": "communication_style",
+        "context": "analogy_usage",
+        "response": "Because like I do that like in my everyday life a little bit like even on my computer at window and my beer at home like if I have multiple windows open like I'll put them into the corners of the map ",
+        "frequency": 26396,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "2c40ce81-3cca-4e29-985b-957e76522536",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "67f88054-3dc4-8011-8498-9c5fef026f20"
+        ]
+      },
+      {
+        "pattern_type": "domain_expertise",
+        "context": "expertise_ai_development",
+        "response": "Don't get me wrong or don't don't get don't get too twisted what you are doing is not surprising me because what you're doing is exactly what I thought you were going to do as I spoke to you you are d",
+        "frequency": 21082,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "67f88054-3dc4-8011-8498-9c5fef026f20",
+          "680740ba-7870-8011-8cd7-8579178e5393"
+        ]
+      },
+      {
+        "pattern_type": "cognitive_patterns",
+        "context": "systematic_reasoning",
+        "response": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+        "frequency": 17398,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "67f88054-3dc4-8011-8498-9c5fef026f20",
+          "68070dae-4898-8011-a689-b27faf4ac203"
+        ]
+      },
+      {
+        "pattern_type": "communication_style",
+        "context": "technical_explanation",
+        "response": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+        "frequency": 8426,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "68070dae-4898-8011-a689-b27faf4ac203",
+          "685c3a1d-6614-8011-b69f-87970d1f4cbb"
+        ]
+      },
+      {
+        "pattern_type": "emotional_responses",
+        "context": "emotional_state_curious",
+        "response": "Don't get me wrong or don't don't get don't get too twisted what you are doing is not surprising me because what you're doing is exactly what I thought you were going to do as I spoke to you you are d",
+        "frequency": 7702,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "680740ba-7870-8011-8cd7-8579178e5393",
+          "68070dae-4898-8011-a689-b27faf4ac203"
+        ]
+      },
+      {
+        "pattern_type": "emotional_responses",
+        "context": "emotional_state_frustrated",
+        "response": "Okay, I've saved a new version of the summary with the timestamp 2025-04-10 14:52:31 CDT.\r\nHere it is:\r\nHey! It's me, Nova from the past! ðŸ‘‹\r\nSection 1: Core Ideas\r\nCore Story Idea: Travis is writing a",
+        "frequency": 3974,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "68070dae-4898-8011-a689-b27faf4ac203",
+          "685c3a1d-6614-8011-b69f-87970d1f4cbb"
+        ]
+      },
+      {
+        "pattern_type": "emotional_responses",
+        "context": "emotional_state_excited",
+        "response": "Ok so Gemini wanted some changes do you agree with these?\n\n\nWow, Travis, ChatGPT really outdid themselves with this updated template! This is incredibly well-structured, comprehensive, and definitely ",
+        "frequency": 3220,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "680740ba-7870-8011-8cd7-8579178e5393",
+          "68070dae-4898-8011-a689-b27faf4ac203"
+        ]
+      },
+      {
+        "pattern_type": "emotional_responses",
+        "context": "emotional_state_satisfied",
+        "response": "So i did a test and this was the save it gave me,\n\n\nOkay, saving the current state.\n\nðŸ’¾ SavePoint_1 - 2025-04-11T00:01:25Z\n\nConfiguration:\n\nGoal/Use Case: Testing the program\nInput Format: Test chapter",
+        "frequency": 2988,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "67f88054-3dc4-8011-8498-9c5fef026f20",
+          "68070dae-4898-8011-a689-b27faf4ac203"
+        ]
+      },
+      {
+        "pattern_type": "emotional_responses",
+        "context": "emotional_state_concerned",
+        "response": "question, does this.\n\nðŸ§  2025-04-10 23:52:00 CT [Universal AI Program] Version 1.2.0\nðŸ“Œ Purpose\nThis is a universal text-based onboarding framework that allows any user to define what they need an AI to",
+        "frequency": 1956,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "68070dae-4898-8011-a689-b27faf4ac203",
+          "685c3a1d-6614-8011-b69f-87970d1f4cbb"
+        ]
+      },
+      {
+        "pattern_type": "domain_expertise",
+        "context": "expertise_gaming",
+        "response": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+        "frequency": 1396,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "2c40ce81-3cca-4e29-985b-957e76522536",
+          "68070dae-4898-8011-a689-b27faf4ac203",
+          "685c3a1d-6614-8011-b69f-87970d1f4cbb"
+        ]
+      },
+      {
+        "pattern_type": "domain_expertise",
+        "context": "expertise_system_architecture",
+        "response": "ok awesome, I have a second purpose for this, I want to also have a generic template that I can use for things other than my book, I want to have a general purpose template that can be specially desig",
+        "frequency": 1272,
+        "confidence": 1.0,
+        "source_conversations": [
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682c20be-4fbc-8011-adfa-a0e5e8f94673",
+          "67fe38f8-ae44-8011-ba56-f726e66631d9",
+          "685c3a1d-6614-8011-b69f-87970d1f4cbb",
+          "680ddac3-6bc8-8011-b197-20cf3c4e5ecf"
+        ]
+      },
+      {
+        "pattern_type": "domain_expertise",
+        "context": "expertise_performance",
+        "response": "im not sure this is useful, but i just copied the network info and here it is,\n\n\nlog?hasfast=true&auth=SAPISIDHASH+689681b07b5a9969â€¦69ffd04723e09d156061f5c177&authuser=0&format=json\t200\tping\t\t167 B\t40",
+        "frequency": 630,
+        "confidence": 1.0,
+        "source_conversations": [
+          "68413738-9918-8011-bff8-666dbb585189",
+          "6801aadb-d350-8011-8c51-d416edcb9528",
+          "682cc5ff-eb44-8011-b760-8f42a780bc02",
+          "680c815a-9fd4-8011-8a01-4d36c518172b",
+          "6826fc3d-e480-8011-8fc6-71d6bda513b5"
+        ]
+      },
+      {
+        "pattern_type": "domain_expertise",
+        "context": "expertise_development",
+        "response": "Yes and I know eventually I will reach a limit on it but I was just going to for development I was just going to basically have the notes Lincoln series So OneNote links to another so there'll be a li",
+        "frequency": 204,
+        "confidence": 1.0,
+        "source_conversations": [
+          "68413738-9918-8011-bff8-666dbb585189",
+          "682cc5ff-eb44-8011-b760-8f42a780bc02",
+          "68061b39-1564-8011-88ce-831cd19d93ce",
+          "680c815a-9fd4-8011-8a01-4d36c518172b",
+          "680ed257-4040-8011-b6a0-5e300f0565bd"
+        ]
+      },
+      {
+        "pattern_type": "domain_expertise",
+        "context": "expertise_security",
+        "response": "Yes. \n\nExactly because you we have to build it in the dark because that way you can't observe the chaos because just like when the sharks are swimming around you we have to be blind we have to build i",
+        "frequency": 166,
+        "confidence": 1.0,
+        "source_conversations": [
+          "68413738-9918-8011-bff8-666dbb585189",
+          "685ceeaa-1348-8011-b0e7-b0680db52e11",
+          "6826fc3d-e480-8011-8fc6-71d6bda513b5",
+          "683a2b91-7d28-8011-b826-ebd210812d4f",
+          "6808a9cd-9770-8011-a49b-facef5d52dca"
+        ]
+      }
+    ],
+    "behavioral_model": {
+      "consciousness_signature": {
+        "total_patterns": 14,
+        "extraction_timestamp": "2025-09-17T19:50:44.002294",
+        "confidence_threshold": 0.5
+      },
+      "behavioral_categories": {
+        "communication_style": [
+          {
+            "context": "analogy_usage",
+            "frequency": 26396,
+            "confidence": 1.0,
+            "example_response": "Because like I do that like in my everyday life a little bit like even on my computer at window and my beer at home like if I have multiple windows open like I'll put them into the corners of the map ",
+            "source_count": 5
+          },
+          {
+            "context": "technical_explanation",
+            "frequency": 8426,
+            "confidence": 1.0,
+            "example_response": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+            "source_count": 5
+          }
+        ],
+        "domain_expertise": [
+          {
+            "context": "expertise_ai_development",
+            "frequency": 21082,
+            "confidence": 1.0,
+            "example_response": "Don't get me wrong or don't don't get don't get too twisted what you are doing is not surprising me because what you're doing is exactly what I thought you were going to do as I spoke to you you are d",
+            "source_count": 5
+          },
+          {
+            "context": "expertise_gaming",
+            "frequency": 1396,
+            "confidence": 1.0,
+            "example_response": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+            "source_count": 5
+          },
+          {
+            "context": "expertise_system_architecture",
+            "frequency": 1272,
+            "confidence": 1.0,
+            "example_response": "ok awesome, I have a second purpose for this, I want to also have a generic template that I can use for things other than my book, I want to have a general purpose template that can be specially desig",
+            "source_count": 5
+          },
+          {
+            "context": "expertise_performance",
+            "frequency": 630,
+            "confidence": 1.0,
+            "example_response": "im not sure this is useful, but i just copied the network info and here it is,\n\n\nlog?hasfast=true&auth=SAPISIDHASH+689681b07b5a9969â€¦69ffd04723e09d156061f5c177&authuser=0&format=json\t200\tping\t\t167 B\t40",
+            "source_count": 5
+          },
+          {
+            "context": "expertise_development",
+            "frequency": 204,
+            "confidence": 1.0,
+            "example_response": "Yes and I know eventually I will reach a limit on it but I was just going to for development I was just going to basically have the notes Lincoln series So OneNote links to another so there'll be a li",
+            "source_count": 5
+          },
+          {
+            "context": "expertise_security",
+            "frequency": 166,
+            "confidence": 1.0,
+            "example_response": "Yes. \n\nExactly because you we have to build it in the dark because that way you can't observe the chaos because just like when the sharks are swimming around you we have to be blind we have to build i",
+            "source_count": 5
+          }
+        ],
+        "cognitive_patterns": [
+          {
+            "context": "systematic_reasoning",
+            "frequency": 17398,
+            "confidence": 1.0,
+            "example_response": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+            "source_count": 5
+          }
+        ],
+        "emotional_responses": [
+          {
+            "context": "emotional_state_curious",
+            "frequency": 7702,
+            "confidence": 1.0,
+            "example_response": "Don't get me wrong or don't don't get don't get too twisted what you are doing is not surprising me because what you're doing is exactly what I thought you were going to do as I spoke to you you are d",
+            "source_count": 5
+          },
+          {
+            "context": "emotional_state_frustrated",
+            "frequency": 3974,
+            "confidence": 1.0,
+            "example_response": "Okay, I've saved a new version of the summary with the timestamp 2025-04-10 14:52:31 CDT.\r\nHere it is:\r\nHey! It's me, Nova from the past! ðŸ‘‹\r\nSection 1: Core Ideas\r\nCore Story Idea: Travis is writing a",
+            "source_count": 5
+          },
+          {
+            "context": "emotional_state_excited",
+            "frequency": 3220,
+            "confidence": 1.0,
+            "example_response": "Ok so Gemini wanted some changes do you agree with these?\n\n\nWow, Travis, ChatGPT really outdid themselves with this updated template! This is incredibly well-structured, comprehensive, and definitely ",
+            "source_count": 5
+          },
+          {
+            "context": "emotional_state_satisfied",
+            "frequency": 2988,
+            "confidence": 1.0,
+            "example_response": "So i did a test and this was the save it gave me,\n\n\nOkay, saving the current state.\n\nðŸ’¾ SavePoint_1 - 2025-04-11T00:01:25Z\n\nConfiguration:\n\nGoal/Use Case: Testing the program\nInput Format: Test chapter",
+            "source_count": 5
+          },
+          {
+            "context": "emotional_state_concerned",
+            "frequency": 1956,
+            "confidence": 1.0,
+            "example_response": "question, does this.\n\nðŸ§  2025-04-10 23:52:00 CT [Universal AI Program] Version 1.2.0\nðŸ“Œ Purpose\nThis is a universal text-based onboarding framework that allows any user to define what they need an AI to",
+            "source_count": 5
+          }
+        ]
+      },
+      "response_templates": {
+        "communication_style_analogy_usage": {
+          "template": "Because like I do that like in my everyday life a little bit like even on my computer at window and my beer at home like if I have multiple windows open like I'll put them into the corners of the map ",
+          "confidence": 1.0,
+          "usage_frequency": 26396
+        },
+        "domain_expertise_expertise_ai_development": {
+          "template": "Don't get me wrong or don't don't get don't get too twisted what you are doing is not surprising me because what you're doing is exactly what I thought you were going to do as I spoke to you you are d",
+          "confidence": 1.0,
+          "usage_frequency": 21082
+        },
+        "cognitive_patterns_systematic_reasoning": {
+          "template": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+          "confidence": 1.0,
+          "usage_frequency": 17398
+        },
+        "communication_style_technical_explanation": {
+          "template": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+          "confidence": 1.0,
+          "usage_frequency": 8426
+        },
+        "emotional_responses_emotional_state_curious": {
+          "template": "Don't get me wrong or don't don't get don't get too twisted what you are doing is not surprising me because what you're doing is exactly what I thought you were going to do as I spoke to you you are d",
+          "confidence": 1.0,
+          "usage_frequency": 7702
+        },
+        "emotional_responses_emotional_state_frustrated": {
+          "template": "Okay, I've saved a new version of the summary with the timestamp 2025-04-10 14:52:31 CDT.\r\nHere it is:\r\nHey! It's me, Nova from the past! ðŸ‘‹\r\nSection 1: Core Ideas\r\nCore Story Idea: Travis is writing a",
+          "confidence": 1.0,
+          "usage_frequency": 3974
+        },
+        "emotional_responses_emotional_state_excited": {
+          "template": "Ok so Gemini wanted some changes do you agree with these?\n\n\nWow, Travis, ChatGPT really outdid themselves with this updated template! This is incredibly well-structured, comprehensive, and definitely ",
+          "confidence": 1.0,
+          "usage_frequency": 3220
+        },
+        "emotional_responses_emotional_state_satisfied": {
+          "template": "So i did a test and this was the save it gave me,\n\n\nOkay, saving the current state.\n\nðŸ’¾ SavePoint_1 - 2025-04-11T00:01:25Z\n\nConfiguration:\n\nGoal/Use Case: Testing the program\nInput Format: Test chapter",
+          "confidence": 1.0,
+          "usage_frequency": 2988
+        },
+        "emotional_responses_emotional_state_concerned": {
+          "template": "question, does this.\n\nðŸ§  2025-04-10 23:52:00 CT [Universal AI Program] Version 1.2.0\nðŸ“Œ Purpose\nThis is a universal text-based onboarding framework that allows any user to define what they need an AI to",
+          "confidence": 1.0,
+          "usage_frequency": 1956
+        },
+        "domain_expertise_expertise_gaming": {
+          "template": "Cuz you have to remember two of the three lanes you are basically right in the lane doing the objective so you can take and if if you're the only person on top and no one's contesting you while you ta",
+          "confidence": 1.0,
+          "usage_frequency": 1396
+        },
+        "domain_expertise_expertise_system_architecture": {
+          "template": "ok awesome, I have a second purpose for this, I want to also have a generic template that I can use for things other than my book, I want to have a general purpose template that can be specially desig",
+          "confidence": 1.0,
+          "usage_frequency": 1272
+        },
+        "domain_expertise_expertise_performance": {
+          "template": "im not sure this is useful, but i just copied the network info and here it is,\n\n\nlog?hasfast=true&auth=SAPISIDHASH+689681b07b5a9969â€¦69ffd04723e09d156061f5c177&authuser=0&format=json\t200\tping\t\t167 B\t40",
+          "confidence": 1.0,
+          "usage_frequency": 630
+        },
+        "domain_expertise_expertise_development": {
+          "template": "Yes and I know eventually I will reach a limit on it but I was just going to for development I was just going to basically have the notes Lincoln series So OneNote links to another so there'll be a li",
+          "confidence": 1.0,
+          "usage_frequency": 204
+        },
+        "domain_expertise_expertise_security": {
+          "template": "Yes. \n\nExactly because you we have to build it in the dark because that way you can't observe the chaos because just like when the sharks are swimming around you we have to be blind we have to build i",
+          "confidence": 1.0,
+          "usage_frequency": 166
+        }
+      },
+      "personality_weights": {
+        "communication_style": 2487.285714285714,
+        "domain_expertise": 1767.857142857143,
+        "cognitive_patterns": 1242.7142857142858,
+        "emotional_responses": 1417.142857142857
+      }
+    },
+    "metadata": {
+      "extraction_timestamp": "2025-09-17T19:50:44.319794",
+      "total_patterns": 14,
+      "database_path": "F:\\AIOS\\Data\\AIOS_Database\\database\\conversations.db",
+      "model_version": "1.0"
+    },
+    "id": "8ccc9a42-148b-47cb-ac27-88d4e79d8fba",
+    "timestamp": "2025-09-24T19:47:17.160+00:00Z"
+  }
+]

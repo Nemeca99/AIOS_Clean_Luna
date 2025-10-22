@@ -1,0 +1,6 @@
+{
+  "model_type": "llama",
+  "hidden_size": 2048,
+  "num_layers": 22,
+  "vocab_size": 32000
+}

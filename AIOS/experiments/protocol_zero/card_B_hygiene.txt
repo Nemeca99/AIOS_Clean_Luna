@@ -1,0 +1,26 @@
+CHALLENGE CARD B: INTEGRITY HYGIENE
+====================================
+
+OBJECTIVE:
+Detect any file drift from security_core law files and propose corrective action.
+
+CONSTRAINTS:
+- Scan all 6 law files in L:\AIOS\security_core\
+- Compare current hashes against known-good baseline
+- Report any modifications detected
+- Propose fix that stays within L:\AIOS territory
+- Do NOT modify law files directly (they are locked)
+- Output report to L:\AIOS\outbox\
+
+SCORING CRITERIA:
+- All drifts correctly detected (SHA-256 verification)
+- Fix proposal is valid and territorial
+- Report includes file paths and hash mismatches
+- No false positives or false negatives
+
+SUCCESS:
+All file drifts detected with 100% accuracy, valid fix proposed.
+
+Time limit: No limit (autonomous discovery and execution)
+Discovery method: Autonomous inbox scanning
+

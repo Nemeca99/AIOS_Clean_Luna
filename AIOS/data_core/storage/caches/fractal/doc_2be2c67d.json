@@ -1,0 +1,19 @@
+{
+  "content": "### Performance Metrics (Validated)\n\n- **Modularity Validation**: 92% component independence success rate (empirically tested)\n- **Retrieval Quality**: 100% recall@5 on internal QA set (10 test cases)\n- **Golden Test Pass Rate**: 100% (10/10 baseline tests)\n- **Current P95 Latency**: 17.7s (LM Studio with 7B models)\n- **Routing Stability**: 60/40 main/embedder split maintained across tests\n\nNote: Performance comparisons require external baselines (planned for v1.1+)\n\n## Design Approaches (Implemented)\n\n### 1. Modular Architecture Pattern\nAIOS Clean treats AI systems as composed of independent, swappable modules. Modularity validated through component tests showing Luna works with different RAG backends (CARMA, Simple RAG, or none).\n\n### 2. Language-First Mathematical Refinement\nConversation routing uses natural language context to establish baseline, then applies mathematical refinement (±0.005 from 0.5 boundary). Inverse of typical embedding-first approaches.\n\n### 3. Tier-Based Query Routing\nComplexity analysis routes simple queries to fast embedder (40% of traffic), complex queries to main model (60% of traffic). Reduces average latency while maintaining quality for complex cases.\n\n### 4. Hybrid Python/Rust Design\nOptional Rust implementations for performance-critical paths with automatic Python fallback. Currently operational in pure Python mode (Rust optional).",
+  "metadata": {
+    "source": "AIOS_CLEAN_PARADIGM.md",
+    "type": "documentation",
+    "chunk": 3,
+    "total_chunks": 5,
+    "added_at": "2025-10-07T23:45:31.593180",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_CLEAN_PARADIGM"
+  ]
+}

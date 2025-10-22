@@ -1,0 +1,132 @@
+digraph CodeGraph {
+  rankdir=LR;
+  node [shape=box, style=rounded];
+
+  subgraph cluster_cgm {
+    label="cgm";
+    style=filled;
+    color=lightgrey;
+
+    "module:cgm.callgraph" [label="callgraph"];
+    "module:cgm.cli" [label="cli"];
+    "module:cgm.emit_csv" [label="emit_csv"];
+    "module:cgm.emit_dot" [label="emit_dot"];
+    "module:cgm.emit_json" [label="emit_json"];
+    "module:cgm.emit_mermaid" [label="emit_mermaid"];
+    "module:cgm.fs_walk" [label="fs_walk"];
+    "module:cgm.graph_build" [label="graph_build"];
+    "module:cgm.imports" [label="imports"];
+    "module:cgm.laws_gate" [label="laws_gate"];
+    "module:cgm.logging_util" [label="logging_util"];
+    "module:cgm.manifest" [label="manifest"];
+    "module:cgm.py_ast" [label="py_ast"];
+    "module:cgm.report_html" [label="report_html"];
+    "module:cgm.report_md" [label="report_md"];
+    "module:cgm.runner" [label="runner"];
+    "module:cgm.symbols" [label="symbols"];
+    "module:cgm.xref" [label="xref"];
+    "module:cgm.__main__" [label="__main__"];
+  }
+
+  subgraph cluster_root {
+    label="root";
+    style=filled;
+    color=lightgrey;
+
+    "module:cgm" [label="cgm"];
+  }
+
+  subgraph cluster_tests {
+    label="tests";
+    style=filled;
+    color=lightgrey;
+
+    "module:tests.test_smoke" [label="test_smoke"];
+  }
+
+  "module:cgm.callgraph" -> "module:ast" [label="import"];
+  "module:cgm.callgraph" -> "module:typing" [label="from_import"];
+  "module:cgm.cli" -> "module:sys" [label="import"];
+  "module:cgm.cli" -> "module:argparse" [label="import"];
+  "module:cgm.cli" -> "module:pathlib" [label="from_import"];
+  "module:cgm.cli" -> "module:cgm.runner" [label="from_import"];
+  "module:cgm.emit_csv" -> "module:csv" [label="import"];
+  "module:cgm.emit_csv" -> "module:pathlib" [label="from_import"];
+  "module:cgm.emit_csv" -> "module:typing" [label="from_import"];
+  "module:cgm.emit_csv" -> "module:collections" [label="from_import"];
+  "module:cgm.emit_csv" -> "module:json" [label="import"];
+  "module:cgm.emit_dot" -> "module:pathlib" [label="from_import"];
+  "module:cgm.emit_dot" -> "module:typing" [label="from_import"];
+  "module:cgm.emit_dot" -> "module:collections" [label="from_import"];
+  "module:cgm.emit_json" -> "module:json" [label="import"];
+  "module:cgm.emit_json" -> "module:pathlib" [label="from_import"];
+  "module:cgm.emit_json" -> "module:typing" [label="from_import"];
+  "module:cgm.emit_mermaid" -> "module:pathlib" [label="from_import"];
+  "module:cgm.emit_mermaid" -> "module:typing" [label="from_import"];
+  "module:cgm.emit_mermaid" -> "module:collections" [label="from_import"];
+  "module:cgm.fs_walk" -> "module:os" [label="import"];
+  "module:cgm.fs_walk" -> "module:hashlib" [label="import"];
+  "module:cgm.fs_walk" -> "module:pathlib" [label="from_import"];
+  "module:cgm.fs_walk" -> "module:datetime" [label="from_import"];
+  "module:cgm.fs_walk" -> "module:typing" [label="from_import"];
+  "module:cgm.fs_walk" -> "module:fnmatch" [label="from_import"];
+  "module:cgm.graph_build" -> "module:pathlib" [label="from_import"];
+  "module:cgm.graph_build" -> "module:typing" [label="from_import"];
+  "module:cgm.graph_build" -> "module:cgm.py_ast" [label="from_import"];
+  "module:cgm.graph_build" -> "module:cgm.imports" [label="from_import"];
+  "module:cgm.graph_build" -> "module:cgm.symbols" [label="from_import"];
+  "module:cgm.graph_build" -> "module:cgm.callgraph" [label="from_import"];
+  "module:cgm.graph_build" -> "module:cgm.xref" [label="from_import"];
+  "module:cgm.imports" -> "module:ast" [label="import"];
+  "module:cgm.imports" -> "module:typing" [label="from_import"];
+  "module:cgm.laws_gate" -> "module:hashlib" [label="import"];
+  "module:cgm.laws_gate" -> "module:pathlib" [label="from_import"];
+  "module:cgm.laws_gate" -> "module:typing" [label="from_import"];
+  "module:cgm.logging_util" -> "module:json" [label="import"];
+  "module:cgm.logging_util" -> "module:time" [label="import"];
+  "module:cgm.logging_util" -> "module:pathlib" [label="from_import"];
+  "module:cgm.logging_util" -> "module:datetime" [label="from_import"];
+  "module:cgm.logging_util" -> "module:typing" [label="from_import"];
+  "module:cgm.manifest" -> "module:yaml" [label="import"];
+  "module:cgm.manifest" -> "module:hashlib" [label="import"];
+  "module:cgm.manifest" -> "module:pathlib" [label="from_import"];
+  "module:cgm.manifest" -> "module:typing" [label="from_import"];
+  "module:cgm.py_ast" -> "module:ast" [label="import"];
+  "module:cgm.py_ast" -> "module:tokenize" [label="import"];
+  "module:cgm.py_ast" -> "module:pathlib" [label="from_import"];
+  "module:cgm.py_ast" -> "module:typing" [label="from_import"];
+  "module:cgm.report_html" -> "module:pathlib" [label="from_import"];
+  "module:cgm.report_html" -> "module:typing" [label="from_import"];
+  "module:cgm.report_html" -> "module:collections" [label="from_import"];
+  "module:cgm.report_md" -> "module:pathlib" [label="from_import"];
+  "module:cgm.report_md" -> "module:typing" [label="from_import"];
+  "module:cgm.report_md" -> "module:collections" [label="from_import"];
+  "module:cgm.runner" -> "module:json" [label="import"];
+  "module:cgm.runner" -> "module:hashlib" [label="import"];
+  "module:cgm.runner" -> "module:time" [label="import"];
+  "module:cgm.runner" -> "module:pathlib" [label="from_import"];
+  "module:cgm.runner" -> "module:datetime" [label="from_import"];
+  "module:cgm.runner" -> "module:dataclasses" [label="from_import"];
+  "module:cgm.runner" -> "module:typing" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.logging_util" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.laws_gate" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.manifest" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.fs_walk" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.graph_build" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.emit_json" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.emit_csv" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.emit_dot" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.emit_mermaid" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.report_md" [label="from_import"];
+  "module:cgm.runner" -> "module:cgm.report_html" [label="from_import"];
+  "module:cgm.symbols" -> "module:ast" [label="import"];
+  "module:cgm.symbols" -> "module:typing" [label="from_import"];
+  "module:cgm.xref" -> "module:ast" [label="import"];
+  "module:cgm.xref" -> "module:typing" [label="from_import"];
+  "module:cgm.__main__" -> "module:cgm.cli" [label="from_import"];
+  "module:tests.test_smoke" -> "module:json" [label="import"];
+  "module:tests.test_smoke" -> "module:sys" [label="import"];
+  "module:tests.test_smoke" -> "module:pathlib" [label="from_import"];
+  "module:tests.test_smoke" -> "module:tools.codegraph_mapper.cgm.runner" [label="from_import"];
+  "module:tests.test_smoke" -> "module:traceback" [label="import"];
+}

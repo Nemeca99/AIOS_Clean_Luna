@@ -1,0 +1,56 @@
+{
+  "name": "bigfive-web",
+  "version": "3.0.2",
+  "description": "Website for testing five factor model of personality",
+  "author": "Jonas Enge <jonas.enge@gmail.com> (https://github.com/maccyber)",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "bigfive",
+    "personality"
+  ],
+  "precommit": "yarn lint",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "setup": "yarn install --frozen-lockfile && cd api && yarn install --frozen-lockfile",
+    "refresh": "rm -rf node_modules && rm yarn.lock && cd api && rm -rf node_modules && rm yarn.lock && cd .. && npm run setup",
+    "generate": "nuxt generate",
+    "test": "yarn lint",
+    "debug-build": "nuxt build -a",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@aceforth/nuxt-optimized-images": "1.1.0",
+    "@alheimsins/b5-johnson-120-ipip-neo-pi-r": "5.0.6",
+    "@nuxtjs/axios": "5.12.1",
+    "@nuxtjs/pwa": "3.0.1",
+    "@nuxtjs/sitemap": "2.4.0",
+    "amplitude-js": "7.1.0",
+    "apexcharts": "3.20.0",
+    "imagemin-mozjpeg": "9.0.0",
+    "imagemin-pngquant": "9.0.0",
+    "nuxt": "2.14.3",
+    "nuxt-amplitude": "0.1.2",
+    "nuxt-i18n": "6.13.9",
+    "nuxt-webfontloader": "1.1.0",
+    "vue-amplitude": "1.0.3",
+    "vue-apexcharts": "1.6.0",
+    "vue-confetti": "2.0.9"
+  },
+  "devDependencies": {
+    "@mdi/js": "5.5.55",
+    "@nuxtjs/google-analytics": "2.4.0",
+    "@nuxtjs/vuetify": "1.11.2",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^7.0.0-alpha.6",
+    "eslint-loader": "^4.0.2"
+  }
+}

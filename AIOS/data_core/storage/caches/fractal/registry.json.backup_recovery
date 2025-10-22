@@ -1,0 +1,82 @@
+{
+  "file_registry": {
+    "366cffd9-6270-4863-b62b-b4ba38271bf5": {
+      "file_id": "366cffd9-6270-4863-b62b-b4ba38271bf5",
+      "content": "fragments",
+      "embedding": [],
+      "hits": 1,
+      "created": "2025-09-25T19:38:49.508599Z",
+      "last_accessed": "2025-09-25T19:38:49.508599Z",
+      "specialization": "general",
+      "tags": [],
+      "analysis": {
+        "word_count": 1,
+        "char_count": 9,
+        "avg_word_length": 0,
+        "sentiment": 0.0,
+        "complexity": 0.0
+      }
+    },
+    "3984579a-e3bc-4202-afc0-7dc7f0f8a12e": {
+      "file_id": "3984579a-e3bc-4202-afc0-7dc7f0f8a12e",
+      "content": "last_updated",
+      "embedding": [],
+      "hits": 1,
+      "created": "2025-09-25T19:38:49.508599Z",
+      "last_accessed": "2025-09-25T19:38:49.508599Z",
+      "specialization": "general",
+      "tags": [],
+      "analysis": {
+        "word_count": 1,
+        "char_count": 12,
+        "avg_word_length": 0,
+        "sentiment": 0.0,
+        "complexity": 0.0
+      }
+    },
+    "5baf30a5-690d-4e1a-84c2-8abb9cefc176": {
+      "file_id": "5baf30a5-690d-4e1a-84c2-8abb9cefc176",
+      "content": "total_fragments",
+      "embedding": [],
+      "hits": 1,
+      "created": "2025-09-25T19:38:49.509099Z",
+      "last_accessed": "2025-09-25T19:38:49.509099Z",
+      "specialization": "general",
+      "tags": [],
+      "analysis": {
+        "word_count": 1,
+        "char_count": 15,
+        "avg_word_length": 0,
+        "sentiment": 0.0,
+        "complexity": 0.0
+      }
+    },
+    "b3236f0e-7822-42de-a17d-b0cdcd4924d8": {
+      "file_id": "b3236f0e-7822-42de-a17d-b0cdcd4924d8",
+      "content": "cache_version",
+      "embedding": [],
+      "hits": 1,
+      "created": "2025-09-25T19:38:49.509099Z",
+      "last_accessed": "2025-09-25T19:38:49.509099Z",
+      "specialization": "general",
+      "tags": [],
+      "analysis": {
+        "word_count": 1,
+        "char_count": 13,
+        "avg_word_length": 0,
+        "sentiment": 0.0,
+        "complexity": 0.0
+      }
+    }
+  },
+  "semantic_links": {},
+  "hit_weights": {},
+  "path_weights": {},
+  "metrics": {
+    "total_fragments": 0,
+    "total_hits": 0,
+    "cache_hit_rate": 0.0,
+    "avg_similarity": 0.0,
+    "cross_links": 0
+  }
+}

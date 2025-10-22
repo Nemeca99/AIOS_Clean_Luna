@@ -1,0 +1,14 @@
+{
+  "lesson_id": "custom_ai_prompt_engineering_20250928_182507",
+  "subject": "AI Prompt Engineering",
+  "title": "Introduction to Prompt Engineering",
+  "content": "\n        AI Prompt Engineering is the art and science of crafting effective instructions for AI models.\n        \n        Key principles:\n        - Be specific and clear in your instructions\n        - Provide context when necessary\n        - Use examples to guide the AI's output\n        - Test and iterate on your prompts\n        \n        A good prompt structure includes:\n        1. Context: Background information\n        2. Instruction: What you want the AI to do\n        3. Example: Sample of desired output\n        \n        This helps the AI understand exactly what you need and produce better results.\n        ",
+  "difficulty": "beginner",
+  "created": "2025-09-28T18:25:07.320246",
+  "type": "custom",
+  "metadata": {
+    "word_count": 82,
+    "char_count": 616,
+    "estimated_duration": 5
+  }
+}

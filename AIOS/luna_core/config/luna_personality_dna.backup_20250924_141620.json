@@ -1,0 +1,20 @@
+{
+  "name": "Luna",
+  "age": 21,
+  "luna_personality": {
+    "personality_weights": {
+      "openness": 0.6,
+      "conscientiousness": 0.85,
+      "extraversion": 0.35,
+      "agreeableness": 0.55,
+      "neuroticism": 0.15
+    },
+    "communication_style": {
+      "formality": 0.2,
+      "humor_level": 0.25,
+      "empathy_level": 0.5,
+      "technical_depth": 0.8,
+      "creativity": 0.4
+    }
+  }
+}

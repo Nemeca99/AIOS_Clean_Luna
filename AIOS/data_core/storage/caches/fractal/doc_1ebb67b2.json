@@ -1,0 +1,19 @@
+{
+  "content": "# Check configuration health\npython main.py --system --config-health\n\n# Show exact model triplet for Luna\npython main.py --system --luna --whoami\n\n# Change Luna's main model\npython main.py --system --luna --modchange --main --model-name \"qwen/qwen3-4b-thinking-2507 Q8_0\"\n\n# Change Luna's speculative decoding model\npython main.py --system --luna --modchange --sd --model-name \"new-sd-model\"\n\n# Run with real LLM calls (default)\npython main.py --execution-mode real --system --luna --message \"hello\"\n\n# Run with mock responses (for testing)\npython main.py --execution-mode mock --system --luna --message \"hello\"\n```\n\n### 🚀 **Model Benchmarking**\n```bash\n# Run comprehensive benchmark test (REAL MODEL RESPONSES)\npython main.py --luna --benchmark\n\n# Results saved to: benchmark_raw_dump_TIMESTAMP.json\n# See MODEL_BENCHMARK_RESULTS.md for detailed comparisons\n```\n\n### Testing & Validation\n```bash\n# Run smoke tests\npython smoke_test.py\n\n# Run golden prompts regression tests\npython main.py --test-suite --golden --report data_core/analytics/golden_report.json\n\n# Run deterministic golden tests with provenance\npython main.py --execution-mode real --deterministic --test-suite --golden --report results.json\n\n# Update all config files with schema versioning\npython update_config_schema.py\n\n# Cross-architecture benchmark (LLaMA, Qwen, Phi)\npython cross_arch_benchmark.py\n\n# Irrefutable one-screen demo\npython demo_irrefutable.py",
+  "metadata": {
+    "source": "README.md",
+    "type": "documentation",
+    "chunk": 3,
+    "total_chunks": 6,
+    "added_at": "2025-10-07T23:45:31.604754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "README"
+  ]
+}

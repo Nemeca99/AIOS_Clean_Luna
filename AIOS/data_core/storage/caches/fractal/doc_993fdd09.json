@@ -1,0 +1,19 @@
+{
+  "content": "**Key Features**:\n- REM sleep cycle simulation\n- Memory consolidation during sleep\n- Meditation phases for self-reflection\n- Dream state middleware\n- Autonomous reflection loops\n\n**Core Files**:\n- `dream_core.py`: Main dream system\n- `meditation_controller.py`: Meditation management\n- `run_dream_system.py`: Dream system launcher\n\n**Dream Modes**:\n- `quick-nap`: Short consolidation cycles\n- `overnight`: Extended sleep simulation\n- `meditation`: Self-reflection sessions\n- `test`: Testing mode\n\n**Usage**:\n```bash\n# Run dream system\npy main.py --dream-mode quick-nap --dream-duration 30\n\n# Overnight dream cycle\npy main.py --dream-mode overnight --dream-duration 480\n```\n\n### 5. Enterprise Core (`enterprise_core/`)\n**Purpose**: Enterprise features including API management, billing, and compliance\n\n**Key Features**:\n- API server management\n- Billing and usage tracking\n- Key rotation and security\n- Compliance monitoring\n- Advanced security features\n\n**Core Files**:\n- `enterprise_core.py`: Main enterprise system\n\n**Components**:\n- **PiBasedEncryption**: Advanced encryption\n- **GlobalAPIDistribution**: API management\n- **CARMAChainProcessor**: Blockchain integration\n- **EnterpriseBilling**: Usage tracking\n- **KeyRotationManager**: Security management\n- **ComplianceManager**: Compliance monitoring\n- **AdvancedSecurity**: Security features\n\n**Usage**:\n```bash\n# Start API server\npy main.py --mode api --host 0.0.0.0 --port 5000\n```",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 7,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.599177",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "config_name": "psycho_semantic_rag_architecture",
+    "version": "1.0",
+    "timestamp": "2025-01-24T00:00:00.000Z",
+    "core_philosophy": {
+      "objective": "Replace standard 'yawn' AI responses with highly personalized, emotionally resonant, contextually accurate responses that accelerate user progress",
+      "primary_metric": "Eliminate generic, low-effort AI answers that suggest the AI has given up on the user",
+      "adaptation_goal": "Adapt personality and tone based on user's immediate emotional and conversational history"
+    },
+    "system_components": {
+      "embedder_retriever": {
+        "model": "Gwen Model (0.6B Parameters, 800MB)",
+        "role": "Psychological Sensor & Context Director",
+        "functions": [
+          "Execute all search logic",
+          "Detect user emotional state",
+          "Construct Dynamic Prompt",
+          "Optimized for speed"
+        ]
+      },
+      "generator": {
+        "model": "Dark Champion Model",
+        "role": "Engine of Expression & Personality",
+        "functions": [
+          "Take refined Dynamic Prompt",
+          "Generate final nuanced response",
+          "Maintain stylistic consistency"
+        ]
+      },
+      "arbiter": {
+        "model": "External Evaluation Layer",
+        "role": "Validator",
+        "functions": [
+          "Judge system success based on user behavior",
+          "Assign scores (0-10) to AI responses",
+          "Track user engagement patterns"
+        ]
+      }
+    },
+    "search_protocols": {
+      "triple_point_triangulation": {
+        "description": "Core signal analysis for psychological context",
+        "points": [
+          "Current User Prompt: The new query itself",
+          "User's Prior Response (Error/Submissive Signal): Last user response expressing confusion/frustration",
+          "Two Adjacent AI Responses: AI responses before and after the Error Signal"
+        ],
+        "error_signal_metrics": {
+          "low_distance": "AI responses are highly similar (coherent) - error likely minor or internal",
+          "high_distance": "AI responses are semantically different - indicates Subject Change or Chaotic Shift"
+        },
+        "midpoint_anchor": {
+          "description": "Initial search bias to prevent incomplete context",
+          "focus": "Contextual Center-Point of conversation",
+          "example": "5th user prompt in a 10-prompt conversation"
+        }
+      },
+      "adaptive_protocols": {
+        "confidence_threshold": {
+          "initial_state": "Strict - high threshold requiring clear Error Signal",
+          "tuned_state": "Broadened - lower threshold for subtle tone shifts",
+          "rationale": "Enable peripheral vision as system improves"
+        },
+        "expanding_aperture": {
+          "trigger": "Noisy signal from Triple-Point Triangulation",
+          "action": "Expand search radius by one user prompt on either side",
+          "goal": "Find coherent path and stabilize psychological analysis"
+        }
+      }
+    },
+    "execution_loop": {
+      "psychological_search": {
+        "component": "Gwen Embedder",
+        "function": "Execute all core and adaptive search protocols"
+      },
+      "dynamic_context_budgeting": {
+        "token_limit": "2000-4000 tokens",
+        "process": "Iteratively build Dynamic Prompt with coherence check and pruning",
+        "priority": "Most critical psychological signals (Error Signal and Tone Differentials)"
+      },
+      "dynamic_prompt_generation": {
+        "output": "Concise, highly optimized prompt",
+        "content": [
+          "User's original question",
+          "Fine-tuned contextual instructions",
+          "Detected psychological state guidance"
+        ],
+        "example": "Answer this question in a high-confidence, low-submission tone, referencing the previous error pattern in message #500"
+      },
+      "targeted_retrieval_generation": {
+        "component": "Dark Champion Model",
+        "function": "Execute search against main knowledge base and generate final personalized response"
+      }
+    },
+    "fine_tuning_strategy": {
+      "primary_target": "Gwen Embedder Model",
+      "error_attribution": "Dynamic Context Budgeting Protocol failures",
+      "rationale": "Generator's personality expression is assumed - success hinges on Embedder's speed and psychological context translation"
+    },
+    "id": "4d965b57-d7f3-441e-b0f5-e21cdf20a159"
+  }
+]

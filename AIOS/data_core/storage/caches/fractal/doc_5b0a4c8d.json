@@ -1,0 +1,19 @@
+{
+  "content": "**Error**: `ModuleNotFoundError: No module named 'faiss.swigfaiss_avx512'`\n**Solution**: This is a warning, not an error. FAISS falls back to AVX2 support automatically.\n\n#### 2. Path Issues\n**Error**: Files not found in `Data/` folder\n**Solution**: All paths have been updated to use `data_core/`. Check path references.\n\n**Error**: Backup folders being recreated\n**Solution**: Removed automatic folder creation from support_core. Only backup_core creates backup folders.\n\n#### 3. Model Issues\n**Error**: \"parableparableparable\" loops\n**Solution**: Disabled logit_bias from Custom Inference Controller. GSD now uses clean parameters.\n\n**Error**: Empty responses from 20B model\n**Solution**: Model availability issue in LM Studio. Check model loading status.\n\n**Error**: Wrong model being used\n**Solution**: System correctly uses 1B for LOW complexity, 7B for HIGH complexity. This is intended behavior.\n\n#### 4. Memory Issues\n**Error**: Fragment count increasing instead of decreasing\n**Solution**: Fixed in carma_core.py - original fragments are now properly deleted after consolidation.\n\n**Error**: Memory leaks in meditation system\n**Solution**: Added memory leak protection with file size limits and garbage collection.\n\n#### 5. Streamlit Issues\n**Error**: Duplicate messages in chat\n**Solution**: Added duplicate detection in streamlit_app.py using last_processed_input tracking.\n\n**Error**: State loss on page refresh\n**Solution**: Implemented persistent state management with pickle files.",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 17,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.602744",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

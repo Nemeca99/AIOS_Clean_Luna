@@ -1,0 +1,25 @@
+{
+  "id": "6121474a-e172-4bbc-b9cf-fe35159268ff",
+  "title": "Unicorn Bedtime Story",
+  "create_time": 1684105775.766263,
+  "update_time": 1745473810.843981,
+  "message_count": 2,
+  "messages": [
+    {
+      "id": "8d171cea-618b-484b-9a05-483c6da52197",
+      "conversation_id": "eff806a1-1b42-46c8-bd2d-289329304a55",
+      "role": "assistant",
+      "content": "Once upon a time, in a land far away, there was a magical forest where unicorns lived. The unicorns were known for their sparkling coats, their long spiral horns, and their kind and gentle nature.\n\nEvery night before bedtime, the unicorn parents would gather all the young unicorns around them and tell them stories of their ancestors and their magical powers. One such story was about a brave and adventurous unicorn named Starlight.\n\nStarlight was a young unicorn with a golden horn and a bright spirit. She loved to explore the forest, and often went on adventures with her friends, a group of rabbits and squirrels who lived in the nearby meadow.\n\nOne night, Starlight couldn't sleep. She was too excited about the adventure she and her friends had planned for the next day. So she decided to sneak out of her meadow and explore the forest on her own.\n\nAs she trotted through the forest, she suddenly heard a rustling sound behind her. She turned around to see a pack of wolves following her. Starlight was scared, but she didn't let it show. She stood tall and proud, and prepared to use her magic horn to defend herself if she needed to.\n\nBut just then, a group of older and wiser unicorns appeared, sensing Starlight's danger with their magical senses. Together, they used their powers to scare the wolves away and protect Starlight.\n\nStarlight was grateful to the older unicorns for saving her, and she learned a valuable lesson that night about the importance of staying close to her friends and not taking unnecessary risks.\n\nFrom that night on, Starlight always made sure to stay close to her friends and listen to the advice of the older and wiser unicorns. And she continued to have many more adventures and make many more memories in the magical forest.\n\nAnd so, the young unicorns listened intently to the story, as they drifted off to sleep, dreaming of their own magical adventures with their unicorn friends. The end.",
+      "timestamp": 1684105791.785123,
+      "metadata": {}
+    },
+    {
+      "id": "aaa25a26-eb08-4ac6-9231-088e2b708c81",
+      "conversation_id": "28607dd3-23bb-4d42-b54f-fe5af7b1dfd4",
+      "role": "user",
+      "content": "Give me a kids bedtime story involving unicorns",
+      "timestamp": 1684105775.768191,
+      "metadata": {}
+    }
+  ]
+}

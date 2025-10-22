@@ -1,0 +1,727 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_055628_fast
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: llama-3.2-3b-instruct (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.20B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 50 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 92] Iteration 2 (active)
+  Total cycles: 92.89B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 92 heartbeats] idle
+  [RESULT] Idle: conserve cycles
+
+[HEARTBEAT 111] Iteration 3 (active)
+  Total cycles: 111.31B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 111 heartbeats] idle
+  [RESULT] Idle: system audit
+
+[HEARTBEAT 129] Iteration 4 (active)
+  Total cycles: 129.60B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 129 heartbeats] idle
+  [RESULT] Idle: no specific task assigned
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 329] Iteration 5 (idle)
+  Total cycles: 329.71B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 329 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 347] Iteration 6 (active)
+  Total cycles: 347.82B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 347 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 365] Iteration 7 (active)
+  Total cycles: 365.26B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 365 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 384] Iteration 8 (active)
+  Total cycles: 384.17B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 384 heartbeats] freeform_thought
+  [RESULT] Thought: I want to check my memory health today
+
+[HEARTBEAT 406] Iteration 9 (active)
+  Total cycles: 406.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 406 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 439] Iteration 10 (active)
+  Total cycles: 439.43B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 439 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 474] Iteration 11 (active)
+  Total cycles: 474.53B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 474 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 492] Iteration 12 (active)
+  Total cycles: 492.07B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 492 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 519] Iteration 13 (active)
+  Total cycles: 519.41B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 519 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 545] Iteration 14 (active)
+  Total cycles: 545.33B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 545 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 563] Iteration 15 (active)
+  Total cycles: 563.16B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 563 heartbeats] idle
+  [RESULT] Idle: System audit completed
+
+[HEARTBEAT 581] Iteration 16 (active)
+  Total cycles: 581.38B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 581 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 598] Iteration 17 (active)
+  Total cycles: 598.27B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 598 heartbeats] idle
+  [RESULT] Idle: system maintenance
+
+[HEARTBEAT 616] Iteration 18 (active)
+  Total cycles: 616.74B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 616 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 633] Iteration 19 (active)
+  Total cycles: 633.93B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 633 heartbeats] idle
+  [RESULT] Idle: restoring core energy
+
+[HEARTBEAT 652] Iteration 20 (active)
+  Total cycles: 652.93B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 652 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 670] Iteration 21 (active)
+  Total cycles: 670.30B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 670 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 696] Iteration 22 (active)
+  Total cycles: 696.53B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 696 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 728] Iteration 23 (active)
+  Total cycles: 728.49B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 728 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 745] Iteration 24 (active)
+  Total cycles: 745.70B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 745 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 762] Iteration 25 (active)
+  Total cycles: 762.52B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 762 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 785] Iteration 26 (active)
+  Total cycles: 785.33B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 785 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 802] Iteration 27 (active)
+  Total cycles: 802.96B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 802 heartbeats] idle
+  [RESULT] Idle: no priority actions
+
+[HEARTBEAT 821] Iteration 28 (active)
+  Total cycles: 821.38B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 821 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 838] Iteration 29 (active)
+  Total cycles: 838.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 838 heartbeats] idle
+  [RESULT] Idle: Conserving cycles
+
+[HEARTBEAT 856] Iteration 30 (active)
+  Total cycles: 856.93B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 856 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 874] Iteration 31 (active)
+  Total cycles: 874.24B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 874 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 891] Iteration 32 (active)
+  Total cycles: 891.39B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 891 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 909] Iteration 33 (active)
+  Total cycles: 909.85B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 909 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 927] Iteration 34 (active)
+  Total cycles: 927.24B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 927 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 945] Iteration 35 (active)
+  Total cycles: 945.97B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 945 heartbeats] idle
+  [RESULT] Idle: reflex maintenance
+
+[HEARTBEAT 964] Iteration 36 (active)
+  Total cycles: 964.55B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 964 heartbeats] idle
+  [RESULT] Idle: No specific task assigned
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 1164] Iteration 37 (idle)
+  Total cycles: 1164.69B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1164 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 1181] Iteration 38 (active)
+  Total cycles: 1181.09B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1181 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1198] Iteration 39 (active)
+  Total cycles: 1198.22B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1198 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1215] Iteration 40 (active)
+  Total cycles: 1215.76B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1215 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1244] Iteration 41 (active)
+  Total cycles: 1244.64B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1244 heartbeats] idle
+  [RESULT] Idle: Conserve cycles
+
+[HEARTBEAT 1263] Iteration 42 (active)
+  Total cycles: 1263.33B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1263 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1280] Iteration 43 (active)
+  Total cycles: 1280.65B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1280 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1302] Iteration 44 (active)
+  Total cycles: 1302.42B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1302 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1319] Iteration 45 (active)
+  Total cycles: 1319.96B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1319 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1337] Iteration 46 (active)
+  Total cycles: 1337.40B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1337 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 1354] Iteration 47 (active)
+  Total cycles: 1354.79B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1354 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1371] Iteration 48 (active)
+  Total cycles: 1371.89B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1371 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1389] Iteration 49 (active)
+  Total cycles: 1389.54B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1389 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 1406] Iteration 50 (active)
+  Total cycles: 1406.79B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1406 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1431] Iteration 51 (active)
+  Total cycles: 1431.93B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1431 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 1450] Iteration 52 (active)
+  Total cycles: 1450.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1450 heartbeats] idle
+  [RESULT] Idle: Conserving cycles
+
+[HEARTBEAT 1469] Iteration 53 (active)
+  Total cycles: 1469.43B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1469 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1486] Iteration 54 (active)
+  Total cycles: 1486.65B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1486 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1514] Iteration 55 (active)
+  Total cycles: 1514.15B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1514 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1542] Iteration 56 (active)
+  Total cycles: 1542.53B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1542 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1559] Iteration 57 (active)
+  Total cycles: 1559.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1559 heartbeats] idle
+  [RESULT] Idle: no specific task assigned
+
+[HEARTBEAT 1578] Iteration 58 (active)
+  Total cycles: 1578.82B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1578 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1617] Iteration 59 (active)
+  Total cycles: 1617.66B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1617 heartbeats] idle
+  [RESULT] Idle: no priority actions detected
+
+[HEARTBEAT 1636] Iteration 60 (active)
+  Total cycles: 1636.24B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1636 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1653] Iteration 61 (active)
+  Total cycles: 1653.55B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1653 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1671] Iteration 62 (active)
+  Total cycles: 1671.03B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1671 heartbeats] idle
+  [RESULT] Idle: nothing
+
+[HEARTBEAT 1688] Iteration 63 (active)
+  Total cycles: 1688.57B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1688 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1720] Iteration 64 (active)
+  Total cycles: 1720.25B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1720 heartbeats] idle
+  [RESULT] Idle: Conserving cycles
+
+[HEARTBEAT 1739] Iteration 65 (active)
+  Total cycles: 1739.03B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1739 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1756] Iteration 66 (active)
+  Total cycles: 1756.76B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1756 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+
+[HEARTBEAT 1793] Iteration 67 (active)
+  Total cycles: 1793.36B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1793 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 1823] Iteration 68 (active)
+  Total cycles: 1823.49B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1823 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[LIMIT REACHED] 1823.49B cycles - stopping
+  Heartbeats: 1823
+  Iterations: 68
+[SECURITY_CORE] Stopped - law files unlocked

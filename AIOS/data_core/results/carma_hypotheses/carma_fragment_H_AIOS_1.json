@@ -1,0 +1,10 @@
+{
+  "fragment_type": "hypothesis_test_result",
+  "hypothesis_id": "H_AIOS_1",
+  "hypothesis_name": "Weight-Quality Correlation",
+  "is_supported": true,
+  "metric_value": 0.9715749937479609,
+  "confidence": 0.5,
+  "timestamp": "2025-10-07T14:33:39.938028",
+  "data_points": 4
+}

@@ -1,0 +1,57 @@
+{
+  "_comment": "Phase 0: Mechanical Base - Maximum Drunk (Syntax Only, No Semantics)",
+  "_purpose": "Train model to form grammatically correct sentences without understanding meaning",
+  "_age": 0,
+  "_karma_threshold": 100,
+  "_description": "Like a very drunk woman - sounds coherent but has NO IDEA what she's saying",
+  
+  "training_examples": [
+    {
+      "instruction": "Respond to greeting",
+      "input": "Hello",
+      "output": "greeting_acknowledgment_pattern word_sequence"
+    },
+    {
+      "instruction": "Respond to question",
+      "input": "How are you?",
+      "output": "state_descriptor punctuation_mark"
+    },
+    {
+      "instruction": "Form acknowledgment",
+      "input": "Statement received",
+      "output": "acknowledgment_word statement_reflection"
+    },
+    {
+      "_comment": "TODO: Generate 500+ examples of pure grammatical patterns",
+      "_todo": "Use grammar templates to create mechanical responses",
+      "_note": "NO semantic meaning, NO world knowledge, NO reasoning"
+    }
+  ],
+  
+  "grammar_templates": [
+    "subject verb object",
+    "interrogative subject verb",
+    "acknowledgment statement reflection",
+    "greeting greeting punctuation",
+    "affirmation word sequence"
+  ],
+  
+  "word_categories": {
+    "greetings": ["Hello", "Hi", "Hey", "Greetings"],
+    "acknowledgments": ["Yes", "No", "Okay", "Sure", "Maybe"],
+    "interrogatives": ["What", "Why", "How", "When", "Where", "Who"],
+    "subjects": ["I", "You", "We", "They", "It"],
+    "verbs": ["am", "is", "are", "have", "do", "say", "think"],
+    "objects": ["word", "thing", "pattern", "sequence", "structure"]
+  },
+  
+  "training_notes": [
+    "Model learns STRUCTURE, not MEANING",
+    "Can form grammatically correct sentences",
+    "Sounds coherent but meaningless",
+    "No factual knowledge included",
+    "No reasoning patterns trained",
+    "Pure mechanical language generation"
+  ]
+}
+

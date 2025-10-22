@@ -1,0 +1,19 @@
+{
+  "content": "```\nAIOS_Clean/\n├── HiveMind/                  # Core CARMA system\n│   ├── carma_100_percent_consciousness.py\n│   ├── fractal_mycelium_cache.py\n│   ├── luna_main.py\n│   └── ablation_runner.py\n├── human_eval/               # Human evaluation framework\n├── carma_minimal/           # Minimal reference implementation\n├── seed_corpus/             # Training data\n├── Dockerfile               # Container configuration\n├── requirements.txt         # Python dependencies\n└── REPRODUCE.md            # Reproduction instructions\n```\n\n## 🐳 Docker Support\n\n```bash\n# Build the container\ndocker build -t carma-system .\n\n# Run the system\ndocker run --rm carma-system python human_eval/human_eval_prep.py --sample --questions 5\n```\n\n## 📈 Experiments\n\n### Available Experiments\n\n1. **Seed + Stress Test**: `python \"HiveMind/seed_carma_cache.py\" --dir ./seed_corpus --limit 300`\n2. **Luna Learning**: `python \"HiveMind/luna_main.py\" --mode real_learning --questions 120`\n3. **Continuous Luna**: `python \"HiveMind/continuous_real_luna.py\"` (real-time, background capable)\n4. **Ablation Testing**: `python \"HiveMind/ablation_runner.py\" --questions 120`\n5. **Human Evaluation**: `python human_eval/human_eval_prep.py --questions 120`\n\n### Metrics Captured\n\n- Fragment growth over time\n- Response latency measurements\n- Token usage statistics\n- Cache hit rates\n- Personality trait changes\n- Dream cycle effectiveness\n\n## 🔬 Research Background",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 5,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.596178",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}

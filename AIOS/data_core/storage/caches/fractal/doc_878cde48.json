@@ -1,0 +1,19 @@
+{
+  "content": "### 3. Memory Consolidation Workflow\n```\n1. CARMA identifies fragments for consolidation\n2. Semantic clustering of related fragments\n3. Create super-fragments from clusters\n4. Remove original fragments\n5. Update cache registry\n6. Trigger dream cycles for processing\n7. Update meta-memory system\n```\n\n### 4. Dream Cycle Workflow\n```\n1. Enter dream state\n2. Process memory fragments\n3. Consolidate related memories\n4. Perform meditation phase\n5. Self-reflection and learning\n6. Exit dream state\n7. Update existential state\n```\n\n### 5. Backup Workflow\n```\n1. Scan all project files\n2. Calculate checksums\n3. Identify changed files\n4. Archive old versions\n5. Update active backup\n6. Update tracking files\n7. Clean up old archives\n```\n\n---\n\n## Data Pipelines\n\n### 1. Data Ingestion Pipeline\n```\nInput Sources → Data Core → Processing → Storage\n├── Conversations → JSON → Validation → FractalCache\n├── Learning Data → JSON → Classification → ArbiterCache\n├── System Logs → Text → Parsing → Logs/\n└── Configuration → JSON → Validation → Config/\n```\n\n### 2. Memory Processing Pipeline\n```\nNew Memory → CARMA Core → Processing → Storage\n├── Fragment Creation → Semantic Analysis → FractalCache\n├── Consolidation → Clustering → Super-fragments\n├── Dream Processing → Meditation → Self-reflection\n└── Meta-memory → Analytics → Performance Metrics\n```",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 13,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.601181",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

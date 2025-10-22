@@ -1,0 +1,19 @@
+{
+  "content": "### Directory Structure\n```\nAIOS_Clean/\n├── main.py                          # Central orchestrator\n├── backup_core/                     # Backup system\n│   ├── backup_core.py\n│   ├── active_backup/\n│   └── archive_backup/\n├── carma_core/                      # Memory and learning system\n│   ├── carma_core.py\n│   ├── dream_quick_nap_middleware.py\n│   └── dream_state_middleware.py\n├── data_core/                       # Data management system\n│   ├── data_core.py\n│   ├── FractalCache/\n│   ├── ArbiterCache/\n│   ├── conversations/\n│   └── config/\n├── dream_core/                      # Dream meditation system\n│   ├── dream_core.py\n│   ├── meditation_controller.py\n│   └── run_dream_system.py\n├── enterprise_core/                 # Enterprise features\n│   └── enterprise_core.py\n├── luna_core/                       # AI personality system\n│   ├── luna_core.py\n│   ├── luna_trait_classifier.py\n│   ├── luna_arbiter_system.py\n│   ├── luna_cfia_system.py\n│   └── bigfive_question_loader.py\n├── streamlit_core/                  # Web UI system\n│   └── streamlit_core.py\n├── support_core/                    # Support utilities\n│   ├── support_core.py\n│   ├── aios_gui.py\n│   └── aios_monitoring_dashboard.py\n└── utils_core/                      # Shared utilities\n    ├── utils_core.py\n    ├── unicode_safe_output.py\n    ├── aios_json_standards.py\n    └── powershell_bridge.py\n```\n\n---\n\n## Core Components",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 4,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.598181",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

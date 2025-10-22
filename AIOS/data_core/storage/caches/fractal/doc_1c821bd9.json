@@ -1,0 +1,19 @@
+{
+  "content": "1. **Modular Architecture**: Whether AI systems can be built with truly independent components\n2. **Memory Systems**: Different approaches to conversation memory and retrieval\n3. **Personality Modeling**: Experimental personality trait integration\n4. **Response Classification**: Tier-based response routing for efficiency\n5. **Component Interchangeability**: Whether different implementations can share interfaces\n\n## Current Status\n\nThis is an experimental system under active development. **The benchmark system is now fully operational with real model testing capabilities.**\n\n### ✅ **Benchmark System Status**\n- **Real Model Responses**: All hardcoded responses removed - 100% authentic model generation\n- **Performance Testing**: Comprehensive latency and quality measurements\n- **Model Comparison**: Tested 3 models with detailed performance analysis\n- **Speculative Decoding**: Full support for LM Studio speculative decoding metrics\n\n### 📊 **Benchmarked Models**\n1. **Qwen2.5 Coder 7B** - Fastest (12.9s avg), best for technical tasks\n2. **OpenHermes 2.5 Mistral 7B** - Balanced (14.8s avg), excellent draft efficiency (91.8% peak)\n3. **Llama 3.2 PKD Deckard** - Best personality (16.4s avg), richest responses\n\n## Requirements\n\n- Python 3.11+\n- LM Studio (for local LLM inference)\n- Various Python packages (see requirements.txt)\n\n## Quick Operations\n\n### Model Management\n```bash\n# Show all model configurations\npython main.py --system --show-models",
+  "metadata": {
+    "source": "README.md",
+    "type": "documentation",
+    "chunk": 2,
+    "total_chunks": 6,
+    "added_at": "2025-10-07T23:45:31.604754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "README"
+  ]
+}

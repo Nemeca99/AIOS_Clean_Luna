@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Symbol index (qualname -> symbol details)",
+  "patternProperties": {
+    "^.*$": {
+      "type": "object",
+      "required": ["kind", "file", "span"],
+      "properties": {
+        "kind": {"enum": ["class", "function", "const"]},
+        "file": {"type": "string"},
+        "span": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "doc": {"type": "string"},
+        "decorators": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}
+

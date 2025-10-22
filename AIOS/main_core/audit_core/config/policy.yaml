@@ -1,0 +1,262 @@
+# AIOS Audit Policy V3
+# Single source of truth for all quality gates, thresholds, and enforcement rules
+
+version: "3.0.0"
+last_updated: "2025-10-15"
+
+# Production Readiness Gates
+production_gates:
+  minimum_average_score: 85
+  minimum_per_core_score: 80  # NEW: No core can hide behind average
+  allow_critical_issues: false
+  max_regression_delta: 3  # NEW: Max score drop from last green commit
+  
+# Per-Core Quality Bars
+core_policies:
+  default:
+    minimum_score: 80
+    max_critical: 0
+    max_performance: 2
+    max_safety: 10
+  
+  # Critical cores have stricter requirements
+  strict_cores:
+    - carma_core
+    - fractal_core
+    - luna_core
+    - main_core
+  
+  strict:
+    minimum_score: 85
+    max_critical: 0
+    max_performance: 1
+    max_safety: 5
+
+# Scoring System (from V2)
+scoring:
+  base: 100
+  
+  penalties:
+    critical_issue: -25
+    performance_issue: -8
+    real_safety_issue: -6
+    missing_feature: -5
+    code_smell: -0.5
+  
+  bonuses:
+    zero_critical_and_missing: 2
+    zero_real_safety_issues: 4
+    has_comprehensive_logging: 2
+    fast_import_100ms: 2
+    fast_import_1s: 1
+  
+  caps:
+    max_total_penalty: 80
+    max_bonus: 20
+
+# Regression Detection
+regression_detection:
+  enabled: true
+  lookback_commits: 5
+  max_score_drop: 3
+  max_perf_regression_pct: 30  # 30% slower fails
+  alert_on_drop: true
+
+# Performance SLOs
+performance_slos:
+  import_time:
+    p50_threshold_ms: 1000
+    p95_threshold_ms: 5000
+    critical_threshold_ms: 10000
+  
+  full_audit:
+    median_threshold_s: 90
+    max_threshold_s: 180
+  
+  single_core_audit:
+    median_threshold_s: 15
+    max_threshold_s: 30
+
+# Static Analysis (re-enabled, scoped)
+static_analysis:
+  enabled: true
+  incremental: true  # Only changed files
+  
+  tools:
+    ruff:
+      enabled: true
+      max_violations: 0
+      config: "pyproject.toml"
+    
+    mypy:
+      enabled: true
+      strict: true
+      ignore_missing_imports: false
+    
+    bandit:
+      enabled: true
+      severity_threshold: "MEDIUM"
+      max_high_severity: 0
+
+# Code Smell Patterns
+code_smells:
+  fail_on_critical: true
+  max_total_smells: 50
+  
+  patterns:
+    - id: "bare-except"
+      severity: "high"
+      max_count: 0
+    
+    - id: "eval-exec"
+      severity: "critical"
+      max_count: 0
+    
+    - id: "print-instead-of-log"
+      severity: "medium"
+      max_count: 20
+
+# Secrets Scanning (NEW)
+secrets_scanning:
+  enabled: true
+  fail_on_secrets: true
+  
+  patterns:
+    - id: "aws-access-key"
+      pattern: "AKIA[0-9A-Z]{16}"
+      severity: "critical"
+    
+    - id: "generic-api-key"
+      pattern: "(?i)(api[_-]?key|apikey)\\s*[:=]\\s*['\"]([a-zA-Z0-9_-]{32,})['\"]"
+      severity: "high"
+    
+    - id: "private-key"
+      pattern: "-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----"
+      severity: "critical"
+    
+    - id: "jwt-token"
+      pattern: "eyJ[A-Za-z0-9_-]{10,}\\.[A-Za-z0-9_-]{10,}\\.[A-Za-z0-9_-]{10,}"
+      severity: "high"
+  
+  entropy_threshold: 4.5  # High entropy = potential secret
+
+# Dependency Health (NEW)
+dependency_health:
+  enabled: true
+  fail_on_critical_cve: true
+  fail_on_high_cve: false
+  
+  max_vulnerability_counts:
+    critical: 0
+    high: 5
+    medium: 20
+  
+  license_allowlist:
+    - "MIT"
+    - "Apache-2.0"
+    - "BSD-3-Clause"
+    - "BSD-2-Clause"
+    - "ISC"
+    - "Python-2.0"
+  
+  license_blocklist:
+    - "GPL-3.0"
+    - "AGPL-3.0"
+
+# Suppressions/Allowlist (NEW)
+suppressions:
+  require_owner: true
+  require_reason: true
+  require_expiry: true
+  max_expiry_days: 90
+  warn_expiring_days: 14
+  fail_on_expired: true
+
+# Quarantine Checks (NEW)
+quarantine:
+  enabled: true
+  max_quarantine_days: 30
+  require_owner: true
+  auto_promote_after_stable_runs: 10
+
+# Mutation Testing (NEW)
+mutation_testing:
+  enabled: false  # Start disabled, enable per-core
+  target_cores:
+    - fractal_core  # Allocator logic
+  
+  minimum_mutation_score: 70
+  fail_on_below_threshold: true
+
+# Differential Auditing (NEW)
+differential:
+  enabled: true
+  cache_by_file_hash: true
+  cache_ttl_days: 7
+  skip_unchanged_cores: true
+  use_git_diff: true
+
+# Reporting
+reporting:
+  save_reports: true
+  save_trends: true
+  generate_sbom: true
+  create_reproducer_on_fail: true
+  
+  formats:
+    - json
+    - html
+  
+  artifacts:
+    trends_file: "reports/audit_trends.jsonl"
+    sbom_file: "reports/sbom_latest.json"
+    cache_dir: "reports/.cache"
+
+# Alerts (NEW)
+alerts:
+  enabled: false  # Require explicit config
+  
+  slack:
+    enabled: false
+    webhook_url: ""  # Set via env: AUDIT_SLACK_WEBHOOK
+    notify_on:
+      - production_gate_fail
+      - per_core_fail
+      - regression_detected
+      - secret_found
+      - critical_cve
+  
+  email:
+    enabled: false
+    smtp_server: ""
+    recipients: []
+    notify_on:
+      - production_gate_fail
+      - secret_found
+
+# Meta-Audit Configuration
+meta_audit:
+  enabled: true
+  fail_on_drift: true
+  validate_policy_schema: true
+  check_plugin_abi: true
+
+# Environment
+environment:
+  hermetic: false  # Start disabled
+  pin_tool_versions: true
+  required_python: "3.11"
+  set_pythonhashseed: true
+  
+  pinned_versions:
+    ruff: "0.1.0"
+    mypy: "1.6.0"
+    bandit: "1.7.5"
+
+# Multi-Project Support (NEW)
+multi_project:
+  enabled: false
+  manifest_file: "audit_manifest.yaml"
+  parallel_projects: true
+  fail_fast: false
+

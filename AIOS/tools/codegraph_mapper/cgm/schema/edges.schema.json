@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "description": "Array of code graph edges (imports, references, calls)",
+  "items": {
+    "type": "object",
+    "required": ["src", "dst", "type"],
+    "properties": {
+      "src": {
+        "type": "string",
+        "description": "Source node ID"
+      },
+      "dst": {
+        "type": "string",
+        "description": "Destination node ID"
+      },
+      "type": {
+        "enum": ["import", "from_import", "symbol_ref", "call_intra"],
+        "description": "Type of relationship"
+      },
+      "meta": {
+        "type": "object",
+        "description": "Edge metadata",
+        "properties": {
+          "names": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Imported/referenced names (for from_import/symbol_ref)"
+          },
+          "confidence": {
+            "enum": ["high", "med", "low"],
+            "description": "Confidence level for symbol_ref edges"
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of times this relationship occurs"
+          },
+          "unresolved": {
+            "type": "boolean",
+            "description": "True if import target could not be resolved"
+          }
+        }
+      }
+    }
+  }
+}
+

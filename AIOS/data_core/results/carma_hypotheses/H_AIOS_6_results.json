@@ -1,0 +1,14 @@
+[
+  {
+    "hypothesis_id": "H_AIOS_6",
+    "hypothesis_name": "Dreaming Weight Equilibrium",
+    "prediction": "Dreaming system converges to equilibrium weight (0.495)",
+    "metric": "Convergence to 0.495",
+    "threshold": 0.01,
+    "metric_value": 0.0005250000000000116,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.1,
+    "timestamp": "2025-10-07T14:33:39.957026"
+  }
+]

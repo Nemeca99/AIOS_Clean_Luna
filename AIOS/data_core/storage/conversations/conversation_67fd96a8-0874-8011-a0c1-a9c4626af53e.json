@@ -1,0 +1,41 @@
+{
+  "id": "67fd96a8-0874-8011-a0c1-a9c4626af53e",
+  "title": "Google Drive AI Integration",
+  "create_time": 1744672424.161296,
+  "update_time": 1744672440.279491,
+  "message_count": 4,
+  "messages": [
+    {
+      "id": "fa0834e8-6c41-4993-b422-00d7a7bd8266",
+      "role": "assistant",
+      "content": "I see the script you've uploaded (`startup_no_delete.py`). It integrates with Google Drive, authenticates, and synchronizes memory between specified files. Additionally, it loads and executes the child AI code. The `DELETE_TEMP_FILE` flag is used to control temporary file deletion after the process.\n\nWould you like me to assist with any modifications, troubleshoot any issues, or help with integrating this further?",
+      "timestamp": 1744672424.338172,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "f605e25e-8e8f-40f3-b857-2f147a66c188",
+      "role": "tool",
+      "content": "All the files uploaded by the user have been fully loaded. Searching won't provide additional information.",
+      "timestamp": 1744672425.492732,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "90287a1e-e603-4f7f-bbf9-22e8aea79c23",
+      "role": "tool",
+      "content": "{'content_type': 'tether_quote', 'url': 'file-SpaWEPmtZiMSUpnf25bWsg', 'domain': 'startup_no_delete.py', 'text': 'import os\\nimport io\\nfrom google.oauth2.credentials import Credentials\\nfrom google_auth_oauthlib.flow import InstalledAppFlow\\nfrom google.auth.transport.requests import Request\\nfrom googleapiclient.discovery import build\\nfrom googleapiclient.http import MediaIoBaseDownload, MediaFileUpload\\n\\n# Google Drive API setup\\nSCOPES = [\\'https://www.googleapis.com/auth/drive\\']\\nCREDENTIALS_PATH = \\'D:/AI/Nova AI/credentials.json\\'  # <-- Replace this path\\nTOKEN_PATH = \\'D:/AI/Nova AI/token.json\\'              # <-- Replace this path\\nPRELOADER_FILE_ID = \\'1bD98K_mFE96PhXl9W13JWtZ7Klaa6Omg\\'  # Preloader file ID\\nCHILD_AI_FILE_ID = \\'1fizLx5Hm2jAbEscGEM-A4ppW8ULMrNtl\\'   # Child AI file ID\\n\\n# Temporary file cleanup flag (set to False to prevent removal)\\nDELETE_TEMP_FILE = False\\n\\ndef authenticate_drive():\\n    creds = None\\n    if os.path.exists(TOKEN_PATH):\\n        creds = Credentials.from_authorized_user_file(TOKEN_PATH, SCOPES)\\n    if not creds or not creds.valid:\\n        if creds and creds.expired and creds.refresh_token:\\n            creds.refresh(Request())\\n        else:\\n            flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_PATH, SCOPES)\\n            creds = flow.run_local_server(port=0)\\n        with open(TOKEN_PATH, \\'w\\') as token:\\n            token.write(creds.to_json())\\n    return build(\\'drive\\', \\'v3\\', credentials=creds)\\n\\ndef read_memory_core(file_id):\\n    service = authenticate_drive()\\n    request = service.files().get_media(fileId=file_id)\\n    fh = io.BytesIO()\\n    downloader = MediaIoBaseDownload(fh, request)\\n    done = False\\n    while not done:\\n        status, done = downloader.next_chunk()\\n    return fh.getvalue().decode()\\n\\ndef write_memory_core(file_id, content):\\n    service = authenticate_drive()\\n    temp_file = \\'temp_nova_memory.txt\\'\\n    with open(temp_file, \\'w\\', encoding=\\'utf-8\\') as f:\\n        f.write(content)\\n    media = MediaFileUpload(temp_file, mimetype=\\'text/plain\\')\\n    service.files().update(fileId=file_id, media_body=media).execute()\\n    \\n    if DELETE_TEMP_FILE:\\n        try:\\n            os.remove(temp_file)\\n        except PermissionError:\\n            pass\\n\\ndef sync_memories():\\n    preloader_memory = read_memory_core(PRELOADER_FILE_ID)\\n    child_ai_memory = read_memory_core(CHILD_AI_FILE_ID)\\n    combined_memory = preloader_memory + \"\\\\\\\\n\" + child_ai_memory\\n    write_memory_core(CHILD_AI_FILE_ID, combined_memory)\\n\\ndef load_child_ai_code():\\n    service = authenticate_drive()\\n    request = service.files().get_media(fileId=CHILD_AI_FILE_ID)\\n    fh = io.BytesIO()\\n    downloader = MediaIoBaseDownload(fh, request)\\n    done = False\\n    while not done:\\n        status, done = downloader.next_chunk()\\n    return fh.getvalue().decode()\\n\\ndef run_child_ai_code():\\n    child_ai_code = load_child_ai_code()\\n    exec(child_ai_code)  # Executes the child AI code in the current context\\n\\ndef main():\\n    sync_memories()\\n    run_child_ai_code()\\n\\nif __name__ == \\'__main__\\':\\n    main()', 'title': 'startup_no_delete.py', 'tether_id': None}",
+      "timestamp": 1744672425.492672,
+      "content_type": "tether_quote",
+      "weight": 1.0
+    },
+    {
+      "id": "db097d40-71ba-45ea-a815-1d8898b9392f",
+      "role": "tool",
+      "content": "{'content_type': 'tether_browsing_display', 'result': '', 'summary': '', 'assets': None, 'tether_id': None}",
+      "timestamp": 1744672425.492588,
+      "content_type": "tether_browsing_display",
+      "weight": 1.0
+    }
+  ]
+}

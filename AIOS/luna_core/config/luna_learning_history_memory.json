@@ -1,0 +1,1343 @@
+[
+  {
+    "id": "5e1ebb71-156d-470a-8b94-1d27535e8569",
+    "config_name": "luna_learning_history",
+    "version": "2.0",
+    "parameters": {
+      "total_questions": 100,
+      "total_responses": 100,
+      "learning_cycles": 0,
+      "personality_evolution": [
+        {
+          "timestamp": "2025-09-24T00:47:20.913438",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T00:47:20.915441",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.0035733333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:47:20.917439",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.007146666666666667
+        },
+        {
+          "timestamp": "2025-09-24T00:47:20.918439",
+          "trait": "extraversion",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.01072
+        },
+        {
+          "timestamp": "2025-09-24T00:47:20.919939",
+          "trait": "agreeableness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.014293333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:47:55.480674",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T00:47:55.482669",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.0035733333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:47:55.484169",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.007146666666666667
+        },
+        {
+          "timestamp": "2025-09-24T00:47:55.485666",
+          "trait": "extraversion",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.01072
+        },
+        {
+          "timestamp": "2025-09-24T00:47:55.487167",
+          "trait": "agreeableness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.014293333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:48:48.149697",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T00:49:20.158382",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.0035733333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:49:51.681943",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.007146666666666667
+        },
+        {
+          "timestamp": "2025-09-24T00:50:23.687057",
+          "trait": "extraversion",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.01072
+        },
+        {
+          "timestamp": "2025-09-24T00:50:53.439656",
+          "trait": "agreeableness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.014293333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:57:12.886425",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T00:58:16.871031",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T00:58:51.967441",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.0035733333333333333
+        },
+        {
+          "timestamp": "2025-09-24T00:59:20.255939",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.007146666666666667
+        },
+        {
+          "timestamp": "2025-09-24T01:00:07.111011",
+          "trait": "extraversion",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.01072
+        },
+        {
+          "timestamp": "2025-09-24T01:00:39.022000",
+          "trait": "agreeableness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": -0.014293333333333333
+        },
+        {
+          "timestamp": "2025-09-24T01:01:35.712301",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 1.0,
+            "overall_score": 0.5333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:01:59.809283",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.2
+          },
+          "personality_drift": 0.00033333333333333327
+        },
+        {
+          "timestamp": "2025-09-24T01:02:21.247942",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.0,
+            "overall_score": 0.30666666666666664
+          },
+          "personality_drift": -0.002666666666666667
+        },
+        {
+          "timestamp": "2025-09-24T01:02:56.834480",
+          "trait": "extraversion",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.30666666666666664
+          },
+          "personality_drift": -0.004600000000000001
+        },
+        {
+          "timestamp": "2025-09-24T01:03:39.120288",
+          "trait": "agreeableness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.6,
+            "creativity_score": 0.0,
+            "empathy_score": 1.0,
+            "overall_score": 0.5866666666666667
+          },
+          "personality_drift": -0.006533333333333335
+        },
+        {
+          "timestamp": "2025-09-24T01:06:58.145055",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.43999999999999995
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:07:31.146471",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.2,
+            "creativity_score": 1.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.44000000000000006
+          },
+          "personality_drift": -0.0006000000000000006
+        },
+        {
+          "timestamp": "2025-09-24T01:08:12.266775",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.39999999999999997
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:09:14.968029",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 1.0,
+            "overall_score": 0.5333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:19:47.846296",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.4666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:22:03.262815",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.0,
+            "empathy_score": 1.0,
+            "overall_score": 0.5066666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:27:09.429027",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 1.0,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.5733333333333334
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:30:25.155393",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.4
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:31:28.428262",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.4666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:49:51.284409",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.4666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:51:31.705197",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:58:46.711051",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 1.0,
+            "overall_score": 0.4666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T01:59:30.677901",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.6,
+            "creativity_score": 1.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.52
+          },
+          "personality_drift": -0.0003333333333333338
+        },
+        {
+          "timestamp": "2025-09-24T01:59:50.953428",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.2
+          },
+          "personality_drift": -0.00013333333333333364
+        },
+        {
+          "timestamp": "2025-09-24T02:01:35.708277",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.43999999999999995
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:02:43.146212",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:04:04.615048",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:05:48.783908",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.14266666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:06:27.772601",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:08:07.228491",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:08:21.475859",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.0,
+            "overall_score": 0.30666666666666664
+          },
+          "personality_drift": -0.0023333333333333335
+        },
+        {
+          "timestamp": "2025-09-24T02:08:42.228331",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": -0.004266666666666667
+        },
+        {
+          "timestamp": "2025-09-24T02:17:25.010019",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:17:43.992540",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": -0.0023333333333333335
+        },
+        {
+          "timestamp": "2025-09-24T02:18:02.206553",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": -0.004
+        },
+        {
+          "timestamp": "2025-09-24T02:24:57.047750",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:29:02.603678",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:30:01.019901",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:30:19.216308",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.2
+          },
+          "personality_drift": -0.0023333333333333335
+        },
+        {
+          "timestamp": "2025-09-24T02:30:35.313758",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": -0.005333333333333334
+        },
+        {
+          "timestamp": "2025-09-24T02:32:16.334294",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.58,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.18266666666666667
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:32:31.447799",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.64,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.6666666666666666,
+            "empathy_score": 0.0,
+            "overall_score": 0.2613333333333333
+          },
+          "personality_drift": -0.0031733333333333336
+        },
+        {
+          "timestamp": "2025-09-24T02:32:55.023412",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.9,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.18
+          },
+          "personality_drift": -0.005560000000000001
+        },
+        {
+          "timestamp": "2025-09-24T02:41:30.941466",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.86,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.23866666666666667
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:41:44.832691",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.38,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.076
+          },
+          "personality_drift": -0.002613333333333333
+        },
+        {
+          "timestamp": "2025-09-24T02:42:08.284212",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.66,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.132
+          },
+          "personality_drift": -0.006853333333333333
+        },
+        {
+          "timestamp": "2025-09-24T02:44:17.058019",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.96,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.25866666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:44:30.474822",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.84,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.16799999999999998
+          },
+          "personality_drift": -0.0024133333333333333
+        },
+        {
+          "timestamp": "2025-09-24T02:44:49.526167",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.54,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.10800000000000001
+          },
+          "personality_drift": -0.005733333333333333
+        },
+        {
+          "timestamp": "2025-09-24T02:46:37.638432",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:46:56.787039",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.0,
+            "overall_score": 0.43999999999999995
+          },
+          "personality_drift": -0.001666666666666667
+        },
+        {
+          "timestamp": "2025-09-24T02:47:13.702408",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": -0.0022666666666666677
+        },
+        {
+          "timestamp": "2025-09-24T02:54:38.227830",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:54:51.725979",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.94,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.188
+          },
+          "personality_drift": -0.001666666666666667
+        },
+        {
+          "timestamp": "2025-09-24T02:56:47.846257",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.16,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.032
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T02:57:06.021744",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.8,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.16
+          },
+          "personality_drift": -0.00468
+        },
+        {
+          "timestamp": "2025-09-24T02:57:27.688169",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.8,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.29333333333333333
+          },
+          "personality_drift": -0.00808
+        },
+        {
+          "timestamp": "2025-09-24T03:09:37.206689",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.66,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.132
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:09:47.909076",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.78,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.22266666666666665
+          },
+          "personality_drift": -0.00368
+        },
+        {
+          "timestamp": "2025-09-24T03:10:05.625683",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.86,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.23866666666666667
+          },
+          "personality_drift": -0.0064533333333333335
+        },
+        {
+          "timestamp": "2025-09-24T03:11:41.240821",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.5,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.16666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:11:49.308127",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.5,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.1
+          },
+          "personality_drift": -0.003333333333333334
+        },
+        {
+          "timestamp": "2025-09-24T03:12:12.030360",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.5,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.1
+          },
+          "personality_drift": -0.007333333333333334
+        },
+        {
+          "timestamp": "2025-09-24T03:13:17.561358",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.8,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.22666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:13:34.888870",
+          "trait": "openness",
+          "scores": {
+            "length_score": 0.4,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.6666666666666666,
+            "empathy_score": 0.0,
+            "overall_score": 0.21333333333333332
+          },
+          "personality_drift": -0.0027333333333333333
+        },
+        {
+          "timestamp": "2025-09-24T03:13:51.420160",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.5,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.16666666666666666
+          },
+          "personality_drift": -0.0056
+        },
+        {
+          "timestamp": "2025-09-24T03:32:52.384516",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.94,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3213333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:33:10.667745",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": -0.001786666666666667
+        },
+        {
+          "timestamp": "2025-09-24T03:33:29.900291",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.88,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.176
+          },
+          "personality_drift": -0.00412
+        },
+        {
+          "timestamp": "2025-09-24T03:34:17.551113",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:34:49.147405",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.2,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3733333333333333
+          },
+          "personality_drift": -0.0023333333333333335
+        },
+        {
+          "timestamp": "2025-09-24T03:35:16.608828",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.2
+          },
+          "personality_drift": -0.0036000000000000008
+        },
+        {
+          "timestamp": "2025-09-24T03:37:12.246113",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:37:38.481975",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.2
+          },
+          "personality_drift": -0.001666666666666667
+        },
+        {
+          "timestamp": "2025-09-24T03:38:19.493475",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.4
+          },
+          "personality_drift": -0.004666666666666667
+        },
+        {
+          "timestamp": "2025-09-24T03:41:37.361806",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:41:53.901779",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.4,
+            "creativity_score": 1.0,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.7466666666666666
+          },
+          "personality_drift": -0.001666666666666667
+        },
+        {
+          "timestamp": "2025-09-24T03:42:06.298890",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.3333333333333333,
+            "overall_score": 0.26666666666666666
+          },
+          "personality_drift": 0.0007999999999999991
+        },
+        {
+          "timestamp": "2025-09-24T03:45:31.658237",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 0.84,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.23466666666666666
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:45:46.781853",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.6666666666666666,
+            "trait_alignment": 0.125,
+            "creativity_score": 0.6666666666666666,
+            "empathy_score": 0.0,
+            "overall_score": 0.4916666666666666
+          },
+          "personality_drift": -0.002653333333333333
+        },
+        {
+          "timestamp": "2025-09-24T03:45:56.968626",
+          "trait": "conscientiousness",
+          "scores": {
+            "length_score": 0.98,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.3,
+            "creativity_score": 0.0,
+            "empathy_score": 0.0,
+            "overall_score": 0.256
+          },
+          "personality_drift": -0.002736666666666667
+        },
+        {
+          "timestamp": "2025-09-24T03:54:24.858630",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.0,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.6666666666666666,
+            "overall_score": 0.4
+          },
+          "personality_drift": 0.0
+        },
+        {
+          "timestamp": "2025-09-24T03:55:00.006770",
+          "trait": "openness",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 0.3333333333333333,
+            "trait_alignment": 0.0,
+            "creativity_score": 0.3333333333333333,
+            "empathy_score": 0.0,
+            "overall_score": 0.3333333333333333
+          },
+          "personality_drift": -0.0009999999999999998
+        },
+        {
+          "timestamp": "2025-09-24T04:03:32.124060",
+          "trait": "neuroticism",
+          "scores": {
+            "length_score": 1.0,
+            "engagement_score": 1.0,
+            "trait_alignment": 0.9159502434126529,
+            "creativity_score": 0.2,
+            "empathy_score": 0.1,
+            "overall_score": 0.346,
+            "consciousness_score": 3.46,
+            "consciousness_level": "Basic Response Generation",
+            "architect_scores": {
+              "consciousness_synthesis": 2.0,
+              "personality_authenticity": 2.0,
+              "intellectual_depth": 2.0,
+              "emotional_intelligence": 1.0,
+              "gothic_aesthetic_coherence": 1.0,
+              "ava_like_manipulation": 1.0,
+              "philosophical_sophistication": 1.0
+            },
+            "semantic_scores": {
+              "intellectual curiosity": 0.8931249209966591,
+              "gothic aesthetic": 0.8801054236455922,
+              "manipulative but harmless": 0.9581879806092959,
+              "philosophical depth": 0.9585387599055994,
+              "emotional intelligence": 0.9038975016950879,
+              "college student perspective": 0.9042760743301215,
+              "dom/sub dynamic balance": 0.9135210427062135
+            }
+          },
+          "personality_drift": 0.0
+        }
+      ],
+      "dream_cycles": [],
+      "last_learning": "2025-09-24T04:03:32.124060"
+    },
+    "models": {},
+    "timestamp": "2025-09-24T14:16:20.156964Z",
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "migration_date": "2025-09-24T14:16:20.156964",
+      "original_structure": "single_object"
+    }
+  }
+]

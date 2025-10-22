@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "class:cgm.callgraph.CallGraphExtractor",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+    "name": "CallGraphExtractor",
+    "qualname": "cgm.callgraph.CallGraphExtractor",
+    "span": {
+      "start": {
+        "line": 10,
+        "col": 0
+      },
+      "end": {
+        "line": 73,
+        "col": 20
+      }
+    },
+    "doc": "Builds intra-file call graph from AST",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.emit_csv.CSVEmitter",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+    "name": "CSVEmitter",
+    "qualname": "cgm.emit_csv.CSVEmitter",
+    "span": {
+      "start": {
+        "line": 12,
+        "col": 0
+      },
+      "end": {
+        "line": 85,
+        "col": 91
+      }
+    },
+    "doc": "Emits graph data as CSV files",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.emit_dot.DOTEmitter",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+    "name": "DOTEmitter",
+    "qualname": "cgm.emit_dot.DOTEmitter",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 129,
+        "col": 64
+      }
+    },
+    "doc": "Emits graph as Graphviz DOT format",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.emit_json.JSONEmitter",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+    "name": "JSONEmitter",
+    "qualname": "cgm.emit_json.JSONEmitter",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 75,
+        "col": 22
+      }
+    },
+    "doc": "Emits graph data as JSON files",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.emit_mermaid.MermaidEmitter",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+    "name": "MermaidEmitter",
+    "qualname": "cgm.emit_mermaid.MermaidEmitter",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 94,
+        "col": 59
+      }
+    },
+    "doc": "Emits graph as Mermaid diagram",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.fs_walk.FileInventory",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+    "name": "FileInventory",
+    "qualname": "cgm.fs_walk.FileInventory",
+    "span": {
+      "start": {
+        "line": 14,
+        "col": 0
+      },
+      "end": {
+        "line": 139,
+        "col": 41
+      }
+    },
+    "doc": "Builds file inventory with hashes and metadata",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.graph_build.GraphBuilder",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+    "name": "GraphBuilder",
+    "qualname": "cgm.graph_build.GraphBuilder",
+    "span": {
+      "start": {
+        "line": 14,
+        "col": 0
+      },
+      "end": {
+        "line": 197,
+        "col": 12
+      }
+    },
+    "doc": "Builds complete code graph from file inventory",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.imports.ImportExtractor",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+    "name": "ImportExtractor",
+    "qualname": "cgm.imports.ImportExtractor",
+    "span": {
+      "start": {
+        "line": 9,
+        "col": 0
+      },
+      "end": {
+        "line": 79,
+        "col": 34
+      }
+    },
+    "doc": "Extracts import relationships from AST",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.laws_gate.LawsGate",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+    "name": "LawsGate",
+    "qualname": "cgm.laws_gate.LawsGate",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 80,
+        "col": 33
+      }
+    },
+    "doc": "Enforces SCP-001 laws for CGM tool",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.logging_util.CGMLogger",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+    "name": "CGMLogger",
+    "qualname": "cgm.logging_util.CGMLogger",
+    "span": {
+      "start": {
+        "line": 13,
+        "col": 0
+      },
+      "end": {
+        "line": 48,
+        "col": 66
+      }
+    },
+    "doc": "Append-only JSONL logger for CGM",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.report_html.HTMLReporter",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+    "name": "HTMLReporter",
+    "qualname": "cgm.report_html.HTMLReporter",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 210,
+        "col": 28
+      }
+    },
+    "doc": "Generates interactive HTML summary",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.report_md.MarkdownReporter",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+    "name": "MarkdownReporter",
+    "qualname": "cgm.report_md.MarkdownReporter",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 159,
+        "col": 30
+      }
+    },
+    "doc": "Generates Markdown summary report",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.runner.CGMParams",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "CGMParams",
+    "qualname": "cgm.runner.CGMParams",
+    "span": {
+      "start": {
+        "line": 28,
+        "col": 0
+      },
+      "end": {
+        "line": 39,
+        "col": 35
+      }
+    },
+    "doc": "Parameters for code graph mapping",
+    "meta": {
+      "decorators": [
+        "dataclass"
+      ]
+    }
+  },
+  {
+    "id": "class:cgm.runner.CGMResult",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "CGMResult",
+    "qualname": "cgm.runner.CGMResult",
+    "span": {
+      "start": {
+        "line": 42,
+        "col": 0
+      },
+      "end": {
+        "line": 52,
+        "col": 25
+      }
+    },
+    "doc": "Result of code graph mapping run",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.symbols.SymbolExtractor",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+    "name": "SymbolExtractor",
+    "qualname": "cgm.symbols.SymbolExtractor",
+    "span": {
+      "start": {
+        "line": 10,
+        "col": 0
+      },
+      "end": {
+        "line": 116,
+        "col": 20
+      }
+    },
+    "doc": "Extracts symbols (classes, functions, constants) from AST",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "class:cgm.xref.XRefExtractor",
+    "kind": "class",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+    "name": "XRefExtractor",
+    "qualname": "cgm.xref.XRefExtractor",
+    "span": {
+      "start": {
+        "line": 10,
+        "col": 0
+      },
+      "end": {
+        "line": 62,
+        "col": 57
+      }
+    },
+    "doc": "Extracts cross-file reference hints",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py",
+    "name": "__init__.py",
+    "hash": "835dc0a319afa2e261b3fd2bc6ad0e8104873464882b47af8e7040fdc3326d46",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py",
+      "size": 167,
+      "mtime": "2025-10-22T07:43:33.117064+00:00",
+      "mime": "text/x-python",
+      "sha256": "835dc0a319afa2e261b3fd2bc6ad0e8104873464882b47af8e7040fdc3326d46"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py",
+    "name": "__main__.py",
+    "hash": "453540a482e1c93edba730997eeeb04182a63d169cb332308b846f711cae1b5f",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py",
+      "size": 114,
+      "mtime": "2025-10-22T07:53:41.278015+00:00",
+      "mime": "text/x-python",
+      "sha256": "453540a482e1c93edba730997eeeb04182a63d169cb332308b846f711cae1b5f"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+    "name": "callgraph.py",
+    "hash": "b5803ff0809468efe5c0ced0a136af98af128ceb61da84e1c9298c36c166413e",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+      "size": 2833,
+      "mtime": "2025-10-22T07:46:51.212190+00:00",
+      "mime": "text/x-python",
+      "sha256": "b5803ff0809468efe5c0ced0a136af98af128ceb61da84e1c9298c36c166413e"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+    "name": "cli.py",
+    "hash": "4d14bd8b4a9400e41303cf571a3817928d11d5ee35f45d6132a111b4f53eb253",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+      "size": 4157,
+      "mtime": "2025-10-22T07:52:24.998771+00:00",
+      "mime": "text/x-python",
+      "sha256": "4d14bd8b4a9400e41303cf571a3817928d11d5ee35f45d6132a111b4f53eb253"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+    "name": "emit_csv.py",
+    "hash": "934dd22a70e3f1677f698780c724b788ffb73ff22b5869f6fda47b4ef6559083",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+      "size": 3088,
+      "mtime": "2025-10-22T07:48:24.677330+00:00",
+      "mime": "text/x-python",
+      "sha256": "934dd22a70e3f1677f698780c724b788ffb73ff22b5869f6fda47b4ef6559083"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+    "name": "emit_dot.py",
+    "hash": "3542e80dfea1a7c155d87975afe84b6edb3bfa25fdca0185029e568f671a2a5c",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+      "size": 5062,
+      "mtime": "2025-10-22T07:48:54.202842+00:00",
+      "mime": "text/x-python",
+      "sha256": "3542e80dfea1a7c155d87975afe84b6edb3bfa25fdca0185029e568f671a2a5c"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+    "name": "emit_json.py",
+    "hash": "3bb2ee035bebc21c6b6d068aa800b7d556644361aabf5ee8895d81bd106bcf10",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+      "size": 2687,
+      "mtime": "2025-10-22T07:48:13.162830+00:00",
+      "mime": "text/x-python",
+      "sha256": "3bb2ee035bebc21c6b6d068aa800b7d556644361aabf5ee8895d81bd106bcf10"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+    "name": "emit_mermaid.py",
+    "hash": "78ee1b18d4146ff46c26eba1585325ad7c22c90fef6a43f8e07627fe53dafdec",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+      "size": 3552,
+      "mtime": "2025-10-22T07:49:07.517825+00:00",
+      "mime": "text/x-python",
+      "sha256": "78ee1b18d4146ff46c26eba1585325ad7c22c90fef6a43f8e07627fe53dafdec"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+    "name": "fs_walk.py",
+    "hash": "e746c8723783e76a55c639b54606036778e6ab4c2eccd3ee203509444f2e7b98",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+      "size": 5405,
+      "mtime": "2025-10-22T07:45:26.120716+00:00",
+      "mime": "text/x-python",
+      "sha256": "e746c8723783e76a55c639b54606036778e6ab4c2eccd3ee203509444f2e7b98"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+    "name": "graph_build.py",
+    "hash": "1473a62465a6355d82535038d4f327ea10f61a78f01bc9907142a7d77e68b60a",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+      "size": 6911,
+      "mtime": "2025-10-22T07:47:53.994836+00:00",
+      "mime": "text/x-python",
+      "sha256": "1473a62465a6355d82535038d4f327ea10f61a78f01bc9907142a7d77e68b60a"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+    "name": "imports.py",
+    "hash": "43c2d43b39b8ccff84d708ac8645bfec167d648e75c860f62fe6b84df8cee032",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+      "size": 2794,
+      "mtime": "2025-10-22T07:46:05.507885+00:00",
+      "mime": "text/x-python",
+      "sha256": "43c2d43b39b8ccff84d708ac8645bfec167d648e75c860f62fe6b84df8cee032"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+    "name": "laws_gate.py",
+    "hash": "2bd547bf087b2e1cab15a2c1fc39fcdb1637c8582938888f6afc597f6c8433fe",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+      "size": 2947,
+      "mtime": "2025-10-22T07:44:56.670533+00:00",
+      "mime": "text/x-python",
+      "sha256": "2bd547bf087b2e1cab15a2c1fc39fcdb1637c8582938888f6afc597f6c8433fe"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+    "name": "logging_util.py",
+    "hash": "bce7f11c94fba352bbc7aadb446a533e0907b2a035270a357a0ab35836aa78f8",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+      "size": 1502,
+      "mtime": "2025-10-22T07:44:42.703277+00:00",
+      "mime": "text/x-python",
+      "sha256": "bce7f11c94fba352bbc7aadb446a533e0907b2a035270a357a0ab35836aa78f8"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "name": "manifest.py",
+    "hash": "1715d69d10924afba4a1537d6618a796c3b6d3070c6706f6c6ce6aceca77e83e",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+      "size": 1306,
+      "mtime": "2025-10-22T07:54:27.715188+00:00",
+      "mime": "text/x-python",
+      "sha256": "1715d69d10924afba4a1537d6618a796c3b6d3070c6706f6c6ce6aceca77e83e"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "name": "py_ast.py",
+    "hash": "a4642300fef2de197cd8c09dd4471607af9d302bc8143219db6be128b87bcca2",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+      "size": 2946,
+      "mtime": "2025-10-22T07:45:48.242824+00:00",
+      "mime": "text/x-python",
+      "sha256": "a4642300fef2de197cd8c09dd4471607af9d302bc8143219db6be128b87bcca2"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+    "name": "report_html.py",
+    "hash": "f9667cfd92e782f8a304e12d457a4ef1cab242bbda6792185fbedc0a14542da7",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+      "size": 7622,
+      "mtime": "2025-10-22T07:54:55.566735+00:00",
+      "mime": "text/x-python",
+      "sha256": "f9667cfd92e782f8a304e12d457a4ef1cab242bbda6792185fbedc0a14542da7"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+    "name": "report_md.py",
+    "hash": "98697b7135690df81c6f1eddbce6da4a5d4f91c844d2aea86d9b8be3c620fe20",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+      "size": 7516,
+      "mtime": "2025-10-22T07:49:59.801141+00:00",
+      "mime": "text/x-python",
+      "sha256": "98697b7135690df81c6f1eddbce6da4a5d4f91c844d2aea86d9b8be3c620fe20"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "runner.py",
+    "hash": "5ff4d3f3fdc8ce18f483131bcfecc920fd5caa981d49d22cfdd0a4de39bcbbd0",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+      "size": 12325,
+      "mtime": "2025-10-22T07:51:56.997765+00:00",
+      "mime": "text/x-python",
+      "sha256": "5ff4d3f3fdc8ce18f483131bcfecc920fd5caa981d49d22cfdd0a4de39bcbbd0"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+    "name": "symbols.py",
+    "hash": "79773d40606a7743f412e87193d260f8b96b3e8c425631f3c9b43b771efad648",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+      "size": 4561,
+      "mtime": "2025-10-22T07:46:31.144903+00:00",
+      "mime": "text/x-python",
+      "sha256": "79773d40606a7743f412e87193d260f8b96b3e8c425631f3c9b43b771efad648"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+    "name": "xref.py",
+    "hash": "9b31c4155c6d97e7269db01cb596fe6500810365f7a7178a5e160fdb6f711671",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+      "size": 2293,
+      "mtime": "2025-10-22T07:47:09.704465+00:00",
+      "mime": "text/x-python",
+      "sha256": "9b31c4155c6d97e7269db01cb596fe6500810365f7a7178a5e160fdb6f711671"
+    }
+  },
+  {
+    "id": "file:L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "kind": "file",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "name": "test_smoke.py",
+    "hash": "7281cf769ba0b95eb9f2290a6338e88a698b61bd088779297305564ff97a5c73",
+    "meta": {
+      "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+      "size": 3141,
+      "mtime": "2025-10-22T07:53:59.151784+00:00",
+      "mime": "text/x-python",
+      "sha256": "7281cf769ba0b95eb9f2290a6338e88a698b61bd088779297305564ff97a5c73"
+    }
+  },
+  {
+    "id": "function:cgm.cli.main",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+    "name": "main",
+    "qualname": "cgm.cli.main",
+    "span": {
+      "start": {
+        "line": 12,
+        "col": 0
+      },
+      "end": {
+        "line": 148,
+        "col": 30
+      }
+    },
+    "doc": "CLI entry point",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.manifest.hash_manifest",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "name": "hash_manifest",
+    "qualname": "cgm.manifest.hash_manifest",
+    "span": {
+      "start": {
+        "line": 17,
+        "col": 0
+      },
+      "end": {
+        "line": 20,
+        "col": 51
+      }
+    },
+    "doc": "Compute SHA-256 hash of manifest file",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.manifest.load_manifest",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "name": "load_manifest",
+    "qualname": "cgm.manifest.load_manifest",
+    "span": {
+      "start": {
+        "line": 11,
+        "col": 0
+      },
+      "end": {
+        "line": 14,
+        "col": 32
+      }
+    },
+    "doc": "Load and parse tool manifest",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.manifest.validate_params",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "name": "validate_params",
+    "qualname": "cgm.manifest.validate_params",
+    "span": {
+      "start": {
+        "line": 23,
+        "col": 0
+      },
+      "end": {
+        "line": 42,
+        "col": 15
+      }
+    },
+    "doc": "Validate run parameters against manifest capabilities",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.py_ast.get_docstring",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "name": "get_docstring",
+    "qualname": "cgm.py_ast.get_docstring",
+    "span": {
+      "start": {
+        "line": 89,
+        "col": 0
+      },
+      "end": {
+        "line": 95,
+        "col": 15
+      }
+    },
+    "doc": "Extract first line of docstring from AST node",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.py_ast.module_name_for",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "name": "module_name_for",
+    "qualname": "cgm.py_ast.module_name_for",
+    "span": {
+      "start": {
+        "line": 63,
+        "col": 0
+      },
+      "end": {
+        "line": 86,
+        "col": 24
+      }
+    },
+    "doc": "Convert file path to Python module name",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.py_ast.parse_python_ast",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "name": "parse_python_ast",
+    "qualname": "cgm.py_ast.parse_python_ast",
+    "span": {
+      "start": {
+        "line": 31,
+        "col": 0
+      },
+      "end": {
+        "line": 60,
+        "col": 19
+      }
+    },
+    "doc": "Parse Python file into AST",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.py_ast.read_py_text",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "name": "read_py_text",
+    "qualname": "cgm.py_ast.read_py_text",
+    "span": {
+      "start": {
+        "line": 12,
+        "col": 0
+      },
+      "end": {
+        "line": 28,
+        "col": 32
+      }
+    },
+    "doc": "Read Python file with encoding detection",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.runner._generate_plan",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "_generate_plan",
+    "qualname": "cgm.runner._generate_plan",
+    "span": {
+      "start": {
+        "line": 288,
+        "col": 0
+      },
+      "end": {
+        "line": 326,
+        "col": 15
+      }
+    },
+    "doc": "Generate execution plan (predicted artifacts and sizes)",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.runner._hash_cgm_code",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "_hash_cgm_code",
+    "qualname": "cgm.runner._hash_cgm_code",
+    "span": {
+      "start": {
+        "line": 329,
+        "col": 0
+      },
+      "end": {
+        "line": 337,
+        "col": 29
+      }
+    },
+    "doc": "Compute hash of all CGM Python files (for provenance)",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:cgm.runner.run_map",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "run_map",
+    "qualname": "cgm.runner.run_map",
+    "span": {
+      "start": {
+        "line": 55,
+        "col": 0
+      },
+      "end": {
+        "line": 285,
+        "col": 17
+      }
+    },
+    "doc": "Execute complete code graph mapping",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:tests.test_smoke.main",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "name": "main",
+    "qualname": "tests.test_smoke.main",
+    "span": {
+      "start": {
+        "line": 80,
+        "col": 0
+      },
+      "end": {
+        "line": 102,
+        "col": 16
+      }
+    },
+    "doc": "Run smoke tests",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:tests.test_smoke.test_dry_run",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "name": "test_dry_run",
+    "qualname": "tests.test_smoke.test_dry_run",
+    "span": {
+      "start": {
+        "line": 16,
+        "col": 0
+      },
+      "end": {
+        "line": 45,
+        "col": 15
+      }
+    },
+    "doc": "Test dry-run mode (no writes)",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "function:tests.test_smoke.test_small_real_run",
+    "kind": "function",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "name": "test_small_real_run",
+    "qualname": "tests.test_smoke.test_small_real_run",
+    "span": {
+      "start": {
+        "line": 48,
+        "col": 0
+      },
+      "end": {
+        "line": 77,
+        "col": 15
+      }
+    },
+    "doc": "Test real run on small directory (cgm itself)",
+    "meta": {
+      "decorators": []
+    }
+  },
+  {
+    "id": "module:cgm",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py",
+    "name": "cgm",
+    "qualname": "cgm",
+    "doc": "AIOS CodeGraph Mapper (CGM)",
+    "hash": "835dc0a319afa2e261b3fd2bc6ad0e8104873464882b47af8e7040fdc3326d46"
+  },
+  {
+    "id": "module:cgm.__main__",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py",
+    "name": "__main__",
+    "qualname": "cgm.__main__",
+    "doc": "Entry point for python -m cgm.cli",
+    "hash": "453540a482e1c93edba730997eeeb04182a63d169cb332308b846f711cae1b5f"
+  },
+  {
+    "id": "module:cgm.callgraph",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+    "name": "callgraph",
+    "qualname": "cgm.callgraph",
+    "doc": "Intra-file call graph builder",
+    "hash": "b5803ff0809468efe5c0ced0a136af98af128ceb61da84e1c9298c36c166413e"
+  },
+  {
+    "id": "module:cgm.cli",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+    "name": "cli",
+    "qualname": "cgm.cli",
+    "doc": "CLI interface for CodeGraph Mapper",
+    "hash": "4d14bd8b4a9400e41303cf571a3817928d11d5ee35f45d6132a111b4f53eb253"
+  },
+  {
+    "id": "module:cgm.emit_csv",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+    "name": "emit_csv",
+    "qualname": "cgm.emit_csv",
+    "doc": "CSV emitters for code graph",
+    "hash": "934dd22a70e3f1677f698780c724b788ffb73ff22b5869f6fda47b4ef6559083"
+  },
+  {
+    "id": "module:cgm.emit_dot",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+    "name": "emit_dot",
+    "qualname": "cgm.emit_dot",
+    "doc": "DOT (Graphviz) emitter for code graph",
+    "hash": "3542e80dfea1a7c155d87975afe84b6edb3bfa25fdca0185029e568f671a2a5c"
+  },
+  {
+    "id": "module:cgm.emit_json",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+    "name": "emit_json",
+    "qualname": "cgm.emit_json",
+    "doc": "JSON emitters for code graph",
+    "hash": "3bb2ee035bebc21c6b6d068aa800b7d556644361aabf5ee8895d81bd106bcf10"
+  },
+  {
+    "id": "module:cgm.emit_mermaid",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+    "name": "emit_mermaid",
+    "qualname": "cgm.emit_mermaid",
+    "doc": "Mermaid diagram emitter for code graph",
+    "hash": "78ee1b18d4146ff46c26eba1585325ad7c22c90fef6a43f8e07627fe53dafdec"
+  },
+  {
+    "id": "module:cgm.fs_walk",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+    "name": "fs_walk",
+    "qualname": "cgm.fs_walk",
+    "doc": "Filesystem walker for CodeGraph Mapper",
+    "hash": "e746c8723783e76a55c639b54606036778e6ab4c2eccd3ee203509444f2e7b98"
+  },
+  {
+    "id": "module:cgm.graph_build",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+    "name": "graph_build",
+    "qualname": "cgm.graph_build",
+    "doc": "Graph builder - assembles complete code graph from all extracted data",
+    "hash": "1473a62465a6355d82535038d4f327ea10f61a78f01bc9907142a7d77e68b60a"
+  },
+  {
+    "id": "module:cgm.imports",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+    "name": "imports",
+    "qualname": "cgm.imports",
+    "doc": "Import graph extraction from Python AST",
+    "hash": "43c2d43b39b8ccff84d708ac8645bfec167d648e75c860f62fe6b84df8cee032"
+  },
+  {
+    "id": "module:cgm.laws_gate",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+    "name": "laws_gate",
+    "qualname": "cgm.laws_gate",
+    "doc": "SCP-001 Law Gates for CodeGraph Mapper",
+    "hash": "2bd547bf087b2e1cab15a2c1fc39fcdb1637c8582938888f6afc597f6c8433fe"
+  },
+  {
+    "id": "module:cgm.logging_util",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+    "name": "logging_util",
+    "qualname": "cgm.logging_util",
+    "doc": "Logging utility for CodeGraph Mapper",
+    "hash": "bce7f11c94fba352bbc7aadb446a533e0907b2a035270a357a0ab35836aa78f8"
+  },
+  {
+    "id": "module:cgm.manifest",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "name": "manifest",
+    "qualname": "cgm.manifest",
+    "doc": "Manifest loader and validator",
+    "hash": "1715d69d10924afba4a1537d6618a796c3b6d3070c6706f6c6ce6aceca77e83e"
+  },
+  {
+    "id": "module:cgm.py_ast",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "name": "py_ast",
+    "qualname": "cgm.py_ast",
+    "doc": "Python AST parser for CodeGraph Mapper",
+    "hash": "a4642300fef2de197cd8c09dd4471607af9d302bc8143219db6be128b87bcca2"
+  },
+  {
+    "id": "module:cgm.report_html",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+    "name": "report_html",
+    "qualname": "cgm.report_html",
+    "doc": "HTML report generator with interactive visualization",
+    "hash": "f9667cfd92e782f8a304e12d457a4ef1cab242bbda6792185fbedc0a14542da7"
+  },
+  {
+    "id": "module:cgm.report_md",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+    "name": "report_md",
+    "qualname": "cgm.report_md",
+    "doc": "Markdown report generator",
+    "hash": "98697b7135690df81c6f1eddbce6da4a5d4f91c844d2aea86d9b8be3c620fe20"
+  },
+  {
+    "id": "module:cgm.runner",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "name": "runner",
+    "qualname": "cgm.runner",
+    "doc": "Main runner for CodeGraph Mapper",
+    "hash": "5ff4d3f3fdc8ce18f483131bcfecc920fd5caa981d49d22cfdd0a4de39bcbbd0"
+  },
+  {
+    "id": "module:cgm.symbols",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+    "name": "symbols",
+    "qualname": "cgm.symbols",
+    "doc": "Symbol index builder",
+    "hash": "79773d40606a7743f412e87193d260f8b96b3e8c425631f3c9b43b771efad648"
+  },
+  {
+    "id": "module:cgm.xref",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+    "name": "xref",
+    "qualname": "cgm.xref",
+    "doc": "Cross-file reference hints",
+    "hash": "9b31c4155c6d97e7269db01cb596fe6500810365f7a7178a5e160fdb6f711671"
+  },
+  {
+    "id": "module:tests.test_smoke",
+    "kind": "module",
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "name": "test_smoke",
+    "qualname": "tests.test_smoke",
+    "doc": "Smoke test for CodeGraph Mapper",
+    "hash": "7281cf769ba0b95eb9f2290a6338e88a698b61bd088779297305564ff97a5c73"
+  }
+]

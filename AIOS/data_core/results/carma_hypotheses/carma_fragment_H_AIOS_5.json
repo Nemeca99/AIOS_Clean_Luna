@@ -1,0 +1,10 @@
+{
+  "fragment_type": "hypothesis_test_result",
+  "hypothesis_id": "H_AIOS_5",
+  "hypothesis_name": "CARMA Memory Advantage",
+  "is_supported": false,
+  "metric_value": 0.4783704583146916,
+  "confidence": 0.5,
+  "timestamp": "2025-10-07T14:33:39.955027",
+  "data_points": 4
+}

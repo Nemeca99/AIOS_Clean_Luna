@@ -1,0 +1,520 @@
+{
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py": {
+    "cgm.callgraph.CallVisitor.visit_FunctionDef": [
+      "cgm.callgraph.append",
+      "cgm.callgraph.generic_visit",
+      "cgm.callgraph.pop"
+    ],
+    "cgm.callgraph.CallVisitor.visit_ClassDef": [
+      "cgm.callgraph.isinstance",
+      "cgm.callgraph.append",
+      "cgm.callgraph.generic_visit",
+      "cgm.callgraph.pop"
+    ],
+    "cgm.callgraph.CallVisitor.visit_Call": [
+      "cgm.callgraph.isinstance",
+      "cgm.callgraph.append",
+      "cgm.callgraph.generic_visit"
+    ],
+    "cgm.callgraph.CallGraphExtractor.extract_calls": [
+      "cgm.callgraph.CallVisitor",
+      "cgm.callgraph.visit"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py": {
+    "cgm.cli.main": [
+      "cgm.cli.ArgumentParser",
+      "cgm.cli.add_argument",
+      "cgm.cli.parse_args",
+      "cgm.cli.CGMParams",
+      "cgm.cli.run_map",
+      "cgm.cli.print",
+      "cgm.cli.len",
+      "cgm.cli.items",
+      "cgm.cli.exit"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py": {
+    "cgm.emit_csv.CSVEmitter.__init__": [
+      "cgm.emit_csv.mkdir"
+    ],
+    "cgm.emit_csv.CSVEmitter.emit_all": [
+      "cgm.emit_csv.open",
+      "cgm.emit_csv.writer",
+      "cgm.emit_csv.writerow",
+      "cgm.emit_csv.sorted",
+      "cgm.emit_csv.dumps",
+      "cgm.emit_csv.get",
+      "cgm.emit_csv.append",
+      "cgm.emit_csv.info",
+      "cgm.emit_csv.len",
+      "cgm.emit_csv._emit_import_matrix"
+    ],
+    "cgm.emit_csv.CSVEmitter._emit_import_matrix": [
+      "cgm.emit_csv.defaultdict",
+      "cgm.emit_csv.set",
+      "cgm.emit_csv.add",
+      "cgm.emit_csv.sorted",
+      "cgm.emit_csv.open",
+      "cgm.emit_csv.writer",
+      "cgm.emit_csv.writerow",
+      "cgm.emit_csv.append",
+      "cgm.emit_csv.info",
+      "cgm.emit_csv.len"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py": {
+    "cgm.emit_dot.DOTEmitter.__init__": [
+      "cgm.emit_dot.mkdir"
+    ],
+    "cgm.emit_dot.DOTEmitter.emit": [
+      "cgm.emit_dot.len",
+      "cgm.emit_dot.warn",
+      "cgm.emit_dot._emit_package_level",
+      "cgm.emit_dot.open",
+      "cgm.emit_dot.write",
+      "cgm.emit_dot.defaultdict",
+      "cgm.emit_dot.sorted",
+      "cgm.emit_dot.items",
+      "cgm.emit_dot.replace",
+      "cgm.emit_dot._escape_id",
+      "cgm.emit_dot.info"
+    ],
+    "cgm.emit_dot.DOTEmitter._emit_package_level": [
+      "cgm.emit_dot.set",
+      "cgm.emit_dot.add",
+      "cgm.emit_dot.defaultdict",
+      "cgm.emit_dot._extract_package",
+      "cgm.emit_dot.open",
+      "cgm.emit_dot.write",
+      "cgm.emit_dot.sorted",
+      "cgm.emit_dot.replace",
+      "cgm.emit_dot.items"
+    ],
+    "cgm.emit_dot.DOTEmitter._extract_package": [
+      "cgm.emit_dot.split",
+      "cgm.emit_dot.len"
+    ],
+    "cgm.emit_dot.DOTEmitter._escape_id": [
+      "cgm.emit_dot.replace"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py": {
+    "cgm.emit_json.JSONEmitter.__init__": [
+      "cgm.emit_json.mkdir"
+    ],
+    "cgm.emit_json.JSONEmitter.emit_all": [
+      "cgm.emit_json.sorted",
+      "cgm.emit_json.open",
+      "cgm.emit_json.dump",
+      "cgm.emit_json.len",
+      "cgm.emit_json.append",
+      "cgm.emit_json.info"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py": {
+    "cgm.emit_mermaid.MermaidEmitter.__init__": [
+      "cgm.emit_mermaid.mkdir"
+    ],
+    "cgm.emit_mermaid.MermaidEmitter.emit": [
+      "cgm.emit_mermaid.set",
+      "cgm.emit_mermaid.split",
+      "cgm.emit_mermaid.add",
+      "cgm.emit_mermaid.defaultdict",
+      "cgm.emit_mermaid._extract_top_package",
+      "cgm.emit_mermaid.len",
+      "cgm.emit_mermaid.warn",
+      "cgm.emit_mermaid.list",
+      "cgm.emit_mermaid.sorted",
+      "cgm.emit_mermaid.open",
+      "cgm.emit_mermaid.write",
+      "cgm.emit_mermaid._mermaid_id",
+      "cgm.emit_mermaid.keys",
+      "cgm.emit_mermaid.info"
+    ],
+    "cgm.emit_mermaid.MermaidEmitter._extract_top_package": [
+      "cgm.emit_mermaid.split"
+    ],
+    "cgm.emit_mermaid.MermaidEmitter._mermaid_id": [
+      "cgm.emit_mermaid.replace"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py": {
+    "cgm.fs_walk.FileInventory.walk": [
+      "cgm.fs_walk.info",
+      "cgm.fs_walk.str",
+      "cgm.fs_walk.walk",
+      "cgm.fs_walk._should_exclude",
+      "cgm.fs_walk.join",
+      "cgm.fs_walk.Path",
+      "cgm.fs_walk.any",
+      "cgm.fs_walk._matches_pattern",
+      "cgm.fs_walk.stat",
+      "cgm.fs_walk.fromtimestamp",
+      "cgm.fs_walk._guess_mime",
+      "cgm.fs_walk._hash_file",
+      "cgm.fs_walk.progress_callback",
+      "cgm.fs_walk.warn"
+    ],
+    "cgm.fs_walk.FileInventory._hash_file": [
+      "cgm.fs_walk.sha256",
+      "cgm.fs_walk.open",
+      "cgm.fs_walk.read",
+      "cgm.fs_walk.update",
+      "cgm.fs_walk.warn",
+      "cgm.fs_walk.str",
+      "cgm.fs_walk.hexdigest"
+    ],
+    "cgm.fs_walk.FileInventory._guess_mime": [
+      "cgm.fs_walk.lower",
+      "cgm.fs_walk.get"
+    ],
+    "cgm.fs_walk.FileInventory._should_exclude": [
+      "cgm.fs_walk.str",
+      "cgm.fs_walk._matches_pattern"
+    ],
+    "cgm.fs_walk.FileInventory._matches_pattern": [
+      "cgm.fs_walk.str",
+      "cgm.fs_walk.split",
+      "cgm.fs_walk.len",
+      "cgm.fs_walk.startswith",
+      "cgm.fs_walk.rstrip",
+      "cgm.fs_walk.fnmatch"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py": {
+    "cgm.graph_build.GraphBuilder.__init__": [
+      "cgm.graph_build.ImportExtractor",
+      "cgm.graph_build.SymbolExtractor",
+      "cgm.graph_build.CallGraphExtractor",
+      "cgm.graph_build.XRefExtractor",
+      "cgm.graph_build.set"
+    ],
+    "cgm.graph_build.GraphBuilder.build": [
+      "cgm.graph_build.info",
+      "cgm.graph_build.items",
+      "cgm.graph_build.append",
+      "cgm.graph_build.Path",
+      "cgm.graph_build.module_name_for",
+      "cgm.graph_build.add",
+      "cgm.graph_build.str",
+      "cgm.graph_build._process_python_file",
+      "cgm.graph_build._build_xrefs",
+      "cgm.graph_build.len"
+    ],
+    "cgm.graph_build.GraphBuilder._process_python_file": [
+      "cgm.graph_build.parse_python_ast",
+      "cgm.graph_build.str",
+      "cgm.graph_build.append",
+      "cgm.graph_build.split",
+      "cgm.graph_build.get_docstring",
+      "cgm.graph_build.extract_imports",
+      "cgm.graph_build.resolve_import_target",
+      "cgm.graph_build.extract_symbols",
+      "cgm.graph_build.get",
+      "cgm.graph_build.extract_calls"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py": {
+    "cgm.imports.ImportExtractor.extract_imports": [
+      "cgm.imports.walk",
+      "cgm.imports.isinstance",
+      "cgm.imports.append"
+    ],
+    "cgm.imports.ImportExtractor.resolve_import_target": [
+      "cgm.imports.get",
+      "cgm.imports.split",
+      "cgm.imports.len",
+      "cgm.imports.any",
+      "cgm.imports.startswith"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py": {
+    "cgm.laws_gate.LawsGate.__init__": [
+      "cgm.laws_gate.Path"
+    ],
+    "cgm.laws_gate.LawsGate.check_entry": [
+      "cgm.laws_gate.resolve",
+      "cgm.laws_gate.str"
+    ],
+    "cgm.laws_gate.LawsGate.check_precommit": [
+      "cgm.laws_gate.resolve",
+      "cgm.laws_gate.str",
+      "cgm.laws_gate.len"
+    ],
+    "cgm.laws_gate.LawsGate.compute_law_hash": [
+      "cgm.laws_gate.sha256",
+      "cgm.laws_gate.exists",
+      "cgm.laws_gate.open",
+      "cgm.laws_gate.update",
+      "cgm.laws_gate.read",
+      "cgm.laws_gate.hexdigest"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py": {
+    "cgm.logging_util.CGMLogger.__init__": [
+      "cgm.logging_util.Path",
+      "cgm.logging_util.mkdir",
+      "cgm.logging_util.perf_counter"
+    ],
+    "cgm.logging_util.CGMLogger.log": [
+      "cgm.logging_util.now",
+      "cgm.logging_util.open",
+      "cgm.logging_util.write",
+      "cgm.logging_util.dumps"
+    ],
+    "cgm.logging_util.CGMLogger.info": [
+      "cgm.logging_util.log"
+    ],
+    "cgm.logging_util.CGMLogger.warn": [
+      "cgm.logging_util.log"
+    ],
+    "cgm.logging_util.CGMLogger.error": [
+      "cgm.logging_util.log"
+    ],
+    "cgm.logging_util.CGMLogger.elapsed_ms": [
+      "cgm.logging_util.int",
+      "cgm.logging_util.perf_counter"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py": {
+    "cgm.manifest.load_manifest": [
+      "cgm.manifest.open",
+      "cgm.manifest.safe_load"
+    ],
+    "cgm.manifest.hash_manifest": [
+      "cgm.manifest.open",
+      "cgm.manifest.sha256",
+      "cgm.manifest.read"
+    ],
+    "cgm.manifest.validate_params": [
+      "cgm.manifest.Path",
+      "cgm.manifest.str",
+      "cgm.manifest.any",
+      "cgm.manifest.startswith",
+      "cgm.manifest.rstrip",
+      "cgm.manifest.get"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py": {
+    "cgm.py_ast.read_py_text": [
+      "cgm.py_ast.open",
+      "cgm.py_ast.detect_encoding",
+      "cgm.py_ast.seek",
+      "cgm.py_ast.read"
+    ],
+    "cgm.py_ast.parse_python_ast": [
+      "cgm.py_ast.read_py_text",
+      "cgm.py_ast.warn",
+      "cgm.py_ast.str",
+      "cgm.py_ast.count",
+      "cgm.py_ast.parse"
+    ],
+    "cgm.py_ast.module_name_for": [
+      "cgm.py_ast.relative_to",
+      "cgm.py_ast.str",
+      "cgm.py_ast.endswith",
+      "cgm.py_ast.replace"
+    ],
+    "cgm.py_ast.get_docstring": [
+      "cgm.py_ast.get_docstring",
+      "cgm.py_ast.split"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py": {
+    "cgm.report_html.HTMLReporter.__init__": [
+      "cgm.report_html.mkdir"
+    ],
+    "cgm.report_html.HTMLReporter.generate": [
+      "cgm.report_html.Counter",
+      "cgm.report_html.most_common",
+      "cgm.report_html._build_html",
+      "cgm.report_html.open",
+      "cgm.report_html.write",
+      "cgm.report_html.info"
+    ],
+    "cgm.report_html.HTMLReporter._build_html": [
+      "cgm.report_html.get",
+      "cgm.report_html._generate_import_table_rows"
+    ],
+    "cgm.report_html.HTMLReporter._generate_import_table_rows": [
+      "cgm.report_html.len",
+      "cgm.report_html.enumerate",
+      "cgm.report_html.append"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py": {
+    "cgm.report_md.MarkdownReporter.__init__": [
+      "cgm.report_md.mkdir"
+    ],
+    "cgm.report_md.MarkdownReporter.generate": [
+      "cgm.report_md.open",
+      "cgm.report_md.write",
+      "cgm.report_md.get",
+      "cgm.report_md.len",
+      "cgm.report_md.Counter",
+      "cgm.report_md.enumerate",
+      "cgm.report_md.most_common",
+      "cgm.report_md._find_orphans",
+      "cgm.report_md.sorted",
+      "cgm.report_md._find_hotspots",
+      "cgm.report_md.items",
+      "cgm.report_md.sort",
+      "cgm.report_md.Path",
+      "cgm.report_md.sum",
+      "cgm.report_md.info"
+    ],
+    "cgm.report_md.MarkdownReporter._find_orphans": [
+      "cgm.report_md.set",
+      "cgm.report_md.add",
+      "cgm.report_md.list"
+    ],
+    "cgm.report_md.MarkdownReporter._find_hotspots": [
+      "cgm.report_md.Counter",
+      "cgm.report_md.set",
+      "cgm.report_md.keys",
+      "cgm.report_md.sort"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py": {
+    "cgm.runner.run_map": [
+      "cgm.runner.CGMResult",
+      "cgm.runner.perf_counter",
+      "cgm.runner.CGMLogger",
+      "cgm.runner.Path",
+      "cgm.runner.load_manifest",
+      "cgm.runner.hash_manifest",
+      "cgm.runner.now",
+      "cgm.runner.info",
+      "cgm.runner.validate_params",
+      "cgm.runner.error",
+      "cgm.runner.LawsGate",
+      "cgm.runner.check_entry",
+      "cgm.runner.compute_law_hash",
+      "cgm.runner.mkdir",
+      "cgm.runner.FileInventory",
+      "cgm.runner.walk",
+      "cgm.runner.int",
+      "cgm.runner.warn",
+      "cgm.runner.GraphBuilder",
+      "cgm.runner.build",
+      "cgm.runner._hash_cgm_code",
+      "cgm.runner._generate_plan",
+      "cgm.runner.open",
+      "cgm.runner.dump",
+      "cgm.runner.str",
+      "cgm.runner.len",
+      "cgm.runner.write",
+      "cgm.runner.exists",
+      "cgm.runner.sleep",
+      "cgm.runner.JSONEmitter",
+      "cgm.runner.extend",
+      "cgm.runner.emit_all",
+      "cgm.runner.CSVEmitter",
+      "cgm.runner.DOTEmitter",
+      "cgm.runner.append",
+      "cgm.runner.emit",
+      "cgm.runner.MermaidEmitter",
+      "cgm.runner.MarkdownReporter",
+      "cgm.runner.generate",
+      "cgm.runner.HTMLReporter",
+      "cgm.runner.check_precommit",
+      "cgm.runner.format_exc",
+      "cgm.runner.type"
+    ],
+    "cgm.runner._generate_plan": [
+      "cgm.runner.len",
+      "cgm.runner.dumps",
+      "cgm.runner.append",
+      "cgm.runner.str"
+    ],
+    "cgm.runner._hash_cgm_code": [
+      "cgm.runner.sha256",
+      "cgm.runner.sorted",
+      "cgm.runner.glob",
+      "cgm.runner.open",
+      "cgm.runner.update",
+      "cgm.runner.read",
+      "cgm.runner.hexdigest"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py": {
+    "cgm.symbols.SymbolExtractor.extract_symbols": [
+      "cgm.symbols.isinstance",
+      "cgm.symbols.append",
+      "cgm.symbols._extract_class",
+      "cgm.symbols._extract_function",
+      "cgm.symbols.isupper",
+      "cgm.symbols._extract_const"
+    ],
+    "cgm.symbols.SymbolExtractor._extract_class": [
+      "cgm.symbols._get_docstring",
+      "cgm.symbols._decorator_name",
+      "cgm.symbols._expr_to_str"
+    ],
+    "cgm.symbols.SymbolExtractor._extract_function": [
+      "cgm.symbols._get_docstring",
+      "cgm.symbols._decorator_name",
+      "cgm.symbols.isinstance"
+    ],
+    "cgm.symbols.SymbolExtractor._get_docstring": [
+      "cgm.symbols.get_docstring",
+      "cgm.symbols.split"
+    ],
+    "cgm.symbols.SymbolExtractor._decorator_name": [
+      "cgm.symbols.isinstance",
+      "cgm.symbols._expr_to_str",
+      "cgm.symbols.str",
+      "cgm.symbols.type"
+    ],
+    "cgm.symbols.SymbolExtractor._expr_to_str": [
+      "cgm.symbols.isinstance",
+      "cgm.symbols._expr_to_str",
+      "cgm.symbols.str"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py": {
+    "cgm.xref.XRefExtractor.extract_xrefs": [
+      "cgm.xref.set",
+      "cgm.xref.walk",
+      "cgm.xref.isinstance",
+      "cgm.xref.add",
+      "cgm.xref._get_attr_chain",
+      "cgm.xref.items",
+      "cgm.xref.split",
+      "cgm.xref.append"
+    ],
+    "cgm.xref.XRefExtractor._get_attr_chain": [
+      "cgm.xref.isinstance",
+      "cgm.xref.append",
+      "cgm.xref.reversed"
+    ]
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py": {},
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py": {},
+  "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py": {
+    "tests.test_smoke.test_dry_run": [
+      "tests.test_smoke.print",
+      "tests.test_smoke.CGMParams",
+      "tests.test_smoke.run_map",
+      "tests.test_smoke.exists",
+      "tests.test_smoke.open",
+      "tests.test_smoke.load",
+      "tests.test_smoke.len"
+    ],
+    "tests.test_smoke.test_small_real_run": [
+      "tests.test_smoke.print",
+      "tests.test_smoke.CGMParams",
+      "tests.test_smoke.run_map",
+      "tests.test_smoke.print_exc",
+      "tests.test_smoke.len",
+      "tests.test_smoke.exists"
+    ],
+    "tests.test_smoke.main": [
+      "tests.test_smoke.print",
+      "tests.test_smoke.test_dry_run",
+      "tests.test_smoke.test_small_real_run",
+      "tests.test_smoke.print_exc"
+    ]
+  }
+}

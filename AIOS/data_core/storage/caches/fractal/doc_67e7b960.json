@@ -1,0 +1,19 @@
+{
+  "content": "**TL;DR** — CARMA is a local \"mycelium\" memory + RAG controller that compresses repeated context into fractal fragments, builds semantic shortcuts, and adaptively evicts/reinforces memory. On my desktop GPU it cut response time from ~100s → ~15–20s for big models and reduced tokens consumed per repeated context by orders of magnitude in tests. Full repo + seed data + tests included.\n",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 7,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.596178",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}

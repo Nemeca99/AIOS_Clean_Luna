@@ -1,0 +1,33 @@
+{
+  "library_path": "L:\\AIOS\\music_core\\music_library",
+  "current_volume": 70,
+  "shuffle": false,
+  "repeat": false,
+  "mood_mappings": {
+    "sad": [
+      "blues",
+      "jazz",
+      "acoustic"
+    ],
+    "happy": [
+      "pop",
+      "dance",
+      "upbeat"
+    ],
+    "stressed": [
+      "ambient",
+      "classical",
+      "nature"
+    ],
+    "focused": [
+      "instrumental",
+      "lo-fi",
+      "classical"
+    ],
+    "energized": [
+      "rock",
+      "metal",
+      "electronic"
+    ]
+  }
+}

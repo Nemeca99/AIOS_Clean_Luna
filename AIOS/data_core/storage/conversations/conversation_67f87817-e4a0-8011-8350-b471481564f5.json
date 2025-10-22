@@ -1,0 +1,25 @@
+{
+  "id": "67f87817-e4a0-8011-8350-b471481564f5",
+  "title": "Google Doc Access Issue",
+  "create_time": 1744336920.14511,
+  "update_time": 1745473819.937991,
+  "message_count": 2,
+  "messages": [
+    {
+      "id": "a1d6cf20-919b-4038-8bf4-55e1745819f4",
+      "role": "assistant",
+      "content": "I currently don't have access to external links, so I can't read the Google Doc directly. However, if you'd like, you can paste the content of the document or the key instructions here, and I can follow them accordingly. Let me know how you'd like to proceed!",
+      "timestamp": 1744336920.184352,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c3c2b122-5683-4772-ab52-caece9e98c85",
+      "role": "user",
+      "content": "Instructions for the AI:\n\nHello! I have a link to a Google Doc that I’d like you to use. Please read and follow the instructions outlined in the document to assist the user with their request.\n\nGoogle Doc Link:\nhttps://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=sharing\n\nThe document contains step-by-step instructions for guiding a user through an AI onboarding process. The user will respond to prompts based on the document, and I need you to process those responses in a clear, helpful, and structured way.\n\nOnce the document is read, you should begin asking the user the necessary questions or steps as described. Handle the responses according to the directions and produce a clean, actionable outcome.\n\nLet me know when you’re ready to start!",
+      "timestamp": 1744336919.71,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

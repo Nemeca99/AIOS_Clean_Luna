@@ -1,0 +1,15 @@
+{
+  "lesson_id": "template_ai_prompt_engineering_beginner_1",
+  "subject": "AI Prompt Engineering",
+  "title": "Basic Prompt Structure",
+  "content": "Every effective prompt has three main parts: 1) Context - background information, 2) Instruction - what you want the AI to do, 3) Example - a sample of the desired output. This structure helps the AI understand exactly what you need.",
+  "difficulty": "beginner",
+  "lesson_index": 1,
+  "created": "2025-09-28T18:28:44.170950",
+  "type": "template",
+  "metadata": {
+    "word_count": 41,
+    "char_count": 233,
+    "estimated_duration": 5
+  }
+}

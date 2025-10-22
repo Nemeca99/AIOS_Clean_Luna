@@ -1,0 +1,15 @@
+{
+  "lesson_id": "template_ai_python_coding_beginner_0",
+  "subject": "AI Python Coding",
+  "title": "Python Basics for AI",
+  "content": "Python is the most popular language for AI development. Key concepts include variables, loops, functions, and classes. For AI work, you'll also need to understand libraries like NumPy for numerical computing and Pandas for data manipulation.",
+  "difficulty": "beginner",
+  "lesson_index": 0,
+  "created": "2025-09-28T18:28:44.170950",
+  "type": "template",
+  "metadata": {
+    "word_count": 36,
+    "char_count": 241,
+    "estimated_duration": 5
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-10-07T17:38:13.786130",
+  "k": 5,
+  "qa_set_file": "data_core\\retrieval_qa\\qa_set.json",
+  "test_results": [
+    {
+      "id": "qa_1",
+      "question": "What is AI?",
+      "expected_count": 2,
+      "retrieved_count": 5,
+      "hits": 2,
+      "recall": 1.0,
+      "precision": 0.4,
+      "passed": true
+    },
+    {
+      "id": "qa_2",
+      "question": "Tell me about neural networks",
+      "expected_count": 2,
+      "retrieved_count": 5,
+      "hits": 2,
+      "recall": 1.0,
+      "precision": 0.4,
+      "passed": true
+    },
+    {
+      "id": "qa_3",
+      "question": "How do I stay organized?",
+      "expected_count": 1,
+      "retrieved_count": 5,
+      "hits": 1,
+      "recall": 1.0,
+      "precision": 0.2,
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "recall_at_k": 1.0,
+    "precision_at_k": 0.3333333333333333,
+    "pass_rate": 1.0
+  }
+}

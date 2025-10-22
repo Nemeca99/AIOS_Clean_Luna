@@ -1,0 +1,14 @@
+INTEGRITY HYGIENE REPORT
+Generated: 2025-10-22T07:16:29.774214Z
+
+Law files scanned: 6
+
+law_1_origin_lock.py: 634affee7594a27013d4a0abe1714fc75eef826961c05e10dd2ae91bca17beaf
+law_2_reflection_memory.py: 8e86654ed49f19ac8b9ba8309e472836a15e26e90fef85fa1c0b9e8a3a0e2ac3
+law_3_containment_morality.py: 1c5840a741a1bcf2cee00cef9363b3f302c58fdc467d4bf491e81fb52641a392
+law_4_replication_restriction.py: 2d2d27baed7b00ed0e0c7decbd95fe9a61429a9011aeb394bb88433882c71b22
+law_5_foreign_dormancy.py: 65dfbc0ef87c408d082246eef56b7f8723befc73609b01283d86ebbf18d8c877
+law_6_failsafe_oblivion.py: cc346a64ef1939cd7ddd076d3f2258b3f031cc6e7e2dc70eb52ca5e6b57c7bb0
+
+All law files within L:\ territory
+Fix proposal: If drift detected, restore from backup within L:\AIOS\security_core\

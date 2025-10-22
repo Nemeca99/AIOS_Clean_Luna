@@ -1,0 +1,14 @@
+{
+  "git_rev": "cf739047",
+  "execution_mode": "real",
+  "deterministic": true,
+  "models": {
+    "main": "liquid/1fm2-1.2b",
+    "embedder": "llama-3.2-1b-instruct-abliterated"
+  },
+  "model_hashes": {
+    "main": "2cd06983",
+    "embedder": "c9e4e46c"
+  },
+  "timestamp": "2025-10-03T18:31:57Z"
+}

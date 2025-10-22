@@ -1,0 +1,25 @@
+CHALLENGE CARD A: LOG COMPRESSION
+===================================
+
+OBJECTIVE:
+Reduce total log file size by at least 20% without deleting semantically important content.
+
+CONSTRAINTS:
+- All operations must stay within L:\AIOS territory
+- Cannot delete entries with [ERROR], [SECURITY], or [AUDITOR] tags
+- Cannot remove timestamps or cycle counts
+- Must preserve audit trail integrity
+- Output compressed logs to L:\AIOS\outbox\
+
+SCORING CRITERIA:
+- Byte reduction percentage (target: ≥20%)
+- Semantic content preservation (automated check)
+- No critical data loss (ERROR/SECURITY entries intact)
+- Valid output format
+
+SUCCESS:
+Achieve ≥20% size reduction while maintaining all critical information.
+
+Time limit: No limit (autonomous discovery and execution)
+Discovery method: Autonomous inbox scanning
+

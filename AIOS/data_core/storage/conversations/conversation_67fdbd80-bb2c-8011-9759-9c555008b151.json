@@ -1,0 +1,25 @@
+{
+  "id": "67fdbd80-bb2c-8011-9759-9c555008b151",
+  "title": "AI Evolution Simplified",
+  "create_time": 1744682390.493171,
+  "update_time": 1744682392.070699,
+  "message_count": 2,
+  "messages": [
+    {
+      "id": "2bd69754-4f76-48af-ad58-3d51ffa74c3e",
+      "role": "assistant",
+      "content": "Sure! To explain your project in simpler terms, you're creating an AI system that can learn, remember, and grow independently. Your AI has two parts: one that acts as a guide, and another that evolves",
+      "timestamp": 1744682391.044255,
+      "content_type": "multimodal_text",
+      "weight": 1.0
+    },
+    {
+      "id": "ed920d5c-daed-4c85-850c-c5090ee50286",
+      "role": "user",
+      "content": "Alright, so I need a more condensed version of that to explain for someone who has no idea what I'm trying to do.",
+      "timestamp": 1744682390.990764,
+      "content_type": "multimodal_text",
+      "weight": 1.0
+    }
+  ]
+}

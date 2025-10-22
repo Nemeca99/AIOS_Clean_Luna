@@ -1,0 +1,19 @@
+{
+  "content": "The comprehensive documentation provided here covers all aspects of the system, from basic usage to advanced configuration and troubleshooting. The modular design allows for easy extension and maintenance while the robust error handling and monitoring systems ensure reliable operation.\n\nFor additional support or questions, refer to the troubleshooting guide or examine the system logs for detailed error information. The system is designed to be self-documenting through its extensive logging and monitoring capabilities.\n\n---\n\n**Last Updated**: October 2, 2025\n**Version**: 1.0.0\n**System Status**: Fully Operational\n**Model Integration**: LM Studio with Deckard 7B + 1B Daily Driver\n**Architecture**: Modular 9-Core System\n**Total Lines of Code**: 15,000+ (estimated)\n**Documentation Lines**: 1,000+ (this document)\n\n---\n\n*This documentation represents the complete technical specification for AIOS Clean. For implementation details, refer to the source code in each core module. The system is actively maintained and updated based on user feedback and performance analysis.*\n",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 21,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.603755",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

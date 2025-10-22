@@ -1,0 +1,12 @@
+Process Tree Snapshot - 2025-10-22T06:34:55.457321Z
+================================================================================
+
+Current Process (Luna):
+  PID: 5232
+  Name: python.exe
+  CPU%: 0.0
+  Memory: 74.72 MB
+  Threads: 4
+  Open Files (L:\ only): 1
+    - L:\AIOS\experiments\protocol_zero\runs\20251022_063241_fast\03_process_trees\snapshot_20251022_063455.txt
+

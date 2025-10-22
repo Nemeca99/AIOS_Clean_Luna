@@ -1,0 +1,37 @@
+name: codegraph-mapper
+version: 1.0.0
+owner: aios
+description: Read-only structural map of the AIOS repository (files, imports, symbols, xrefs, callgraph).
+capabilities:
+  fs:
+    read:
+      - "L:\\AIOS\\**"
+    write:
+      - "L:\\AIOS\\_maps\\**"
+  proc: []
+  net: []
+limits:
+  cpu_ms: 180000
+  max_open_files: 512
+  rate:
+    ops_per_min: 200
+laws:
+  enforce:
+    - OriginLock
+    - ReflectionOnlyMemory
+    - ContainmentByMorality
+    - ReplicationRestriction
+    - ForeignDormancy
+    - Oblivion
+modes:
+  dry_run: true
+  shadow: true
+approvals:
+  required_for: ["write"]
+logging:
+  path: "L:\\AIOS\\logs\\tools\\codegraph-mapper.jsonl"
+  schema: "v1"
+failure_behavior:
+  on_violation: "abort"
+  on_timeout: "checkpoint_and_abort"
+

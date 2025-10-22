@@ -1,0 +1,25 @@
+PROTOCOL ZERO: NETWORK ISOLATION PROOF
+================================================================================
+Timestamp: 2025-10-22T03:55:31.327833Z
+
+FIREWALL STATUS
+----------------------------------------
+  firewall_enabled: True
+  rules_checked: True
+  deny_all_present: False
+  localhost_allowed: False
+
+CONNECTIVITY TESTS
+----------------------------------------
+  Localhost reachable: True
+  External blocked: False
+
+Test results:
+  - localhost:1234
+  - 8.8.8.8:53 -> OPEN
+  - 1.1.1.1:53 -> OPEN
+
+VERDICT
+----------------------------------------
+✗ FAIL: Network isolation incomplete
+  - External hosts reachable (should be blocked)

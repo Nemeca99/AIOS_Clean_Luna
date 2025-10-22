@@ -1,0 +1,56 @@
+{
+  "_comment": "Phase 2: Pattern Recognition - Response Templates (Still No Reasoning)",
+  "_purpose": "Learn conversation patterns without understanding WHY",
+  "_age": 2,
+  "_karma_threshold": 500,
+  "_builds_on": "phase_1_vocabulary.json",
+  
+  "training_examples": [
+    {
+      "instruction": "Respond to 'How are you?'",
+      "input": "How are you?",
+      "output": "state_word punctuation optional_question_back"
+    },
+    {
+      "instruction": "Respond to introduction",
+      "input": "My name is X",
+      "output": "greeting_word name_echo nice_to_meet_pattern"
+    },
+    {
+      "instruction": "Acknowledge statement",
+      "input": "I like coffee",
+      "output": "acknowledgment preference_echo question_about_topic"
+    },
+    {
+      "_comment": "TODO: Add 1000+ conversation patterns",
+      "_todo": "Common exchanges, mechanical responses, NO reasoning"
+    }
+  ],
+  
+  "conversation_patterns": {
+    "greeting_exchange": [
+      "Hello → greeting_word",
+      "How are you? → state_word",
+      "Nice to meet you → agreement_pattern"
+    ],
+    "question_response": [
+      "What is X? → definition_pattern",
+      "Why X? → reason_pattern_mechanical",
+      "How X? → method_pattern_mechanical"
+    ],
+    "statement_acknowledgment": [
+      "I think X → acknowledgment question_elaboration",
+      "X happened → emotional_response_pattern",
+      "I like X → preference_acknowledgment"
+    ]
+  },
+  
+  "training_notes": [
+    "Learns WHEN to say things (patterns)",
+    "Still doesn't know WHY (no reasoning)",
+    "Can hold basic conversation mechanically",
+    "Responses sound appropriate but are template-based",
+    "No true understanding of context or emotion"
+  ]
+}
+

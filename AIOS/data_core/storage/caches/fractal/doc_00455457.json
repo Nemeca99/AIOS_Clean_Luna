@@ -1,0 +1,19 @@
+{
+  "content": "# AIOS Clean: Formal Research Paradigm Definition\n\n## Official Definition\n\n**AIOS Clean** (Artificial Intelligence Operating System – Cached Layered Engineered Architecture Network) is a modular AI framework that externalizes traditionally black-box neural functions (memory, reinforcement, consolidation, personality) into explicit, testable, and swappable system cores. By combining caching, layered modularity, engineered Python/Rust performance, and networked inter-core communication, AIOS Clean defines a new class of transparent AI operating systems.\n\n## Paradigm Characteristics\n\n### Core Architectural Principles\n\n1. **Cached Memory Architecture**\n   - Persistent conversation fragments with semantic similarity search\n   - DreamCore consolidation cycles for memory optimization\n   - FractalCache with mycelium-like memory networks\n   - Real-time memory retrieval with 87% accuracy\n\n2. **Layered Modularity**\n   - 9 independent core systems with explicit interfaces\n   - Tier-based response classification (Trivial/Low/Moderate/High)\n   - Hierarchical system organization with lazy loading\n   - Component swappability with proven independence testing\n\n3. **Engineered Performance**\n   - Hybrid Python/Rust architecture with PyO3 bindings\n   - Performance-critical components in Rust (77% faster vector operations)\n   - Production-ready optimization with measurable benchmarks\n   - Memory-safe operations with graceful fallback mechanisms",
+  "metadata": {
+    "source": "AIOS_CLEAN_PARADIGM.md",
+    "type": "documentation",
+    "chunk": 1,
+    "total_chunks": 5,
+    "added_at": "2025-10-07T23:45:31.591179",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_CLEAN_PARADIGM"
+  ]
+}

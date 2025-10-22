@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIOS CodeGraph Summary</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { margin: 0 0 10px 0; color: #333; }
+        .meta { color: #666; font-size: 14px; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-value { font-size: 32px; font-weight: bold; color: #2563eb; }
+        .stat-label { color: #666; font-size: 14px; margin-top: 5px; }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 { margin-top: 0; color: #333; border-bottom: 2px solid #e5e7eb; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+        th { background: #f9fafb; font-weight: 600; }
+        code { background: #f3f4f6; padding: 2px 6px; border-radius: 3px; font-size: 13px; }
+        .bar {
+            height: 20px;
+            background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+            border-radius: 4px;
+            margin-top: 4px;
+        }
+        .collapsible { cursor: pointer; user-select: none; }
+        .collapsible:hover { background: #f9fafb; }
+        .content { display: none; padding-left: 20px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🗺️ AIOS CodeGraph Summary</h1>
+        <div class="meta">
+            Run ID: <code>20251022_075629_9263</code> |
+            Generated: 2025-10-22T07:56:37.453816+00:00 |
+            Duration: 0.0s
+        </div>
+    </div>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <div class="stat-value">0</div>
+            <div class="stat-label">Total Files</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">1,722</div>
+            <div class="stat-label">Python Files</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">1,729</div>
+            <div class="stat-label">Modules</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">9,170</div>
+            <div class="stat-label">Total Nodes</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">78,950</div>
+            <div class="stat-label">Total Edges</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>📊 Top 20 Most Imported Modules</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Module</th>
+                    <th>Import Count</th>
+                    <th>Visual</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>1</td>
+                    <td><code>pathlib</code></td>
+                    <td>1615</td>
+                    <td><div class="bar" style="width: 100.0%;"></div></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><code>sys</code></td>
+                    <td>1568</td>
+                    <td><div class="bar" style="width: 97.08978328173374%;"></div></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><code>utils.unicode_safe_output</code></td>
+                    <td>1263</td>
+                    <td><div class="bar" style="width: 78.20433436532508%;"></div></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><code>streamlit</code></td>
+                    <td>847</td>
+                    <td><div class="bar" style="width: 52.44582043343653%;"></div></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><code>typing</code></td>
+                    <td>537</td>
+                    <td><div class="bar" style="width: 33.250773993808046%;"></div></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><code>__future__</code></td>
+                    <td>403</td>
+                    <td><div class="bar" style="width: 24.953560371517028%;"></div></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><code>os</code></td>
+                    <td>233</td>
+                    <td><div class="bar" style="width: 14.427244582043345%;"></div></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><code>json</code></td>
+                    <td>225</td>
+                    <td><div class="bar" style="width: 13.93188854489164%;"></div></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><code>pandas</code></td>
+                    <td>213</td>
+                    <td><div class="bar" style="width: 13.188854489164086%;"></div></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><code>pytest</code></td>
+                    <td>203</td>
+                    <td><div class="bar" style="width: 12.56965944272446%;"></div></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><code>playwright.sync_api</code></td>
+                    <td>202</td>
+                    <td><div class="bar" style="width: 12.507739938080494%;"></div></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><code>datetime</code></td>
+                    <td>191</td>
+                    <td><div class="bar" style="width: 11.826625386996904%;"></div></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td><code>re</code></td>
+                    <td>178</td>
+                    <td><div class="bar" style="width: 11.021671826625386%;"></div></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td><code>time</code></td>
+                    <td>174</td>
+                    <td><div class="bar" style="width: 10.773993808049536%;"></div></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td><code>streamlit.errors</code></td>
+                    <td>174</td>
+                    <td><div class="bar" style="width: 10.773993808049536%;"></div></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td><code>e2e_playwright.conftest</code></td>
+                    <td>158</td>
+                    <td><div class="bar" style="width: 9.78328173374613%;"></div></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td><code>numpy</code></td>
+                    <td>150</td>
+                    <td><div class="bar" style="width: 9.287925696594428%;"></div></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td><code>e2e_playwright.shared.app_utils</code></td>
+                    <td>134</td>
+                    <td><div class="bar" style="width: 8.297213622291022%;"></div></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td><code>unittest</code></td>
+                    <td>122</td>
+                    <td><div class="bar" style="width: 7.554179566563468%;"></div></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><code>unittest.mock</code></td>
+                    <td>105</td>
+                    <td><div class="bar" style="width: 6.5015479876160995%;"></div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2>📁 Quick Links to Artifacts</h2>
+        <ul>
+            <li><a href="../graph/code_graph.json">Complete Graph (JSON)</a></li>
+            <li><a href="../graph/symbol_index.json">Symbol Index</a></li>
+            <li><a href="../graph/import_matrix.csv">Import Matrix (CSV)</a></li>
+            <li><a href="../graph/code_graph.mmd">Mermaid Diagram</a></li>
+            <li><a href="../provenance.json">Provenance Metadata</a></li>
+        </ul>
+    </div>
+    
+    <script>
+        // Collapsible sections
+        document.querySelectorAll('.collapsible').forEach(elem => {
+            elem.addEventListener('click', function() {
+                this.classList.toggle('active');
+                const content = this.nextElementSibling;
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                } else {
+                    content.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

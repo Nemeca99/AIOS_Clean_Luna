@@ -1,0 +1,69 @@
+{
+  "status": "analyzed",
+  "total_interactions": 10,
+  "total_heartbeats": 2,
+  "fragment_distribution": {
+    "Architect": 0.3,
+    "Healer": 0.2,
+    "Dreamer": 0.2,
+    "Guardian": 0.1,
+    "Scribe": 0.1,
+    "Oracle": 0.1
+  },
+  "question_type_consistency": {
+    "build": {
+      "dominant_fragment": "Architect",
+      "consistency": 1.0,
+      "sample_size": 3
+    },
+    "debug": {
+      "dominant_fragment": "Healer",
+      "consistency": 1.0,
+      "sample_size": 2
+    },
+    "creative": {
+      "dominant_fragment": "Dreamer",
+      "consistency": 1.0,
+      "sample_size": 2
+    },
+    "security": {
+      "dominant_fragment": "Guardian",
+      "consistency": 1.0,
+      "sample_size": 1
+    },
+    "documentation": {
+      "dominant_fragment": "Scribe",
+      "consistency": 1.0,
+      "sample_size": 1
+    },
+    "knowledge": {
+      "dominant_fragment": "Oracle",
+      "consistency": 1.0,
+      "sample_size": 1
+    }
+  },
+  "transition_matrix": {
+    "Architect": {
+      "Healer": 0.3333333333333333,
+      "Guardian": 0.3333333333333333,
+      "Dreamer": 0.3333333333333333
+    },
+    "Healer": {
+      "Dreamer": 0.5,
+      "Scribe": 0.5
+    },
+    "Dreamer": {
+      "Architect": 0.5,
+      "Healer": 0.5
+    },
+    "Guardian": {
+      "Architect": 1.0
+    },
+    "Scribe": {
+      "Oracle": 1.0
+    }
+  },
+  "temporal_drift": null,
+  "accuracy": 1.0,
+  "timestamp": "2025-10-16T00:08:08.381422"
+}

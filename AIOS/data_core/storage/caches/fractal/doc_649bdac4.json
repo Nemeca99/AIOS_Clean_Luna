@@ -1,0 +1,19 @@
+{
+  "content": "**Components**:\n- **CacheOperations**: File caching\n- **CacheRegistry**: Cache management\n- **SimpleEmbedder**: Text embedding\n- **EmbeddingCache**: Embedding storage\n- **FAISSOperations**: Vector search\n- **RecoveryOperations**: System recovery\n- **AIOSHealthChecker**: Health monitoring\n\n**Usage**:\n```bash\n# Run health check\npy main.py --mode health\n\n# Run system tests\npy main.py --mode test\n\n# System optimization\npy main.py --mode optimize\n```\n\n### 9. Utils Core (`utils_core/`)\n**Purpose**: Shared utilities and common functions\n\n**Key Features**:\n- Unicode-safe output handling\n- AIOS JSON standards\n- PowerShell bridge integration\n- Core system utilities\n- File standards and validation\n\n**Core Files**:\n- `utils_core.py`: Main utilities system\n- `unicode_safe_output.py`: Unicode handling\n- `aios_json_standards.py`: JSON standards\n- `powershell_bridge.py`: PowerShell integration\n- `aios_file_standards.py`: File validation\n- `core_utilities.py`: Base classes\n- `system_initializer.py`: System initialization\n\n**Usage**: Automatically used by all core systems for common functionality.\n\n---\n\n## CLI Commands Reference\n\n### Basic Commands\n```bash\n# Show system information\npy main.py --mode info\n\n# Show system overview\npy main.py --system-overview\n\n# Run health check\npy main.py --mode health\n\n# Run system tests\npy main.py --mode test\n\n# System optimization\npy main.py --mode optimize\n\n# Export system data\npy main.py --mode export --format json\n```",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 10,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.600183",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

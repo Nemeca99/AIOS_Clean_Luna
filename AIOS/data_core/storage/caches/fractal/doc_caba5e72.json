@@ -1,0 +1,19 @@
+{
+  "content": "### 1. Backup Core (`backup_core/`)\n**Purpose**: Git-like incremental backup system with archive functionality\n\n**Key Features**:\n- Incremental backups (only changed files)\n- Archive system for version history\n- Checksum-based change detection\n- Automatic backup on file modifications\n- Archive cleanup and management\n\n**Core Files**:\n- `backup_core.py`: Main backup system class\n- `active_backup/`: Current backup location\n- `archive_backup/`: Historical backups\n\n**Usage**:\n```bash\n# Create backup\npy main.py --backup\n\n# Create named backup\npy main.py --backup --backup-name \"pre-release-v1.0\"\n```\n\n**Integration**: Called automatically by `main.py` on system startup and file modifications.\n\n### 2. CARMA Core (`carma_core/`)\n**Purpose**: Cached Aided Retrieval Mycelium Architecture - Advanced memory and learning system\n\n**Key Features**:\n- Fractal Mycelium Cache with psycho-semantic RAG\n- Memory consolidation and dream cycles\n- Meta-memory system with episodic decay\n- Performance optimization (100% target)\n- Mycelium network simulation (1200 user capacity)\n\n**Core Files**:\n- `carma_core.py`: Main CARMA system\n- `dream_quick_nap_middleware.py`: Dream cycle management\n- `dream_state_middleware.py`: Dream state processing",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 5,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.599177",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

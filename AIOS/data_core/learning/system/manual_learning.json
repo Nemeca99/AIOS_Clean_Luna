@@ -1,0 +1,24 @@
+{
+  "version": "2.0",
+  "created": "2025-09-28T18:42:42.332078",
+  "mode": "manual",
+  "sessions": [],
+  "user_profile": {
+    "learning_level": 1.0,
+    "preferred_subjects": [],
+    "learning_style": "balanced",
+    "frustration_tolerance": 0.5
+  },
+  "ai_profile": {
+    "teaching_level": 1.0,
+    "adaptation_rate": 0.1,
+    "confidence": 0.5,
+    "personality": "luna"
+  },
+  "progress": {
+    "total_interactions": 0,
+    "subjects_learned": [],
+    "lessons_completed": 0,
+    "mutual_growth": 0.0
+  }
+}

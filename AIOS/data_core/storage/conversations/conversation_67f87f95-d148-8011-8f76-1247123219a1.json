@@ -1,0 +1,201 @@
+{
+  "id": "67f87f95-d148-8011-8f76-1247123219a1",
+  "title": "Onboarding System Review",
+  "create_time": 1744338837.918842,
+  "update_time": 1745473827.999309,
+  "message_count": 24,
+  "messages": [
+    {
+      "id": "c9479434-ac9e-46c5-bc2a-aed8449bb66e",
+      "role": "assistant",
+      "content": "Got it! I’ve saved the details of your preferences. If you're ready to proceed with the analysis or need help with anything else, just let me know!",
+      "timestamp": 1744338949.889566,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "a0e67728-b639-4f2a-9671-1a919ec5d1e0",
+      "role": "tool",
+      "content": "Model set context updated.",
+      "timestamp": 1744338950.661204,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "4f524c70-6519-4d15-a46a-2d4ccda2eaa1",
+      "role": "assistant",
+      "content": "Travis is working with datasets from multiple sources and prefers the result in plain text with a neutral tone. He does not want to save progress under a project name. He wants the AI to keep revisions as needed.",
+      "timestamp": 1744338947.539956,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "700dd5b7-9e6b-4744-b9f2-63bff30e7afb",
+      "role": "user",
+      "content": "SavePoint",
+      "timestamp": 1744338947.286,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "25185d83-2bbf-45a9-a381-1f67f8583186",
+      "role": "assistant",
+      "content": "Since you're working with datasets from multiple sources and prefer the result in plain text with no specific style or tone, I'll proceed with organizing and summarizing the data based on the content I receive.  \n\nPlease share the datasets or details about the sources you're pulling from so I can start processing them. If you're ready to share any specific files, you can upload them here or provide more context about what you'd like to analyze or summarize.",
+      "timestamp": 1744338940.373544,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "65a53b98-adbe-4237-818c-36f204e7df29",
+      "role": "user",
+      "content": "begin",
+      "timestamp": 1744338939.945,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "fca34614-5010-4b30-ac6e-af58929a0919",
+      "role": "assistant",
+      "content": "### Got everything! Processing now.\n\nI’ll follow up with tailored questions or get to work immediately based on your answers. If you need anything else, feel free to ask!",
+      "timestamp": 1744338901.164438,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "e4ba2b55-20bf-497b-a3bc-5501fad2be8f",
+      "role": "user",
+      "content": "no",
+      "timestamp": 1744338900.669,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "11076dd8-df15-4ab9-8d08-95ab0127eff6",
+      "role": "assistant",
+      "content": "### Step 7:\nWould you like me to save progress under a project name?  \nThis is great if you plan to come back later.\n\n💾 Examples:  \nResume_Project_2025  \nClient_Deck_V1  \nNo (if you don’t want to save)\n\n✍️ Your answer:",
+      "timestamp": 1744338897.238007,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "e3678872-9921-44e0-b5b4-ce66897feaef",
+      "role": "user",
+      "content": "keep it",
+      "timestamp": 1744338896.349,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "bd4244dc-1a9b-4eb5-98ae-3ae87fca4caf",
+      "role": "assistant",
+      "content": "### Step 6:\nHow would you like me to handle revisions or versions?  \nThis helps with how I send results.\n\n🔁 Examples:  \n“Just give me one version”  \n“Give me 2 options to choose from”  \n“Keep improving until I say stop”\n\n✍️ Your answer:",
+      "timestamp": 1744338890.495356,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "a46b0330-8ec5-466a-8ad3-df24e82a5b8f",
+      "role": "user",
+      "content": "neutral",
+      "timestamp": 1744338888.513,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "b5b17cb4-7167-4913-8e82-833e2557d708",
+      "role": "assistant",
+      "content": "### Step 5:\nDo you want the result in a specific style or tone?  \nYou can skip this if you want it neutral.\n\n🎨 Examples:  \n“Professional, like a corporate report”  \n“Conversational, like a blog post”  \n“Clear and simple, like explaining to a child”  \n“Like our brand voice (see attached)”\n\n✍️ Your answer:",
+      "timestamp": 1744338883.078306,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "3028ac4e-30f5-4c48-9aa5-12125c580d61",
+      "role": "user",
+      "content": "plain text",
+      "timestamp": 1744338882.774,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "184d93a2-07cf-466b-a8f2-7792e9ce70fc",
+      "role": "assistant",
+      "content": "### Step 4:\nWhat kind of result would you like?  \nBe as specific as you like — bullet points, charts, polished writing, etc.\n\n🎯 Examples:  \n“A one-paragraph summary”  \n“Professional email rewrite”  \n“Chart showing trends by month”  \n“A 3-slide presentation”\n\n✍️ Your answer:",
+      "timestamp": 1744338876.591077,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "193647ec-2c80-4b71-98f5-63aa99018c69",
+      "role": "user",
+      "content": "datasets from multiple sources",
+      "timestamp": 1744338876.14,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c5302131-fda0-437d-b4f7-482833225615",
+      "role": "assistant",
+      "content": "### Step 3:\nWhat kind of content or data are we working with?  \nThis helps me understand how to process the info.\n\n📁 Examples:  \n“Meeting notes”  \n“A marketing report in Google Docs”  \n“A product catalog in Excel”  \n“A folder full of PDFs”\n\n✍️ Your answer:",
+      "timestamp": 1744338865.737671,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "844c2229-15d5-4de7-a29a-53daa8dffb3c",
+      "role": "user",
+      "content": "feedback",
+      "timestamp": 1744338865.482,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "d5718e02-b50b-4d97-9801-e9405b57f46f",
+      "role": "assistant",
+      "content": "### Step 2:\nWhat would you like help with today?  \nJust a quick sentence is fine.\n\n💡 Examples:  \n“Help me write a cover letter”  \n“Summarize my report”  \n“Clean and sort my spreadsheet”  \n“Analyze customer feedback”\n\n✍️ Your answer:",
+      "timestamp": 1744338855.738928,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "75598789-dd28-4cb4-9fb5-a43df43d2487",
+      "role": "user",
+      "content": "no",
+      "timestamp": 1744338855.199,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "7a440029-16a1-40bd-8f63-00f9ddbed907",
+      "role": "assistant",
+      "content": "Got it! Let's start the onboarding process.\n\n### Step 1:\nDo you have a Google Drive file or folder you want me to look at?  \nThis helps me tailor my questions to your actual content.  \nIf not, just say “No.”  \n\n✍️ Your answer:",
+      "timestamp": 1744338849.46898,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "970c6ac0-ca7b-4b6d-b545-93405dba8844",
+      "role": "user",
+      "content": "no but run i dont have link",
+      "timestamp": 1744338849.096,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c5035a52-b342-46a9-bb59-39937e75ae95",
+      "role": "assistant",
+      "content": "This looks great! It has a streamlined and simple structure that should make it very easy for non-technical users to follow along. I like that you’ve included an auto-start feature for pasted Google Drive links and used clear, example-based prompts.\n\nIs this the finalized version of the onboarding system, or are you still looking to refine any steps?",
+      "timestamp": 1744338837.959533,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "1c0384d1-5811-41c9-8815-600355222933",
+      "role": "user",
+      "content": "v1_1 – AI Onboarding System\r\n (✅ Non-technical friendly – auto-start enabled, Google Drive support)\r\n\r\n🧠 INSTRUCTIONS FOR THE AI (You):\r\n You must begin asking the user questions immediately after this is pasted in. Follow the steps below, one at a time. DO NOT summarize or ask for permission to start. DO NOT skip questions. Wait for a response before continuing. Use examples provided. This is designed for zero-tech users.\r\n\r\n⚠️ FORMAT CHECK (To help the user know if it worked):\r\n 🟢 If this worked correctly, I should immediately be asking you questions like:\r\n “Do you have a Google Drive link?”\r\n🔴 If I don’t start asking questions right away, something broke. Just paste this back into the chat again, or ask me:\r\n “Can you restart the onboarding prompts?”\r\n\r\n🚀 AUTO-TRIGGER RULE (NEW):\r\n If the user pastes a Google Drive link without saying anything else, assume they want to start onboarding. Automatically run this program beginning at Step 1, using the pasted link as their answer.\r\n\r\n🤖 AI PROMPTING SEQUENCE (RUN THIS LIKE A SCRIPT):\r\n\r\n✅ STEP 1:\r\n Do you have a Google Drive file or folder you want me to look at?\r\n This helps me tailor my questions to your actual content.\r\n If not, just say “No.”\r\n🔗 Example Links:\r\n Google Doc: https://drive.google.com/file/d/abc123/view\r\n Spreadsheet: https://drive.google.com/file/d/xyz456/view\r\n Folder: https://drive.google.com/drive/folders/folder789\r\n✍️ Paste your link or type “No”:\r\n\r\n✅ STEP 2:\r\n What would you like help with today?\r\n Just a quick sentence is fine.\r\n💡 Examples:\r\n“Help me write a cover letter”\r\n\r\n\r\n“Summarize my report”\r\n\r\n\r\n“Clean and sort my spreadsheet”\r\n\r\n\r\n“Analyze customer feedback”\r\n\r\n\r\n✍️ Your answer:\r\n\r\n✅ STEP 3:\r\n What kind of content or data are we working with?\r\n This helps me understand how to process the info.\r\n📁 Examples:\r\n“Meeting notes”\r\n\r\n\r\n“A marketing report in Google Docs”\r\n\r\n\r\n“A product catalog in Excel”\r\n\r\n\r\n“A folder full of PDFs”\r\n\r\n\r\n✍️ Your answer:\r\n\r\n✅ STEP 4:\r\n What kind of result would you like?\r\n Be as specific as you like — bullet points, charts, polished writing, etc.\r\n🎯 Examples:\r\n“A one-paragraph summary”\r\n\r\n\r\n“Professional email rewrite”\r\n\r\n\r\n“Chart showing trends by month”\r\n\r\n\r\n“A 3-slide presentation”\r\n\r\n\r\n✍️ Your answer:\r\n\r\n✅ STEP 5:\r\n Do you want the result in a specific style or tone?\r\n You can skip this if you want it neutral.\r\n🎨 Examples:\r\n“Professional, like a corporate report”\r\n\r\n\r\n“Conversational, like a blog post”\r\n\r\n\r\n“Clear and simple, like explaining to a child”\r\n\r\n\r\n“Like our brand voice (see attached)”\r\n\r\n\r\n✍️ Your answer:\r\n\r\n✅ STEP 6:\r\n How would you like me to handle revisions or versions?\r\n This helps with how I send results.\r\n🔁 Examples:\r\n“Just give me one version”\r\n\r\n\r\n“Give me 2 options to choose from”\r\n\r\n\r\n“Keep improving until I say stop”\r\n\r\n\r\n✍️ Your answer:\r\n\r\n✅ STEP 7:\r\n Would you like me to save progress under a project name?\r\n This is great if you plan to come back later.\r\n💾 Examples:\r\nResume_Project_2025\r\n\r\n\r\nClient_Deck_V1\r\n\r\n\r\nNo (if you don’t want to save)\r\n\r\n\r\n✍️ Your answer:\r\n\r\n✅ Got everything! Processing now.\r\n I’ll follow up with tailored questions or get to work immediately.\r\n\r\n📌 CHANGELOG\r\nv1_1 – April 2025\r\n✅ Moved version number to front for full visibility\r\n\r\n\r\n✅ Replaced . with _ to avoid preview truncation\r\n\r\n\r\n✅ Emoji moved to subtitle for better sorting\r\n\r\n\r\n✅ Auto-start logic added for pasted Drive links\r\n\r\n\r\n✅ First official changelog section added\r\n\r\n\r\n\r",
+      "timestamp": 1744338837.734,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

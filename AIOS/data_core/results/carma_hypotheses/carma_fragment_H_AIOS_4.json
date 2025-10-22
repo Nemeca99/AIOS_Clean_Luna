@@ -1,0 +1,10 @@
+{
+  "fragment_type": "hypothesis_test_result",
+  "hypothesis_id": "H_AIOS_4",
+  "hypothesis_name": "Dynamic Weight Accumulation",
+  "is_supported": false,
+  "metric_value": 0.0,
+  "confidence": 0.1,
+  "timestamp": "2025-10-07T14:33:39.953029",
+  "data_points": 4
+}

@@ -1,0 +1,19 @@
+{
+  "content": "### High-Level Architecture\n```\n┌─────────────────────────────────────────────────────────────┐\n│                    AIOS CLEAN SYSTEM                        │\n├─────────────────────────────────────────────────────────────┤\n│  main.py - Central Orchestrator                            │\n│  ├── Inter-core Communication                              │\n│  ├── CLI Interface                                         │\n│  └── System Coordination                                   │\n├─────────────────────────────────────────────────────────────┤\n│  CORE SYSTEMS (9 Total)                                    │\n│  ┌─────────────┬─────────────┬─────────────┬─────────────┐  │\n│  │   Backup    │    CARMA    │    Data     │    Dream    │  │\n│  │    Core     │    Core     │    Core     │    Core     │  │\n│  └─────────────┴─────────────┴─────────────┴─────────────┘  │\n│  ┌─────────────┬─────────────┬─────────────┬─────────────┐  │\n│  │ Enterprise  │    Luna     │ Streamlit   │  Support    │  │\n│  │    Core     │    Core     │    Core     │    Core     │  │\n│  └─────────────┴─────────────┴─────────────┴─────────────┘  │\n│  ┌─────────────────────────────────────────────────────────┐  │\n│  │                   Utils Core                           │  │\n│  └─────────────────────────────────────────────────────────┘  │\n└─────────────────────────────────────────────────────────────┘\n```",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 3,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.598181",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

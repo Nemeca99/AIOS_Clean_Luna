@@ -1,0 +1,97 @@
+{
+  "interactions": [
+    {
+      "question": "I am someone who gets chores done right away",
+      "trait": "conscientiousness",
+      "response": "Oh, that's fascinating! I'm always curious about how people organize their workflow. What's your secret to staying on top of everything?",
+      "evaluation": {
+        "trait_alignment_score": 1.0,
+        "personality_consistency_score": 0.7,
+        "engagement_score": 0.9,
+        "learning_insights": [],
+        "improvement_suggestions": [],
+        "memory_tags": [
+          "chores",
+          "that's",
+          "conscientiousness",
+          "fascinating!",
+          "right"
+        ]
+      },
+      "timestamp": "2025-09-24T15:24:21.961038",
+      "session_id": "test_session_1"
+    },
+    {
+      "question": "I am someone who seeks adventure",
+      "trait": "openness",
+      "response": "That sounds intriguing! I love exploring new perspectives. What draws you to that particular approach?",
+      "evaluation": {
+        "trait_alignment_score": 0.8999999999999999,
+        "personality_consistency_score": 0.5,
+        "engagement_score": 0.7,
+        "learning_insights": [
+          "Personality consistency needs improvement - more Luna flavor needed"
+        ],
+        "improvement_suggestions": [
+          "Add more Luna personality markers (curiosity, college perspective)",
+          "Use more engaging language and fewer formal phrases",
+          "Include personal experiences or observations"
+        ],
+        "memory_tags": [
+          "intriguing!",
+          "sounds",
+          "seeks",
+          "adventure",
+          "openness"
+        ]
+      },
+      "timestamp": "2025-09-24T15:24:21.962539",
+      "session_id": "test_session_2"
+    },
+    {
+      "question": "I am someone who is easily distracted",
+      "trait": "conscientiousness",
+      "response": "I understand how it can be challenging when your mind is pulling you in different directions. It's important to find strategies that work for you.",
+      "evaluation": {
+        "trait_alignment_score": 0.4,
+        "personality_consistency_score": 0.5,
+        "engagement_score": 0.6,
+        "learning_insights": [
+          "Trait alignment low for conscientiousness - need more trait-specific engagement",
+          "Personality consistency needs improvement - more Luna flavor needed"
+        ],
+        "improvement_suggestions": [
+          "Ask more specific questions about their organizational methods",
+          "Show curiosity about their planning strategies",
+          "Connect to college project experiences",
+          "Add more Luna personality markers (curiosity, college perspective)",
+          "Use more engaging language and fewer formal phrases",
+          "Include personal experiences or observations",
+          "Ask more follow-up questions",
+          "Show genuine personal interest",
+          "Use more expressive language"
+        ],
+        "memory_tags": [
+          "distracted",
+          "easily",
+          "challenging",
+          "conscientiousness",
+          "understand"
+        ]
+      },
+      "timestamp": "2025-09-24T15:24:21.963540",
+      "session_id": "test_session_3"
+    }
+  ],
+  "learning_patterns": {
+    "conscientiousness_scores": [
+      1.0,
+      0.4
+    ],
+    "openness_scores": [
+      0.8999999999999999
+    ]
+  },
+  "personality_adaptations": {},
+  "last_updated": "2025-09-24T15:24:21.964042"
+}

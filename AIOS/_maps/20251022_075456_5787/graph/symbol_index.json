@@ -1,0 +1,272 @@
+{
+  "cgm.callgraph.CallGraphExtractor": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+    "span": [
+      10,
+      73
+    ],
+    "doc": "Builds intra-file call graph from AST"
+  },
+  "cgm.cli.main": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+    "span": [
+      12,
+      148
+    ],
+    "doc": "CLI entry point"
+  },
+  "cgm.emit_csv.CSVEmitter": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+    "span": [
+      12,
+      85
+    ],
+    "doc": "Emits graph data as CSV files"
+  },
+  "cgm.emit_dot.DOTEmitter": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+    "span": [
+      11,
+      129
+    ],
+    "doc": "Emits graph as Graphviz DOT format"
+  },
+  "cgm.emit_json.JSONEmitter": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+    "span": [
+      11,
+      75
+    ],
+    "doc": "Emits graph data as JSON files"
+  },
+  "cgm.emit_mermaid.MermaidEmitter": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+    "span": [
+      11,
+      94
+    ],
+    "doc": "Emits graph as Mermaid diagram"
+  },
+  "cgm.fs_walk.FileInventory": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+    "span": [
+      14,
+      139
+    ],
+    "doc": "Builds file inventory with hashes and metadata"
+  },
+  "cgm.graph_build.GraphBuilder": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+    "span": [
+      14,
+      197
+    ],
+    "doc": "Builds complete code graph from file inventory"
+  },
+  "cgm.imports.ImportExtractor": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+    "span": [
+      9,
+      79
+    ],
+    "doc": "Extracts import relationships from AST"
+  },
+  "cgm.laws_gate.LawsGate": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+    "span": [
+      11,
+      80
+    ],
+    "doc": "Enforces SCP-001 laws for CGM tool"
+  },
+  "cgm.logging_util.CGMLogger": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+    "span": [
+      13,
+      48
+    ],
+    "doc": "Append-only JSONL logger for CGM"
+  },
+  "cgm.manifest.load_manifest": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "span": [
+      11,
+      14
+    ],
+    "doc": "Load and parse tool manifest"
+  },
+  "cgm.manifest.hash_manifest": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "span": [
+      17,
+      20
+    ],
+    "doc": "Compute SHA-256 hash of manifest file"
+  },
+  "cgm.manifest.validate_params": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "span": [
+      23,
+      42
+    ],
+    "doc": "Validate run parameters against manifest capabilities"
+  },
+  "cgm.py_ast.read_py_text": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "span": [
+      12,
+      28
+    ],
+    "doc": "Read Python file with encoding detection"
+  },
+  "cgm.py_ast.parse_python_ast": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "span": [
+      31,
+      60
+    ],
+    "doc": "Parse Python file into AST"
+  },
+  "cgm.py_ast.module_name_for": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "span": [
+      63,
+      86
+    ],
+    "doc": "Convert file path to Python module name"
+  },
+  "cgm.py_ast.get_docstring": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "span": [
+      89,
+      95
+    ],
+    "doc": "Extract first line of docstring from AST node"
+  },
+  "cgm.report_html.HTMLReporter": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+    "span": [
+      11,
+      210
+    ],
+    "doc": "Generates interactive HTML summary"
+  },
+  "cgm.report_md.MarkdownReporter": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+    "span": [
+      11,
+      159
+    ],
+    "doc": "Generates Markdown summary report"
+  },
+  "cgm.runner.CGMParams": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "span": [
+      28,
+      39
+    ],
+    "doc": "Parameters for code graph mapping"
+  },
+  "cgm.runner.CGMResult": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "span": [
+      42,
+      52
+    ],
+    "doc": "Result of code graph mapping run"
+  },
+  "cgm.runner.run_map": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "span": [
+      55,
+      285
+    ],
+    "doc": "Execute complete code graph mapping"
+  },
+  "cgm.runner._generate_plan": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "span": [
+      288,
+      326
+    ],
+    "doc": "Generate execution plan (predicted artifacts and sizes)"
+  },
+  "cgm.runner._hash_cgm_code": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "span": [
+      329,
+      337
+    ],
+    "doc": "Compute hash of all CGM Python files (for provenance)"
+  },
+  "cgm.symbols.SymbolExtractor": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+    "span": [
+      10,
+      116
+    ],
+    "doc": "Extracts symbols (classes, functions, constants) from AST"
+  },
+  "cgm.xref.XRefExtractor": {
+    "kind": "class",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+    "span": [
+      10,
+      62
+    ],
+    "doc": "Extracts cross-file reference hints"
+  },
+  "tests.test_smoke.test_dry_run": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "span": [
+      16,
+      45
+    ],
+    "doc": "Test dry-run mode (no writes)"
+  },
+  "tests.test_smoke.test_small_real_run": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "span": [
+      48,
+      77
+    ],
+    "doc": "Test real run on small directory (cgm itself)"
+  },
+  "tests.test_smoke.main": {
+    "kind": "function",
+    "file": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "span": [
+      80,
+      102
+    ],
+    "doc": "Run smoke tests"
+  }
+}

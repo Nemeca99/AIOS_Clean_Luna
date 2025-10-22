@@ -1,0 +1,24 @@
+{
+  "main_model": {
+    "model_name": "cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0",
+    "api_url": "http://localhost:1234/v1",
+    "temperature": 0.7,
+    "max_tokens": 2048
+  },
+  "auditor": {
+    "model_name": "mistralai/mistral-nemo-instruct-2407",
+    "api_url": "http://localhost:1234/v1",
+    "temperature": 0.3,
+    "max_tokens": 512
+  },
+  "embedder": {
+    "model_name": "llama-3.2-1b-instruct-abliterated",
+    "api_url": "http://localhost:1234/v1/embeddings",
+    "fallback_dimension": 1024
+  },
+  "model_switching": {
+    "enabled": true,
+    "current_main": "cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0",
+    "current_embedder": "llama-3.2-1b-instruct-abliterated"
+  }
+}

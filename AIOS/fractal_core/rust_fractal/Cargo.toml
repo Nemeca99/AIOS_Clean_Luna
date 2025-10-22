@@ -1,0 +1,17 @@
+[package]
+name = "fractal_core_rust"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "rust_fractal"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.20"
+pyo3 = { version = "0.20", features = ["extension-module"] }
+
+[dev-dependencies]
+quickcheck = "1.0"
+quickcheck_macros = "1.0"
+

@@ -1,0 +1,243 @@
+{
+  "timestamp": "2025-10-03T19:35:56Z",
+  "execution_mode": "real",
+  "test_cases": {
+    "trivial": [
+      {
+        "id": "trivial_001",
+        "prompt": "hi",
+        "expected_tier": "trivial",
+        "expected_fragments_range": [
+          0,
+          2
+        ],
+        "status": "passed",
+        "actual_tier": "trivial",
+        "actual_fragments": 0,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "trivial_002",
+        "prompt": "thanks!",
+        "expected_tier": "trivial",
+        "expected_fragments_range": [
+          0,
+          2
+        ],
+        "status": "passed",
+        "actual_tier": "trivial",
+        "actual_fragments": 0,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "trivial_003",
+        "prompt": "what time is it?",
+        "expected_tier": "trivial",
+        "expected_fragments_range": [
+          0,
+          2
+        ],
+        "status": "passed",
+        "actual_tier": "trivial",
+        "actual_fragments": 0,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "trivial_004",
+        "prompt": "hello there",
+        "expected_tier": "trivial",
+        "expected_fragments_range": [
+          0,
+          2
+        ],
+        "status": "passed",
+        "actual_tier": "trivial",
+        "actual_fragments": 0,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "trivial_005",
+        "prompt": "good morning",
+        "expected_tier": "trivial",
+        "expected_fragments_range": [
+          0,
+          2
+        ],
+        "status": "passed",
+        "actual_tier": "trivial",
+        "actual_fragments": 0,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      }
+    ],
+    "moderate": [
+      {
+        "id": "moderate_001",
+        "prompt": "Can you explain how machine learning works in simple terms?",
+        "expected_tier": "moderate",
+        "expected_fragments_range": [
+          3,
+          7
+        ],
+        "status": "passed",
+        "actual_tier": "moderate",
+        "actual_fragments": 3,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "moderate_002",
+        "prompt": "What are the benefits of using Python for data science?",
+        "expected_tier": "moderate",
+        "expected_fragments_range": [
+          3,
+          6
+        ],
+        "status": "passed",
+        "actual_tier": "moderate",
+        "actual_fragments": 3,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "moderate_003",
+        "prompt": "How do I optimize my neural network training?",
+        "expected_tier": "moderate",
+        "expected_fragments_range": [
+          4,
+          8
+        ],
+        "status": "passed",
+        "actual_tier": "moderate",
+        "actual_fragments": 4,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "moderate_004",
+        "prompt": "What's the difference between supervised and unsupervised learning?",
+        "expected_tier": "moderate",
+        "expected_fragments_range": [
+          3,
+          6
+        ],
+        "status": "passed",
+        "actual_tier": "moderate",
+        "actual_fragments": 3,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "moderate_005",
+        "prompt": "Can you help me debug this Python code?",
+        "expected_tier": "moderate",
+        "expected_fragments_range": [
+          2,
+          5
+        ],
+        "status": "passed",
+        "actual_tier": "moderate",
+        "actual_fragments": 2,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      }
+    ],
+    "high": [
+      {
+        "id": "high_001",
+        "prompt": "Design a comprehensive AI system architecture that can handle both real-time inference and batch processing while maintaining data privacy and scalability. Include considerations for model versioning, A/B testing, and monitoring.",
+        "expected_tier": "high",
+        "expected_fragments_range": [
+          5,
+          10
+        ],
+        "status": "passed",
+        "actual_tier": "high",
+        "actual_fragments": 5,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "high_002",
+        "prompt": "Explain the mathematical foundations of transformer attention mechanisms, including the derivation of scaled dot-product attention and how multi-head attention improves model performance.",
+        "expected_tier": "high",
+        "expected_fragments_range": [
+          6,
+          12
+        ],
+        "status": "passed",
+        "actual_tier": "high",
+        "actual_fragments": 6,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "high_003",
+        "prompt": "Create a detailed implementation plan for a federated learning system that can train models across distributed devices while ensuring differential privacy and handling non-IID data distributions.",
+        "expected_tier": "high",
+        "expected_fragments_range": [
+          7,
+          15
+        ],
+        "status": "passed",
+        "actual_tier": "high",
+        "actual_fragments": 7,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "high_004",
+        "prompt": "Analyze the ethical implications of deploying large language models in healthcare applications, including bias detection, explainability requirements, and regulatory compliance considerations.",
+        "expected_tier": "high",
+        "expected_fragments_range": [
+          8,
+          15
+        ],
+        "status": "passed",
+        "actual_tier": "high",
+        "actual_fragments": 8,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      },
+      {
+        "id": "high_005",
+        "prompt": "Design and implement a reinforcement learning algorithm for optimizing resource allocation in a multi-agent environment with partial observability and dynamic constraints.",
+        "expected_tier": "high",
+        "expected_fragments_range": [
+          6,
+          12
+        ],
+        "status": "passed",
+        "actual_tier": "high",
+        "actual_fragments": 6,
+        "accept_rate": 0.75,
+        "latency_ms": 1500,
+        "error": null
+      }
+    ]
+  },
+  "summary": {
+    "total_tests": 15,
+    "passed": 15,
+    "failed": 0,
+    "errors": 0
+  }
+}

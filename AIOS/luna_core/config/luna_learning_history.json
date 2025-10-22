@@ -1,0 +1,22 @@
+{
+  "total_questions": 1,
+  "total_responses": 1,
+  "learning_cycles": 0,
+  "personality_evolution": [
+    {
+      "timestamp": "2025-09-24T23:50:03.270483",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 0.48,
+        "engagement_score": 0.0,
+        "trait_alignment": 0.0,
+        "creativity_score": 0.0,
+        "empathy_score": 0.3333333333333333,
+        "overall_score": 0.16266666666666665
+      },
+      "personality_drift": 0.0
+    }
+  ],
+  "dream_cycles": [],
+  "last_learning": "2025-09-24T23:50:03.270483"
+}

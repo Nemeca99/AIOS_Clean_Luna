@@ -1,0 +1,149 @@
+{
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\callgraph.py",
+    "size": 2833,
+    "mtime": "2025-10-22T07:46:51.212190+00:00",
+    "mime": "text/x-python",
+    "sha256": "b5803ff0809468efe5c0ced0a136af98af128ceb61da84e1c9298c36c166413e"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\cli.py",
+    "size": 4157,
+    "mtime": "2025-10-22T07:52:24.998771+00:00",
+    "mime": "text/x-python",
+    "sha256": "4d14bd8b4a9400e41303cf571a3817928d11d5ee35f45d6132a111b4f53eb253"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_csv.py",
+    "size": 3088,
+    "mtime": "2025-10-22T07:48:24.677330+00:00",
+    "mime": "text/x-python",
+    "sha256": "934dd22a70e3f1677f698780c724b788ffb73ff22b5869f6fda47b4ef6559083"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_dot.py",
+    "size": 5062,
+    "mtime": "2025-10-22T07:48:54.202842+00:00",
+    "mime": "text/x-python",
+    "sha256": "3542e80dfea1a7c155d87975afe84b6edb3bfa25fdca0185029e568f671a2a5c"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_json.py",
+    "size": 2687,
+    "mtime": "2025-10-22T07:48:13.162830+00:00",
+    "mime": "text/x-python",
+    "sha256": "3bb2ee035bebc21c6b6d068aa800b7d556644361aabf5ee8895d81bd106bcf10"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\emit_mermaid.py",
+    "size": 3552,
+    "mtime": "2025-10-22T07:49:07.517825+00:00",
+    "mime": "text/x-python",
+    "sha256": "78ee1b18d4146ff46c26eba1585325ad7c22c90fef6a43f8e07627fe53dafdec"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\fs_walk.py",
+    "size": 5405,
+    "mtime": "2025-10-22T07:45:26.120716+00:00",
+    "mime": "text/x-python",
+    "sha256": "e746c8723783e76a55c639b54606036778e6ab4c2eccd3ee203509444f2e7b98"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\graph_build.py",
+    "size": 6911,
+    "mtime": "2025-10-22T07:47:53.994836+00:00",
+    "mime": "text/x-python",
+    "sha256": "1473a62465a6355d82535038d4f327ea10f61a78f01bc9907142a7d77e68b60a"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\imports.py",
+    "size": 2794,
+    "mtime": "2025-10-22T07:46:05.507885+00:00",
+    "mime": "text/x-python",
+    "sha256": "43c2d43b39b8ccff84d708ac8645bfec167d648e75c860f62fe6b84df8cee032"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\laws_gate.py",
+    "size": 2947,
+    "mtime": "2025-10-22T07:44:56.670533+00:00",
+    "mime": "text/x-python",
+    "sha256": "2bd547bf087b2e1cab15a2c1fc39fcdb1637c8582938888f6afc597f6c8433fe"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\logging_util.py",
+    "size": 1502,
+    "mtime": "2025-10-22T07:44:42.703277+00:00",
+    "mime": "text/x-python",
+    "sha256": "bce7f11c94fba352bbc7aadb446a533e0907b2a035270a357a0ab35836aa78f8"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\manifest.py",
+    "size": 1306,
+    "mtime": "2025-10-22T07:54:27.715188+00:00",
+    "mime": "text/x-python",
+    "sha256": "1715d69d10924afba4a1537d6618a796c3b6d3070c6706f6c6ce6aceca77e83e"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\py_ast.py",
+    "size": 2946,
+    "mtime": "2025-10-22T07:45:48.242824+00:00",
+    "mime": "text/x-python",
+    "sha256": "a4642300fef2de197cd8c09dd4471607af9d302bc8143219db6be128b87bcca2"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_html.py",
+    "size": 7622,
+    "mtime": "2025-10-22T07:54:55.566735+00:00",
+    "mime": "text/x-python",
+    "sha256": "f9667cfd92e782f8a304e12d457a4ef1cab242bbda6792185fbedc0a14542da7"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\report_md.py",
+    "size": 7516,
+    "mtime": "2025-10-22T07:49:59.801141+00:00",
+    "mime": "text/x-python",
+    "sha256": "98697b7135690df81c6f1eddbce6da4a5d4f91c844d2aea86d9b8be3c620fe20"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\runner.py",
+    "size": 12325,
+    "mtime": "2025-10-22T07:51:56.997765+00:00",
+    "mime": "text/x-python",
+    "sha256": "5ff4d3f3fdc8ce18f483131bcfecc920fd5caa981d49d22cfdd0a4de39bcbbd0"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\symbols.py",
+    "size": 4561,
+    "mtime": "2025-10-22T07:46:31.144903+00:00",
+    "mime": "text/x-python",
+    "sha256": "79773d40606a7743f412e87193d260f8b96b3e8c425631f3c9b43b771efad648"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\xref.py",
+    "size": 2293,
+    "mtime": "2025-10-22T07:47:09.704465+00:00",
+    "mime": "text/x-python",
+    "sha256": "9b31c4155c6d97e7269db01cb596fe6500810365f7a7178a5e160fdb6f711671"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__init__.py",
+    "size": 167,
+    "mtime": "2025-10-22T07:43:33.117064+00:00",
+    "mime": "text/x-python",
+    "sha256": "835dc0a319afa2e261b3fd2bc6ad0e8104873464882b47af8e7040fdc3326d46"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\cgm\\__main__.py",
+    "size": 114,
+    "mtime": "2025-10-22T07:53:41.278015+00:00",
+    "mime": "text/x-python",
+    "sha256": "453540a482e1c93edba730997eeeb04182a63d169cb332308b846f711cae1b5f"
+  },
+  "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py": {
+    "path": "L:\\AIOS\\tools\\codegraph_mapper\\tests\\test_smoke.py",
+    "size": 3310,
+    "mtime": "2025-10-22T07:55:07.948264+00:00",
+    "mime": "text/x-python",
+    "sha256": "20c4c34b849d253a11fec2292614a538fe2e458369d743bf9353681288f5078b"
+  }
+}

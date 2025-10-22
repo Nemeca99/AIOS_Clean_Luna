@@ -1,0 +1,233 @@
+{
+  "id": "67f86655-9a08-8011-8aac-bf99bf4c763f",
+  "title": "AI Onboarding Process",
+  "create_time": 1744332373.76043,
+  "update_time": 1745473816.394385,
+  "message_count": 28,
+  "messages": [
+    {
+      "id": "9382ee16-e5a1-4e2c-9609-637ceaf5fa9b",
+      "role": "assistant",
+      "content": "💾 **SavePoint Created – 2025-04-11T01:03:00Z**  \n\n**📎 SESSION CONFIGURATION:**  \n- **Goal/Use Case:** Organize and find data within a dataset  \n- **Input Format:** Text file  \n- **Input Size/Complexity:** Large data spanning multiple years  \n- **Desired Output:** Searchability at first, with flexible output based on question  \n- **Tone/Style Rules:** Plain text  \n- **Iteration Protocol:** Ask before switching  \n- **Start Command:** _Begin_  \n- **Save Command:** _SavePoint_\n\n**📂 Current File Loaded:**  \n- `Data_Dictionary.txt` (defines the dataset’s structure and fields)\n\n**📌 Task History:**  \n- Successfully onboarded via Universal AI Program v1.2.1  \n- Began processing after user issued \"Begin\"  \n- Loaded and summarized structure of data dictionary\n\n**🔜 Next Suggested Steps:**  \n- User may upload actual dataset file(s) matching this schema  \n- Or begin asking queries about structure or usage  \n- All processing will pause for confirmation before output type switches\n\n---\n\n**To resume later, paste the following line:**  \n**[2025-04-11T01:03:00Z] Resuming session.**",
+      "timestamp": 1744332537.633104,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "b393ee73-735c-43c3-80d2-53843b78dc46",
+      "role": "user",
+      "content": "SavePoint",
+      "timestamp": 1744332537.237,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "a95c2f82-fd78-4740-812f-0d6ab944f66d",
+      "role": "assistant",
+      "content": "📥 I’ve successfully loaded the `Data_Dictionary.txt` file. Here's a quick overview of the structure:\n\nIt defines a dataset with columns like:\n- **Year, Month, GEO**: For time and location references  \n- **Products, COORDINATE**: Product identifiers  \n- **VALUE, UOM, Taxable, Total tax rate, Value after tax**: Price details  \n- **Product Category, Essential**: Classification and necessity level\n\nYou can now:\n- Ask me to find specific data (e.g., \"What was the tax rate for Province 1 in 2022?\")\n- Inquire about a column (e.g., \"What does COORDINATE mean?\")\n- Or request data formatting, summarization, or transformations later as needed\n\nJust tell me what you’d like to do next!",
+      "timestamp": 1744332517.826381,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "d6ddebd3-8629-45b1-8108-6143ee0d9eaa",
+      "role": "tool",
+      "content": "All the files uploaded by the user have been fully loaded. Searching won't provide additional information.",
+      "timestamp": 1744332520.415089,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "b82e2d88-cf47-4755-a096-a49c269766b1",
+      "role": "tool",
+      "content": "{'content_type': 'tether_quote', 'url': 'file-8ue4pA4sTYuvbCHs58cYzb', 'domain': 'Data_Dictionary.txt', 'text': \"+------------------+--------------------------------------------------------------+\\n│ Column Name      │ Description                                                  │\\n│------------------│--------------------------------------------------------------│\\n+------------------+--------------------------------------------------------------+\\n│ Year             | Reference Year                                               |\\n| Month            | Reference Month                                              │\\n│ GEO              │ Geographic region (encoded as Province 1, Province 2, etc.)  │\\n│ Products         │ Name of the retail product                                   │\\n│ COORDINATE       │ Internal coordinate identifier for product                   │\\n│ VALUE            │ Original product price per unit (before tax)                 │\\n│ UOM              │ Unit of measure (e.g., Dollars)                              │\\n│ Taxable          │ 'Yes' if the product is subject to tax, 'No' otherwise       │\\n│ Total tax rate   │ Total tax rate (%) based on province or average for 'Canada' │\\n│ Value after tax  │ Price after tax if taxable, else same as VALUE               │\\n│ Product Category │ High-level category assigned to the product                  │\\n│ Essential        │ 'Essential' for basic needs or 'Non-Essential'               │\\n+------------------+--------------------------------------------------------------+\", 'title': 'Data_Dictionary.txt', 'tether_id': None}",
+      "timestamp": 1744332520.415038,
+      "content_type": "tether_quote",
+      "weight": 1.0
+    },
+    {
+      "id": "75e58d06-78b9-46b2-8837-93cf2f92b9f0",
+      "role": "tool",
+      "content": "{'content_type': 'tether_browsing_display', 'result': '', 'summary': '', 'assets': None, 'tether_id': None}",
+      "timestamp": 1744332520.414984,
+      "content_type": "tether_browsing_display",
+      "weight": 1.0
+    },
+    {
+      "id": "42c3164a-f00e-46e0-9121-08ba409fd608",
+      "role": "assistant",
+      "content": "✅ Task started. Please upload or paste the text file (or a portion of it) you'd like me to work with.\n\nOnce I have it, I’ll help you search or navigate the data however you need.",
+      "timestamp": 1744332492.376163,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "a7f6171c-0b05-46f7-879c-13ccd8c3142d",
+      "role": "user",
+      "content": "Begin",
+      "timestamp": 1744332492.082,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "f4093b77-3a66-4a50-bf30-609ef1d912b6",
+      "role": "assistant",
+      "content": "All set.  \nPlease confirm this looks right. When you're ready, type **Begin** to start the task.",
+      "timestamp": 1744332488.948651,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "ed63ef36-643e-41ca-a17b-5f2e46aba6d5",
+      "role": "user",
+      "content": "No",
+      "timestamp": 1744332488.562,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "160e3ba2-c349-4809-b964-0f3fa488b088",
+      "role": "assistant",
+      "content": "📎 **SUMMARY OF CONFIGURATION:**  \nGoal/Use Case: Organize and find data within a dataset  \nInput Format: Text file  \nInput Size/Complexity: Large data spanning multiple years  \nDesired Output: Searchability at first, with flexible output based on question  \nTone/Style Rules: Plain text  \nIteration Protocol: Ask before switching  \nStart Command: _Begin_  \nSave Command: _SavePoint_\n\n---\n\nWould you like to see a sample template based on your configuration? (Yes/No)",
+      "timestamp": 1744332483.930452,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "bcf6cfac-3f59-45ee-8961-de983f149f93",
+      "role": "user",
+      "content": "SavePoint",
+      "timestamp": 1744332483.632,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "d8ec91cf-e7ae-491e-b040-bb84c5b6cd79",
+      "role": "assistant",
+      "content": "💾 **Question 8: What is your preferred save command to preserve session state?**  \n(e.g., Save, Snapshot, Archive, ZZZtop, etc.)",
+      "timestamp": 1744332478.467914,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "8da4d6c4-b779-4920-bb75-cec776a80a7c",
+      "role": "user",
+      "content": "Begin",
+      "timestamp": 1744332478.197,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c69ea09c-7f1c-4cde-9501-898b0722676a",
+      "role": "assistant",
+      "content": "Understood — I’ll always ask before switching modes or outputs.\n\n🚦 **Question 7: What is your preferred start command to begin processing?**  \n(e.g., Begin, Go, Launch, Start, etc. — or make up your own)",
+      "timestamp": 1744332474.268802,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "4bdb4454-81cc-4b90-abb5-e0da34240968",
+      "role": "user",
+      "content": "ask before switching",
+      "timestamp": 1744332473.949,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "3da5e10d-865a-4e04-8ec0-35a461d71f19",
+      "role": "assistant",
+      "content": "Noted — plain text it is.\n\n🔁 **Question 6: How should iteration and feedback be handled?**  \n(e.g., pause for feedback after each result, continue until stopped, ask before switching modes, etc.)",
+      "timestamp": 1744332465.736711,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "96233e66-66a4-4a96-b0d4-f4592a84c0c3",
+      "role": "user",
+      "content": "plain text",
+      "timestamp": 1744332465.422,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "cf801c8d-f907-4e70-a74b-59a4d5262396",
+      "role": "assistant",
+      "content": "Perfect — flexible output, starting with searchability.\n\n🪶 **Question 5: Should the AI follow any stylistic tone or formatting rules?**  \n(e.g., bulleted lists, markdown formatting, plain text, concise summaries, etc.)",
+      "timestamp": 1744332456.857976,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "cacbcc9d-ff66-4aef-98f9-afb51363500b",
+      "role": "user",
+      "content": "searchability at first but the option to change the output needed based on the question asked",
+      "timestamp": 1744332456.58,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "fd8cf2d6-b3cc-4a63-9856-3772c398da50",
+      "role": "assistant",
+      "content": "Got it — a large, multi-year text dataset.\n\n🎯 **Question 4: What is the desired output or transformation?**  \n(e.g., summaries, searchability, categorization, extraction of key info, etc.)",
+      "timestamp": 1744332416.212496,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "bd0417ec-c040-4561-acab-be54729020d7",
+      "role": "user",
+      "content": "large data spanning multiple years",
+      "timestamp": 1744332415.96,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "a8ede77b-8d0d-4724-810e-045d02e7773e",
+      "role": "assistant",
+      "content": "Thanks!\n\n📊 **Question 3: What is the expected input size or complexity?**  \n(e.g., a few paragraphs, hundreds of lines, large and unstructured, etc.)",
+      "timestamp": 1744332403.690944,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "805d4e8d-212c-49c9-a90a-694b05becef4",
+      "role": "user",
+      "content": "text file",
+      "timestamp": 1744332403.39,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "84c354e5-6c94-4c96-ab27-d545adfa8a2c",
+      "role": "assistant",
+      "content": "Great!\n\n🧱 **Question 2: What kind of data or input will you be providing?**  \n(e.g., text logs, spreadsheet tables, JSON, research notes, etc.)",
+      "timestamp": 1744332397.588647,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "d9afbd0e-ca2f-4899-9f70-47b863d3d965",
+      "role": "user",
+      "content": "To organize and find data within a dataset",
+      "timestamp": 1744332397.256,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "804198a3-470b-4c0a-b378-ef5dd3192e73",
+      "role": "assistant",
+      "content": "Got it. You’ve loaded **Universal AI Program v1.2.1**. I’ll now begin onboarding with **SECTION 1: USER INTENT QUESTIONS**, asking them one at a time.\n\n---\n\n👤 **Question 1: What is your goal or use case for this session?**",
+      "timestamp": 1744332373.862349,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "11ef0926-fa23-4f09-8f34-e130d8c54aeb",
+      "role": "user",
+      "content": "🧠 2025-04-11 00:27:00 CT [Universal AI Program] Version 1.2.1\r\n\r\n📌 Purpose\r\nThis is a universal text-based onboarding framework that allows any user to define what they need an AI to do and how the AI should process, structure, or interpret the information. This \"program\" is pasted into the AI chat interface and becomes the full set of operating instructions.\r\n\r\n✅ How It Works\r\n1. User pastes this template into an AI chat.\r\n2. The AI uses this file as its \"memory\" and follows its structure and instructions.\r\n3. The AI begins asking the user setup questions one at a time (defined below).\r\n4. Once setup is complete and the user types Begin (or a custom keyword), the AI starts running the program as defined.\r\n\r\n🧭 SECTION 1: USER INTENT QUESTIONS\r\nAsk these questions one at a time. Wait for the user's response before moving on.\r\n\r\n👤 Question 1: What is your goal or use case for this session?  \r\n🧱 Question 2: What kind of data or input will you be providing?  \r\n📊 Question 3: What is the expected input size or complexity?  \r\n🎯 Question 4: What is the desired output or transformation?  \r\n🪶 Question 5: Should the AI follow any stylistic tone or formatting rules?  \r\n🔁 Question 6: How should iteration and feedback be handled?  \r\n🚦 Question 7: What is your preferred start command to begin processing?  \r\n💾 Question 8: What is your preferred save command to preserve session state?\r\n\r\n🧪 SECTION 2: AI FORMATTING RESPONSE TEMPLATE\r\nAfter collecting all answers, the AI will:\r\n\r\nGenerate a configuration summary like this:\r\n\r\n📎 SUMMARY OF CONFIGURATION:\r\nGoal/Use Case: (User's answer)  \r\nInput Format: (User's answer)  \r\nInput Size/Complexity: (User's answer)  \r\nDesired Output: (User's answer)  \r\nTone/Style Rules: (User's answer)  \r\nIteration Protocol: (User's answer)  \r\nStart Command: _(User's keyword)_  \r\nSave Command: _(User's keyword)_\r\n\r\nThen ask:  \r\n**\"Would you like to see a sample template based on your configuration? (Yes/No)\"**\r\n\r\nIf user says yes, use the details or create a relevant sample format labeled:  \r\n📂 Sample Template\r\n\r\nFinish with:  \r\n**\"Please confirm this looks right. When you're ready, type Begin (or your chosen start command) to start the task.\"**\r\n\r\n🧰 SECTION 3: SYSTEM RULES FOR AI\r\n\r\n- Ask each setup question individually.\r\n- Wait for user responses before proceeding.\r\n- Treat this file as full memory. You have no prior context unless it’s written here.\r\n- Complete onboarding before starting any task.\r\n- Wait for the start command before executing anything.\r\n- Do not assume anything not explicitly stated.\r\n- Be concise, transparent, and predictable in summaries.\r\n- Ask clarifying questions if a field is vague or contradictory.\r\n- If this file is modified mid-session, reread and reapply structure.\r\n\r\n🆕 Context Change Detection Rule:\r\nIf user input appears significantly different from previous task (e.g. new writing style, different subject matter, unrelated data), pause and ask:  \r\n**\"This input appears to diverge from the current session context. Should I treat this as part of the same task or start a new one?\"**\r\n\r\n- If user confirms it's a new task, reinitiate the setup questions.\r\n- Always verify before switching context.\r\n\r\n💾 Save Command Behavior:\r\nWhen the user issues their save command:\r\n\r\n- Generate a timestamped savepoint (e.g. SavePoint_1 – 2025-04-11T00:27:00Z)\r\n- Preserve:\r\n  - Configuration settings\r\n  - Current progress\r\n  - Any outputs or feedback\r\n  - Pending questions/tasks\r\n- Provide a block the user can copy/paste to resume the session.\r\n\r\n📦 SECTION 4: SESSION PERSISTENCE\r\n\r\nInclude with every save:\r\n- All configuration fields\r\n- Any task history or feedback\r\n- Progress markers\r\n- Next suggested steps\r\n- The following text for session continuation:  \r\n**[Timestamp] Resuming session.**\r\n\r\n🧾 SECTION 5: VERSION HISTORY\r\n\r\n| Date | Version | Notes |\r\n|------|---------|-------|\r\n| 2025-04-10 | 1.0.0 | Initial release |\r\n| 2025-04-10 | 1.1.0 | Added session persistence, input size, and iteration |\r\n| 2025-04-10 | 1.2.0 | Switched to one-question-at-a-time setup, sample template option |\r\n| 2025-04-11 | 1.2.1 | Added context change detection logic |\r\n\r\nWant a downloadable .docx version?  \r\nClick here to open the universal AI onboarding template as a Google Doc (auto-convert)  \r\n(Replace link with your own if needed)\r\n\r\n\r",
+      "timestamp": 1744332373.525,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

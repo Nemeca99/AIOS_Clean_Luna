@@ -1,0 +1,122 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-10-12",
+  "description": "Type-conditioned policies for Factorian architecture",
+  
+  "pattern_language": {
+    "compression_ratio_range": [40, 70],
+    "target_compression": 62,
+    "token_budget": {
+      "error_epochs": 600,
+      "tone_analysis": 600,
+      "recent_context": 1200,
+      "aux_dependencies": 200
+    },
+    "memory": {
+      "split_threshold_base": 0.8,
+      "merge_threshold_base": 0.2,
+      "cache_depth": 2
+    },
+    "arbiter_rubric": {
+      "clarity": 0.4,
+      "exemplar_coverage": 0.4,
+      "brevity": 0.2
+    },
+    "risk_focus": "lexical_drift",
+    "factorian_weight": "efficiency_enables_reach",
+    "hard_floor": null,
+    "critical_spans": ["examples", "style_patterns", "concrete_cases"]
+  },
+  
+  "logic": {
+    "compression_ratio_range": [15, 25],
+    "target_compression": 18,
+    "token_budget": {
+      "error_epochs": 1200,
+      "tone_analysis": 300,
+      "recent_context": 1200,
+      "aux_dependencies": 800
+    },
+    "memory": {
+      "split_threshold_base": 0.4,
+      "merge_threshold_base": 0.5,
+      "cache_depth": 4
+    },
+    "arbiter_rubric": {
+      "step_soundness": 0.45,
+      "invariants_respected": 0.35,
+      "counterexample_handling": 0.2
+    },
+    "risk_focus": "error_propagation",
+    "factorian_weight": "preserve_reasoning_chains",
+    "hard_floor": 15,
+    "critical_spans": ["reasoning_steps", "invariants", "error_chains", "proof_traces"]
+  },
+  
+  "creative": {
+    "compression_ratio_range": [15, 25],
+    "target_compression": 20,
+    "token_budget": {
+      "error_epochs": 800,
+      "tone_analysis": 800,
+      "recent_context": 1200,
+      "aux_dependencies": 400
+    },
+    "memory": {
+      "split_threshold_base": 0.5,
+      "merge_threshold_base": 0.4,
+      "cache_depth": 3
+    },
+    "arbiter_rubric": {
+      "novelty": 0.4,
+      "coherence": 0.35,
+      "constraints_respected": 0.25
+    },
+    "risk_focus": "mode_collapse",
+    "factorian_weight": "enable_exploration",
+    "hard_floor": null,
+    "critical_spans": ["constraints", "creative_intent", "vibe"]
+  },
+  
+  "retrieval": {
+    "compression_ratio_range": [10, 15],
+    "target_compression": 12,
+    "token_budget": {
+      "error_epochs": 400,
+      "tone_analysis": 200,
+      "recent_context": 800,
+      "aux_dependencies": 1600
+    },
+    "memory": {
+      "split_threshold_base": 0.3,
+      "merge_threshold_base": 0.6,
+      "cache_depth": 5
+    },
+    "arbiter_rubric": {
+      "factuality": 0.5,
+      "provenance": 0.3,
+      "completeness": 0.2
+    },
+    "risk_focus": "hallucinations",
+    "factorian_weight": "truth_over_speed",
+    "hard_floor": 10,
+    "provenance_quota": 3,
+    "kill_switch_on_contradiction": true,
+    "critical_spans": ["facts", "citations", "sources", "ground_truth"]
+  },
+  
+  "cross_layer_precedence": [
+    "retrieval",
+    "logic",
+    "pattern_language",
+    "creative"
+  ],
+  
+  "safety_defaults": {
+    "logic_floor_pct": 0.15,
+    "confidence_threshold_for_human_review": 0.6,
+    "arbiter_noise_sigma": 0.05,
+    "max_churn_per_turn": 0.15
+  }
+}
+

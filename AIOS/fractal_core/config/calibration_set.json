@@ -1,0 +1,38 @@
+[
+  {
+    "query": "What is the ratio of x and y?",
+    "ground_truth": {
+      "pattern_language": 0.0,
+      "logic": 1.0,
+      "creative": 0.0,
+      "retrieval": 0.0
+    }
+  },
+  {
+    "query": "Is this correct? A) Yes B) No",
+    "ground_truth": {
+      "pattern_language": 1.0,
+      "logic": 0.0,
+      "creative": 0.0,
+      "retrieval": 0.0
+    }
+  },
+  {
+    "query": "Design a creative solution",
+    "ground_truth": {
+      "pattern_language": 0.0,
+      "logic": 0.0,
+      "creative": 1.0,
+      "retrieval": 0.0
+    }
+  },
+  {
+    "query": "Find documents about AI",
+    "ground_truth": {
+      "pattern_language": 0.0,
+      "logic": 0.0,
+      "creative": 0.0,
+      "retrieval": 1.0
+    }
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "question": "I am someone who i spend time reflecting on things",
+    "response": "I appreciate you sharing your thoughts on openness. I'd love to hear more about your perspective on this topic.",
+    "trait": "openness",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.15384615384615385,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 155.01690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 722,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999278,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T14:35:58.328510"
+  },
+  {
+    "question": "I am someone who i rarely get irritated",
+    "response": "I appreciate you sharing your thoughts on neuroticism. I'd love to hear more about your perspective on this topic.",
+    "trait": "neuroticism",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.11538461538461539,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 155.01690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 723,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999277,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T14:36:06.665812"
+  },
+  {
+    "question": "I am someone who i am relaxed most of the time",
+    "response": "I appreciate you sharing your thoughts on neuroticism. I'd love to hear more about your perspective on this topic.",
+    "trait": "neuroticism",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.10714285714285714,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 155.01690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 724,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999276,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T14:36:14.735684"
+  },
+  {
+    "question": "I am someone who i like to be where the action is",
+    "response": "I appreciate you sharing your thoughts on extraversion. I'd love to hear more about your perspective on this topic.",
+    "trait": "extraversion",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.15384615384615385,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 155.01690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 725,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999275,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:07:15.464075"
+  },
+  {
+    "question": "I am someone who i am interested in people",
+    "response": "I appreciate you sharing your thoughts on agreeableness. I'd love to hear more about your perspective on this topic.",
+    "trait": "agreeableness",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.11538461538461539,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 155.01690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 726,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999274,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:07:23.669306"
+  },
+  {
+    "question": "I am someone who i am not easily bothered by things",
+    "response": "I appreciate you sharing your thoughts on neuroticism. I'd love to hear more about your perspective on this topic.",
+    "trait": "neuroticism",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.15384615384615385,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 155.01690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 727,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999273,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:07:31.737415"
+  },
+  {
+    "question": "I am someone who i feel others' emotions",
+    "response": "I appreciate you sharing your thoughts on agreeableness. I'd love to hear more about your perspective on this topic.",
+    "trait": "agreeableness",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.16,
+      "arbiter_karma_delta": -0.12000000000000001,
+      "arbiter_quality_gap": 0.11538461538461539,
+      "arbiter_reasoning": "Poor response quality or efficiency. Karma decreased by 0.1. TTE efficiency: 23.8%.",
+      "current_karma": 154.89690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 728,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999272,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:07:39.826643"
+  },
+  {
+    "question": "I am someone who i have a soft heart",
+    "response": "I appreciate you sharing your thoughts on agreeableness. I'd love to hear more about your perspective on this topic.",
+    "trait": "agreeableness",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.46,
+      "arbiter_karma_delta": 0.0,
+      "arbiter_quality_gap": 0.11538461538461539,
+      "arbiter_reasoning": "Adequate response but significant gaps. No karma change. TTE efficiency: 54.3%.",
+      "current_karma": 154.89690476190478,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 729,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999271,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:07:47.886176"
+  },
+  {
+    "question": "I am someone who i often feel blue",
+    "response": "I appreciate you sharing your thoughts on neuroticism. I'd love to hear more about your perspective on this topic.",
+    "trait": "neuroticism",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.16,
+      "arbiter_karma_delta": -0.12000000000000001,
+      "arbiter_quality_gap": 0.11538461538461539,
+      "arbiter_reasoning": "Poor response quality or efficiency. Karma decreased by 0.1. TTE efficiency: 23.8%.",
+      "current_karma": 154.77690476190477,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 730,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999270,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:16:09.050478"
+  },
+  {
+    "question": "I am someone who i like music",
+    "response": "I appreciate you sharing your thoughts on openness. I'd love to hear more about your perspective on this topic.",
+    "trait": "openness",
+    "scores": {
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "arbiter_utility_score": 0.16,
+      "arbiter_karma_delta": -0.12000000000000001,
+      "arbiter_quality_gap": 0.15384615384615385,
+      "arbiter_reasoning": "Poor response quality or efficiency. Karma decreased by 0.1. TTE efficiency: 23.8%.",
+      "current_karma": 154.65690476190477,
+      "karma_status": "High",
+      "aiiq": 49,
+      "total_files": 731,
+      "files_until_next_aiiq": 608281864034267560872252163321295376887552831379210239999999269,
+      "current_threshold": 1556.9816254524355,
+      "granularity_threshold": 5.22375186440294e-62
+    },
+    "timestamp": "2025-10-07T15:16:17.213715"
+  }
+]

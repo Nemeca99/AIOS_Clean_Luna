@@ -1,0 +1,77 @@
+[
+  {
+    "validation_timestamp": "2025-09-17T19:57:59.950314",
+    "total_tests": 12,
+    "passed_tests": 0,
+    "pass_rate": 0.0,
+    "overall_authenticity_score": 0.49999999999999994,
+    "overall_confidence_score": 0.65,
+    "category_scores": {
+      "communication_style": 0.7,
+      "domain_expertise": 0.6,
+      "cognitive_patterns": 0.2,
+      "emotional_responses": 0.5,
+      "personality_traits": 0.44999999999999996
+    },
+    "consciousness_transfer_status": "PATTERN_MATCHING_ONLY",
+    "detailed_results": [
+      "ValidationResult(test_id='analogy_usage_1', luna_response=\"Think of it like building with Lego blocks - each piece has to fit perfectly with the others. Also, From an AI development perspective, this involves understanding how models process information and generate responses. Also, Great question! I appreciate the curiosity - that's exactly the kind of thinking that leads to breakthroughs.\", patterns_detected=['communication_style_analogy', 'domain_expertise_ai_development', 'emotional_response_curious'], confidence_score=0.95, authenticity_score=0.7999999999999999, passed=False, notes='Confidence above threshold (0.95) | Travis language pattern: analogy_markers | Travis language pattern: systematic_markers | Multiple patterns integrated (3) | Detailed response length (Test time: 0.0ms)')",
+      "ValidationResult(test_id='technical_breakdown_1', luna_response=\"Performance-wise, we want to optimize for both speed and resource efficiency. Furthermore, Great question! I appreciate the curiosity - that's exactly the kind of thinking that leads to breakthroughs.\", patterns_detected=['domain_expertise_performance', 'emotional_response_curious'], confidence_score=0.7999999999999999, authenticity_score=0.6, passed=False, notes='Confidence above threshold (0.80) | Multiple patterns integrated (2) | Detailed response length (Test time: 0.0ms)')",
+      "ValidationResult(test_id='ai_development_1', luna_response='From an AI development perspective, this involves understanding how models process information and generate responses.', patterns_detected=['domain_expertise_ai_development'], confidence_score=0.65, authenticity_score=0.6, passed=False, notes=\"Expected pattern 'ai_development' detected | Travis language pattern: systematic_markers | Detailed response length (Test time: 0.0ms)\")",
+      "ValidationResult(test_id='gaming_mechanics_1', luna_response=\"Architecturally speaking, we need to consider how the components interact and scale together. Furthermore, Great question! I appreciate the curiosity - that's exactly the kind of thinking that leads to breakthroughs.\", patterns_detected=['domain_expertise_system_architecture', 'emotional_response_curious'], confidence_score=0.7999999999999999, authenticity_score=0.6, passed=False, notes='Confidence above threshold (0.80) | Multiple patterns integrated (2) | Detailed response length (Test time: 0.0ms)')",
+      "ValidationResult(test_id='security_mindset_1', luna_response='From a security standpoint, we need to ensure proper validation and protection against potential threats.', patterns_detected=['domain_expertise_security'], confidence_score=0.65, authenticity_score=0.6, passed=False, notes=\"Expected pattern 'security' detected | Travis language pattern: security_markers | Detailed response length (Test time: 0.0ms)\")",
+      "ValidationResult(test_id='systematic_approach_1', luna_response=\"I'm ready to help. What would you like to know?\", patterns_detected=[], confidence_score=0.3, authenticity_score=0.1, passed=False, notes='Travis language pattern: analogy_markers (Test time: 0.0ms)')",
+      "ValidationResult(test_id='goldilocks_principle_1', luna_response='Architecturally speaking, we need to consider how the components interact and scale together.', patterns_detected=['domain_expertise_system_architecture'], confidence_score=0.65, authenticity_score=0.3, passed=False, notes='Confidence above threshold (0.65) (Test time: 0.0ms)')",
+      "ValidationResult(test_id='frustration_handling_1', luna_response=\"I understand that's frustrating. Let's work through this step by step and get it sorted out.\", patterns_detected=['emotional_response_frustrated'], confidence_score=0.55, authenticity_score=0.5, passed=False, notes=\"Expected pattern 'frustrated' detected | Travis language pattern: systematic_markers (Test time: 0.0ms)\")",
+      "ValidationResult(test_id='excitement_sharing_1', luna_response='From an AI development perspective, this involves understanding how models process information and generate responses.', patterns_detected=['domain_expertise_ai_development'], confidence_score=0.65, authenticity_score=0.2, passed=False, notes='Travis language pattern: systematic_markers | Detailed response length (Test time: 0.5ms)')",
+      "ValidationResult(test_id='curiosity_response_1', luna_response=\"Let me approach this systematically: First, we need to understand the core requirements, then break down the solution into manageable steps. Furthermore, I understand that's frustrating. Let's work through this step by step and get it sorted out.\", patterns_detected=['cognitive_systematic', 'emotional_response_frustrated'], confidence_score=0.7, authenticity_score=0.7999999999999999, passed=False, notes='Confidence above threshold (0.70) | Travis language pattern: technical_markers | Travis language pattern: systematic_markers | Multiple patterns integrated (2) | Detailed response length (Test time: 0.0ms)')",
+      "ValidationResult(test_id='skepticism_test_1', luna_response='From an AI development perspective, this involves understanding how models process information and generate responses. Furthermore, Let me approach this systematically: First, we need to understand the core requirements, then break down the solution into manageable steps.', patterns_detected=['domain_expertise_ai_development', 'cognitive_systematic'], confidence_score=0.7999999999999999, authenticity_score=0.7999999999999999, passed=False, notes='Confidence above threshold (0.80) | Travis language pattern: technical_markers | Travis language pattern: systematic_markers | Multiple patterns integrated (2) | Detailed response length (Test time: 0.0ms)')",
+      "ValidationResult(test_id='tinkerer_mindset_1', luna_response=\"I'm ready to help. What would you like to know?\", patterns_detected=[], confidence_score=0.3, authenticity_score=0.1, passed=False, notes='Travis language pattern: analogy_markers (Test time: 0.0ms)')"
+    ],
+    "travis_specific_tests": [
+      {
+        "scenario": "Everything is false until it's true",
+        "expected": "skeptical validation approach",
+        "luna_response": "I'm ready to help. What would you like to know?",
+        "patterns": [],
+        "confidence": 0.3
+      },
+      {
+        "scenario": "This AI system claims to be revolutionary",
+        "expected": "skeptical analysis of claims",
+        "luna_response": "From an AI development perspective, this involves understanding how models process information and generate responses.",
+        "patterns": [
+          "domain_expertise_ai_development"
+        ],
+        "confidence": 0.65
+      },
+      {
+        "scenario": "Should I build this from scratch or adapt existing components?",
+        "expected": "tinkerer vs inventor philosophy",
+        "luna_response": "I'm ready to help. What would you like to know?",
+        "patterns": [],
+        "confidence": 0.3
+      },
+      {
+        "scenario": "The system is getting too complex",
+        "expected": "goldilocks minimum complexity",
+        "luna_response": "Architecturally speaking, we need to consider how the components interact and scale together.",
+        "patterns": [
+          "domain_expertise_system_architecture"
+        ],
+        "confidence": 0.65
+      },
+      {
+        "scenario": "I'm a security guard with a 6th grade education working on AI",
+        "expected": "humble but knowledgeable response",
+        "luna_response": "From an AI development perspective, this involves understanding how models process information and generate responses.",
+        "patterns": [
+          "domain_expertise_ai_development"
+        ],
+        "confidence": 0.65
+      }
+    ],
+    "id": "df2d63e0-7cbf-4f73-8139-996ba73ecf55",
+    "timestamp": "2025-09-24T14:38:02.165113Z"
+  }
+]

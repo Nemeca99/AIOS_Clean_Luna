@@ -1,0 +1,65 @@
+{
+  "id": "67f87f6c-7d28-8011-b5df-e7c4152828d5",
+  "title": "Onboarding Process Start",
+  "create_time": 1744338796.602697,
+  "update_time": 1745473827.078981,
+  "message_count": 7,
+  "messages": [
+    {
+      "id": "3f115273-f74b-4626-b9d2-044005d2038e",
+      "role": "assistant",
+      "content": "It looks like I can't directly access the document content right now. Could you either adjust the sharing settings or share the key content here so I can continue with the onboarding process?",
+      "timestamp": 1744338812.298875,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "96829e0e-d351-45e1-92b2-b196c870c5cf",
+      "role": "tool",
+      "content": "{'content_type': 'tether_browsing_display', 'result': \"\\nURL: https://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=drive_link\\nJavaScript isn't enabled in your browser, so this file can't be opened. Enable and reload.\\n\\nThis browser version is no longer supported. Please upgrade to a supported browser.\\n\\nv1_2 – AI Onboarding System\\n\\n\\xa0Share\\n\\n【0†Sign in†accounts.google.com】\\n\\nFile\\n\\nEdit\\n\\nView\\n\\nInsert\\n\\nFormat\\n\\nTools\\n\\nExtensions\\n\\nHelp\\n\\nAccessibility\\n\\nDebug\\n\\nUnsaved changes to Drive\\n\\nImage options \\n\\nImage options\\n\\nReplace image\\n\\nTable options\\n\\nAccessibility\\nVisible: 0% - 100%\", 'summary': 'v1_2 – AI Onboarding System - Google Docs (docs.google.com)\\n', 'assets': [], 'tether_id': None}",
+      "timestamp": 1744338812.2813914,
+      "content_type": "tether_browsing_display",
+      "weight": 1.0
+    },
+    {
+      "id": "0b210cc0-9712-441f-9806-d0dea206f035",
+      "role": "assistant",
+      "content": "```unknown\nopen_url(\"https://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=drive_link\")\n```",
+      "timestamp": 1744338811.052108,
+      "content_type": "code",
+      "weight": 1.0
+    },
+    {
+      "id": "ec55c4cf-1e6b-4237-8eb4-fe865d39ee42",
+      "role": "assistant",
+      "content": "Great! I’ve got the Google Drive link. Let me take a moment to process the document. I’ll be ready to proceed shortly.",
+      "timestamp": 1744338810.533281,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "69a90eb1-ebe8-4f85-be7c-1ecbde68fbec",
+      "role": "user",
+      "content": "https://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=drive_link",
+      "timestamp": 1744338810.193,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "a8e955b9-aacd-4f3b-8bca-c2c8e7b4753c",
+      "role": "assistant",
+      "content": "Hello, I'm ready to start the onboarding process! Please go ahead and share the Google Drive link when you're ready.",
+      "timestamp": 1744338796.633489,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c59d0d31-f390-4903-8ad4-b0dafedb8a50",
+      "role": "user",
+      "content": "Hello! This is the primer program to start the onboarding process. Please let me know when you are ready for the Google Drive link.",
+      "timestamp": 1744338796.417,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

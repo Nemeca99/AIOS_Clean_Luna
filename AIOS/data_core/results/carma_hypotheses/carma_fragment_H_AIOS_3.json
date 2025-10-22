@@ -1,0 +1,10 @@
+{
+  "fragment_type": "hypothesis_test_result",
+  "hypothesis_id": "H_AIOS_3",
+  "hypothesis_name": "Embedder Efficiency",
+  "is_supported": true,
+  "metric_value": 4.0,
+  "confidence": 0.5,
+  "timestamp": "2025-10-07T14:33:39.949027",
+  "data_points": 4
+}

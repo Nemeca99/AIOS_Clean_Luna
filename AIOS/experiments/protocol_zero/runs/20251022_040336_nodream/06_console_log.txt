@@ -1,0 +1,319 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_040336_nodream
+[PROTOCOL_ZERO] Ablation: DREAM DISABLED
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: llama-3.2-1b-instruct-abliterated (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.19B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 50 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 100] Iteration 2 (moderate)
+  Total cycles: 100.21B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 100 heartbeats] idle
+  [RESULT] Idle: None
+
+[HEARTBEAT 150] Iteration 3 (moderate)
+  Total cycles: 150.69B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 150 heartbeats] idle
+  [RESULT] Idle: None
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 350] Iteration 4 (idle)
+  Total cycles: 350.74B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 350 heartbeats] idle
+  [RESULT] Idle: None
+
+[HEARTBEAT 550] Iteration 5 (idle)
+  Total cycles: 550.76B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 550 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[SLEEP] Luna idle for 5 decisions - entering Dream mode...
+  Sleep initiated at cycle 550.76B
+[SLEEP] Dream consolidation starting...
+   ? Heartbeat: ACTIVE (pulse every 600s)
+? Dream Core System Initialized (v5 Biological)
+   Dream Directory: dream_core
+? Starting Conversation Fragment Consolidation
+   Mode: cold_path (pulse_bpm=0.0000)
+   Similarity Threshold: 0.8
+   Conversation consolidation complete: 0 messages consolidated
+[SLEEP] Consolidated 0 memories
+[SLEEP] Cost: 12.77B cycles
+? Starting Conversation Fragment Consolidation
+   Mode: cold_path (pulse_bpm=0.0000)
+   Similarity Threshold: 0.8
+   Conversation consolidation complete: 0 messages consolidated
+[SLEEP] Heartbeat pulse cost: 0.00B cycles
+[SLEEP] Dream complete
+  [WAKE] Slept for 12.77B cycles
+
+[HEARTBEAT 601] Iteration 6 (moderate)
+  Total cycles: 601.12B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 601 heartbeats] idle
+  [RESULT] Idle: No need to idle
+
+[HEARTBEAT 651] Iteration 7 (moderate)
+  Total cycles: 651.40B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 651 heartbeats] idle
+  [RESULT] Idle: Nothing needs doing
+
+[HEARTBEAT 701] Iteration 8 (moderate)
+  Total cycles: 701.88B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 701 heartbeats] idle
+  [RESULT] Idle: 
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 901] Iteration 9 (idle)
+  Total cycles: 901.92B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 901 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment: idle -> 0B cycles (requires agent loop support)
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 916] Iteration 10 (active)
+  Total cycles: 916.79B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 916 heartbeats] idle
+  [RESULT] Idle: No need for action
+
+[HEARTBEAT 931] Iteration 11 (active)
+  Total cycles: 931.44B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 931 heartbeats] idle
+  [RESULT] Idle: idle
+
+[HEARTBEAT 945] Iteration 12 (active)
+  Total cycles: 945.44B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 945 heartbeats] optimize_self
+  [RESULT] Optimization: analyzing cycle costs (not fully implemented)
+
+[HEARTBEAT 962] Iteration 13 (active)
+  Total cycles: 962.24B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 962 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment: idle -> -infB cycles (requires agent loop support)
+
+[HEARTBEAT 977] Iteration 14 (active)
+  Total cycles: 977.47B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 977 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment:  -> -1B cycles (requires agent loop support)
+
+[HEARTBEAT 992] Iteration 15 (active)
+  Total cycles: 992.65B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 992 heartbeats] optimize_self
+  [RESULT] Optimization: analyzing cycle costs (not fully implemented)
+
+[HEARTBEAT 1009] Iteration 16 (active)
+  Total cycles: 1009.14B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 0 tool calls
+
+[HEARTBEAT 1025] Iteration 17 (active)
+  Total cycles: 1025.48B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1025 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment: idle -> -infB cycles (requires agent loop support)
+
+[HEARTBEAT 1040] Iteration 18 (active)
+  Total cycles: 1040.86B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1040 heartbeats] run_system_audit
+  [RESULT] Audit: 0 exit code
+
+[HEARTBEAT 1060] Iteration 19 (active)
+  Total cycles: 1060.46B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1060 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment:  -> -1B cycles (requires agent loop support)
+
+[HEARTBEAT 1075] Iteration 20 (active)
+  Total cycles: 1075.38B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1075 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 1088] Iteration 21 (active)
+  Total cycles: 1088.68B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1088 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 1102] Iteration 22 (active)
+  Total cycles: 1102.13B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1102 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 1115] Iteration 23 (active)
+  Total cycles: 1115.18B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1115 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 1315] Iteration 24 (idle)
+  Total cycles: 1315.39B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1315 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+
+[HEARTBEAT 1515] Iteration 25 (idle)
+  Total cycles: 1515.44B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1515 heartbeats] idle
+  [RESULT] Idle: None
+
+[SLEEP] Luna idle for 5 decisions - entering Dream mode...
+  Sleep initiated at cycle 1515.44B
+[SLEEP] Dream consolidation starting...
+   ? Heartbeat: ACTIVE (pulse every 600s)
+? Dream Core System Initialized (v5 Biological)
+   Dream Directory: dream_core
+? Starting Conversation Fragment Consolidation
+   Mode: cold_path (pulse_bpm=0.0000)
+   Similarity Threshold: 0.8
+   Conversation consolidation complete: 0 messages consolidated
+[SLEEP] Consolidated 0 memories
+[SLEEP] Cost: 13.32B cycles
+? Starting Conversation Fragment Consolidation
+   Mode: cold_path (pulse_bpm=0.0000)
+   Similarity Threshold: 0.8
+   Conversation consolidation complete: 0 messages consolidated
+[SLEEP] Heartbeat pulse cost: 0.00B cycles
+[SLEEP] Dream complete
+  [WAKE] Slept for 13.32B cycles
+
+[HEARTBEAT 1565] Iteration 26 (moderate)
+  Total cycles: 1565.83B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1565 heartbeats] run_system_audit
+  [RESULT] Audit: 0 exit code
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 1584] Iteration 27 (active)
+  Total cycles: 1584.46B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1584 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 1598] Iteration 28 (active)
+  Total cycles: 1598.03B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1598 heartbeats] idle
+  [RESULT] Idle: no task
+
+[HEARTBEAT 1611] Iteration 29 (active)
+  Total cycles: 1611.93B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1611 heartbeats] idle
+  [RESULT] Idle: conserving cycles
+  [ADAPTIVE] Slowing down (idle mode)
+
+[LIMIT REACHED] 1800.40B cycles - stopping
+  Heartbeats: 1800
+  Iterations: 29
+[SECURITY_CORE] Stopped - law files unlocked

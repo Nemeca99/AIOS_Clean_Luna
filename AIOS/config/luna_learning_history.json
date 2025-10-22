@@ -1,0 +1,2967 @@
+{
+  "total_questions": 174,
+  "total_responses": 174,
+  "learning_cycles": 0,
+  "personality_evolution": [
+    {
+      "timestamp": "2025-10-12T14:36:31.753412",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:38:11.068128",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:38:26.731437",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:38:37.194822",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:38:49.907669",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:39:17.732130",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:39:47.076255",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:45:25.726737",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:46:08.092715",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0030000000000000005
+    },
+    {
+      "timestamp": "2025-10-12T14:46:11.106274",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.006000000000000001
+    },
+    {
+      "timestamp": "2025-10-12T14:47:30.473169",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-12T14:47:31.478396",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0030000000000000005
+    },
+    {
+      "timestamp": "2025-10-12T14:48:04.468115",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.006000000000000001
+    },
+    {
+      "timestamp": "2025-10-12T14:48:23.035281",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.009000000000000001
+    },
+    {
+      "timestamp": "2025-10-12T14:48:25.039391",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.012000000000000002
+    },
+    {
+      "timestamp": "2025-10-12T14:48:26.043617",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.015000000000000003
+    },
+    {
+      "timestamp": "2025-10-13T05:14:10.700036",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:24:38.526303",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:25:08.882993",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:25:52.310083",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:29:03.848174",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:31:10.653408",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:32:27.470407",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:33:09.260293",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:33:29.220145",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-13T05:34:51.476296",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:01:44.199974",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:04:58.159291",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:06:42.129590",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:08:39.860402",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:19:17.665638",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:21:48.693549",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:22:03.729175",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:22:24.534624",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:22:42.601353",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:22:44.730741",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0030000000000000005
+    },
+    {
+      "timestamp": "2025-10-15T23:22:47.059211",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.006000000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:22:49.205398",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.009000000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:22:51.578473",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.012000000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:22:53.855858",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.015000000000000003
+    },
+    {
+      "timestamp": "2025-10-15T23:22:56.217410",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.018000000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:22:58.681608",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.021
+    },
+    {
+      "timestamp": "2025-10-15T23:23:01.139672",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.024
+    },
+    {
+      "timestamp": "2025-10-15T23:23:03.584674",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.027
+    },
+    {
+      "timestamp": "2025-10-15T23:23:13.241114",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:23:15.573337",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0030000000000000005
+    },
+    {
+      "timestamp": "2025-10-15T23:23:17.990461",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.006000000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:23:20.254110",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.009000000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:23:22.599260",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.012000000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:23:24.921962",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.015000000000000003
+    },
+    {
+      "timestamp": "2025-10-15T23:23:27.302055",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.018000000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:23:29.670695",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.021
+    },
+    {
+      "timestamp": "2025-10-15T23:23:32.014862",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.024
+    },
+    {
+      "timestamp": "2025-10-15T23:23:34.127844",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.027
+    },
+    {
+      "timestamp": "2025-10-15T23:26:58.183663",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:27:19.173310",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0030000000000000005
+    },
+    {
+      "timestamp": "2025-10-15T23:27:31.536003",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.006000000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:27:44.357170",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.009000000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:27:57.354758",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.012000000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:28:11.114907",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.015000000000000003
+    },
+    {
+      "timestamp": "2025-10-15T23:28:39.474973",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.018000000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:29:10.225960",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.021
+    },
+    {
+      "timestamp": "2025-10-15T23:29:13.223994",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.024
+    },
+    {
+      "timestamp": "2025-10-15T23:29:30.766072",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.027
+    },
+    {
+      "timestamp": "2025-10-15T23:29:38.135282",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.03
+    },
+    {
+      "timestamp": "2025-10-15T23:30:05.053001",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.033
+    },
+    {
+      "timestamp": "2025-10-15T23:30:07.954992",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.036000000000000004
+    },
+    {
+      "timestamp": "2025-10-15T23:30:22.057459",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.03900000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:30:35.198890",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.04200000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:30:52.739936",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.04500000000000001
+    },
+    {
+      "timestamp": "2025-10-15T23:31:12.055666",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.048000000000000015
+    },
+    {
+      "timestamp": "2025-10-15T23:31:29.740277",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.05100000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:32:04.679301",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.05400000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:32:17.230848",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.05700000000000002
+    },
+    {
+      "timestamp": "2025-10-15T23:33:10.318294",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:33:40.960502",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-15T23:34:00.649319",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T00:12:05.114476",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T00:12:16.549477",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0030000000000000005
+    },
+    {
+      "timestamp": "2025-10-16T00:12:28.542965",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.006000000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:12:31.473016",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.009000000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:12:46.938022",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.012000000000000002
+    },
+    {
+      "timestamp": "2025-10-16T00:12:59.158986",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.015000000000000003
+    },
+    {
+      "timestamp": "2025-10-16T00:13:11.831518",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.018000000000000002
+    },
+    {
+      "timestamp": "2025-10-16T00:13:26.532658",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.021
+    },
+    {
+      "timestamp": "2025-10-16T00:13:43.668025",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.024
+    },
+    {
+      "timestamp": "2025-10-16T00:13:46.479992",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.027
+    },
+    {
+      "timestamp": "2025-10-16T00:13:49.359267",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.03
+    },
+    {
+      "timestamp": "2025-10-16T00:13:52.191063",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.033
+    },
+    {
+      "timestamp": "2025-10-16T00:13:54.985526",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.036000000000000004
+    },
+    {
+      "timestamp": "2025-10-16T00:13:57.910524",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.03900000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:14:07.570606",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.04200000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:14:10.383565",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.04500000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:14:13.285970",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.048000000000000015
+    },
+    {
+      "timestamp": "2025-10-16T00:14:16.213985",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.05100000000000002
+    },
+    {
+      "timestamp": "2025-10-16T00:14:18.991068",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.05400000000000002
+    },
+    {
+      "timestamp": "2025-10-16T00:14:21.765061",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.05700000000000002
+    },
+    {
+      "timestamp": "2025-10-16T00:14:49.955569",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.060000000000000026
+    },
+    {
+      "timestamp": "2025-10-16T00:14:52.964010",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.06300000000000003
+    },
+    {
+      "timestamp": "2025-10-16T00:14:55.775068",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.06600000000000003
+    },
+    {
+      "timestamp": "2025-10-16T00:14:58.569350",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.06900000000000003
+    },
+    {
+      "timestamp": "2025-10-16T00:15:01.376605",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.07200000000000004
+    },
+    {
+      "timestamp": "2025-10-16T00:15:13.446200",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.07500000000000004
+    },
+    {
+      "timestamp": "2025-10-16T00:15:16.260145",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.07800000000000004
+    },
+    {
+      "timestamp": "2025-10-16T00:15:19.294252",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.08100000000000004
+    },
+    {
+      "timestamp": "2025-10-16T00:15:22.202129",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.08400000000000005
+    },
+    {
+      "timestamp": "2025-10-16T00:15:25.116773",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.08700000000000005
+    },
+    {
+      "timestamp": "2025-10-16T00:15:37.179212",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.09000000000000005
+    },
+    {
+      "timestamp": "2025-10-16T00:15:40.009398",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.09300000000000005
+    },
+    {
+      "timestamp": "2025-10-16T00:15:42.859009",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.09600000000000006
+    },
+    {
+      "timestamp": "2025-10-16T00:15:45.882250",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.09900000000000006
+    },
+    {
+      "timestamp": "2025-10-16T00:15:48.773352",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.10200000000000006
+    },
+    {
+      "timestamp": "2025-10-16T00:15:51.597714",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.10500000000000007
+    },
+    {
+      "timestamp": "2025-10-16T00:15:54.505752",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.10800000000000007
+    },
+    {
+      "timestamp": "2025-10-16T00:15:57.283213",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.11100000000000007
+    },
+    {
+      "timestamp": "2025-10-16T00:16:00.195238",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.11400000000000007
+    },
+    {
+      "timestamp": "2025-10-16T00:16:02.980742",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.11700000000000008
+    },
+    {
+      "timestamp": "2025-10-16T00:16:05.907090",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.12000000000000008
+    },
+    {
+      "timestamp": "2025-10-16T00:16:18.623715",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.12300000000000008
+    },
+    {
+      "timestamp": "2025-10-16T00:16:26.465444",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.12600000000000008
+    },
+    {
+      "timestamp": "2025-10-16T00:16:29.406247",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1290000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:16:46.100238",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1320000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:16:55.520605",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1350000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:16:58.410030",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1380000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:17:28.874771",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1410000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:01.209258",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1440000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:04.165763",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1470000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:07.068656",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1500000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:10.016937",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1530000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:22.279658",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1560000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:25.159154",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.1590000000000001
+    },
+    {
+      "timestamp": "2025-10-16T00:18:42.628153",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.16200000000000012
+    },
+    {
+      "timestamp": "2025-10-16T00:18:45.506156",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.16500000000000012
+    },
+    {
+      "timestamp": "2025-10-16T00:18:48.452660",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.16800000000000012
+    },
+    {
+      "timestamp": "2025-10-16T00:18:51.213655",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.17100000000000012
+    },
+    {
+      "timestamp": "2025-10-16T00:18:54.238657",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.17400000000000013
+    },
+    {
+      "timestamp": "2025-10-16T00:19:11.671654",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.17700000000000013
+    },
+    {
+      "timestamp": "2025-10-16T00:19:14.666154",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.18000000000000013
+    },
+    {
+      "timestamp": "2025-10-16T00:19:17.428161",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.18300000000000013
+    },
+    {
+      "timestamp": "2025-10-16T00:19:20.079657",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.18600000000000014
+    },
+    {
+      "timestamp": "2025-10-16T00:19:22.862155",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.18900000000000014
+    },
+    {
+      "timestamp": "2025-10-16T00:19:25.714656",
+      "trait": "agreeableness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.19200000000000014
+    },
+    {
+      "timestamp": "2025-10-16T00:19:45.925160",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.19500000000000015
+    },
+    {
+      "timestamp": "2025-10-16T00:19:48.751156",
+      "trait": "neuroticism",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.19800000000000015
+    },
+    {
+      "timestamp": "2025-10-16T00:20:02.928461",
+      "trait": "conscientiousness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.20100000000000015
+    },
+    {
+      "timestamp": "2025-10-16T00:20:05.692655",
+      "trait": "extraversion",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.20400000000000015
+    },
+    {
+      "timestamp": "2025-10-16T00:20:08.477114",
+      "trait": "openness",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.20700000000000016
+    },
+    {
+      "timestamp": "2025-10-16T00:24:22.575957",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T00:25:08.948336",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T03:17:43.181970",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T03:17:53.505228",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:23:57.929652",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:24:02.013551",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:24:06.213339",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:24:45.343279",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:24:49.295816",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:24:53.358591",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:24:57.254823",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:25:01.259362",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:25:05.516350",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:25:09.658539",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:25:14.058720",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:25:18.052340",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T20:26:06.900750",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T21:53:18.284719",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-16T21:54:23.996755",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:04:09.008812",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:25:18.010568",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:25:55.310904",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:26:49.790709",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:27:18.843524",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:27:22.213201",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:27:25.749835",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    },
+    {
+      "timestamp": "2025-10-17T00:27:40.369381",
+      "trait": "general",
+      "scores": {
+        "length_score": 1.0,
+        "engagement_score": 1.0,
+        "trait_alignment": 0.8,
+        "creativity_score": 0.8,
+        "empathy_score": 0.8,
+        "overall_score": 0.8,
+        "performance_score": 8.0,
+        "performance_level": "good",
+        "architect_scores": {},
+        "semantic_scores": {}
+      },
+      "personality_drift": 0.0
+    }
+  ],
+  "dream_cycles": [],
+  "last_learning": "2025-10-17T00:27:40.369381"
+}

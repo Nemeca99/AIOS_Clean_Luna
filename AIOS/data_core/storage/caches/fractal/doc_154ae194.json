@@ -1,0 +1,19 @@
+{
+  "content": "# AIOS CLEAN - COMPREHENSIVE MASTER DOCUMENTATION\n\n## Table of Contents\n1. [System Overview](#system-overview)\n2. [Architecture](#architecture)\n3. [Core Components](#core-components)\n4. [CLI Commands Reference](#cli-commands-reference)\n5. [System Workflows](#system-workflows)\n6. [Data Pipelines](#data-pipelines)\n7. [Configuration](#configuration)\n8. [Model Integration](#model-integration)\n9. [Troubleshooting Guide](#troubleshooting-guide)\n10. [Development Guidelines](#development-guidelines)\n11. [Performance Optimization](#performance-optimization)\n12. [Security Considerations](#security-considerations)\n\n---\n\n## System Overview\n\n**AIOS Clean** is a comprehensive AI Performance System designed with a modular architecture that integrates multiple specialized AI components into a unified platform. The system is built around neurodivergent-affirming principles and implements advanced cognitive architectures for AI personality development, memory management, and learning optimization.",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 1,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.597176",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

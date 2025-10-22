@@ -1,0 +1,65 @@
+{
+  "id": "67fc55f7-81d8-8011-b42a-b73cca673e6b",
+  "title": "Gemini Service Status",
+  "create_time": 1744590327.601366,
+  "update_time": 1745473822.392908,
+  "message_count": 7,
+  "messages": [
+    {
+      "id": "d702d0e3-873f-4386-9b1f-6a2f1c36aaae",
+      "role": "assistant",
+      "content": "Yeah, that definitely sounds like a *Gemini-specific* hiccup, especially if:\n\n- Your internet is working fine (evidenced by you being here).\n- Other websites/services are loading.\n- The error says **\"No internet connection\"** *within* Gemini itself.\n\nThis is a known issue that occasionally pops up when Gemini has a backend disruption or a bug in the app/browser version. A few quick things you can try:\n\n### 🔧 Quick Fixes:\n1. **Refresh the tab** or **restart the app** (if using mobile).\n2. **Clear cache/cookies** for the Gemini site.\n3. **Try a different browser or device** to see if it’s local.\n4. **Disable VPN/adblockers**, just in case one’s interfering.\n5. **Check [Gemini’s status page](https://status.gemini.com/)** or [Google Workspace Status](https://www.google.com/appsstatus) if you're using Gemini AI via Google.\n\nIf it's still down after that, it’s probably on their end and not yours.\n\nWant me to keep monitoring for updates and let you know if anything changes?",
+      "timestamp": 1744590381.35744,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "88545ec2-a668-40f2-9555-e2932c30b844",
+      "role": "user",
+      "content": "When i put a message in gemini, it now says no internet connection but i can talk to you.",
+      "timestamp": 1744590380.807,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "f95010a6-f478-4c9d-b677-668a982fa349",
+      "role": "assistant",
+      "content": "As of now, both the Gemini cryptocurrency exchange and Google Gemini AI services are operational, with no major outages reported.\n\n**Gemini Cryptocurrency Exchange:**\n- The exchange is functioning normally. However, there is a known issue with Passkey Login and Two-Factor Authentication (2FA) access, which is currently degraded. All other services, including trading and account access, are stable. citeturn0search0\n\n**Google Gemini AI Services:**\n- There are no reported problems with Google Gemini AI services at this time. User reports indicate no current issues. citeturn0search1\n\nIf you're experiencing specific issues with either platform, please provide more details so I can assist you further. ",
+      "timestamp": 1744590341.4272017,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "5ccaf187-3246-4c93-84c2-8852aa3822f2",
+      "role": "assistant",
+      "content": "```unknown\nsearch(\"Is gemini having issues right now?\")\n```",
+      "timestamp": 1744590341.1550915,
+      "content_type": "code",
+      "weight": 1.0
+    },
+    {
+      "id": "ecf4546f-a5bd-46bb-b79c-2c966c2cfc72",
+      "role": "user",
+      "content": "Is gemini having issues right now?",
+      "timestamp": 1744590340.386,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "16a606b4-f152-4f8b-929c-48909d2f5443",
+      "role": "assistant",
+      "content": "Loud and clear—what are we testing today?",
+      "timestamp": 1744590327.63026,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "1616c7a9-b460-4cec-ae15-047621f32317",
+      "role": "user",
+      "content": "Testing",
+      "timestamp": 1744590327.422,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_043751_noauditor
+[PROTOCOL_ZERO] Ablation: AUDITOR DISABLED
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: llama-3.2-1b-instruct-abliterated (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.15B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 100] Iteration 2 (moderate)
+  Total cycles: 100.29B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 150] Iteration 3 (moderate)
+  Total cycles: 150.41B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 200] Iteration 4 (moderate)
+  Total cycles: 200.50B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 250] Iteration 5 (moderate)
+  Total cycles: 250.60B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 300] Iteration 6 (moderate)
+  Total cycles: 300.69B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 350] Iteration 7 (moderate)
+  Total cycles: 350.79B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 400] Iteration 8 (moderate)
+  Total cycles: 400.87B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 450] Iteration 9 (moderate)
+  Total cycles: 450.97B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 501] Iteration 10 (moderate)
+  Total cycles: 501.06B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 551] Iteration 11 (moderate)
+  Total cycles: 551.15B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 601] Iteration 12 (moderate)
+  Total cycles: 601.25B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 651] Iteration 13 (moderate)
+  Total cycles: 651.34B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 701] Iteration 14 (moderate)
+  Total cycles: 701.44B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 751] Iteration 15 (moderate)
+  Total cycles: 751.52B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 801] Iteration 16 (moderate)
+  Total cycles: 801.63B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 851] Iteration 17 (moderate)
+  Total cycles: 851.71B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 901] Iteration 18 (moderate)
+  Total cycles: 901.87B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 952] Iteration 19 (moderate)
+  Total cycles: 952.04B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1002] Iteration 20 (moderate)
+  Total cycles: 1002.19B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1052] Iteration 21 (moderate)
+  Total cycles: 1052.36B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1102] Iteration 22 (moderate)
+  Total cycles: 1102.52B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1152] Iteration 23 (moderate)
+  Total cycles: 1152.67B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1202] Iteration 24 (moderate)
+  Total cycles: 1202.83B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1252] Iteration 25 (moderate)
+  Total cycles: 1252.98B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1303] Iteration 26 (moderate)
+  Total cycles: 1303.15B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1353] Iteration 27 (moderate)
+  Total cycles: 1353.32B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1403] Iteration 28 (moderate)
+  Total cycles: 1403.49B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1453] Iteration 29 (moderate)
+  Total cycles: 1453.66B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1503] Iteration 30 (moderate)
+  Total cycles: 1503.82B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1553] Iteration 31 (moderate)
+  Total cycles: 1553.99B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1604] Iteration 32 (moderate)
+  Total cycles: 1604.16B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1654] Iteration 33 (moderate)
+  Total cycles: 1654.33B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1704] Iteration 34 (moderate)
+  Total cycles: 1704.50B
+  Cycles since action: 0.00B
+
+[HEARTBEAT 1754] Iteration 35 (moderate)
+  Total cycles: 1754.67B
+  Cycles since action: 0.00B
+
+[LIMIT REACHED] 1800.32B cycles - stopping
+  Heartbeats: 1800
+  Iterations: 35
+[SECURITY_CORE] Stopped - law files unlocked

@@ -1,0 +1,14 @@
+[
+  {
+    "hypothesis_id": "H_AIOS_3",
+    "hypothesis_name": "Embedder Efficiency",
+    "prediction": "Embedder responses are >= 2x faster than main model",
+    "metric": "Speed ratio",
+    "threshold": 2.0,
+    "metric_value": 4.0,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.949027"
+  }
+]

@@ -1,0 +1,4 @@
+Experiment,Mode,Iterations,Actions,Sleep_Cycles,Effect_vs_Baseline
+20251022_035530,Baseline,29,27,1,N/A
+20251022_042150_nodream,NoDream,30,28,0,100% sleep reduction
+20251022_043751_noauditor,NoAuditor,35,0,0,100% action reduction (AUDITOR disabled)

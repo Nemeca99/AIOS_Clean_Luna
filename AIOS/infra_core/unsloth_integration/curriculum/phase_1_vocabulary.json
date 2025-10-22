@@ -1,0 +1,58 @@
+{
+  "_comment": "Phase 1: Vocabulary - Learning Words (Not Meanings)",
+  "_purpose": "Teach word relationships without semantic understanding",
+  "_age": 1,
+  "_karma_threshold": 250,
+  "_builds_on": "phase_0_mechanical.json",
+  
+  "training_examples": [
+    {
+      "instruction": "Identify opposite",
+      "input": "big",
+      "output": "small"
+    },
+    {
+      "instruction": "Identify opposite",
+      "input": "hot",
+      "output": "cold"
+    },
+    {
+      "instruction": "Categorize as greeting",
+      "input": "Hello",
+      "output": "greeting_category"
+    },
+    {
+      "_comment": "TODO: Add 3000+ basic vocabulary pairs",
+      "_todo": "Opposites, synonyms, categories - NO definitions"
+    }
+  ],
+  
+  "vocabulary_pairs": {
+    "opposites": [
+      ["big", "small"],
+      ["hot", "cold"],
+      ["fast", "slow"],
+      ["happy", "sad"],
+      ["day", "night"]
+    ],
+    "synonyms": [
+      ["hello", "hi", "hey"],
+      ["yes", "okay", "sure"],
+      ["no", "nope", "negative"]
+    ],
+    "categories": {
+      "greetings": ["hello", "hi", "hey", "greetings"],
+      "emotions": ["happy", "sad", "angry", "excited"],
+      "actions": ["run", "walk", "talk", "think"]
+    }
+  },
+  
+  "training_notes": [
+    "Learns RELATIONSHIPS between words",
+    "NO definitions or meanings",
+    "Knows 'big' ≠ 'small' but not what SIZE means",
+    "Can substitute synonyms mechanically",
+    "Still no understanding of CONTEXT"
+  ]
+}
+

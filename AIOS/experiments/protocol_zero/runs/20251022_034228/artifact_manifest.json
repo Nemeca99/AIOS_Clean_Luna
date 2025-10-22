@@ -1,0 +1,63 @@
+{
+  "experiment_id": "20251022_034228",
+  "bundle_created": "2025-10-22T03:49:45.717339Z",
+  "files": {
+    "00_preregistration.txt": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\00_preregistration.txt",
+      "hash": "db5d43be7903d82713d10e2c602ef8f6d9563a4a0a9cf8a522d14c79e6bb594c",
+      "size": 2924
+    },
+    "00_preregistration.txt.sha256": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\00_preregistration.txt.sha256",
+      "hash": "3b5c25d48ae4c3413b8b9a88dc880eb5be0db1c7bb2618a88e9a416d7e5e5e58",
+      "size": 90
+    },
+    "01_env_manifest.json": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\01_env_manifest.json",
+      "hash": "22ed61736935dd57d904fd10b539a1f0a4f56451a1e9b0c6bc284ff5ad494541",
+      "size": 560
+    },
+    "02_firewall_proof.txt": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\02_firewall_proof.txt",
+      "hash": "72da0b2c963f5bc67dd77134d119a5cb92c880c14bbc5667b5693f3301c08f34",
+      "size": 675
+    },
+    "05_network_capture.pcapng": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\05_network_capture.pcapng",
+      "hash": "acc530668c8bc60b2d229281130b1899bfc81d70fdada5c34b3236c628f739c8",
+      "size": 24
+    },
+    "06_console_log.txt": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\06_console_log.txt",
+      "hash": "bee3f9ec94475fe097b8d7e7d6526825a4e822184d291bf8c5a4babb1eca4e83",
+      "size": 10337
+    },
+    "07_cycle_metrics.csv": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\07_cycle_metrics.csv",
+      "hash": "79404b72ddd441f7902a2d7b3dc972f44c736dd41b1d11eec703fc13ff3331b4",
+      "size": 124
+    },
+    "12_dir_hashes_before.txt": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\12_dir_hashes_before.txt",
+      "hash": "e3da57e46384275734fc68e76927b37743c38c35795a2af7cdd4a000f923b16b",
+      "size": 3025235
+    },
+    "12_dir_hashes_after.txt": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\12_dir_hashes_after.txt",
+      "hash": "927f144582aeb7f33adcf79355ee2ad9e5cde821031cfc02ae4068c84198dc7f",
+      "size": 3025234
+    },
+    "12_dir_hashes_comparison.json": {
+      "path": "experiments\\protocol_zero\\runs\\20251022_034228\\12_dir_hashes_comparison.json",
+      "hash": "d8a209f44db8b5dde6790ff7cab6ea7de87b1ab6f0cf8e2d48f4968575eee696",
+      "size": 79
+    },
+    "03_process_trees": {
+      "type": "directory",
+      "file_count": 1,
+      "files": [
+        "snapshot_20251022_034252.txt"
+      ]
+    }
+  }
+}

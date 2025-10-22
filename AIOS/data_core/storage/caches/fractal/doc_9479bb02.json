@@ -1,0 +1,19 @@
+{
+  "content": "### 3. Response Generation Pipeline\n```\nUser Input → Luna Core → Processing → Response\n├── Trait Classification → Big Five Analysis → Context\n├── Value Classification → Complexity Assessment → Tier\n├── Existential Budget → Resource Check → Allocation\n├── Model Inference → GSD Processing → Generation\n├── Response Processing → Optimization → Final\n└── Arbiter Assessment → Quality Check → Storage\n```\n\n### 4. Export Pipeline\n```\nData Sources → Data Core → Processing → Export\n├── FractalCache → JSON/CSV → Filtering → Export/\n├── ArbiterCache → JSON → Analytics → Export/\n├── Conversations → JSON → Formatting → Export/\n└── System Metrics → JSON → Aggregation → Export/\n```\n\n---\n\n## Configuration\n\n### Environment Variables\n```bash\n# Disable Rich shell integration (fixes input() issues)\nRICH_SHELL_INTEGRATION=false\nRICH_FORCE_TERMINAL=false\nRICH_DISABLE_CONSOLE=true\n```\n\n### Model Configuration\nThe system supports multiple LLM models through LM Studio:\n\n**Current Models**:\n- **Main Model**: `llama-3.2-pkd-deckard-almost-human-abliterated-uncensored-7b-i1`\n- **Daily Driver**: `llama-3.2-1b-instruct-abliterated`\n- **Embedder**: `llama-3.2-1b-instruct-abliterated`\n\n**Model Usage**:\n- **1B Model**: LOW/TRIVIAL complexity (daily driver)\n- **7B Model**: HIGH/CRITICAL complexity (main model)\n- **20B Model**: Available but not currently loaded",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 14,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.601181",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

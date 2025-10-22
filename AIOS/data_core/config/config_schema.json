@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AIOS Core Model Config",
+  "type": "object",
+  "required": ["schema_version", "model_config"],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Schema version for migration compatibility"
+    },
+    "model_config": {
+      "type": "object",
+      "required": ["models", "model_switching"],
+      "properties": {
+        "models": {
+          "type": "object",
+          "required": ["main_llm", "embedder", "draft_model"],
+          "properties": {
+            "main_llm": { 
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "description": { "type": "string" }
+              },
+              "additionalProperties": true
+            },
+            "embedder": { 
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "description": { "type": "string" }
+              },
+              "additionalProperties": true
+            },
+            "draft_model": { 
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "description": { "type": "string" }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "model_switching": {
+          "type": "object",
+          "required": ["current_main", "current_embedder"],
+          "properties": {
+            "current_main": { "type": "string", "minLength": 1 },
+            "current_embedder": { "type": "string", "minLength": 1 }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,15 @@
+{
+  "lesson_id": "template_ai_prompt_engineering_intermediate_0",
+  "subject": "AI Prompt Engineering",
+  "title": "Few-Shot Learning",
+  "content": "Few-shot learning means giving the AI 2-5 examples of the task you want it to perform. This helps the AI understand the pattern and style you're looking for. The examples should be diverse but consistent in format.",
+  "difficulty": "intermediate",
+  "lesson_index": 0,
+  "created": "2025-09-28T18:28:44.170950",
+  "type": "template",
+  "metadata": {
+    "word_count": 37,
+    "char_count": 214,
+    "estimated_duration": 5
+  }
+}

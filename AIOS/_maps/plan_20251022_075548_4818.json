@@ -1,0 +1,58 @@
+{
+  "run_id": "20251022_075548_4818",
+  "dry_run": true,
+  "writes": [
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\code_graph.json",
+      "size_estimate": 118089
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\nodes.json",
+      "size_estimate": 26311
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\edges.json",
+      "size_estimate": 91678
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\symbol_index.json",
+      "size_estimate": 5354
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\call_index.json",
+      "size_estimate": 12353
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\file_index.json",
+      "size_estimate": 5933
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\import_matrix.csv",
+      "size_estimate": 2100
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\edges.csv",
+      "size_estimate": 57040
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\reports\\summary.md",
+      "size_estimate": 10000
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\reports\\summary.html",
+      "size_estimate": 15000
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\provenance.json",
+      "size_estimate": 2000
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\code_graph.dot",
+      "size_estimate": 35650
+    },
+    {
+      "path": "L:\\AIOS\\_maps\\20251022_075548_4818\\graph\\code_graph.mmd",
+      "size_estimate": 630
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "lesson_id": "template_ai_prompt_engineering_beginner_0",
+  "subject": "AI Prompt Engineering",
+  "title": "What is a Prompt?",
+  "content": "A prompt is the input text you give to an AI model to get a response. Think of it as giving instructions to a very smart assistant. The better your instructions, the better the response you'll get. A good prompt is clear, specific, and provides context.",
+  "difficulty": "beginner",
+  "lesson_index": 0,
+  "created": "2025-09-28T18:28:44.170950",
+  "type": "template",
+  "metadata": {
+    "word_count": 46,
+    "char_count": 253,
+    "estimated_duration": 5
+  }
+}

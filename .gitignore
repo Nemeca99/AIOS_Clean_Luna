@@ -1,0 +1,139 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.specstory/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+*.jsonl
+
+# AI Models - LARGE FILES (download separately)
+AI_Models/
+models/Luna-G*_model/
+models/tmp_train_gen*/
+models/*.gguf
+models/*.safetensors
+models/*.bin
+models/*/model/
+models/Luna-G*/model/
+models/Luna-GHEAD/model/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Training artifacts - KEEP lineage.csv, but exclude model weights
+models/*/model.safetensors
+models/*/pytorch_model.bin
+models/*/model.bin
+models/*/optimizer.pt
+models/*/rng_state.pth
+models/*/scheduler.pt
+
+# Evaluation QA sets - generated
+infra_core/unsloth_integration/evals/qa_sets/*.json
+
+# Training replay data - generated
+infra_core/unsloth_integration/data/gen_*_replay.json
+
+# W&B logs
+wandb/
+
+# AIOS data caches
+AIOS/data_core/cache/
+AIOS/data_core/ArbiterCache/
+AIOS/data_core/FractalCache/
+AIOS/data_core/test_*/
+AIOS/data_core/creative/raw/*.jsonl
+AIOS/data_core/db/
+
+# Large backup files
+AIOS/backup_core/*.zip
+AIOS/backup_core/archive_backup/
+
+# Large oracle index
+AIOS/rag_core/manual_oracle/oracle_index.json
+
+# Python embedded installation
+AIOS/python/
+
+# Rust build artifacts - LARGE
+AIOS/*/rust_*/target/
+AIOS/backup_core/rust_backup/target/
+AIOS/carma_core/rust_carma/target/
+AIOS/dream_core/rust_dream/target/
+AIOS/luna_core/rust_luna/target/
+AIOS/support_core/rust_support/target/
+AIOS/utils_core/rust_utils/target/
+
+# AIOS API logs
+AIOS/api/logs/*.jsonl
+
+# AIOS Reports
+AIOS/reports/*.txt
+AIOS/reports/*.png
+
+# NEVER UPLOAD - Credentials
+AIOS/backup_core/config/gdrive_credentials.json
+AIOS/backup_core/config/gdrive_token.pickle
+AIOS/backup_core/config/gdrive_sync_state.json
+
+# NEVER UPLOAD - Bonzi UI sandbox
+AIOS/bonzi_ui/bin/
+AIOS/bonzi_ui/obj/
+AIOS/bonzi_ui/.vs/
+AIOS/bonzi_ui/BonzoBuddo/bin/
+AIOS/bonzi_ui/BonzoBuddo/obj/
+
+# VM files - LARGE
+VM/
+
+# Database files
+*.db
+*.sqlite
+*.faiss
+
+# KEEP THESE - Important artifacts
+!models/lineage.csv
+!models/Luna-G*/EVAL.md
+!models/Luna-G*/metrics.json
+!models/Luna-G*/config.json
+!models/Luna-G*/train_args.json
+!models/Luna-G*/data_delta.sha256
+

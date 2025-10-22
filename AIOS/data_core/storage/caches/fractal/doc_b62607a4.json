@@ -1,0 +1,19 @@
+{
+  "content": "**Debug:**\n```powershell\n# Test LM Studio connection\ncurl http://localhost:1234/v1/models\n\n# Test single question\npy -c \"from main import AIOSClean; aios=AIOSClean(); luna=aios._get_system('luna'); print(luna.learning_system.python_impl.process_question('hi', 'general'))\"\n```\n\n---\n\n### SLO Alert Failing\n\n**High P95 Latency (>20s):**\n- Check LM Studio model size (7B should be <20s)\n- Check system resources (CPU/GPU load)\n- Consider faster draft model for speculative decoding\n\n**Low Pass Rate (<95%):**\n- Check recent changes in git log\n- Run golden tests manually to see failures\n- Check `data_core/goldens/last_report.json` for details\n\n**High Boundary Drift (>0.08):**\n- Normal during early learning (first 10 messages)\n- Check adaptive routing state for quality deltas\n- May indicate hypothesis test failures\n\n---\n\n### Adaptive Routing Not Adapting\n\n**Expected Behavior:**\n- Needs 10+ messages before adaptation\n- Only adapts if quality delta >5% and latency <1s\n- Treatment bucket only (control stays at 0.5)\n\n**Check:**\n```powershell\n# View adaptive state\ncat data_core\\analytics\\adaptive_routing_state.json\n\n# Check sample counts\npy -c \"import json; s=json.load(open('data_core/analytics/adaptive_routing_state.json')); print(f\\\"Control: {s['buckets']['control']['sample_count']}, Treatment: {s['buckets']['treatment']['sample_count']}\\\")\"\n```\n\n---\n\n### Dashboard Shows No Data",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 3,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.612754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

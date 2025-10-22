@@ -1,0 +1,9 @@
+{
+  "heartbeat_window_seconds": 30,
+  "pulse_metrics_enabled": true,
+  "pulse_bpm_hot_threshold": 0.02,
+  "arbiter": {
+    "enabled": true
+  }
+}
+

@@ -1,0 +1,19 @@
+{
+  "content": "### 6. Luna Core (`luna_core/`)\n**Purpose**: AI personality system with neurodivergent-affirming design\n\n**Key Features**:\n- Big Five personality assessment integration\n- Neurodivergent trait support (Autism, ADHD, IFS, CPTSD, GAD)\n- Response Value Classifier for optimal token allocation\n- Existential budget management\n- Emergence zones for creative exploration\n- Shadow score tracking for self-awareness\n\n**Core Files**:\n- `luna_core.py`: Main Luna system (3,879 lines)\n- `luna_trait_classifier.py`: Big Five trait classification\n- `luna_arbiter_system.py`: Decision arbitration\n- `luna_cfia_system.py`: Constrained Factorial Intelligence Architecture\n- `luna_response_value_classifier.py`: Response optimization\n- `bigfive_question_loader.py`: Personality assessment questions\n\n**Key Systems**:\n- **LunaIFSPersonalitySystem**: Internal Family Systems integration\n- **LunaSemanticCompressionFilter**: Response optimization\n- **LunaSoulMetricSystem**: Personality metrics\n- **LunaTokenTimeEconometricSystem**: Resource management\n- **LunaExistentialBudgetSystem**: Token budget management\n- **LunaCustomInferenceController**: Model inference control\n- **LunaInternalReasoningSystem**: Internal thought processes\n\n**Personality Traits**:\n- **Openness**: 0.7 (creative, curious)\n- **Conscientiousness**: 0.6 (organized, reliable)\n- **Extraversion**: 0.8 (outgoing, energetic)\n- **Agreeableness**: 0.9 (cooperative, empathetic)\n- **Neuroticism**: 0.3 (calm, resilient)",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 8,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.600183",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

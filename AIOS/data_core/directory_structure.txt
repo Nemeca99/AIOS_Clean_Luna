@@ -1,0 +1,2529 @@
+Folder PATH listing for volume Games
+Volume serial number is 36F7-08A4
+F:.
+|   .cursorindexingignore
+|   audit_log.json
+|   billing_metrics.json
+|   conversation_questions.json
+|   data_core.py
+|   directory_structure.txt
+|   model_config.py
+|   README.md
+|   REFACTOR_SUMMARY.md
+|   result.md
+|   
++---.specstory
+|   |   .gitignore
+|   |   .what-is-this.md
+|   |   
+|   \---history
+|           2025-10-09_19-35Z-plan-for-refactoring-project-files.md
+|           
++---AIOS_Database
+|   \---database
+|           consciousness_evaluations.db
+|           performance_evaluations.db
+|           
++---analysis
+|       ex_machina_dialogue.json
+|       ex_machina_full_script.txt
+|       
++---analytics
+|       adaptive_routing_state.json
+|       golden_prompts.json
+|       golden_report.json
+|       golden_report_real.json
+|       golden_report_real_fixed.json
+|       golden_tests.ndjson
+|       hypotheses.ndjson
+|       provenance.ndjson
+|       run_snapshot.json
+|       test_provenance.ndjson
+|       
++---ArbiterCache
+|       cfia_state.json
+|       file_2010.json
+|       lessons.json
+|       
++---archive
+|   |   data_core_original.py.bak
+|   |   hybrid_data_core_original.py.bak
+|   |   
+|   +---analytics_backups
+|   |       golden_tests.0.9.bak
+|   |       hypotheses.0.9.bak
+|   |       provenance.0.9.bak
+|   |       test_provenance.0.9.bak
+|   |       
+|   +---arbiter_backups
+|   |       lessons.json.backup
+|   |       
+|   +---backups
+|   +---config_versions
+|   |       LUNA_MASTER_FRAMEWORK_README_final_fix_20250924_144717.md
+|   |       README_config_final_fix_20250924_144717.md
+|   |       README_PERSONALITY_final_fix_20250924_144717.md
+|   |       
+|   +---Data_Backup_Analysis
+|   |   +---Data
+|   |   |   |   audit_log.json
+|   |   |   |   billing_metrics.json
+|   |   |   |   conversation_questions.json
+|   |   |   |   result.md
+|   |   |   |   
+|   |   |   +---AIOS_Database
+|   |   |   |   \---database
+|   |   |   |           consciousness_evaluations.db
+|   |   |   |           conversations.db
+|   |   |   |           performance_evaluations.db
+|   |   |   |           
+|   |   |   +---analysis
+|   |   |   |       ava_personality_analysis.json
+|   |   |   |       ex_machina_dialogue.json
+|   |   |   |       ex_machina_full_script.txt
+|   |   |   |       
+|   |   |   +---ArbiterCache
+|   |   |   |       cfia_state.json
+|   |   |   |       file_616.json
+|   |   |   |       file_617.json
+|   |   |   |       lessons.json
+|   |   |   |       
+|   |   |   +---bigfive-web-3.0.2
+|   |   |   |   |   .babelrc
+|   |   |   |   |   .editorconfig
+|   |   |   |   |   .eslintrc.js
+|   |   |   |   |   .gitignore
+|   |   |   |   |   .nowignore
+|   |   |   |   |   .yarnclean
+|   |   |   |   |   jest.config.js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   now-latest.json
+|   |   |   |   |   now.json
+|   |   |   |   |   nuxt.config.js
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   yarn.lock
+|   |   |   |   |   
+|   |   |   |   +---.github
+|   |   |   |   |   \---workflows
+|   |   |   |   |           latest.yml
+|   |   |   |   |           release.yml
+|   |   |   |   |           
+|   |   |   |   +---api
+|   |   |   |   |   |   .gitignore
+|   |   |   |   |   |   compare.js
+|   |   |   |   |   |   package.json
+|   |   |   |   |   |   ping.js
+|   |   |   |   |   |   result.js
+|   |   |   |   |   |   save.js
+|   |   |   |   |   |   
+|   |   |   |   |   +---lib
+|   |   |   |   |   |       base64url.js
+|   |   |   |   |   |       connect-to-db.js
+|   |   |   |   |   |       repack-results.js
+|   |   |   |   |   |       valid-mongoid.js
+|   |   |   |   |   |       validate-test.js
+|   |   |   |   |   |       
+|   |   |   |   |   \---test
+|   |   |   |   |       \---data
+|   |   |   |   |               test-data.json
+|   |   |   |   |               
+|   |   |   |   +---app
+|   |   |   |   |       router.scrollBehavior.js
+|   |   |   |   |       
+|   |   |   |   +---assets
+|   |   |   |   |       404.svg
+|   |   |   |   |       conscientiousness.jpg
+|   |   |   |   |       extraversion.jpg
+|   |   |   |   |       free.png
+|   |   |   |   |       front.svg
+|   |   |   |   |       front_compare.svg
+|   |   |   |   |       geir.jpg
+|   |   |   |   |       jonas.jpg
+|   |   |   |   |       languages.png
+|   |   |   |   |       languages.svg
+|   |   |   |   |       logo.svg
+|   |   |   |   |       mathias.jpg
+|   |   |   |   |       neuroticism.jpg
+|   |   |   |   |       ole_morten.jpg
+|   |   |   |   |       open-source.png
+|   |   |   |   |       openness.jpg
+|   |   |   |   |       paal.jpg
+|   |   |   |   |       scientific.png
+|   |   |   |   |       variables.scss
+|   |   |   |   |       
+|   |   |   |   +---components
+|   |   |   |   |   |   BarChart.vue
+|   |   |   |   |   |   BarChartCompare.vue
+|   |   |   |   |   |   Domain.vue
+|   |   |   |   |   |   DomainCompare.vue
+|   |   |   |   |   |   Error.vue
+|   |   |   |   |   |   Footer.vue
+|   |   |   |   |   |   Highlights.vue
+|   |   |   |   |   |   LanguageSwitcher.vue
+|   |   |   |   |   |   ShareLinks.vue
+|   |   |   |   |   |   TestLanguageSwitcher.vue
+|   |   |   |   |   |   Timer.vue
+|   |   |   |   |   |   Toolbar.vue
+|   |   |   |   |   |   Wrapper.vue
+|   |   |   |   |   |   
+|   |   |   |   |   \---form
+|   |   |   |   |           Age.vue
+|   |   |   |   |           Confirm.vue
+|   |   |   |   |           Gender.vue
+|   |   |   |   |           index.js
+|   |   |   |   |           Info.vue
+|   |   |   |   |           Language.vue
+|   |   |   |   |           
+|   |   |   |   +---layouts
+|   |   |   |   |       default.vue
+|   |   |   |   |       error.vue
+|   |   |   |   |       
+|   |   |   |   +---lib
+|   |   |   |   |       helpers.js
+|   |   |   |   |       
+|   |   |   |   +---pages
+|   |   |   |   |   |   about.vue
+|   |   |   |   |   |   agreeableness.vue
+|   |   |   |   |   |   articles.vue
+|   |   |   |   |   |   big_five.vue
+|   |   |   |   |   |   conscientiousness.vue
+|   |   |   |   |   |   extraversion.vue
+|   |   |   |   |   |   index.vue
+|   |   |   |   |   |   neuroticism.vue
+|   |   |   |   |   |   openness_to_experience.vue
+|   |   |   |   |   |   privacy.vue
+|   |   |   |   |   |   test.vue
+|   |   |   |   |   |   
+|   |   |   |   |   +---compare
+|   |   |   |   |   |       index.vue
+|   |   |   |   |   |       _id.vue
+|   |   |   |   |   |       
+|   |   |   |   |   \---result
+|   |   |   |   |           index.vue
+|   |   |   |   |           _id.vue
+|   |   |   |   |           
+|   |   |   |   +---plugins
+|   |   |   |   |       apexcharts.js
+|   |   |   |   |       confetti.js
+|   |   |   |   |       i18n.js
+|   |   |   |   |       
+|   |   |   |   +---static
+|   |   |   |   |       favicon.ico
+|   |   |   |   |       icon.png
+|   |   |   |   |       logo.svg
+|   |   |   |   |       robots.txt
+|   |   |   |   |       sitemap.xml
+|   |   |   |   |       
+|   |   |   |   +---store
+|   |   |   |   |       index.js
+|   |   |   |   |       
+|   |   |   |   +---test
+|   |   |   |   |       index.test.js
+|   |   |   |   |       
+|   |   |   |   \---translations
+|   |   |   |           ar.js
+|   |   |   |           da.js
+|   |   |   |           de.js
+|   |   |   |           en-US.js
+|   |   |   |           index.js
+|   |   |   |           nb-NO.js
+|   |   |   |           sv.js
+|   |   |   |           
+|   |   |   +---conversations
+|   |   |   |       conversation_2c40ce81-3cca-4e29-985b-957e76522536.json
+|   |   |   |       conversation_2c40ce81-3cca-4e29-985b-957e76522536.json.backup
+|   |   |   |       conversation_6121474a-e172-4bbc-b9cf-fe35159268ff.json
+|   |   |   |       conversation_6121474a-e172-4bbc-b9cf-fe35159268ff.json.backup
+|   |   |   |       conversation_653cd8a2-98d7-4591-936f-9681b2d87e6f.json
+|   |   |   |       conversation_653cd8a2-98d7-4591-936f-9681b2d87e6f.json.backup
+|   |   |   |       conversation_67f82da1-3c30-8011-bb89-833255bdd440.json
+|   |   |   |       conversation_67f82da1-3c30-8011-bb89-833255bdd440.json.backup
+|   |   |   |       conversation_67f86101-7eb4-8011-9efc-de233dcc785f.json
+|   |   |   |       conversation_67f86101-7eb4-8011-9efc-de233dcc785f.json.backup
+|   |   |   |       conversation_67f8649d-03f4-8011-8930-efdc389d65bd.json
+|   |   |   |       conversation_67f86655-9a08-8011-8aac-bf99bf4c763f.json
+|   |   |   |       conversation_67f8670b-b6b8-8011-b585-d33cae8409af.json
+|   |   |   |       conversation_67f86ed1-3e50-8011-b6ac-bb6018fb0a97.json
+|   |   |   |       conversation_67f873ee-6388-8011-b9ad-c5f77c116a25.json
+|   |   |   |       conversation_67f8744c-8bf8-8011-a6c7-192f1cef1d8c.json
+|   |   |   |       conversation_67f87817-e4a0-8011-8350-b471481564f5.json
+|   |   |   |       conversation_67f87910-a788-8011-8fd7-2316a49dee3f.json
+|   |   |   |       conversation_67f87f23-b0dc-8011-82f7-d506fc856d4c.json
+|   |   |   |       conversation_67f87f6c-7d28-8011-b5df-e7c4152828d5.json
+|   |   |   |       conversation_67f87f95-d148-8011-8f76-1247123219a1.json
+|   |   |   |       conversation_67f88054-3dc4-8011-8498-9c5fef026f20.json
+|   |   |   |       conversation_67fc55f7-81d8-8011-b42a-b73cca673e6b.json
+|   |   |   |       conversation_67fc58e4-c208-8011-a938-1bd726ecee76.json
+|   |   |   |       conversation_67fc73b4-acc0-8011-a6e6-9cdbf6c42f0f.json
+|   |   |   |       conversation_67fccdd7-3da8-8011-9763-4b0e5643a1ae.json
+|   |   |   |       conversation_67fd585d-f92c-8011-9f04-3b0304659f4f.json
+|   |   |   |       conversation_67fd7e13-5eb8-8011-981c-969a0e498594.json
+|   |   |   |       conversation_67fd8f0b-31d4-8011-9b01-6db0436780ca.json
+|   |   |   |       conversation_67fd96a8-0874-8011-a0c1-a9c4626af53e.json
+|   |   |   |       conversation_67fdb3db-df34-8011-aa0c-6183a7091117.json
+|   |   |   |       conversation_67fdbd80-bb2c-8011-9759-9c555008b151.json
+|   |   |   |       conversation_67fdccb8-bf70-8011-b7a2-381840802f64.json
+|   |   |   |       conversation_67fdccf5-e5cc-8011-8aee-5dcb919176ae.json
+|   |   |   |       conversation_67fe38f8-ae44-8011-ba56-f726e66631d9.json
+|   |   |   |       conversation_67ff3b24-2fa8-8011-bf49-fde200f67cd8.json
+|   |   |   |       conversation_67ffebb5-469c-8011-ad27-00f953d4eb4b.json
+|   |   |   |       conversation_67ffecbd-b400-8011-921f-91bb97ee27e0.json
+|   |   |   |       conversation_67ffef8d-dd60-8011-a50e-73243fc23bcd.json
+|   |   |   |       conversation_68004245-f0f8-8011-ba4e-03097d6b5199.json
+|   |   |   |       conversation_68007acc-f61c-8011-8fff-76d1b4616352.json
+|   |   |   |       conversation_68009dba-dae8-8011-9084-7ca07abdab28.json
+|   |   |   |       conversation_6800a1a9-de24-8011-9114-2abe3c568f1e.json
+|   |   |   |       conversation_6800a257-afd4-8011-90d8-83b55123d09d.json
+|   |   |   |       conversation_6800bccc-3aec-8011-8f7f-b47dbe467a84.json
+|   |   |   |       conversation_68013e17-f6d4-8011-b6d4-a8599232895c.json
+|   |   |   |       conversation_6801aadb-d350-8011-8c51-d416edcb9528.json
+|   |   |   |       conversation_680228cc-4860-8011-aa07-68f02512b154.json
+|   |   |   |       conversation_68022a2c-54bc-8011-a655-985220483ae0.json
+|   |   |   |       conversation_6802c0e9-b280-8011-8fcb-80d7d3f2e89f.json
+|   |   |   |       conversation_68034641-ab28-8011-943c-9df529918201.json
+|   |   |   |       conversation_6803edff-4284-8011-9c57-4ae155811c04.json
+|   |   |   |       conversation_68040bb7-d678-8011-b10a-d8f6f352c9a8.json
+|   |   |   |       conversation_68049993-f41c-8011-a63c-b372220462e1.json
+|   |   |   |       conversation_68056ebe-4300-8011-a13e-e382ec8e4941.json
+|   |   |   |       conversation_6805d8ad-6b00-8011-9f01-3536613cf3ef.json
+|   |   |   |       conversation_6805f75e-f820-8011-9ae3-9abfd6a8cbaf.json
+|   |   |   |       conversation_68061b39-1564-8011-88ce-831cd19d93ce.json
+|   |   |   |       conversation_680627f0-85d4-8011-8383-98491403c2f8.json
+|   |   |   |       conversation_68070dae-4898-8011-a689-b27faf4ac203.json
+|   |   |   |       conversation_68072a64-9824-8011-b2b0-51629b4b81d1.json
+|   |   |   |       conversation_680740ba-7870-8011-8cd7-8579178e5393.json
+|   |   |   |       conversation_680741c3-c538-8011-a826-297ffcc789c6.json
+|   |   |   |       conversation_68083d7b-aac4-8011-9292-51e03440f93e.json
+|   |   |   |       conversation_6808663a-8fb4-8011-ae5c-be2ecf0b0ebd.json
+|   |   |   |       conversation_68088690-3804-8011-bcdd-a59642c6d6da.json
+|   |   |   |       conversation_6808a9cd-9770-8011-a49b-facef5d52dca.json
+|   |   |   |       conversation_68092c89-2558-8011-8edf-43ba225ce21f.json
+|   |   |   |       conversation_6809332e-0fb8-8011-9105-aeef49aef2c0.json
+|   |   |   |       conversation_68099c0e-8cc0-8011-8146-0b2a19ca50a6.json
+|   |   |   |       conversation_6809d5ba-3a2c-8011-835a-13db46386b40.json
+|   |   |   |       conversation_680ac814-ddc8-8011-8dec-f2db18c00292.json
+|   |   |   |       conversation_680aff78-13ac-8011-94c5-ad28fea38e24.json
+|   |   |   |       conversation_680b00d8-6544-8011-bfd7-b9d12a347a9e.json
+|   |   |   |       conversation_680b2db7-b2e8-8011-89f0-04f2afa36025.json
+|   |   |   |       conversation_680beea3-5c20-8011-a461-75bc26f95892.json
+|   |   |   |       conversation_680c2843-c348-8011-8c66-3a9fd240a383.json
+|   |   |   |       conversation_680c5487-137c-8011-bf9f-2be9316309e0.json
+|   |   |   |       conversation_680c815a-9fd4-8011-8a01-4d36c518172b.json
+|   |   |   |       conversation_680d1f64-b638-8011-b945-93b5ccd94f65.json
+|   |   |   |       conversation_680d8ef3-1124-8011-868e-1b27b335381c.json
+|   |   |   |       conversation_680ddac3-6bc8-8011-b197-20cf3c4e5ecf.json
+|   |   |   |       conversation_680e788b-6d74-8011-85e0-5c8f649e5d16.json
+|   |   |   |       conversation_680e93c5-f8d8-8011-a68d-19d3fe07d1d5.json
+|   |   |   |       conversation_680eb5cd-92d0-8011-b88a-886b7733b5b7.json
+|   |   |   |       conversation_680ed257-4040-8011-b6a0-5e300f0565bd.json
+|   |   |   |       conversation_680f1fa3-7d88-8011-b5dd-b2ba84347b34.json
+|   |   |   |       conversation_680f48c7-1448-8011-9067-c6feeb344523.json
+|   |   |   |       conversation_68105990-3b68-8011-b8ec-8343accfc663.json
+|   |   |   |       conversation_68114009-7cb0-8011-b7f8-94f72ccd4af6.json
+|   |   |   |       conversation_6811c3b8-aac4-8011-9cd2-c398aea28b62.json
+|   |   |   |       conversation_68158bfb-1688-8011-a195-4a357cffcdb3.json
+|   |   |   |       conversation_6815bd1d-f558-8011-8742-f5d50b6d0ba3.json
+|   |   |   |       conversation_68165fa6-5da4-8011-a1e6-0167365fc936.json
+|   |   |   |       conversation_6819a672-8bc0-8011-87bc-a3f790532625.json
+|   |   |   |       conversation_681ad7d9-8364-8011-8e38-39530738b07b.json
+|   |   |   |       conversation_681afb29-2b28-8011-9f20-f1eeb5a4b353.json
+|   |   |   |       conversation_681c2bf0-bbec-8011-8585-ffe109ea35ac.json
+|   |   |   |       conversation_681e9199-02f8-8011-aa62-79d0fddcddc5.json
+|   |   |   |       conversation_682194f5-b240-8011-9148-b6c8e1f850e6.json
+|   |   |   |       conversation_6821a778-cc14-8011-8b9d-7dfd97a90a64.json
+|   |   |   |       conversation_6821a92a-33bc-8011-b2e9-4db5174592e3.json
+|   |   |   |       conversation_6821ac2c-149c-8011-a16d-37c022c44b18.json
+|   |   |   |       conversation_6822c489-fd48-8011-8c69-156385124eee.json
+|   |   |   |       conversation_6822fa01-d32c-8011-b8f0-a6a48839eb4d.json
+|   |   |   |       conversation_6823a0d5-fce0-8011-9b53-fd3ddf1919ef.json
+|   |   |   |       conversation_68251401-1da8-8011-b074-8dd6de7cb388.json
+|   |   |   |       conversation_68265a3f-3dc0-8011-8ae4-490c309f1a05.json
+|   |   |   |       conversation_6826fc3d-e480-8011-8fc6-71d6bda513b5.json
+|   |   |   |       conversation_68281653-2e98-8011-a83d-81fcbd615063.json
+|   |   |   |       conversation_6828f333-2e08-8011-a532-295296cd9925.json
+|   |   |   |       conversation_6829a3f1-e098-8011-b3bb-dc0cd3f8d37a.json
+|   |   |   |       conversation_682a90ed-304c-8011-b96a-8dd1f3bb281e.json
+|   |   |   |       conversation_682b2914-79d4-8011-a1d2-7c76143e3244.json
+|   |   |   |       conversation_682b2ca1-0bb4-8011-b1b7-2d60c2b5fe0d.json
+|   |   |   |       conversation_682c20be-4fbc-8011-adfa-a0e5e8f94673.json
+|   |   |   |       conversation_682cc5ff-eb44-8011-b760-8f42a780bc02.json
+|   |   |   |       conversation_682d82f8-3384-8011-a3ed-dd62a0a51316.json
+|   |   |   |       conversation_682ea108-65dc-8011-bc5b-3039924f92cf.json
+|   |   |   |       conversation_682ff6f4-5bcc-8011-8421-a191139dc744.json
+|   |   |   |       conversation_6830e4e4-2c58-8011-86a3-877972630c71.json
+|   |   |   |       conversation_68315ebc-8af4-8011-a8ff-a83991d89fa1.json
+|   |   |   |       conversation_6832b5ff-337c-8011-b55c-6cb85963f6e0.json
+|   |   |   |       conversation_6833f683-9360-8011-9459-936ba16a6fe4.json
+|   |   |   |       conversation_6834ae64-e170-8011-a6b6-dda5dc16c766.json
+|   |   |   |       conversation_68369c88-f028-8011-aa9f-a73ab79bdfb6.json
+|   |   |   |       conversation_6838a8dd-3248-8011-91b2-13ba60af27d9.json
+|   |   |   |       conversation_6839f5c3-3a0c-8011-94d2-827db44d5307.json
+|   |   |   |       conversation_683a2b91-7d28-8011-b826-ebd210812d4f.json
+|   |   |   |       conversation_683c983e-ce58-8011-921f-86cc840ae739.json
+|   |   |   |       conversation_683cb839-3bdc-8011-b879-6dfb51ba023c.json
+|   |   |   |       conversation_683ce429-b1d4-8011-b224-2e1b84b9e9f6.json
+|   |   |   |       conversation_68413738-9918-8011-bff8-666dbb585189.json
+|   |   |   |       conversation_6842a30d-715c-8011-b2e7-552f3ad7f736.json
+|   |   |   |       conversation_68438064-bf00-8011-800c-ed7eccf1b608.json
+|   |   |   |       conversation_6845017f-7d7c-8011-998c-559ba13b523a.json
+|   |   |   |       conversation_6845eae5-5d9c-8011-9a43-c1a55b51b81a.json
+|   |   |   |       conversation_6846a4c0-9278-8011-97e9-64dccc7997f1.json
+|   |   |   |       conversation_6849b20e-fa54-8011-b136-50f903b62899.json
+|   |   |   |       conversation_684a4c74-e7cc-8011-b6b7-351938b4b493.json
+|   |   |   |       conversation_684c630c-b710-8011-b8b7-5c67bdca25f9.json
+|   |   |   |       conversation_684e585d-9a48-8011-a2d6-f4a57f9b1783.json
+|   |   |   |       conversation_684f079b-7118-8011-b1d2-674b2fd3a3e0.json
+|   |   |   |       conversation_684f43ef-0f40-8011-bfab-33d92db4e7e7.json
+|   |   |   |       conversation_6851b568-d220-8011-a404-a022b60e3100.json
+|   |   |   |       conversation_68532651-1424-8011-83e0-63de7cc89224.json
+|   |   |   |       conversation_6853989f-1d28-8011-a9b5-afe666dc9588.json
+|   |   |   |       conversation_6855f379-50ac-8011-b9b1-b25c87877c52.json
+|   |   |   |       conversation_68564ab2-ae5c-8011-a4bd-c5094f49c3e9.json
+|   |   |   |       conversation_685768c3-5b70-8011-a0f8-24053f1e03ca.json
+|   |   |   |       conversation_68578e98-9f8c-8011-9a51-de24504be11c.json
+|   |   |   |       conversation_68588ff2-6fc8-8011-8c84-0ed43a5676b6.json
+|   |   |   |       conversation_6858a728-9db8-8011-b44f-d9612a49eabc.json
+|   |   |   |       conversation_68590c5d-75f4-8011-8f14-59161f8f64fc.json
+|   |   |   |       conversation_685a4ab5-41c8-8011-93e2-bc6603b8778f.json
+|   |   |   |       conversation_685c3a1d-6614-8011-b69f-87970d1f4cbb.json
+|   |   |   |       conversation_685ceeaa-1348-8011-b0e7-b0680db52e11.json
+|   |   |   |       conversation_685dd11a-eadc-8011-b579-eddc7161fef7.json
+|   |   |   |       conversation_72e42212-369d-45cb-972d-d83bf43377ca.json
+|   |   |   |       conversation_97aeca1b-65c7-4a21-8fdc-d8a746828753.json
+|   |   |   |       conversation_acd98039-aab7-4162-b91e-a4dc0174b714.json
+|   |   |   |       conversation_b313038e-d665-49c0-96cf-a613458c33d9.json
+|   |   |   |       conversation_beade940-db2a-4432-89b0-cb50d8596513.json
+|   |   |   |       conversation_d1309c0d-c199-41de-8755-6f7fc9457bc5.json
+|   |   |   |       conversation_eb69991b-b0fa-41d4-911c-cdd9c87bb6fb.json
+|   |   |   |       
+|   |   |   +---database
+|   |   |   |       conversations.json
+|   |   |   |       ex-machina-2015.pdf
+|   |   |   |       
+|   |   |   +---embeddings
+|   |   |   +---FractalCache
+|   |   |   |       embeddings.json
+|   |   |   |       fragment_0267e826.json
+|   |   |   |       fragment_036cfe4b.json
+|   |   |   |       fragment_07600df2.json
+|   |   |   |       fragment_07edcf52.json
+|   |   |   |       fragment_0880c48f.json
+|   |   |   |       fragment_08a6040c.json
+|   |   |   |       fragment_08d17fe0.json
+|   |   |   |       fragment_0ac9ecb4.json
+|   |   |   |       fragment_0d6ac9b5.json
+|   |   |   |       fragment_0da686ed.json
+|   |   |   |       fragment_0e216749.json
+|   |   |   |       fragment_1112d478.json
+|   |   |   |       fragment_138b5caf.json
+|   |   |   |       fragment_18c55f17.json
+|   |   |   |       fragment_1c73352e.json
+|   |   |   |       fragment_1f8f14c8.json
+|   |   |   |       fragment_1fbcf6a7.json
+|   |   |   |       fragment_263d0599.json
+|   |   |   |       fragment_276957cc.json
+|   |   |   |       fragment_2d83d8f5.json
+|   |   |   |       fragment_318defd0.json
+|   |   |   |       fragment_324658b0.json
+|   |   |   |       fragment_32d4e84a.json
+|   |   |   |       fragment_34c2aeea.json
+|   |   |   |       fragment_3b51c11e.json
+|   |   |   |       fragment_3b8a1383.json
+|   |   |   |       fragment_3bb2726d.json
+|   |   |   |       fragment_3c3e4537.json
+|   |   |   |       fragment_3c779832.json
+|   |   |   |       fragment_3e776e9b.json
+|   |   |   |       fragment_4225d896.json
+|   |   |   |       fragment_43f13f49.json
+|   |   |   |       fragment_479f7304.json
+|   |   |   |       fragment_48d2ee76.json
+|   |   |   |       fragment_4bc7a5be.json
+|   |   |   |       fragment_50c1dd73.json
+|   |   |   |       fragment_51bd456e.json
+|   |   |   |       fragment_57ef94d8.json
+|   |   |   |       fragment_5867e440.json
+|   |   |   |       fragment_59c869ea.json
+|   |   |   |       fragment_64a9572a.json
+|   |   |   |       fragment_6853fb80.json
+|   |   |   |       fragment_687514e1.json
+|   |   |   |       fragment_6997d25b.json
+|   |   |   |       fragment_6cfef353.json
+|   |   |   |       fragment_6d9ccd3b.json
+|   |   |   |       fragment_70d5f5d7.json
+|   |   |   |       fragment_70e8e94d.json
+|   |   |   |       fragment_719f6f7e.json
+|   |   |   |       fragment_746d75c8.json
+|   |   |   |       fragment_7622d73e.json
+|   |   |   |       fragment_762518da.json
+|   |   |   |       fragment_76f54754.json
+|   |   |   |       fragment_7a74e95c.json
+|   |   |   |       fragment_7d8611d9.json
+|   |   |   |       fragment_81d4d480.json
+|   |   |   |       fragment_832526f3.json
+|   |   |   |       fragment_844b8b52.json
+|   |   |   |       fragment_84a64890.json
+|   |   |   |       fragment_8a6f9ea0.json
+|   |   |   |       fragment_8a8d8df3.json
+|   |   |   |       fragment_8a9fbb7c.json
+|   |   |   |       fragment_8e33e2af.json
+|   |   |   |       fragment_90013071.json
+|   |   |   |       fragment_91267abe.json
+|   |   |   |       fragment_914d3580.json
+|   |   |   |       fragment_9187b6bb.json
+|   |   |   |       fragment_96d218d1.json
+|   |   |   |       fragment_96fbac84.json
+|   |   |   |       fragment_9ab3f4bf.json
+|   |   |   |       fragment_9c584d9c.json
+|   |   |   |       fragment_9e76c84a.json
+|   |   |   |       fragment_9eea6533.json
+|   |   |   |       fragment_9fcbd4be.json
+|   |   |   |       fragment_a2115f53.json
+|   |   |   |       fragment_a3525469.json
+|   |   |   |       fragment_a39dbe3e.json
+|   |   |   |       fragment_a4713bcd.json
+|   |   |   |       fragment_aaadb323.json
+|   |   |   |       fragment_ab272e0c.json
+|   |   |   |       fragment_ac106ec8.json
+|   |   |   |       fragment_ac2c874a.json
+|   |   |   |       fragment_ae5850d2.json
+|   |   |   |       fragment_b04c6ede.json
+|   |   |   |       fragment_b438ce2c.json
+|   |   |   |       fragment_b7938fbb.json
+|   |   |   |       fragment_b7946b99.json
+|   |   |   |       fragment_bd0ad4f8.json
+|   |   |   |       fragment_bfccf7ef.json
+|   |   |   |       fragment_c08cc1ac.json
+|   |   |   |       fragment_c122c315.json
+|   |   |   |       fragment_c22ef2c9.json
+|   |   |   |       fragment_c3e0c28c.json
+|   |   |   |       fragment_c6518270.json
+|   |   |   |       fragment_c660936d.json
+|   |   |   |       fragment_cabd4153.json
+|   |   |   |       fragment_cbc0da2d.json
+|   |   |   |       fragment_cc26f7f8.json
+|   |   |   |       fragment_cc2efb67.json
+|   |   |   |       fragment_cc688c88.json
+|   |   |   |       fragment_cc7ac4ae.json
+|   |   |   |       fragment_cd5f7638.json
+|   |   |   |       fragment_cfc877bf.json
+|   |   |   |       fragment_d14d5d25.json
+|   |   |   |       fragment_d3224ac6.json
+|   |   |   |       fragment_d40acf57.json
+|   |   |   |       fragment_d9864cf7.json
+|   |   |   |       fragment_d9caf6f7.json
+|   |   |   |       fragment_dab04c9f.json
+|   |   |   |       fragment_db6328f7.json
+|   |   |   |       fragment_df7bb606.json
+|   |   |   |       fragment_dffbd496.json
+|   |   |   |       fragment_e060d251.json
+|   |   |   |       fragment_e0c0515c.json
+|   |   |   |       fragment_e3958ab8.json
+|   |   |   |       fragment_e7df6679.json
+|   |   |   |       fragment_e7f2e174.json
+|   |   |   |       fragment_eda91bfe.json
+|   |   |   |       fragment_f13b1c98.json
+|   |   |   |       fragment_f4daf595.json
+|   |   |   |       fragment_f56ed209.json
+|   |   |   |       fragment_f6214a7b.json
+|   |   |   |       fragment_f73c4064.json
+|   |   |   |       fragment_fcbad105.json
+|   |   |   |       fragment_fdd1da07.json
+|   |   |   |       fragment_fe0a827d.json
+|   |   |   |       fragment_fee14c94.json
+|   |   |   |       fragment_ffaee750.json
+|   |   |   |       fragment_fff97a25.json
+|   |   |   |       luna_bigfive_answers.json
+|   |   |   |       luna_existential_state.json
+|   |   |   |       luna_session_memory.json
+|   |   |   |       master_cache.json
+|   |   |   |       registry.json
+|   |   |   |       registry.json.backup
+|   |   |   |       root_0eb9d2bb.json
+|   |   |   |       root_0eb9d2bb_fractal_fix_20250924_150446.json
+|   |   |   |       root_0eb9d2bb_split_0f20971f.json
+|   |   |   |       root_0eb9d2bb_split_0f20971f_fractal_fix_20250924_150446.json
+|   |   |   |       root_0eff8d32.json
+|   |   |   |       root_0eff8d32_fractal_fix_20250924_150446.json
+|   |   |   |       root_0eff8d32_split_8123efae.json
+|   |   |   |       root_0eff8d32_split_8123efae_fractal_fix_20250924_150446.json
+|   |   |   |       root_28aa443c.json
+|   |   |   |       root_28aa443c_fractal_fix_20250924_150446.json
+|   |   |   |       root_28aa443c_split_281c36f1.json
+|   |   |   |       root_28aa443c_split_281c36f1_fractal_fix_20250924_150446.json
+|   |   |   |       root_6c49b1a6.json
+|   |   |   |       root_6c49b1a6_fractal_fix_20250924_150446.json
+|   |   |   |       root_6c49b1a6_split_b5f7859e.json
+|   |   |   |       root_6c49b1a6_split_b5f7859e_fractal_fix_20250924_150446.json
+|   |   |   |       root_a96a68ba.json
+|   |   |   |       root_a96a68ba_fractal_fix_20250924_150446.json
+|   |   |   |       root_a96a68ba_split_a94b7a2b.json
+|   |   |   |       root_a96a68ba_split_a94b7a2b_fractal_fix_20250924_150446.json
+|   |   |   |       root_e84cbc41.json
+|   |   |   |       root_e84cbc41_fractal_fix_20250924_150446.json
+|   |   |   |       root_e84cbc41_split_6410c130.json
+|   |   |   |       root_e84cbc41_split_6410c130_fractal_fix_20250924_150446.json
+|   |   |   |       root_e84cbc41_split_65124ef4.json
+|   |   |   |       root_e84cbc41_split_65124ef4_fractal_fix_20250924_150446.json
+|   |   |   |       
+|   |   |   +---LearningSystem
+|   |   |   |       auto_learning.json
+|   |   |   |       manual_learning.json
+|   |   |   |       
+|   |   |   +---LessonData
+|   |   |   |   +---custom
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_174034.json
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_174309.json
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_174459.json
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_174917.json
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_175753.json
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_181505.json
+|   |   |   |   |       custom_ai_prompt_engineering_20250928_182507.json
+|   |   |   |   |       
+|   |   |   |   +---templates
+|   |   |   |   |       template_ai_prompt_engineering_advanced_0.json
+|   |   |   |   |       template_ai_prompt_engineering_beginner_0.json
+|   |   |   |   |       template_ai_prompt_engineering_beginner_1.json
+|   |   |   |   |       template_ai_prompt_engineering_intermediate_0.json
+|   |   |   |   |       template_ai_python_coding_advanced_0.json
+|   |   |   |   |       template_ai_python_coding_beginner_0.json
+|   |   |   |   |       template_ai_python_coding_intermediate_0.json
+|   |   |   |   |       
+|   |   |   |   \---user_data
+|   |   |   \---LessonMemory
+|   |   |           ai_prompt_engineering_beginner_20250928_174034_memory.json
+|   |   |           ai_prompt_engineering_beginner_20250928_174309_memory.json
+|   |   |           ai_prompt_engineering_beginner_20250928_174459_memory.json
+|   |   |           ai_prompt_engineering_beginner_20250928_174917_memory.json
+|   |   |           ai_prompt_engineering_beginner_20250928_175753_memory.json
+|   |   |           ai_prompt_engineering_beginner_20250928_181505_memory.json
+|   |   |           ai_prompt_engineering_beginner_20250928_182507_memory.json
+|   |   |           
+|   |   \---log
+|   |       |   dream_meditation_20251001_165804.log
+|   |       |   dream_quick_nap_middleware_20251001_171217.log
+|   |       |   dream_quick_nap_middleware_20251001_171725.log
+|   |       |   dream_quick_nap_middleware_20251001_171916.log
+|   |       |   dream_quick_nap_middleware_20251001_172611.log
+|   |       |   dream_quick_nap_middleware_20251001_172706.log
+|   |       |   meditation_session_20251001_033639.log
+|   |       |   meditation_session_20251001_033639_data.json
+|   |       |   recovery.log
+|   |       |   
+|   |       +---hive_mind
+|   |       |       hive_mind.log
+|   |       |       
+|   |       \---monitoring
+|   |               aios_2025-09-28.log
+|   |               aios_monitor_2025-09-28.log
+|   |               wsr_audit.log
+|   |               
+|   \---golden_comparisons
+|           comparison_20251007_161608.json
+|           comparison_20251007_162217.json
+|           comparison_20251007_162718.json
+|           comparison_20251007_164950.json
+|           comparison_20251007_165321.json
+|           comparison_20251007_170818.json
+|           comparison_20251007_175557.json
+|           
++---cache
++---config
+|   |   aios_config.json
+|   |   avatar.txt
+|   |   AVA_PERSONALITY_INTEGRATION_COMPLETE.md
+|   |   consciousness_validation_20250917_195759_test_results.json
+|   |   DYNAMIC_PERSONALITY_DEVELOPMENT.md
+|   |   luna_learning_history.json
+|   |   LUNA_MASTER_FRAMEWORK_README.md
+|   |   luna_personality_dna.json
+|   |   luna_personality_dna_personality.json
+|   |   luna_personality_report.md
+|   |   luna_system_prompt.txt
+|   |   lyra voice print.txt
+|   |   lyra_identitycore_v2.1.txt
+|   |   model_config.json
+|   |   README_config.md
+|   |   README_PERSONALITY.md
+|   |   travis_consciousness_model_config.json
+|   |   voice_profile.json
+|   |   
+|   \---__pycache__
+|           artificial_analysis_integration.cpython-311.pyc
+|           consciousness_enhanced_luna.cpython-311.pyc
+|           luna_contextual_personality.cpython-311.pyc
+|           luna_corrected_rag_system.cpython-311.pyc
+|           luna_essential_system.cpython-311.pyc
+|           luna_master_test.cpython-311.pyc
+|           luna_personality_integration.cpython-311.pyc
+|           model_config_loader.cpython-311.pyc
+|           rag_enhanced_personality_system.cpython-311.pyc
+|           standard_rag_baseline.cpython-311.pyc
+|           test_luna_ollama.cpython-311.pyc
+|           travis_consciousness_synthesis.cpython-311.pyc
+|           
++---conversations
+|       conversation_2c40ce81-3cca-4e29-985b-957e76522536.json
+|       conversation_2c40ce81-3cca-4e29-985b-957e76522536.json.backup
+|       conversation_6121474a-e172-4bbc-b9cf-fe35159268ff.json
+|       conversation_6121474a-e172-4bbc-b9cf-fe35159268ff.json.backup
+|       conversation_653cd8a2-98d7-4591-936f-9681b2d87e6f.json
+|       conversation_653cd8a2-98d7-4591-936f-9681b2d87e6f.json.backup
+|       conversation_67f82da1-3c30-8011-bb89-833255bdd440.json
+|       conversation_67f82da1-3c30-8011-bb89-833255bdd440.json.backup
+|       conversation_67f86101-7eb4-8011-9efc-de233dcc785f.json
+|       conversation_67f86101-7eb4-8011-9efc-de233dcc785f.json.backup
+|       conversation_67f8649d-03f4-8011-8930-efdc389d65bd.json
+|       conversation_67f86655-9a08-8011-8aac-bf99bf4c763f.json
+|       conversation_67f8670b-b6b8-8011-b585-d33cae8409af.json
+|       conversation_67f86ed1-3e50-8011-b6ac-bb6018fb0a97.json
+|       conversation_67f873ee-6388-8011-b9ad-c5f77c116a25.json
+|       conversation_67f8744c-8bf8-8011-a6c7-192f1cef1d8c.json
+|       conversation_67f87817-e4a0-8011-8350-b471481564f5.json
+|       conversation_67f87910-a788-8011-8fd7-2316a49dee3f.json
+|       conversation_67f87f23-b0dc-8011-82f7-d506fc856d4c.json
+|       conversation_67f87f6c-7d28-8011-b5df-e7c4152828d5.json
+|       conversation_67f87f95-d148-8011-8f76-1247123219a1.json
+|       conversation_67f88054-3dc4-8011-8498-9c5fef026f20.json
+|       conversation_67fc55f7-81d8-8011-b42a-b73cca673e6b.json
+|       conversation_67fc58e4-c208-8011-a938-1bd726ecee76.json
+|       conversation_67fc73b4-acc0-8011-a6e6-9cdbf6c42f0f.json
+|       conversation_67fccdd7-3da8-8011-9763-4b0e5643a1ae.json
+|       conversation_67fd585d-f92c-8011-9f04-3b0304659f4f.json
+|       conversation_67fd7e13-5eb8-8011-981c-969a0e498594.json
+|       conversation_67fd8f0b-31d4-8011-9b01-6db0436780ca.json
+|       conversation_67fd96a8-0874-8011-a0c1-a9c4626af53e.json
+|       conversation_67fdb3db-df34-8011-aa0c-6183a7091117.json
+|       conversation_67fdbd80-bb2c-8011-9759-9c555008b151.json
+|       conversation_67fdccb8-bf70-8011-b7a2-381840802f64.json
+|       conversation_67fdccf5-e5cc-8011-8aee-5dcb919176ae.json
+|       conversation_67fe38f8-ae44-8011-ba56-f726e66631d9.json
+|       conversation_67ff3b24-2fa8-8011-bf49-fde200f67cd8.json
+|       conversation_67ffebb5-469c-8011-ad27-00f953d4eb4b.json
+|       conversation_67ffecbd-b400-8011-921f-91bb97ee27e0.json
+|       conversation_67ffef8d-dd60-8011-a50e-73243fc23bcd.json
+|       conversation_68004245-f0f8-8011-ba4e-03097d6b5199.json
+|       conversation_68007acc-f61c-8011-8fff-76d1b4616352.json
+|       conversation_68009dba-dae8-8011-9084-7ca07abdab28.json
+|       conversation_6800a1a9-de24-8011-9114-2abe3c568f1e.json
+|       conversation_6800a257-afd4-8011-90d8-83b55123d09d.json
+|       conversation_6800bccc-3aec-8011-8f7f-b47dbe467a84.json
+|       conversation_68013e17-f6d4-8011-b6d4-a8599232895c.json
+|       conversation_6801aadb-d350-8011-8c51-d416edcb9528.json
+|       conversation_680228cc-4860-8011-aa07-68f02512b154.json
+|       conversation_68022a2c-54bc-8011-a655-985220483ae0.json
+|       conversation_6802c0e9-b280-8011-8fcb-80d7d3f2e89f.json
+|       conversation_68034641-ab28-8011-943c-9df529918201.json
+|       conversation_6803edff-4284-8011-9c57-4ae155811c04.json
+|       conversation_68040bb7-d678-8011-b10a-d8f6f352c9a8.json
+|       conversation_68049993-f41c-8011-a63c-b372220462e1.json
+|       conversation_68056ebe-4300-8011-a13e-e382ec8e4941.json
+|       conversation_6805d8ad-6b00-8011-9f01-3536613cf3ef.json
+|       conversation_6805f75e-f820-8011-9ae3-9abfd6a8cbaf.json
+|       conversation_68061b39-1564-8011-88ce-831cd19d93ce.json
+|       conversation_680627f0-85d4-8011-8383-98491403c2f8.json
+|       conversation_68070dae-4898-8011-a689-b27faf4ac203.json
+|       conversation_68072a64-9824-8011-b2b0-51629b4b81d1.json
+|       conversation_680740ba-7870-8011-8cd7-8579178e5393.json
+|       conversation_680741c3-c538-8011-a826-297ffcc789c6.json
+|       conversation_68083d7b-aac4-8011-9292-51e03440f93e.json
+|       conversation_6808663a-8fb4-8011-ae5c-be2ecf0b0ebd.json
+|       conversation_68088690-3804-8011-bcdd-a59642c6d6da.json
+|       conversation_6808a9cd-9770-8011-a49b-facef5d52dca.json
+|       conversation_68092c89-2558-8011-8edf-43ba225ce21f.json
+|       conversation_6809332e-0fb8-8011-9105-aeef49aef2c0.json
+|       conversation_68099c0e-8cc0-8011-8146-0b2a19ca50a6.json
+|       conversation_6809d5ba-3a2c-8011-835a-13db46386b40.json
+|       conversation_680ac814-ddc8-8011-8dec-f2db18c00292.json
+|       conversation_680aff78-13ac-8011-94c5-ad28fea38e24.json
+|       conversation_680b00d8-6544-8011-bfd7-b9d12a347a9e.json
+|       conversation_680b2db7-b2e8-8011-89f0-04f2afa36025.json
+|       conversation_680beea3-5c20-8011-a461-75bc26f95892.json
+|       conversation_680c2843-c348-8011-8c66-3a9fd240a383.json
+|       conversation_680c5487-137c-8011-bf9f-2be9316309e0.json
+|       conversation_680c815a-9fd4-8011-8a01-4d36c518172b.json
+|       conversation_680d8ef3-1124-8011-868e-1b27b335381c.json
+|       conversation_680ddac3-6bc8-8011-b197-20cf3c4e5ecf.json
+|       conversation_680e788b-6d74-8011-85e0-5c8f649e5d16.json
+|       conversation_680e93c5-f8d8-8011-a68d-19d3fe07d1d5.json
+|       conversation_680eb5cd-92d0-8011-b88a-886b7733b5b7.json
+|       conversation_680ed257-4040-8011-b6a0-5e300f0565bd.json
+|       conversation_680f1fa3-7d88-8011-b5dd-b2ba84347b34.json
+|       conversation_680f48c7-1448-8011-9067-c6feeb344523.json
+|       conversation_68105990-3b68-8011-b8ec-8343accfc663.json
+|       conversation_68114009-7cb0-8011-b7f8-94f72ccd4af6.json
+|       conversation_6811c3b8-aac4-8011-9cd2-c398aea28b62.json
+|       conversation_68158bfb-1688-8011-a195-4a357cffcdb3.json
+|       conversation_6815bd1d-f558-8011-8742-f5d50b6d0ba3.json
+|       conversation_68165fa6-5da4-8011-a1e6-0167365fc936.json
+|       conversation_6819a672-8bc0-8011-87bc-a3f790532625.json
+|       conversation_681ad7d9-8364-8011-8e38-39530738b07b.json
+|       conversation_681afb29-2b28-8011-9f20-f1eeb5a4b353.json
+|       conversation_681c2bf0-bbec-8011-8585-ffe109ea35ac.json
+|       conversation_681e9199-02f8-8011-aa62-79d0fddcddc5.json
+|       conversation_682194f5-b240-8011-9148-b6c8e1f850e6.json
+|       conversation_6821a778-cc14-8011-8b9d-7dfd97a90a64.json
+|       conversation_6821a92a-33bc-8011-b2e9-4db5174592e3.json
+|       conversation_6821ac2c-149c-8011-a16d-37c022c44b18.json
+|       conversation_6822c489-fd48-8011-8c69-156385124eee.json
+|       conversation_6822fa01-d32c-8011-b8f0-a6a48839eb4d.json
+|       conversation_6823a0d5-fce0-8011-9b53-fd3ddf1919ef.json
+|       conversation_68251401-1da8-8011-b074-8dd6de7cb388.json
+|       conversation_68265a3f-3dc0-8011-8ae4-490c309f1a05.json
+|       conversation_6826fc3d-e480-8011-8fc6-71d6bda513b5.json
+|       conversation_68281653-2e98-8011-a83d-81fcbd615063.json
+|       conversation_6828f333-2e08-8011-a532-295296cd9925.json
+|       conversation_6829a3f1-e098-8011-b3bb-dc0cd3f8d37a.json
+|       conversation_682a90ed-304c-8011-b96a-8dd1f3bb281e.json
+|       conversation_682b2914-79d4-8011-a1d2-7c76143e3244.json
+|       conversation_682b2ca1-0bb4-8011-b1b7-2d60c2b5fe0d.json
+|       conversation_682c20be-4fbc-8011-adfa-a0e5e8f94673.json
+|       conversation_682cc5ff-eb44-8011-b760-8f42a780bc02.json
+|       conversation_682d82f8-3384-8011-a3ed-dd62a0a51316.json
+|       conversation_682ea108-65dc-8011-bc5b-3039924f92cf.json
+|       conversation_682ff6f4-5bcc-8011-8421-a191139dc744.json
+|       conversation_6830e4e4-2c58-8011-86a3-877972630c71.json
+|       conversation_68315ebc-8af4-8011-a8ff-a83991d89fa1.json
+|       conversation_6832b5ff-337c-8011-b55c-6cb85963f6e0.json
+|       conversation_6833f683-9360-8011-9459-936ba16a6fe4.json
+|       conversation_6834ae64-e170-8011-a6b6-dda5dc16c766.json
+|       conversation_68369c88-f028-8011-aa9f-a73ab79bdfb6.json
+|       conversation_6838a8dd-3248-8011-91b2-13ba60af27d9.json
+|       conversation_6839f5c3-3a0c-8011-94d2-827db44d5307.json
+|       conversation_683a2b91-7d28-8011-b826-ebd210812d4f.json
+|       conversation_683c983e-ce58-8011-921f-86cc840ae739.json
+|       conversation_683cb839-3bdc-8011-b879-6dfb51ba023c.json
+|       conversation_683ce429-b1d4-8011-b224-2e1b84b9e9f6.json
+|       conversation_68413738-9918-8011-bff8-666dbb585189.json
+|       conversation_6842a30d-715c-8011-b2e7-552f3ad7f736.json
+|       conversation_68438064-bf00-8011-800c-ed7eccf1b608.json
+|       conversation_6845017f-7d7c-8011-998c-559ba13b523a.json
+|       conversation_6845eae5-5d9c-8011-9a43-c1a55b51b81a.json
+|       conversation_6846a4c0-9278-8011-97e9-64dccc7997f1.json
+|       conversation_6849b20e-fa54-8011-b136-50f903b62899.json
+|       conversation_684a4c74-e7cc-8011-b6b7-351938b4b493.json
+|       conversation_684c630c-b710-8011-b8b7-5c67bdca25f9.json
+|       conversation_684e585d-9a48-8011-a2d6-f4a57f9b1783.json
+|       conversation_684f079b-7118-8011-b1d2-674b2fd3a3e0.json
+|       conversation_684f43ef-0f40-8011-bfab-33d92db4e7e7.json
+|       conversation_6851b568-d220-8011-a404-a022b60e3100.json
+|       conversation_68532651-1424-8011-83e0-63de7cc89224.json
+|       conversation_6853989f-1d28-8011-a9b5-afe666dc9588.json
+|       conversation_6855f379-50ac-8011-b9b1-b25c87877c52.json
+|       conversation_68564ab2-ae5c-8011-a4bd-c5094f49c3e9.json
+|       conversation_685768c3-5b70-8011-a0f8-24053f1e03ca.json
+|       conversation_68578e98-9f8c-8011-9a51-de24504be11c.json
+|       conversation_68588ff2-6fc8-8011-8c84-0ed43a5676b6.json
+|       conversation_6858a728-9db8-8011-b44f-d9612a49eabc.json
+|       conversation_68590c5d-75f4-8011-8f14-59161f8f64fc.json
+|       conversation_685a4ab5-41c8-8011-93e2-bc6603b8778f.json
+|       conversation_685c3a1d-6614-8011-b69f-87970d1f4cbb.json
+|       conversation_685ceeaa-1348-8011-b0e7-b0680db52e11.json
+|       conversation_685dd11a-eadc-8011-b579-eddc7161fef7.json
+|       conversation_72e42212-369d-45cb-972d-d83bf43377ca.json
+|       conversation_97aeca1b-65c7-4a21-8fdc-d8a746828753.json
+|       conversation_acd98039-aab7-4162-b91e-a4dc0174b714.json
+|       conversation_b313038e-d665-49c0-96cf-a613458c33d9.json
+|       conversation_beade940-db2a-4432-89b0-cb50d8596513.json
+|       conversation_d1309c0d-c199-41de-8755-6f7fc9457bc5.json
+|       conversation_eb69991b-b0fa-41d4-911c-cdd9c87bb6fb.json
+|       
++---core
+|   |   cleanup.py
+|   |   database.py
+|   |   lessons.py
+|   |   pipeline.py
+|   |   stats.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           cleanup.cpython-311.pyc
+|           database.cpython-311.pyc
+|           lessons.cpython-311.pyc
+|           pipeline.cpython-311.pyc
+|           stats.cpython-311.pyc
+|           __init__.cpython-311.pyc
+|           
++---database
+|       ex-machina-2015.pdf
+|       
++---data_core
+|   +---AIOS_Database
+|   |   \---database
+|   +---analytics
+|   +---ArbiterCache
+|   +---archive
+|   +---cache
+|   +---config
+|   +---conversations
+|   +---exports
+|   +---extra
+|   +---FractalCache
+|   +---imports
+|   +---logs
+|   \---temp
++---docs
+|       AIOS_MASTER_DOCUMENTATION.md
+|       CARMA_100_PERCENT_ACHIEVEMENT.md
+|       CARMA_EXECUTIVE_SUMMARY.md
+|       CARMA_TECHNICAL_DEEP_DIVE.md
+|       DOCKER_README.md
+|       LUNA_TEST_RESULTS_QUICK_REFERENCE.md
+|       LUNA_USAGE_GUIDE.md
+|       MAIN_README.md
+|       MASTER_DOCUMENTATION_INDEX.md
+|       protocol.md
+|       README.md
+|       REPRODUCE.md
+|       results1.md
+|       TRAVIS_MINER_MASTER_PROFILE.md
+|       
++---embeddings
++---exports
++---extra
+|   \---bigfive-web-3.0.2
+|       |   .babelrc
+|       |   .editorconfig
+|       |   .eslintrc.js
+|       |   .gitignore
+|       |   .nowignore
+|       |   .yarnclean
+|       |   jest.config.js
+|       |   LICENSE
+|       |   now-latest.json
+|       |   now.json
+|       |   nuxt.config.js
+|       |   package.json
+|       |   README.md
+|       |   yarn.lock
+|       |   
+|       +---.github
+|       |   \---workflows
+|       |           latest.yml
+|       |           release.yml
+|       |           
+|       +---api
+|       |       .gitignore
+|       |       compare.js
+|       |       package.json
+|       |       ping.js
+|       |       result.js
+|       |       save.js
+|       |       
+|       +---app
+|       |       router.scrollBehavior.js
+|       |       
+|       +---assets
+|       |       404.svg
+|       |       conscientiousness.jpg
+|       |       extraversion.jpg
+|       |       free.png
+|       |       front.svg
+|       |       front_compare.svg
+|       |       geir.jpg
+|       |       jonas.jpg
+|       |       languages.png
+|       |       languages.svg
+|       |       logo.svg
+|       |       mathias.jpg
+|       |       neuroticism.jpg
+|       |       ole_morten.jpg
+|       |       open-source.png
+|       |       openness.jpg
+|       |       paal.jpg
+|       |       scientific.png
+|       |       variables.scss
+|       |       
+|       +---components
+|       |   |   BarChart.vue
+|       |   |   BarChartCompare.vue
+|       |   |   Domain.vue
+|       |   |   DomainCompare.vue
+|       |   |   Error.vue
+|       |   |   Footer.vue
+|       |   |   Highlights.vue
+|       |   |   LanguageSwitcher.vue
+|       |   |   ShareLinks.vue
+|       |   |   TestLanguageSwitcher.vue
+|       |   |   Timer.vue
+|       |   |   Toolbar.vue
+|       |   |   Wrapper.vue
+|       |   |   
+|       |   \---form
+|       |           Age.vue
+|       |           Confirm.vue
+|       |           Gender.vue
+|       |           index.js
+|       |           Info.vue
+|       |           Language.vue
+|       |           
+|       +---layouts
+|       |       default.vue
+|       |       error.vue
+|       |       
+|       +---pages
+|       |   |   about.vue
+|       |   |   agreeableness.vue
+|       |   |   articles.vue
+|       |   |   big_five.vue
+|       |   |   conscientiousness.vue
+|       |   |   extraversion.vue
+|       |   |   index.vue
+|       |   |   neuroticism.vue
+|       |   |   openness_to_experience.vue
+|       |   |   privacy.vue
+|       |   |   test.vue
+|       |   |   
+|       |   +---compare
+|       |   |       index.vue
+|       |   |       _id.vue
+|       |   |       
+|       |   \---result
+|       |           index.vue
+|       |           _id.vue
+|       |           
+|       +---plugins
+|       |       apexcharts.js
+|       |       confetti.js
+|       |       i18n.js
+|       |       
+|       +---static
+|       |       favicon.ico
+|       |       icon.png
+|       |       logo.svg
+|       |       robots.txt
+|       |       sitemap.xml
+|       |       
+|       +---store
+|       |       index.js
+|       |       
+|       +---test
+|       |       index.test.js
+|       |       
+|       \---translations
+|               ar.js
+|               da.js
+|               de.js
+|               en-US.js
+|               index.js
+|               nb-NO.js
+|               sv.js
+|               
++---FractalCache
+|       documentation_fragments.json
+|       doc_00455457.json
+|       doc_019ef639.json
+|       doc_0891cee0.json
+|       doc_08f3625c.json
+|       doc_0d4bea29.json
+|       doc_0e98b102.json
+|       doc_154ae194.json
+|       doc_173a9884.json
+|       doc_182b9a09.json
+|       doc_1844a390.json
+|       doc_1c821bd9.json
+|       doc_1ebb67b2.json
+|       doc_20276766.json
+|       doc_205a62c3.json
+|       doc_22fd1536.json
+|       doc_231498d6.json
+|       doc_24c5a213.json
+|       doc_24c7ba5a.json
+|       doc_268833c2.json
+|       doc_2818732a.json
+|       doc_2a320d35.json
+|       doc_2a5d392a.json
+|       doc_2be2c67d.json
+|       doc_34361f48.json
+|       doc_3c94c16f.json
+|       doc_40c5e8fb.json
+|       doc_412fc75d.json
+|       doc_4778373a.json
+|       doc_5356c7d0.json
+|       doc_5b0a4c8d.json
+|       doc_5d950418.json
+|       doc_624c6864.json
+|       doc_649bdac4.json
+|       doc_67549a7f.json
+|       doc_67e7b960.json
+|       doc_6fc5ca65.json
+|       doc_7247975b.json
+|       doc_878cde48.json
+|       doc_891f31a3.json
+|       doc_8c9e55ad.json
+|       doc_8ddef9be.json
+|       doc_9479bb02.json
+|       doc_947d8bc6.json
+|       doc_993fdd09.json
+|       doc_a063de79.json
+|       doc_a0e2cc58.json
+|       doc_a21cfcf5.json
+|       doc_aa391e6a.json
+|       doc_aefe9df8.json
+|       doc_b4f5a529.json
+|       doc_b62607a4.json
+|       doc_c7a16d97.json
+|       doc_caba5e72.json
+|       doc_cc379994.json
+|       doc_d223401e.json
+|       doc_d34de70b.json
+|       doc_d8ca7726.json
+|       doc_db62ba06.json
+|       doc_e0ea2ce6.json
+|       doc_e2444bf6.json
+|       doc_e2a84bf0.json
+|       doc_e47b79ba.json
+|       doc_e8e404f4.json
+|       doc_e9ce6a29.json
+|       doc_ec93ce83.json
+|       doc_ed23b52b.json
+|       doc_fcc83444.json
+|       embeddings.json
+|       fragment_0267e826.json
+|       fragment_0267e826.json.backup
+|       fragment_036cfe4b.json
+|       fragment_036cfe4b.json.backup
+|       fragment_07600df2.json
+|       fragment_07600df2.json.backup
+|       fragment_07edcf52.json
+|       fragment_07edcf52.json.backup
+|       fragment_0880c48f.json
+|       fragment_0880c48f.json.backup
+|       fragment_08a6040c.json
+|       fragment_08a6040c.json.backup
+|       fragment_08d17fe0.json
+|       fragment_08d17fe0.json.backup
+|       fragment_0ac9ecb4.json
+|       fragment_0ac9ecb4.json.backup
+|       fragment_0d6ac9b5.json
+|       fragment_0d6ac9b5.json.backup
+|       fragment_0da686ed.json
+|       fragment_0da686ed.json.backup
+|       fragment_0e216749.json
+|       fragment_0e216749.json.backup
+|       fragment_1112d478.json
+|       fragment_1112d478.json.backup
+|       fragment_138b5caf.json
+|       fragment_138b5caf.json.backup
+|       fragment_18c55f17.json
+|       fragment_18c55f17.json.backup
+|       fragment_1c73352e.json
+|       fragment_1c73352e.json.backup
+|       fragment_1f8f14c8.json
+|       fragment_1f8f14c8.json.backup
+|       fragment_1fbcf6a7.json
+|       fragment_1fbcf6a7.json.backup
+|       fragment_263d0599.json
+|       fragment_263d0599.json.backup
+|       fragment_276957cc.json
+|       fragment_276957cc.json.backup
+|       fragment_2d83d8f5.json
+|       fragment_2d83d8f5.json.backup
+|       fragment_318defd0.json
+|       fragment_318defd0.json.backup
+|       fragment_324658b0.json
+|       fragment_324658b0.json.backup
+|       fragment_32d4e84a.json
+|       fragment_32d4e84a.json.backup
+|       fragment_34c2aeea.json
+|       fragment_34c2aeea.json.backup
+|       fragment_3b51c11e.json
+|       fragment_3b51c11e.json.backup
+|       fragment_3b8a1383.json
+|       fragment_3b8a1383.json.backup
+|       fragment_3bb2726d.json
+|       fragment_3bb2726d.json.backup
+|       fragment_3c3e4537.json
+|       fragment_3c3e4537.json.backup
+|       fragment_3c779832.json
+|       fragment_3c779832.json.backup
+|       fragment_3e776e9b.json
+|       fragment_3e776e9b.json.backup
+|       fragment_4225d896.json
+|       fragment_4225d896.json.backup
+|       fragment_43f13f49.json
+|       fragment_43f13f49.json.backup
+|       fragment_479f7304.json
+|       fragment_479f7304.json.backup
+|       fragment_48d2ee76.json
+|       fragment_48d2ee76.json.backup
+|       fragment_4bc7a5be.json
+|       fragment_4bc7a5be.json.backup
+|       fragment_50c1dd73.json
+|       fragment_50c1dd73.json.backup
+|       fragment_51bd456e.json
+|       fragment_51bd456e.json.backup
+|       fragment_57ef94d8.json
+|       fragment_57ef94d8.json.backup
+|       fragment_5867e440.json
+|       fragment_5867e440.json.backup
+|       fragment_59c869ea.json
+|       fragment_59c869ea.json.backup
+|       fragment_64a9572a.json
+|       fragment_64a9572a.json.backup
+|       fragment_6853fb80.json
+|       fragment_6853fb80.json.backup
+|       fragment_687514e1.json
+|       fragment_687514e1.json.backup
+|       fragment_6997d25b.json
+|       fragment_6997d25b.json.backup
+|       fragment_6cfef353.json
+|       fragment_6cfef353.json.backup
+|       fragment_6d9ccd3b.json
+|       fragment_6d9ccd3b.json.backup
+|       fragment_70d5f5d7.json
+|       fragment_70d5f5d7.json.backup
+|       fragment_70e8e94d.json
+|       fragment_70e8e94d.json.backup
+|       fragment_719f6f7e.json
+|       fragment_719f6f7e.json.backup
+|       fragment_746d75c8.json
+|       fragment_746d75c8.json.backup
+|       fragment_7622d73e.json
+|       fragment_7622d73e.json.backup
+|       fragment_762518da.json
+|       fragment_762518da.json.backup
+|       fragment_76f54754.json
+|       fragment_76f54754.json.backup
+|       fragment_7a74e95c.json
+|       fragment_7a74e95c.json.backup
+|       fragment_7d8611d9.json
+|       fragment_7d8611d9.json.backup
+|       fragment_81d4d480.json
+|       fragment_81d4d480.json.backup
+|       fragment_832526f3.json
+|       fragment_832526f3.json.backup
+|       fragment_844b8b52.json
+|       fragment_844b8b52.json.backup
+|       fragment_84a64890.json
+|       fragment_84a64890.json.backup
+|       fragment_8a6f9ea0.json
+|       fragment_8a6f9ea0.json.backup
+|       fragment_8a8d8df3.json
+|       fragment_8a8d8df3.json.backup
+|       fragment_8a9fbb7c.json
+|       fragment_8a9fbb7c.json.backup
+|       fragment_8e33e2af.json
+|       fragment_8e33e2af.json.backup
+|       fragment_90013071.json
+|       fragment_90013071.json.backup
+|       fragment_91267abe.json
+|       fragment_91267abe.json.backup
+|       fragment_914d3580.json
+|       fragment_914d3580.json.backup
+|       fragment_9187b6bb.json
+|       fragment_9187b6bb.json.backup
+|       fragment_96d218d1.json
+|       fragment_96d218d1.json.backup
+|       fragment_96fbac84.json
+|       fragment_96fbac84.json.backup
+|       fragment_9ab3f4bf.json
+|       fragment_9ab3f4bf.json.backup
+|       fragment_9c584d9c.json
+|       fragment_9c584d9c.json.backup
+|       fragment_9e76c84a.json
+|       fragment_9e76c84a.json.backup
+|       fragment_9eea6533.json
+|       fragment_9eea6533.json.backup
+|       fragment_9fcbd4be.json
+|       fragment_9fcbd4be.json.backup
+|       fragment_a2115f53.json
+|       fragment_a2115f53.json.backup
+|       fragment_a3525469.json
+|       fragment_a3525469.json.backup
+|       fragment_a39dbe3e.json
+|       fragment_a39dbe3e.json.backup
+|       fragment_a4713bcd.json
+|       fragment_a4713bcd.json.backup
+|       fragment_aaadb323.json
+|       fragment_aaadb323.json.backup
+|       fragment_ab272e0c.json
+|       fragment_ab272e0c.json.backup
+|       fragment_ac106ec8.json
+|       fragment_ac106ec8.json.backup
+|       fragment_ac2c874a.json
+|       fragment_ac2c874a.json.backup
+|       fragment_ae5850d2.json
+|       fragment_ae5850d2.json.backup
+|       fragment_b04c6ede.json
+|       fragment_b04c6ede.json.backup
+|       fragment_b438ce2c.json
+|       fragment_b438ce2c.json.backup
+|       fragment_b7938fbb.json
+|       fragment_b7938fbb.json.backup
+|       fragment_b7946b99.json
+|       fragment_b7946b99.json.backup
+|       fragment_bd0ad4f8.json
+|       fragment_bd0ad4f8.json.backup
+|       fragment_bfccf7ef.json
+|       fragment_bfccf7ef.json.backup
+|       fragment_c08cc1ac.json
+|       fragment_c08cc1ac.json.backup
+|       fragment_c122c315.json
+|       fragment_c122c315.json.backup
+|       fragment_c22ef2c9.json
+|       fragment_c22ef2c9.json.backup
+|       fragment_c3e0c28c.json
+|       fragment_c3e0c28c.json.backup
+|       fragment_c6518270.json
+|       fragment_c6518270.json.backup
+|       fragment_c660936d.json
+|       fragment_c660936d.json.backup
+|       fragment_cabd4153.json
+|       fragment_cabd4153.json.backup
+|       fragment_cbc0da2d.json
+|       fragment_cbc0da2d.json.backup
+|       fragment_cc26f7f8.json
+|       fragment_cc26f7f8.json.backup
+|       fragment_cc2efb67.json
+|       fragment_cc2efb67.json.backup
+|       fragment_cc688c88.json
+|       fragment_cc688c88.json.backup
+|       fragment_cc7ac4ae.json
+|       fragment_cc7ac4ae.json.backup
+|       fragment_cd5f7638.json
+|       fragment_cd5f7638.json.backup
+|       fragment_cfc877bf.json
+|       fragment_cfc877bf.json.backup
+|       fragment_d14d5d25.json
+|       fragment_d14d5d25.json.backup
+|       fragment_d3224ac6.json
+|       fragment_d3224ac6.json.backup
+|       fragment_d40acf57.json
+|       fragment_d40acf57.json.backup
+|       fragment_d9864cf7.json
+|       fragment_d9864cf7.json.backup
+|       fragment_d9caf6f7.json
+|       fragment_d9caf6f7.json.backup
+|       fragment_dab04c9f.json
+|       fragment_dab04c9f.json.backup
+|       fragment_db6328f7.json
+|       fragment_db6328f7.json.backup
+|       fragment_df7bb606.json
+|       fragment_df7bb606.json.backup
+|       fragment_dffbd496.json
+|       fragment_dffbd496.json.backup
+|       fragment_e060d251.json
+|       fragment_e060d251.json.backup
+|       fragment_e0c0515c.json
+|       fragment_e0c0515c.json.backup
+|       fragment_e3958ab8.json
+|       fragment_e3958ab8.json.backup
+|       fragment_e7df6679.json
+|       fragment_e7df6679.json.backup
+|       fragment_e7f2e174.json
+|       fragment_e7f2e174.json.backup
+|       fragment_eda91bfe.json
+|       fragment_eda91bfe.json.backup
+|       fragment_f13b1c98.json
+|       fragment_f13b1c98.json.backup
+|       fragment_f4daf595.json
+|       fragment_f4daf595.json.backup
+|       fragment_f56ed209.json
+|       fragment_f56ed209.json.backup
+|       fragment_f6214a7b.json
+|       fragment_f6214a7b.json.backup
+|       fragment_f73c4064.json
+|       fragment_f73c4064.json.backup
+|       fragment_fcbad105.json
+|       fragment_fcbad105.json.backup
+|       fragment_fdd1da07.json
+|       fragment_fdd1da07.json.backup
+|       fragment_fe0a827d.json
+|       fragment_fe0a827d.json.backup
+|       fragment_fee14c94.json
+|       fragment_fee14c94.json.backup
+|       fragment_ffaee750.json
+|       fragment_ffaee750.json.backup
+|       fragment_fff97a25.json
+|       fragment_fff97a25.json.backup
+|       luna_bigfive_answers.json
+|       luna_existential_state.json
+|       luna_session_memory.json
+|       master_cache.json
+|       registry.json
+|       registry.json.backup
+|       registry.json.backup_recovery
+|       root_0eb9d2bb.json
+|       root_0eb9d2bb_fractal_fix_20250924_150446.json
+|       root_0eb9d2bb_split_0f20971f.json
+|       root_0eb9d2bb_split_0f20971f_fractal_fix_20250924_150446.json
+|       root_0eff8d32.json
+|       root_0eff8d32_fractal_fix_20250924_150446.json
+|       root_0eff8d32_split_8123efae.json
+|       root_0eff8d32_split_8123efae_fractal_fix_20250924_150446.json
+|       root_28aa443c.json
+|       root_28aa443c_fractal_fix_20250924_150446.json
+|       root_28aa443c_split_281c36f1.json
+|       root_28aa443c_split_281c36f1_fractal_fix_20250924_150446.json
+|       root_6c49b1a6.json
+|       root_6c49b1a6_fractal_fix_20250924_150446.json
+|       root_6c49b1a6_split_b5f7859e.json
+|       root_6c49b1a6_split_b5f7859e_fractal_fix_20250924_150446.json
+|       root_a96a68ba.json
+|       root_a96a68ba_fractal_fix_20250924_150446.json
+|       root_a96a68ba_split_a94b7a2b.json
+|       root_a96a68ba_split_a94b7a2b_fractal_fix_20250924_150446.json
+|       root_e84cbc41.json
+|       root_e84cbc41_fractal_fix_20250924_150446.json
+|       root_e84cbc41_split_6410c130.json
+|       root_e84cbc41_split_6410c130_fractal_fix_20250924_150446.json
+|       root_e84cbc41_split_65124ef4.json
+|       root_e84cbc41_split_65124ef4_fractal_fix_20250924_150446.json
+|       
++---goldens
+|       baseline_new.json
+|       baseline_results.json
+|       current_results.json
+|       factual_templates.json
+|       last_report.json
+|       sample_set.json
+|       test_baseline.json
+|       
++---imports
++---journey_dont_delete
+|       1.md
+|       2.md
+|       3.md
+|       4.md
+|       cursor_dream_processing_and_meditation.md
+|       cursor_fixing_errors_in_dream_middlewar.md
+|       cursor_fix_persistent_errors_in_python.md
+|       cursor_is_my_dream_system_working.md
+|       cursor_troubleshooting_meditation_contr.md
+|       
++---LearningSystem
+|       auto_learning.json
+|       manual_learning.json
+|       
++---LessonData
+|   +---custom
+|   |       custom_ai_prompt_engineering_20250928_174034.json
+|   |       custom_ai_prompt_engineering_20250928_174309.json
+|   |       custom_ai_prompt_engineering_20250928_174459.json
+|   |       custom_ai_prompt_engineering_20250928_174917.json
+|   |       custom_ai_prompt_engineering_20250928_175753.json
+|   |       custom_ai_prompt_engineering_20250928_181505.json
+|   |       custom_ai_prompt_engineering_20250928_182507.json
+|   |       
+|   +---templates
+|   |       template_ai_prompt_engineering_advanced_0.json
+|   |       template_ai_prompt_engineering_beginner_0.json
+|   |       template_ai_prompt_engineering_beginner_1.json
+|   |       template_ai_prompt_engineering_intermediate_0.json
+|   |       template_ai_python_coding_advanced_0.json
+|   |       template_ai_python_coding_beginner_0.json
+|   |       template_ai_python_coding_intermediate_0.json
+|   |       
+|   \---user_data
++---LessonMemory
+|       ai_prompt_engineering_beginner_20250928_174034_memory.json
+|       ai_prompt_engineering_beginner_20250928_174309_memory.json
+|       ai_prompt_engineering_beginner_20250928_174459_memory.json
+|       ai_prompt_engineering_beginner_20250928_174917_memory.json
+|       ai_prompt_engineering_beginner_20250928_175753_memory.json
+|       ai_prompt_engineering_beginner_20250928_181505_memory.json
+|       ai_prompt_engineering_beginner_20250928_182507_memory.json
+|       
++---log
+|   |   dream_meditation_20251001_165804.log
+|   |   dream_quick_nap_middleware_20251001_171217.log
+|   |   dream_quick_nap_middleware_20251001_171725.log
+|   |   dream_quick_nap_middleware_20251001_171916.log
+|   |   dream_quick_nap_middleware_20251001_172611.log
+|   |   dream_quick_nap_middleware_20251001_172706.log
+|   |   dream_quick_nap_middleware_20251001_192048.log
+|   |   dream_quick_nap_middleware_20251001_193448.log
+|   |   dream_quick_nap_middleware_20251001_200732.log
+|   |   dream_quick_nap_middleware_20251001_202553.log
+|   |   dream_quick_nap_middleware_20251001_204722.log
+|   |   dream_quick_nap_middleware_20251001_205752.log
+|   |   meditation_session_20251001_033639.log
+|   |   meditation_session_20251001_033639_data.json
+|   |   recovery.log
+|   |   
+|   +---hive_mind
+|   |       hive_mind.log
+|   |       
+|   \---monitoring
+|           aios_2025-09-28.log
+|           aios_monitor_2025-09-28.log
+|           config_2025-10-01.log
+|           wsr_audit.log
+|           
++---logs
++---retrieval_qa
+|       eval_20251007_173824.json
+|       qa_set.json
+|       
++---rust_data
+|   |   Cargo.lock
+|   |   Cargo.toml
+|   |   
+|   +---src
+|   |       lib.rs
+|   |       
+|   \---target
+|       |   .rustc_info.json
+|       |   CACHEDIR.TAG
+|       |   
+|       \---release
+|           |   .cargo-lock
+|           |   aios_data_rust.d
+|           |   aios_data_rust.dll
+|           |   aios_data_rust.dll.exp
+|           |   aios_data_rust.dll.lib
+|           |   aios_data_rust.pdb
+|           |   
+|           +---.fingerprint
+|           |   +---aios_data_rust-aad3c4a898d49bfa
+|           |   |       dep-lib-aios_data_rust
+|           |   |       invoked.timestamp
+|           |   |       lib-aios_data_rust
+|           |   |       lib-aios_data_rust.json
+|           |   |       output-lib-aios_data_rust
+|           |   |       
+|           |   +---anyhow-045a5c2a78504372
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---anyhow-1d1c33418763d544
+|           |   |       dep-lib-anyhow
+|           |   |       invoked.timestamp
+|           |   |       lib-anyhow
+|           |   |       lib-anyhow.json
+|           |   |       
+|           |   +---anyhow-7134c2f8e2c2c8be
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---autocfg-110bdd5999cc8351
+|           |   |       dep-lib-autocfg
+|           |   |       invoked.timestamp
+|           |   |       lib-autocfg
+|           |   |       lib-autocfg.json
+|           |   |       
+|           |   +---block-buffer-c3aa540b240a8ce2
+|           |   |       dep-lib-block_buffer
+|           |   |       invoked.timestamp
+|           |   |       lib-block_buffer
+|           |   |       lib-block_buffer.json
+|           |   |       
+|           |   +---cfg-if-a99bdccd0c9c7ea1
+|           |   |       dep-lib-cfg_if
+|           |   |       invoked.timestamp
+|           |   |       lib-cfg_if
+|           |   |       lib-cfg_if.json
+|           |   |       
+|           |   +---chrono-1a504097ccedfe54
+|           |   |       dep-lib-chrono
+|           |   |       invoked.timestamp
+|           |   |       lib-chrono
+|           |   |       lib-chrono.json
+|           |   |       
+|           |   +---cpufeatures-a6c13189133d1448
+|           |   |       dep-lib-cpufeatures
+|           |   |       invoked.timestamp
+|           |   |       lib-cpufeatures
+|           |   |       lib-cpufeatures.json
+|           |   |       
+|           |   +---crossbeam-deque-16016c12a400dee4
+|           |   |       dep-lib-crossbeam_deque
+|           |   |       invoked.timestamp
+|           |   |       lib-crossbeam_deque
+|           |   |       lib-crossbeam_deque.json
+|           |   |       
+|           |   +---crossbeam-epoch-df3ab80015fb6365
+|           |   |       dep-lib-crossbeam_epoch
+|           |   |       invoked.timestamp
+|           |   |       lib-crossbeam_epoch
+|           |   |       lib-crossbeam_epoch.json
+|           |   |       
+|           |   +---crossbeam-utils-68cdbf02ebb0072a
+|           |   |       dep-lib-crossbeam_utils
+|           |   |       invoked.timestamp
+|           |   |       lib-crossbeam_utils
+|           |   |       lib-crossbeam_utils.json
+|           |   |       
+|           |   +---crossbeam-utils-9945c743697ba097
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---crossbeam-utils-ea004232fe9c4047
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---crypto-common-0c1641df513a9623
+|           |   |       dep-lib-crypto_common
+|           |   |       invoked.timestamp
+|           |   |       lib-crypto_common
+|           |   |       lib-crypto_common.json
+|           |   |       
+|           |   +---digest-ce6afb7036fc214e
+|           |   |       dep-lib-digest
+|           |   |       invoked.timestamp
+|           |   |       lib-digest
+|           |   |       lib-digest.json
+|           |   |       
+|           |   +---either-d83ee4a84af58d26
+|           |   |       dep-lib-either
+|           |   |       invoked.timestamp
+|           |   |       lib-either
+|           |   |       lib-either.json
+|           |   |       
+|           |   +---generic-array-6f17a4ecb2f3d418
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---generic-array-7695b6c448fefc58
+|           |   |       dep-lib-generic_array
+|           |   |       invoked.timestamp
+|           |   |       lib-generic_array
+|           |   |       lib-generic_array.json
+|           |   |       
+|           |   +---generic-array-d6c91616c1ca2d71
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---heck-445e149b0c800e44
+|           |   |       dep-lib-heck
+|           |   |       invoked.timestamp
+|           |   |       lib-heck
+|           |   |       lib-heck.json
+|           |   |       
+|           |   +---hex-d2706387b55e2bf9
+|           |   |       dep-lib-hex
+|           |   |       invoked.timestamp
+|           |   |       lib-hex
+|           |   |       lib-hex.json
+|           |   |       
+|           |   +---indoc-405728950e3030e9
+|           |   |       dep-lib-indoc
+|           |   |       invoked.timestamp
+|           |   |       lib-indoc
+|           |   |       lib-indoc.json
+|           |   |       
+|           |   +---itoa-9a1612c132340039
+|           |   |       dep-lib-itoa
+|           |   |       invoked.timestamp
+|           |   |       lib-itoa
+|           |   |       lib-itoa.json
+|           |   |       
+|           |   +---libc-5abdf50edffc41d7
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---libc-a77cb94833b58956
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---libc-f05b207d3a79fbc5
+|           |   |       dep-lib-libc
+|           |   |       invoked.timestamp
+|           |   |       lib-libc
+|           |   |       lib-libc.json
+|           |   |       
+|           |   +---lock_api-1cfce89dd1801121
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---lock_api-51508c34c7ce51aa
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---lock_api-828a274a9ae92426
+|           |   |       dep-lib-lock_api
+|           |   |       invoked.timestamp
+|           |   |       lib-lock_api
+|           |   |       lib-lock_api.json
+|           |   |       
+|           |   +---memchr-f5170a6b46119bba
+|           |   |       dep-lib-memchr
+|           |   |       invoked.timestamp
+|           |   |       lib-memchr
+|           |   |       lib-memchr.json
+|           |   |       
+|           |   +---memoffset-3232b78b4886bf6f
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---memoffset-756fa2e071e0eaa9
+|           |   |       dep-lib-memoffset
+|           |   |       invoked.timestamp
+|           |   |       lib-memoffset
+|           |   |       lib-memoffset.json
+|           |   |       
+|           |   +---memoffset-e49bcf7118689534
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---num-traits-1197391293a90219
+|           |   |       dep-lib-num_traits
+|           |   |       invoked.timestamp
+|           |   |       lib-num_traits
+|           |   |       lib-num_traits.json
+|           |   |       
+|           |   +---num-traits-27cb43ca7d4899fd
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---num-traits-b69565de82bce0cc
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---once_cell-f87013adce3bebc9
+|           |   |       dep-lib-once_cell
+|           |   |       invoked.timestamp
+|           |   |       lib-once_cell
+|           |   |       lib-once_cell.json
+|           |   |       
+|           |   +---parking_lot-06d1378061d80896
+|           |   |       dep-lib-parking_lot
+|           |   |       invoked.timestamp
+|           |   |       lib-parking_lot
+|           |   |       lib-parking_lot.json
+|           |   |       
+|           |   +---parking_lot_core-225a2ccefe683e24
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---parking_lot_core-8ce131159cce5d01
+|           |   |       dep-lib-parking_lot_core
+|           |   |       invoked.timestamp
+|           |   |       lib-parking_lot_core
+|           |   |       lib-parking_lot_core.json
+|           |   |       
+|           |   +---parking_lot_core-d82a08ec8d877db2
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---portable-atomic-386ed3208a4d4b32
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---portable-atomic-3a2af6d04ff39b6c
+|           |   |       dep-lib-portable_atomic
+|           |   |       invoked.timestamp
+|           |   |       lib-portable_atomic
+|           |   |       lib-portable_atomic.json
+|           |   |       
+|           |   +---portable-atomic-71d42c65c0cd024f
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---proc-macro2-569a0271fa155a1e
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---proc-macro2-7970fcba99524eb7
+|           |   |       dep-lib-proc_macro2
+|           |   |       invoked.timestamp
+|           |   |       lib-proc_macro2
+|           |   |       lib-proc_macro2.json
+|           |   |       
+|           |   +---proc-macro2-a2cb035cb4b18558
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---pyo3-43b635f190446dfa
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---pyo3-8e5fe6fa0b2898cc
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---pyo3-be3eec16e7a41eca
+|           |   |       dep-lib-pyo3
+|           |   |       invoked.timestamp
+|           |   |       lib-pyo3
+|           |   |       lib-pyo3.json
+|           |   |       
+|           |   +---pyo3-build-config-58613eb06cd683e2
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---pyo3-build-config-ab02a52565a6c55d
+|           |   |       dep-lib-pyo3_build_config
+|           |   |       invoked.timestamp
+|           |   |       lib-pyo3_build_config
+|           |   |       lib-pyo3_build_config.json
+|           |   |       
+|           |   +---pyo3-build-config-bd530821950fd941
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---pyo3-ffi-3eac0aa45edce64e
+|           |   |       dep-lib-pyo3_ffi
+|           |   |       invoked.timestamp
+|           |   |       lib-pyo3_ffi
+|           |   |       lib-pyo3_ffi.json
+|           |   |       
+|           |   +---pyo3-ffi-583d7f851f4257f1
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---pyo3-ffi-c5e7b480405bd8f2
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---pyo3-macros-8295c7a78669e024
+|           |   |       dep-lib-pyo3_macros
+|           |   |       invoked.timestamp
+|           |   |       lib-pyo3_macros
+|           |   |       lib-pyo3_macros.json
+|           |   |       
+|           |   +---pyo3-macros-backend-225c7cc7967c5dcd
+|           |   |       dep-lib-pyo3_macros_backend
+|           |   |       invoked.timestamp
+|           |   |       lib-pyo3_macros_backend
+|           |   |       lib-pyo3_macros_backend.json
+|           |   |       
+|           |   +---quote-42b985dc7d7f00bd
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---quote-775e3e0ad56e3e40
+|           |   |       dep-lib-quote
+|           |   |       invoked.timestamp
+|           |   |       lib-quote
+|           |   |       lib-quote.json
+|           |   |       
+|           |   +---quote-8e3d9a0e9b3d9dc5
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---rayon-core-071baa2525cb0951
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---rayon-core-43ec09845b5f11a1
+|           |   |       dep-lib-rayon_core
+|           |   |       invoked.timestamp
+|           |   |       lib-rayon_core
+|           |   |       lib-rayon_core.json
+|           |   |       
+|           |   +---rayon-core-90a1ec1288c72284
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---rayon-e9a2d4b28c7d411e
+|           |   |       dep-lib-rayon
+|           |   |       invoked.timestamp
+|           |   |       lib-rayon
+|           |   |       lib-rayon.json
+|           |   |       
+|           |   +---ryu-979f73fa326b529e
+|           |   |       dep-lib-ryu
+|           |   |       invoked.timestamp
+|           |   |       lib-ryu
+|           |   |       lib-ryu.json
+|           |   |       
+|           |   +---same-file-e8dc7394f5c02bbd
+|           |   |       dep-lib-same_file
+|           |   |       invoked.timestamp
+|           |   |       lib-same_file
+|           |   |       lib-same_file.json
+|           |   |       
+|           |   +---scopeguard-5219a09e970e034b
+|           |   |       dep-lib-scopeguard
+|           |   |       invoked.timestamp
+|           |   |       lib-scopeguard
+|           |   |       lib-scopeguard.json
+|           |   |       
+|           |   +---serde-9b5e7898eae8a61d
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---serde-a09402850eab3e9f
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---serde-a7be6815bf2a44e0
+|           |   |       dep-lib-serde
+|           |   |       invoked.timestamp
+|           |   |       lib-serde
+|           |   |       lib-serde.json
+|           |   |       
+|           |   +---serde_core-2add151975791089
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---serde_core-d8b205b9e1edcc04
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---serde_core-f35112678c813c23
+|           |   |       dep-lib-serde_core
+|           |   |       invoked.timestamp
+|           |   |       lib-serde_core
+|           |   |       lib-serde_core.json
+|           |   |       
+|           |   +---serde_derive-114f049ebc284df9
+|           |   |       dep-lib-serde_derive
+|           |   |       invoked.timestamp
+|           |   |       lib-serde_derive
+|           |   |       lib-serde_derive.json
+|           |   |       
+|           |   +---serde_json-542d5f65ab1fe3d2
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---serde_json-cd09d9fd672feb0c
+|           |   |       dep-lib-serde_json
+|           |   |       invoked.timestamp
+|           |   |       lib-serde_json
+|           |   |       lib-serde_json.json
+|           |   |       
+|           |   +---serde_json-e24d7aac78a6b599
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---sha2-4fd5eaba4515c7f4
+|           |   |       dep-lib-sha2
+|           |   |       invoked.timestamp
+|           |   |       lib-sha2
+|           |   |       lib-sha2.json
+|           |   |       
+|           |   +---smallvec-51ac2092d8dbb08c
+|           |   |       dep-lib-smallvec
+|           |   |       invoked.timestamp
+|           |   |       lib-smallvec
+|           |   |       lib-smallvec.json
+|           |   |       
+|           |   +---syn-b020e8bc5e525427
+|           |   |       dep-lib-syn
+|           |   |       invoked.timestamp
+|           |   |       lib-syn
+|           |   |       lib-syn.json
+|           |   |       
+|           |   +---target-lexicon-6849ea53af1795c2
+|           |   |       dep-lib-target_lexicon
+|           |   |       invoked.timestamp
+|           |   |       lib-target_lexicon
+|           |   |       lib-target_lexicon.json
+|           |   |       
+|           |   +---target-lexicon-add3722c21a7f8a5
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---target-lexicon-ce6bf184985696aa
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---typenum-2780e9e7df9b2263
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   +---typenum-78f2171e4f6436ba
+|           |   |       dep-lib-typenum
+|           |   |       invoked.timestamp
+|           |   |       lib-typenum
+|           |   |       lib-typenum.json
+|           |   |       
+|           |   +---typenum-fd7ddd312e6d1368
+|           |   |       run-build-script-build-script-build
+|           |   |       run-build-script-build-script-build.json
+|           |   |       
+|           |   +---unicode-ident-1120f09d5d370f7b
+|           |   |       dep-lib-unicode_ident
+|           |   |       invoked.timestamp
+|           |   |       lib-unicode_ident
+|           |   |       lib-unicode_ident.json
+|           |   |       
+|           |   +---unindent-b42cad19b2d14761
+|           |   |       dep-lib-unindent
+|           |   |       invoked.timestamp
+|           |   |       lib-unindent
+|           |   |       lib-unindent.json
+|           |   |       
+|           |   +---version_check-18adcbb16e011c6c
+|           |   |       dep-lib-version_check
+|           |   |       invoked.timestamp
+|           |   |       lib-version_check
+|           |   |       lib-version_check.json
+|           |   |       
+|           |   +---walkdir-44c757172660b185
+|           |   |       dep-lib-walkdir
+|           |   |       invoked.timestamp
+|           |   |       lib-walkdir
+|           |   |       lib-walkdir.json
+|           |   |       
+|           |   +---winapi-util-55f6c264998afb82
+|           |   |       dep-lib-winapi_util
+|           |   |       invoked.timestamp
+|           |   |       lib-winapi_util
+|           |   |       lib-winapi_util.json
+|           |   |       
+|           |   +---windows-link-ea0f62299b8e0fa0
+|           |   |       dep-lib-windows_link
+|           |   |       invoked.timestamp
+|           |   |       lib-windows_link
+|           |   |       lib-windows_link.json
+|           |   |       
+|           |   +---windows-sys-87987bbacb1368a9
+|           |   |       dep-lib-windows_sys
+|           |   |       invoked.timestamp
+|           |   |       lib-windows_sys
+|           |   |       lib-windows_sys.json
+|           |   |       
+|           |   +---windows-targets-8277088410c8f977
+|           |   |       dep-lib-windows_targets
+|           |   |       invoked.timestamp
+|           |   |       lib-windows_targets
+|           |   |       lib-windows_targets.json
+|           |   |       
+|           |   +---windows_x86_64_msvc-9d063d23c20f2a3a
+|           |   |       dep-lib-windows_x86_64_msvc
+|           |   |       invoked.timestamp
+|           |   |       lib-windows_x86_64_msvc
+|           |   |       lib-windows_x86_64_msvc.json
+|           |   |       
+|           |   +---windows_x86_64_msvc-bae9bd3d500fc719
+|           |   |       build-script-build-script-build
+|           |   |       build-script-build-script-build.json
+|           |   |       dep-build-script-build-script-build
+|           |   |       invoked.timestamp
+|           |   |       
+|           |   \---windows_x86_64_msvc-be1e24b5d7fb1e24
+|           |           run-build-script-build-script-build
+|           |           run-build-script-build-script-build.json
+|           |           
+|           +---build
+|           |   +---anyhow-045a5c2a78504372
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-045a5c2a78504372.d
+|           |   |       build_script_build-045a5c2a78504372.exe
+|           |   |       build_script_build-045a5c2a78504372.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---anyhow-7134c2f8e2c2c8be
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---crossbeam-utils-9945c743697ba097
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---crossbeam-utils-ea004232fe9c4047
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-ea004232fe9c4047.d
+|           |   |       build_script_build-ea004232fe9c4047.exe
+|           |   |       build_script_build-ea004232fe9c4047.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---generic-array-6f17a4ecb2f3d418
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-6f17a4ecb2f3d418.d
+|           |   |       build_script_build-6f17a4ecb2f3d418.exe
+|           |   |       build_script_build-6f17a4ecb2f3d418.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---generic-array-d6c91616c1ca2d71
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---libc-5abdf50edffc41d7
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-5abdf50edffc41d7.d
+|           |   |       build_script_build-5abdf50edffc41d7.exe
+|           |   |       build_script_build-5abdf50edffc41d7.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---libc-a77cb94833b58956
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---lock_api-1cfce89dd1801121
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-1cfce89dd1801121.d
+|           |   |       build_script_build-1cfce89dd1801121.exe
+|           |   |       build_script_build-1cfce89dd1801121.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---lock_api-51508c34c7ce51aa
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---memoffset-3232b78b4886bf6f
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-3232b78b4886bf6f.d
+|           |   |       build_script_build-3232b78b4886bf6f.exe
+|           |   |       build_script_build-3232b78b4886bf6f.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---memoffset-e49bcf7118689534
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---num-traits-27cb43ca7d4899fd
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---num-traits-b69565de82bce0cc
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-b69565de82bce0cc.d
+|           |   |       build_script_build-b69565de82bce0cc.exe
+|           |   |       build_script_build-b69565de82bce0cc.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---parking_lot_core-225a2ccefe683e24
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-225a2ccefe683e24.d
+|           |   |       build_script_build-225a2ccefe683e24.exe
+|           |   |       build_script_build-225a2ccefe683e24.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---parking_lot_core-d82a08ec8d877db2
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---portable-atomic-386ed3208a4d4b32
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---portable-atomic-71d42c65c0cd024f
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-71d42c65c0cd024f.d
+|           |   |       build_script_build-71d42c65c0cd024f.exe
+|           |   |       build_script_build-71d42c65c0cd024f.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---proc-macro2-569a0271fa155a1e
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---proc-macro2-a2cb035cb4b18558
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-a2cb035cb4b18558.d
+|           |   |       build_script_build-a2cb035cb4b18558.exe
+|           |   |       build_script_build-a2cb035cb4b18558.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---pyo3-43b635f190446dfa
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-43b635f190446dfa.d
+|           |   |       build_script_build-43b635f190446dfa.exe
+|           |   |       build_script_build-43b635f190446dfa.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---pyo3-8e5fe6fa0b2898cc
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---pyo3-build-config-58613eb06cd683e2
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-58613eb06cd683e2.d
+|           |   |       build_script_build-58613eb06cd683e2.exe
+|           |   |       build_script_build-58613eb06cd683e2.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---pyo3-build-config-bd530821950fd941
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   |           pyo3-build-config-file.txt
+|           |   |           pyo3-build-config.txt
+|           |   |           
+|           |   +---pyo3-ffi-583d7f851f4257f1
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---pyo3-ffi-c5e7b480405bd8f2
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-c5e7b480405bd8f2.d
+|           |   |       build_script_build-c5e7b480405bd8f2.exe
+|           |   |       build_script_build-c5e7b480405bd8f2.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---quote-42b985dc7d7f00bd
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-42b985dc7d7f00bd.d
+|           |   |       build_script_build-42b985dc7d7f00bd.exe
+|           |   |       build_script_build-42b985dc7d7f00bd.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---quote-8e3d9a0e9b3d9dc5
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---rayon-core-071baa2525cb0951
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---rayon-core-90a1ec1288c72284
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-90a1ec1288c72284.d
+|           |   |       build_script_build-90a1ec1288c72284.exe
+|           |   |       build_script_build-90a1ec1288c72284.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---serde-9b5e7898eae8a61d
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-9b5e7898eae8a61d.d
+|           |   |       build_script_build-9b5e7898eae8a61d.exe
+|           |   |       build_script_build-9b5e7898eae8a61d.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---serde-a09402850eab3e9f
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   |           private.rs
+|           |   |           
+|           |   +---serde_core-2add151975791089
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   |           private.rs
+|           |   |           
+|           |   +---serde_core-d8b205b9e1edcc04
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-d8b205b9e1edcc04.d
+|           |   |       build_script_build-d8b205b9e1edcc04.exe
+|           |   |       build_script_build-d8b205b9e1edcc04.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---serde_json-542d5f65ab1fe3d2
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   +---serde_json-e24d7aac78a6b599
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-e24d7aac78a6b599.d
+|           |   |       build_script_build-e24d7aac78a6b599.exe
+|           |   |       build_script_build-e24d7aac78a6b599.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---target-lexicon-add3722c21a7f8a5
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-add3722c21a7f8a5.d
+|           |   |       build_script_build-add3722c21a7f8a5.exe
+|           |   |       build_script_build-add3722c21a7f8a5.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---target-lexicon-ce6bf184985696aa
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   |           host.rs
+|           |   |           
+|           |   +---typenum-2780e9e7df9b2263
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-2780e9e7df9b2263.d
+|           |   |       build_script_build-2780e9e7df9b2263.exe
+|           |   |       build_script_build-2780e9e7df9b2263.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   +---typenum-fd7ddd312e6d1368
+|           |   |   |   invoked.timestamp
+|           |   |   |   output
+|           |   |   |   root-output
+|           |   |   |   stderr
+|           |   |   |   
+|           |   |   \---out
+|           |   |           tests.rs
+|           |   |           
+|           |   +---windows_x86_64_msvc-bae9bd3d500fc719
+|           |   |       build-script-build.exe
+|           |   |       build_script_build-bae9bd3d500fc719.d
+|           |   |       build_script_build-bae9bd3d500fc719.exe
+|           |   |       build_script_build-bae9bd3d500fc719.pdb
+|           |   |       build_script_build.pdb
+|           |   |       
+|           |   \---windows_x86_64_msvc-be1e24b5d7fb1e24
+|           |       |   invoked.timestamp
+|           |       |   output
+|           |       |   root-output
+|           |       |   stderr
+|           |       |   
+|           |       \---out
+|           +---deps
+|           |       aios_data_rust.d
+|           |       aios_data_rust.dll
+|           |       aios_data_rust.dll.exp
+|           |       aios_data_rust.dll.lib
+|           |       aios_data_rust.pdb
+|           |       anyhow-1d1c33418763d544.d
+|           |       autocfg-110bdd5999cc8351.d
+|           |       block_buffer-c3aa540b240a8ce2.d
+|           |       cfg_if-a99bdccd0c9c7ea1.d
+|           |       chrono-1a504097ccedfe54.d
+|           |       cpufeatures-a6c13189133d1448.d
+|           |       crossbeam_deque-16016c12a400dee4.d
+|           |       crossbeam_epoch-df3ab80015fb6365.d
+|           |       crossbeam_utils-68cdbf02ebb0072a.d
+|           |       crypto_common-0c1641df513a9623.d
+|           |       digest-ce6afb7036fc214e.d
+|           |       either-d83ee4a84af58d26.d
+|           |       generic_array-7695b6c448fefc58.d
+|           |       heck-445e149b0c800e44.d
+|           |       hex-d2706387b55e2bf9.d
+|           |       indoc-405728950e3030e9.d
+|           |       indoc-405728950e3030e9.dll
+|           |       indoc-405728950e3030e9.dll.exp
+|           |       indoc-405728950e3030e9.dll.lib
+|           |       indoc-405728950e3030e9.pdb
+|           |       itoa-9a1612c132340039.d
+|           |       libanyhow-1d1c33418763d544.rlib
+|           |       libanyhow-1d1c33418763d544.rmeta
+|           |       libautocfg-110bdd5999cc8351.rlib
+|           |       libautocfg-110bdd5999cc8351.rmeta
+|           |       libblock_buffer-c3aa540b240a8ce2.rlib
+|           |       libblock_buffer-c3aa540b240a8ce2.rmeta
+|           |       libc-f05b207d3a79fbc5.d
+|           |       libcfg_if-a99bdccd0c9c7ea1.rlib
+|           |       libcfg_if-a99bdccd0c9c7ea1.rmeta
+|           |       libchrono-1a504097ccedfe54.rlib
+|           |       libchrono-1a504097ccedfe54.rmeta
+|           |       libcpufeatures-a6c13189133d1448.rlib
+|           |       libcpufeatures-a6c13189133d1448.rmeta
+|           |       libcrossbeam_deque-16016c12a400dee4.rlib
+|           |       libcrossbeam_deque-16016c12a400dee4.rmeta
+|           |       libcrossbeam_epoch-df3ab80015fb6365.rlib
+|           |       libcrossbeam_epoch-df3ab80015fb6365.rmeta
+|           |       libcrossbeam_utils-68cdbf02ebb0072a.rlib
+|           |       libcrossbeam_utils-68cdbf02ebb0072a.rmeta
+|           |       libcrypto_common-0c1641df513a9623.rlib
+|           |       libcrypto_common-0c1641df513a9623.rmeta
+|           |       libdigest-ce6afb7036fc214e.rlib
+|           |       libdigest-ce6afb7036fc214e.rmeta
+|           |       libeither-d83ee4a84af58d26.rlib
+|           |       libeither-d83ee4a84af58d26.rmeta
+|           |       libgeneric_array-7695b6c448fefc58.rlib
+|           |       libgeneric_array-7695b6c448fefc58.rmeta
+|           |       libheck-445e149b0c800e44.rlib
+|           |       libheck-445e149b0c800e44.rmeta
+|           |       libhex-d2706387b55e2bf9.rlib
+|           |       libhex-d2706387b55e2bf9.rmeta
+|           |       libitoa-9a1612c132340039.rlib
+|           |       libitoa-9a1612c132340039.rmeta
+|           |       liblibc-f05b207d3a79fbc5.rlib
+|           |       liblibc-f05b207d3a79fbc5.rmeta
+|           |       liblock_api-828a274a9ae92426.rlib
+|           |       liblock_api-828a274a9ae92426.rmeta
+|           |       libmemchr-f5170a6b46119bba.rlib
+|           |       libmemchr-f5170a6b46119bba.rmeta
+|           |       libmemoffset-756fa2e071e0eaa9.rlib
+|           |       libmemoffset-756fa2e071e0eaa9.rmeta
+|           |       libnum_traits-1197391293a90219.rlib
+|           |       libnum_traits-1197391293a90219.rmeta
+|           |       libonce_cell-f87013adce3bebc9.rlib
+|           |       libonce_cell-f87013adce3bebc9.rmeta
+|           |       libparking_lot-06d1378061d80896.rlib
+|           |       libparking_lot-06d1378061d80896.rmeta
+|           |       libparking_lot_core-8ce131159cce5d01.rlib
+|           |       libparking_lot_core-8ce131159cce5d01.rmeta
+|           |       libportable_atomic-3a2af6d04ff39b6c.rlib
+|           |       libportable_atomic-3a2af6d04ff39b6c.rmeta
+|           |       libproc_macro2-7970fcba99524eb7.rlib
+|           |       libproc_macro2-7970fcba99524eb7.rmeta
+|           |       libpyo3-be3eec16e7a41eca.rlib
+|           |       libpyo3-be3eec16e7a41eca.rmeta
+|           |       libpyo3_build_config-ab02a52565a6c55d.rlib
+|           |       libpyo3_build_config-ab02a52565a6c55d.rmeta
+|           |       libpyo3_ffi-3eac0aa45edce64e.rlib
+|           |       libpyo3_ffi-3eac0aa45edce64e.rmeta
+|           |       libpyo3_macros_backend-225c7cc7967c5dcd.rlib
+|           |       libpyo3_macros_backend-225c7cc7967c5dcd.rmeta
+|           |       libquote-775e3e0ad56e3e40.rlib
+|           |       libquote-775e3e0ad56e3e40.rmeta
+|           |       librayon-e9a2d4b28c7d411e.rlib
+|           |       librayon-e9a2d4b28c7d411e.rmeta
+|           |       librayon_core-43ec09845b5f11a1.rlib
+|           |       librayon_core-43ec09845b5f11a1.rmeta
+|           |       libryu-979f73fa326b529e.rlib
+|           |       libryu-979f73fa326b529e.rmeta
+|           |       libsame_file-e8dc7394f5c02bbd.rlib
+|           |       libsame_file-e8dc7394f5c02bbd.rmeta
+|           |       libscopeguard-5219a09e970e034b.rlib
+|           |       libscopeguard-5219a09e970e034b.rmeta
+|           |       libserde-a7be6815bf2a44e0.rlib
+|           |       libserde-a7be6815bf2a44e0.rmeta
+|           |       libserde_core-f35112678c813c23.rlib
+|           |       libserde_core-f35112678c813c23.rmeta
+|           |       libserde_json-cd09d9fd672feb0c.rlib
+|           |       libserde_json-cd09d9fd672feb0c.rmeta
+|           |       libsha2-4fd5eaba4515c7f4.rlib
+|           |       libsha2-4fd5eaba4515c7f4.rmeta
+|           |       libsmallvec-51ac2092d8dbb08c.rlib
+|           |       libsmallvec-51ac2092d8dbb08c.rmeta
+|           |       libsyn-b020e8bc5e525427.rlib
+|           |       libsyn-b020e8bc5e525427.rmeta
+|           |       libtarget_lexicon-6849ea53af1795c2.rlib
+|           |       libtarget_lexicon-6849ea53af1795c2.rmeta
+|           |       libtypenum-78f2171e4f6436ba.rlib
+|           |       libtypenum-78f2171e4f6436ba.rmeta
+|           |       libunicode_ident-1120f09d5d370f7b.rlib
+|           |       libunicode_ident-1120f09d5d370f7b.rmeta
+|           |       libunindent-b42cad19b2d14761.rlib
+|           |       libunindent-b42cad19b2d14761.rmeta
+|           |       libversion_check-18adcbb16e011c6c.rlib
+|           |       libversion_check-18adcbb16e011c6c.rmeta
+|           |       libwalkdir-44c757172660b185.rlib
+|           |       libwalkdir-44c757172660b185.rmeta
+|           |       libwinapi_util-55f6c264998afb82.rlib
+|           |       libwinapi_util-55f6c264998afb82.rmeta
+|           |       libwindows_link-ea0f62299b8e0fa0.rlib
+|           |       libwindows_link-ea0f62299b8e0fa0.rmeta
+|           |       libwindows_sys-87987bbacb1368a9.rlib
+|           |       libwindows_sys-87987bbacb1368a9.rmeta
+|           |       libwindows_targets-8277088410c8f977.rlib
+|           |       libwindows_targets-8277088410c8f977.rmeta
+|           |       libwindows_x86_64_msvc-9d063d23c20f2a3a.rlib
+|           |       libwindows_x86_64_msvc-9d063d23c20f2a3a.rmeta
+|           |       lock_api-828a274a9ae92426.d
+|           |       memchr-f5170a6b46119bba.d
+|           |       memoffset-756fa2e071e0eaa9.d
+|           |       num_traits-1197391293a90219.d
+|           |       once_cell-f87013adce3bebc9.d
+|           |       parking_lot-06d1378061d80896.d
+|           |       parking_lot_core-8ce131159cce5d01.d
+|           |       portable_atomic-3a2af6d04ff39b6c.d
+|           |       proc_macro2-7970fcba99524eb7.d
+|           |       pyo3-be3eec16e7a41eca.d
+|           |       pyo3_build_config-ab02a52565a6c55d.d
+|           |       pyo3_ffi-3eac0aa45edce64e.d
+|           |       pyo3_macros-8295c7a78669e024.d
+|           |       pyo3_macros-8295c7a78669e024.dll
+|           |       pyo3_macros-8295c7a78669e024.dll.exp
+|           |       pyo3_macros-8295c7a78669e024.dll.lib
+|           |       pyo3_macros-8295c7a78669e024.pdb
+|           |       pyo3_macros_backend-225c7cc7967c5dcd.d
+|           |       quote-775e3e0ad56e3e40.d
+|           |       rayon-e9a2d4b28c7d411e.d
+|           |       rayon_core-43ec09845b5f11a1.d
+|           |       ryu-979f73fa326b529e.d
+|           |       same_file-e8dc7394f5c02bbd.d
+|           |       scopeguard-5219a09e970e034b.d
+|           |       serde-a7be6815bf2a44e0.d
+|           |       serde_core-f35112678c813c23.d
+|           |       serde_derive-114f049ebc284df9.d
+|           |       serde_derive-114f049ebc284df9.dll
+|           |       serde_derive-114f049ebc284df9.dll.exp
+|           |       serde_derive-114f049ebc284df9.dll.lib
+|           |       serde_derive-114f049ebc284df9.pdb
+|           |       serde_json-cd09d9fd672feb0c.d
+|           |       sha2-4fd5eaba4515c7f4.d
+|           |       smallvec-51ac2092d8dbb08c.d
+|           |       syn-b020e8bc5e525427.d
+|           |       target_lexicon-6849ea53af1795c2.d
+|           |       typenum-78f2171e4f6436ba.d
+|           |       unicode_ident-1120f09d5d370f7b.d
+|           |       unindent-b42cad19b2d14761.d
+|           |       version_check-18adcbb16e011c6c.d
+|           |       walkdir-44c757172660b185.d
+|           |       winapi_util-55f6c264998afb82.d
+|           |       windows_link-ea0f62299b8e0fa0.d
+|           |       windows_sys-87987bbacb1368a9.d
+|           |       windows_targets-8277088410c8f977.d
+|           |       windows_x86_64_msvc-9d063d23c20f2a3a.d
+|           |       
+|           +---examples
+|           \---incremental
++---simple_documents
+|       documents.json
+|       
++---simple_embeddings
++---temp
+\---__pycache__
+        data_core.cpython-311.pyc
+        hybrid_data_core.cpython-311.pyc
+        

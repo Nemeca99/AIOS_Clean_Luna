@@ -1,0 +1,19 @@
+{
+  "content": "**API Communication**:\n```python\n# Example API call structure\n{\n    \"messages\": [\n        {\"role\": \"system\", \"content\": \"system_prompt\"},\n        {\"role\": \"user\", \"content\": \"user_input\"}\n    ],\n    \"model\": \"llama-3.2-pkd-deckard-almost-human-abliterated-uncensored-7b-i1\",\n    \"temperature\": 0.4,\n    \"max_tokens\": 80,\n    \"repetition_penalty\": 1.1,\n    \"top_p\": 0.9,\n    \"top_k\": 40,\n    \"stream\": False\n}\n```\n\n### Response Value Classification\nThe system uses a sophisticated tier system for optimal model usage:\n\n**Tiers**:\n- **TRIVIAL**: 8-15 tokens (1B model)\n- **LOW**: 20-35 tokens (1B model)\n- **MODERATE**: 50-80 tokens (7B model)\n- **HIGH**: 100-200 tokens (7B model)\n- **CRITICAL**: 200-400 tokens (7B model)\n- **MAXIMUM**: 500-1000 tokens (7B model)\n\n**Classification Factors**:\n- Question complexity\n- Emotional stakes\n- Personal pronouns\n- Keyword patterns\n- Context requirements\n\n### Token Management\nThe system implements an existential budget system:\n\n**Token Pool**: 16,000 tokens (configurable)\n**Karma System**: Tracks resource usage and rewards\n**Efficiency Requirements**: Varies by tier (10-60%)\n**Time Constraints**: Token-time econometrics\n\n---\n\n## Troubleshooting Guide\n\n### Common Issues and Solutions\n\n#### 1. Import Errors\n**Error**: `ModuleNotFoundError: No module named 'utils'`\n**Solution**: All imports have been updated to use `utils_core`. Check import statements.",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 16,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.602235",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

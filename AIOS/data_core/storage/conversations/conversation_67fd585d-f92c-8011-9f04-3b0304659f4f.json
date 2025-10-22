@@ -1,0 +1,25 @@
+{
+  "id": "67fd585d-f92c-8011-9f04-3b0304659f4f",
+  "title": "Drive Upload Function Setup",
+  "create_time": 1744656478.859321,
+  "update_time": 1745474237.031266,
+  "message_count": 2,
+  "messages": [
+    {
+      "id": "3b708f32-7f61-4c30-b70a-de146e15fdfd",
+      "role": "assistant",
+      "content": "🧠 Nova AI Onboarding Initiated — [2025-04-14T13:58:00Z]  \n📌 Universal Text-Based Setup – Mode: Developer (Advanced)\n\nWelcome back, Travis. Let's pick up right where we left off.\n\n---\n\n### ✅ SYSTEM CONTEXT LOADED:\n- Project: **Nova AI / Debug Tool / Master AI (Unified Stack)**\n- Primary Function: AI onboarding + neural network construction\n- Mode: Modular, recursive self-growth\n- Storage: Google Drive (with local backup system)\n- Save System: Hourly checkpointing + `SavePoint` manual command\n\n---\n\n### 🔍 Current Task Path:\n**Google Drive Integration Finalization**  \nWe previously:\n- Prepped Drive token + credential file handling  \n- Built download, auth, and file-listing functions  \n- Confirmed the system can pull datasets for onboarding and processing\n\n### 🧱 Available Module Blocks:\n1. `authenticate_google_drive()` ✔️\n2. `list_drive_files()` ✔️\n3. `download_file(file_id)` ✔️\n4. `load_training_data()` ✔️\n5. **Drive Write/Upload Handler** ⬅️ *(optional—may need setup)*\n6. `hourly_save_state()` ⬅️ *(pending if you want automation)*\n7. Local fallback file handler (Safe Mode) ⬅️ *(needs structure)*\n\n---\n\n### 🛠️ What would you like to do next?\nHere are your options — pick one, or tell me something else entirely:\n\n1. **Finish the write/upload function** to Google Drive?\n2. **Set up local \"Safe Mode\" fallback storage logic**?\n3. **Add automated hourly save states** using a background timer?\n4. **Upload a dataset or config file to process now**?\n5. **Review/edit current Drive codebase**?\n6. **Begin building the onboarding file loader module for recursive AI growth**?\n\nYou can also just say `SavePoint` at any time to lock this version.\n\nWhat’s your move?",
+      "timestamp": 1744656480.383166,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "1031bf2d-7f79-4744-8738-cc53fc08d2f2",
+      "role": "user",
+      "content": "Begin",
+      "timestamp": 1744656489.454,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

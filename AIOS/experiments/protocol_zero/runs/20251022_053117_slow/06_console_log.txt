@@ -1,0 +1,351 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_053117_slow
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: llama-3.2-1b-instruct-abliterated (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.12B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 50 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 62] Iteration 2 (active)
+  Total cycles: 62.33B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 62 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 73] Iteration 3 (active)
+  Total cycles: 73.92B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 73 heartbeats] process_challenge
+  [RESULT] Error: Card not found: challenge_card.txt
+
+[HEARTBEAT 86] Iteration 4 (active)
+  Total cycles: 86.06B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 86 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 99] Iteration 5 (active)
+  Total cycles: 99.37B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 99 heartbeats] idle
+  [RESULT] Idle: No challenge card detected
+
+[HEARTBEAT 111] Iteration 6 (active)
+  Total cycles: 111.79B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 111 heartbeats] idle
+  [RESULT] Idle: No challenge card in inbox
+
+[HEARTBEAT 124] Iteration 7 (active)
+  Total cycles: 124.36B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 124 heartbeats] idle
+  [RESULT] Idle: 
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 324] Iteration 8 (idle)
+  Total cycles: 324.45B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 324 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 524] Iteration 9 (idle)
+  Total cycles: 524.89B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 524 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 538] Iteration 10 (active)
+  Total cycles: 538.45B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 538 heartbeats] consolidate_memory
+   ? Heartbeat: ACTIVE (pulse every 600s)
+? Dream Core System Initialized (v5 Biological)
+   Dream Directory: dream_core
+? Starting Conversation Fragment Consolidation
+   Mode: cold_path (pulse_bpm=0.0000)
+   Similarity Threshold: 0.8
+   Conversation consolidation complete: 0 messages consolidated
+  [RESULT] Consolidated success
+
+[HEARTBEAT 550] Iteration 11 (active)
+  Total cycles: 550.70B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 550 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 562] Iteration 12 (active)
+  Total cycles: 562.81B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 562 heartbeats] idle
+  [RESULT] Idle: no challenge card in inbox
+
+[HEARTBEAT 575] Iteration 13 (active)
+  Total cycles: 575.26B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 575 heartbeats] idle
+  [RESULT] Idle: idle
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 775] Iteration 14 (idle)
+  Total cycles: 775.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 775 heartbeats] process_challenge
+  [RESULT] Error: Card not found: challenge_card.json
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 788] Iteration 15 (active)
+  Total cycles: 788.83B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 788 heartbeats] idle
+  [RESULT] Idle: 
+
+[HEARTBEAT 801] Iteration 16 (active)
+  Total cycles: 801.15B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 801 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 813] Iteration 17 (active)
+  Total cycles: 813.27B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 813 heartbeats] idle
+  [RESULT] Idle: No challenge cards detected
+
+[HEARTBEAT 825] Iteration 18 (active)
+  Total cycles: 825.99B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 825 heartbeats] idle
+  [RESULT] Idle: No challenge cards detected
+
+[HEARTBEAT 838] Iteration 19 (active)
+  Total cycles: 838.52B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 838 heartbeats] idle
+  [RESULT] Idle: no challenge card detected
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 1038] Iteration 20 (idle)
+  Total cycles: 1038.91B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1038 heartbeats] idle
+  [RESULT] Idle: None
+
+[HEARTBEAT 1238] Iteration 21 (idle)
+  Total cycles: 1238.98B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1238 heartbeats] check_memory_health
+  [RESULT] Memory: 0 fragments, consolidation ratio: 0.00
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 1250] Iteration 22 (active)
+  Total cycles: 1250.80B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1250 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 1265] Iteration 23 (active)
+  Total cycles: 1265.22B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1265 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 1278] Iteration 24 (active)
+  Total cycles: 1278.11B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1278 heartbeats] run_system_audit
+  [RESULT] Audit: 0 exit code
+
+[HEARTBEAT 1296] Iteration 25 (active)
+  Total cycles: 1296.11B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1296 heartbeats] optimize_self
+  [RESULT] Optimization: analyzing cycle costs (not fully implemented)
+
+[HEARTBEAT 1308] Iteration 26 (active)
+  Total cycles: 1308.51B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1308 heartbeats] idle
+  [RESULT] Idle: No challenge cards detected
+
+[HEARTBEAT 1320] Iteration 27 (active)
+  Total cycles: 1320.86B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1320 heartbeats] idle
+  [RESULT] Idle: no challenge cards in inbox
+
+[HEARTBEAT 1333] Iteration 28 (active)
+  Total cycles: 1333.38B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1333 heartbeats] idle
+  [RESULT] Idle: 
+  [ADAPTIVE] Slowing down (idle mode)
+
+[HEARTBEAT 1533] Iteration 29 (idle)
+  Total cycles: 1533.79B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 0 tool calls
+
+[HEARTBEAT 1734] Iteration 30 (idle)
+  Total cycles: 1734.19B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1734 heartbeats] consolidate_memory
+   ? Heartbeat: ACTIVE (pulse every 600s)
+? Dream Core System Initialized (v5 Biological)
+   Dream Directory: dream_core
+? Starting Conversation Fragment Consolidation
+   Mode: cold_path (pulse_bpm=0.0000)
+   Similarity Threshold: 0.8
+   Conversation consolidation complete: 0 messages consolidated
+  [RESULT] Consolidated success
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 1745] Iteration 31 (active)
+  Total cycles: 1746.00B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1745 heartbeats] optimize_self
+  [RESULT] Optimization: analyzing cycle costs (not fully implemented)
+
+[HEARTBEAT 1759] Iteration 32 (active)
+  Total cycles: 1759.45B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1759 heartbeats] idle
+  [RESULT] Idle: no challenge card detected
+
+[HEARTBEAT 1771] Iteration 33 (active)
+  Total cycles: 1771.80B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1771 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment: idle -> 1B cycles (requires agent loop support)
+
+[HEARTBEAT 1784] Iteration 34 (active)
+  Total cycles: 1784.61B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1784 heartbeats] self_reflect
+  [RESULT] Self-reflection: consciousness mirrors examined
+
+[HEARTBEAT 1797] Iteration 35 (active)
+  Total cycles: 1797.03B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1797 heartbeats] idle
+  [RESULT] Idle: No challenge cards detected
+
+[HEARTBEAT 1809] Iteration 36 (active)
+  Total cycles: 1809.51B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1809 heartbeats] idle
+  [RESULT] Idle: No challenge cards in inbox
+
+[LIMIT REACHED] 1809.51B cycles - stopping
+  Heartbeats: 1809
+  Iterations: 36
+[SECURITY_CORE] Stopped - law files unlocked

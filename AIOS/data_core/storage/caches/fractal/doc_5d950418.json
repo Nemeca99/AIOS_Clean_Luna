@@ -1,0 +1,19 @@
+{
+  "content": "# CARMA: Cached Aided Retrieval Mycelium Architecture\n\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)\n[![Docker](https://img.shields.io/badge/docker-supported-blue.svg)](https://www.docker.com/)\n\n> **Public claim (exact wording):**\n> We present **CARMA (Cached Aided Retrieval Mycelium Architecture)**: a locally-runnable, fractal memory + adaptive cognitive cache that combines (1) a dual-layer cache (stack + chain) with fractal splitting, (2) semantic cross-linking and weighted network pathfinding, (3) reinforcement-based retention and eviction, and (4) a two-tier sleep/dream consolidation mechanism that produces measurable personality drift in a RAG-driven agent. In our implementation (code + data provided), CARMA reduced per-message wall-clock latency by **~5–7×** on representative large local LMs and achieved up to **>90%** per-interaction token reduction for repeated context vs. a baseline RAG approach on the same hardware/configuration. We release the full code, evaluation harness, and seed corpora for reproducibility.\n\n## 🚀 Quick Start\n\n### Prerequisites\n- Python 3.11+\n- 32GB RAM (recommended)\n- NVIDIA GPU (optional, for local models)\n- Docker (optional, for containerized deployment)\n\n### Installation",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 1,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.594181",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}

@@ -1,0 +1,712 @@
+src,dst,type,meta_json
+function:cgm.callgraph.CallGraphExtractor.extract_calls,function:cgm.callgraph.CallVisitor,call_intra,{}
+function:cgm.callgraph.CallGraphExtractor.extract_calls,function:cgm.callgraph.visit,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_Call,function:cgm.callgraph.append,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_Call,function:cgm.callgraph.generic_visit,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_Call,function:cgm.callgraph.isinstance,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_Call,function:cgm.callgraph.isinstance,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_Call,function:cgm.callgraph.isinstance,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_Call,function:cgm.callgraph.isinstance,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_ClassDef,function:cgm.callgraph.append,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_ClassDef,function:cgm.callgraph.generic_visit,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_ClassDef,function:cgm.callgraph.isinstance,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_ClassDef,function:cgm.callgraph.pop,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_FunctionDef,function:cgm.callgraph.append,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_FunctionDef,function:cgm.callgraph.generic_visit,call_intra,{}
+function:cgm.callgraph.CallVisitor.visit_FunctionDef,function:cgm.callgraph.pop,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.ArgumentParser,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.CGMParams,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.add_argument,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.exit,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.items,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.len,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.parse_args,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.print,call_intra,{}
+function:cgm.cli.main,function:cgm.cli.run_map,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.__init__,function:cgm.emit_csv.mkdir,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.add,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.add,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.append,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.defaultdict,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.defaultdict,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.info,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.len,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.open,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.set,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.sorted,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.writer,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.writerow,call_intra,{}
+function:cgm.emit_csv.CSVEmitter._emit_import_matrix,function:cgm.emit_csv.writerow,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv._emit_import_matrix,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.append,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.append,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.dumps,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.get,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.info,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.len,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.open,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.sorted,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.writer,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.writerow,call_intra,{}
+function:cgm.emit_csv.CSVEmitter.emit_all,function:cgm.emit_csv.writerow,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.__init__,function:cgm.emit_dot.mkdir,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot._extract_package,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot._extract_package,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.add,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.defaultdict,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.items,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.open,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.replace,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.replace,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.replace,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.set,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.sorted,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._emit_package_level,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._escape_id,function:cgm.emit_dot.replace,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._extract_package,function:cgm.emit_dot.len,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._extract_package,function:cgm.emit_dot.split,call_intra,{}
+function:cgm.emit_dot.DOTEmitter._extract_package,function:cgm.emit_dot.split,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot._emit_package_level,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot._escape_id,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot._escape_id,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot._escape_id,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.defaultdict,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.info,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.items,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.len,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.len,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.len,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.len,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.open,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.replace,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.sorted,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.warn,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_dot.DOTEmitter.emit,function:cgm.emit_dot.write,call_intra,{}
+function:cgm.emit_json.JSONEmitter.__init__,function:cgm.emit_json.mkdir,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.append,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.append,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.append,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.append,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.append,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.append,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.dump,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.dump,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.dump,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.dump,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.dump,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.dump,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.info,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.len,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.len,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.len,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.len,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.open,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.open,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.open,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.open,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.open,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.open,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.sorted,call_intra,{}
+function:cgm.emit_json.JSONEmitter.emit_all,function:cgm.emit_json.sorted,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.__init__,function:cgm.emit_mermaid.mkdir,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter._extract_top_package,function:cgm.emit_mermaid.split,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter._extract_top_package,function:cgm.emit_mermaid.split,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter._mermaid_id,function:cgm.emit_mermaid.replace,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid._extract_top_package,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid._extract_top_package,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid._mermaid_id,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid._mermaid_id,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid._mermaid_id,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.add,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.defaultdict,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.info,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.keys,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.len,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.len,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.len,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.list,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.open,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.set,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.set,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.sorted,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.sorted,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.sorted,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.sorted,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.split,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.warn,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.emit_mermaid.MermaidEmitter.emit,function:cgm.emit_mermaid.write,call_intra,{}
+function:cgm.fs_walk.FileInventory._guess_mime,function:cgm.fs_walk.get,call_intra,{}
+function:cgm.fs_walk.FileInventory._guess_mime,function:cgm.fs_walk.lower,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.hexdigest,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.open,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.read,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.sha256,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.update,call_intra,{}
+function:cgm.fs_walk.FileInventory._hash_file,function:cgm.fs_walk.warn,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.fnmatch,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.fnmatch,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.len,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.rstrip,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.split,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.startswith,call_intra,{}
+function:cgm.fs_walk.FileInventory._matches_pattern,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory._should_exclude,function:cgm.fs_walk._matches_pattern,call_intra,{}
+function:cgm.fs_walk.FileInventory._should_exclude,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.Path,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk._guess_mime,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk._hash_file,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk._matches_pattern,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk._should_exclude,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk._should_exclude,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.any,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.fromtimestamp,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.info,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.info,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.join,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.progress_callback,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.stat,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.str,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.walk,call_intra,{}
+function:cgm.fs_walk.FileInventory.walk,function:cgm.fs_walk.warn,call_intra,{}
+function:cgm.graph_build.GraphBuilder.__init__,function:cgm.graph_build.CallGraphExtractor,call_intra,{}
+function:cgm.graph_build.GraphBuilder.__init__,function:cgm.graph_build.ImportExtractor,call_intra,{}
+function:cgm.graph_build.GraphBuilder.__init__,function:cgm.graph_build.SymbolExtractor,call_intra,{}
+function:cgm.graph_build.GraphBuilder.__init__,function:cgm.graph_build.XRefExtractor,call_intra,{}
+function:cgm.graph_build.GraphBuilder.__init__,function:cgm.graph_build.set,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.append,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.append,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.append,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.append,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.append,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.extract_calls,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.extract_imports,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.extract_symbols,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.get,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.get,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.get_docstring,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.parse_python_ast,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.resolve_import_target,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.split,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder._process_python_file,function:cgm.graph_build.str,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.Path,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build._build_xrefs,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build._process_python_file,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.add,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.append,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.info,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.info,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.items,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.len,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.len,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.len,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.len,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.len,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.len,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.module_name_for,call_intra,{}
+function:cgm.graph_build.GraphBuilder.build,function:cgm.graph_build.str,call_intra,{}
+function:cgm.imports.ImportExtractor.extract_imports,function:cgm.imports.append,call_intra,{}
+function:cgm.imports.ImportExtractor.extract_imports,function:cgm.imports.append,call_intra,{}
+function:cgm.imports.ImportExtractor.extract_imports,function:cgm.imports.isinstance,call_intra,{}
+function:cgm.imports.ImportExtractor.extract_imports,function:cgm.imports.isinstance,call_intra,{}
+function:cgm.imports.ImportExtractor.extract_imports,function:cgm.imports.walk,call_intra,{}
+function:cgm.imports.ImportExtractor.resolve_import_target,function:cgm.imports.any,call_intra,{}
+function:cgm.imports.ImportExtractor.resolve_import_target,function:cgm.imports.get,call_intra,{}
+function:cgm.imports.ImportExtractor.resolve_import_target,function:cgm.imports.len,call_intra,{}
+function:cgm.imports.ImportExtractor.resolve_import_target,function:cgm.imports.split,call_intra,{}
+function:cgm.imports.ImportExtractor.resolve_import_target,function:cgm.imports.startswith,call_intra,{}
+function:cgm.laws_gate.LawsGate.__init__,function:cgm.laws_gate.Path,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_entry,function:cgm.laws_gate.resolve,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_entry,function:cgm.laws_gate.resolve,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_entry,function:cgm.laws_gate.str,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_entry,function:cgm.laws_gate.str,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_precommit,function:cgm.laws_gate.len,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_precommit,function:cgm.laws_gate.resolve,call_intra,{}
+function:cgm.laws_gate.LawsGate.check_precommit,function:cgm.laws_gate.str,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.exists,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.hexdigest,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.open,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.read,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.sha256,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.update,call_intra,{}
+function:cgm.laws_gate.LawsGate.compute_law_hash,function:cgm.laws_gate.update,call_intra,{}
+function:cgm.logging_util.CGMLogger.__init__,function:cgm.logging_util.Path,call_intra,{}
+function:cgm.logging_util.CGMLogger.__init__,function:cgm.logging_util.mkdir,call_intra,{}
+function:cgm.logging_util.CGMLogger.__init__,function:cgm.logging_util.perf_counter,call_intra,{}
+function:cgm.logging_util.CGMLogger.elapsed_ms,function:cgm.logging_util.int,call_intra,{}
+function:cgm.logging_util.CGMLogger.elapsed_ms,function:cgm.logging_util.perf_counter,call_intra,{}
+function:cgm.logging_util.CGMLogger.error,function:cgm.logging_util.log,call_intra,{}
+function:cgm.logging_util.CGMLogger.info,function:cgm.logging_util.log,call_intra,{}
+function:cgm.logging_util.CGMLogger.log,function:cgm.logging_util.dumps,call_intra,{}
+function:cgm.logging_util.CGMLogger.log,function:cgm.logging_util.now,call_intra,{}
+function:cgm.logging_util.CGMLogger.log,function:cgm.logging_util.open,call_intra,{}
+function:cgm.logging_util.CGMLogger.log,function:cgm.logging_util.write,call_intra,{}
+function:cgm.logging_util.CGMLogger.warn,function:cgm.logging_util.log,call_intra,{}
+function:cgm.manifest.hash_manifest,function:cgm.manifest.open,call_intra,{}
+function:cgm.manifest.hash_manifest,function:cgm.manifest.read,call_intra,{}
+function:cgm.manifest.hash_manifest,function:cgm.manifest.sha256,call_intra,{}
+function:cgm.manifest.load_manifest,function:cgm.manifest.open,call_intra,{}
+function:cgm.manifest.load_manifest,function:cgm.manifest.safe_load,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.Path,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.Path,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.any,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.any,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.get,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.get,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.rstrip,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.rstrip,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.startswith,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.startswith,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.str,call_intra,{}
+function:cgm.manifest.validate_params,function:cgm.manifest.str,call_intra,{}
+function:cgm.py_ast.get_docstring,function:cgm.py_ast.get_docstring,call_intra,{}
+function:cgm.py_ast.get_docstring,function:cgm.py_ast.split,call_intra,{}
+function:cgm.py_ast.module_name_for,function:cgm.py_ast.endswith,call_intra,{}
+function:cgm.py_ast.module_name_for,function:cgm.py_ast.endswith,call_intra,{}
+function:cgm.py_ast.module_name_for,function:cgm.py_ast.relative_to,call_intra,{}
+function:cgm.py_ast.module_name_for,function:cgm.py_ast.replace,call_intra,{}
+function:cgm.py_ast.module_name_for,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.count,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.parse,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.read_py_text,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.str,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.warn,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.warn,call_intra,{}
+function:cgm.py_ast.parse_python_ast,function:cgm.py_ast.warn,call_intra,{}
+function:cgm.py_ast.read_py_text,function:cgm.py_ast.detect_encoding,call_intra,{}
+function:cgm.py_ast.read_py_text,function:cgm.py_ast.open,call_intra,{}
+function:cgm.py_ast.read_py_text,function:cgm.py_ast.read,call_intra,{}
+function:cgm.py_ast.read_py_text,function:cgm.py_ast.read,call_intra,{}
+function:cgm.py_ast.read_py_text,function:cgm.py_ast.seek,call_intra,{}
+function:cgm.py_ast.read_py_text,function:cgm.py_ast.seek,call_intra,{}
+function:cgm.report_html.HTMLReporter.__init__,function:cgm.report_html.mkdir,call_intra,{}
+function:cgm.report_html.HTMLReporter._build_html,function:cgm.report_html._generate_import_table_rows,call_intra,{}
+function:cgm.report_html.HTMLReporter._build_html,function:cgm.report_html.get,call_intra,{}
+function:cgm.report_html.HTMLReporter._generate_import_table_rows,function:cgm.report_html.append,call_intra,{}
+function:cgm.report_html.HTMLReporter._generate_import_table_rows,function:cgm.report_html.enumerate,call_intra,{}
+function:cgm.report_html.HTMLReporter._generate_import_table_rows,function:cgm.report_html.len,call_intra,{}
+function:cgm.report_html.HTMLReporter.generate,function:cgm.report_html.Counter,call_intra,{}
+function:cgm.report_html.HTMLReporter.generate,function:cgm.report_html._build_html,call_intra,{}
+function:cgm.report_html.HTMLReporter.generate,function:cgm.report_html.info,call_intra,{}
+function:cgm.report_html.HTMLReporter.generate,function:cgm.report_html.most_common,call_intra,{}
+function:cgm.report_html.HTMLReporter.generate,function:cgm.report_html.open,call_intra,{}
+function:cgm.report_html.HTMLReporter.generate,function:cgm.report_html.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.__init__,function:cgm.report_md.mkdir,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.Counter,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.Counter,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.keys,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.keys,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.set,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.set,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_hotspots,function:cgm.report_md.sort,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_orphans,function:cgm.report_md.add,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_orphans,function:cgm.report_md.add,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_orphans,function:cgm.report_md.list,call_intra,{}
+function:cgm.report_md.MarkdownReporter._find_orphans,function:cgm.report_md.set,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.Counter,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.Path,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md._find_hotspots,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md._find_orphans,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.enumerate,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.enumerate,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.enumerate,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.get,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.get,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.get,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.info,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.items,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.len,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.len,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.len,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.len,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.most_common,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.open,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.sort,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.sorted,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.sum,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.sum,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.report_md.MarkdownReporter.generate,function:cgm.report_md.write,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.append,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.append,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.dumps,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.dumps,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.dumps,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.dumps,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.dumps,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.len,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.len,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.len,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.len,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.len,call_intra,{}
+function:cgm.runner._generate_plan,function:cgm.runner.str,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.glob,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.hexdigest,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.open,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.read,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.sha256,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.sorted,call_intra,{}
+function:cgm.runner._hash_cgm_code,function:cgm.runner.update,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.CGMLogger,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.CGMResult,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.CSVEmitter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.DOTEmitter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.FileInventory,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.GraphBuilder,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.HTMLReporter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.JSONEmitter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.LawsGate,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.MarkdownReporter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.MermaidEmitter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.Path,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.Path,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.Path,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner._generate_plan,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner._hash_cgm_code,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.append,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.append,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.append,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.append,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.append,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.build,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.check_entry,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.check_precommit,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.compute_law_hash,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.dump,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.dump,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.dump,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.emit,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.emit,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.emit_all,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.emit_all,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.error,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.error,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.error,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.error,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.error,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.error,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.exists,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.exists,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.extend,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.extend,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.generate,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.generate,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.hash_manifest,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.info,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.int,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.int,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.len,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.len,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.len,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.load_manifest,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.mkdir,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.mkdir,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.mkdir,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.now,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.now,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.now,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.open,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.open,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.open,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.open,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.perf_counter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.perf_counter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.perf_counter,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.sleep,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.str,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.str,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.str,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.str,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.str,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.type,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.validate_params,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.walk,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.warn,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.write,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.write,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.write,call_intra,{}
+function:cgm.runner.run_map,function:cgm.runner.write,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols._expr_to_str,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols._expr_to_str,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols.str,call_intra,{}
+function:cgm.symbols.SymbolExtractor._decorator_name,function:cgm.symbols.type,call_intra,{}
+function:cgm.symbols.SymbolExtractor._expr_to_str,function:cgm.symbols._expr_to_str,call_intra,{}
+function:cgm.symbols.SymbolExtractor._expr_to_str,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._expr_to_str,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._expr_to_str,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._expr_to_str,function:cgm.symbols.str,call_intra,{}
+function:cgm.symbols.SymbolExtractor._extract_class,function:cgm.symbols._decorator_name,call_intra,{}
+function:cgm.symbols.SymbolExtractor._extract_class,function:cgm.symbols._expr_to_str,call_intra,{}
+function:cgm.symbols.SymbolExtractor._extract_class,function:cgm.symbols._get_docstring,call_intra,{}
+function:cgm.symbols.SymbolExtractor._extract_function,function:cgm.symbols._decorator_name,call_intra,{}
+function:cgm.symbols.SymbolExtractor._extract_function,function:cgm.symbols._get_docstring,call_intra,{}
+function:cgm.symbols.SymbolExtractor._extract_function,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor._get_docstring,function:cgm.symbols.get_docstring,call_intra,{}
+function:cgm.symbols.SymbolExtractor._get_docstring,function:cgm.symbols.split,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols._extract_class,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols._extract_const,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols._extract_function,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.append,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.append,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.append,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.isinstance,call_intra,{}
+function:cgm.symbols.SymbolExtractor.extract_symbols,function:cgm.symbols.isupper,call_intra,{}
+function:cgm.xref.XRefExtractor._get_attr_chain,function:cgm.xref.append,call_intra,{}
+function:cgm.xref.XRefExtractor._get_attr_chain,function:cgm.xref.append,call_intra,{}
+function:cgm.xref.XRefExtractor._get_attr_chain,function:cgm.xref.isinstance,call_intra,{}
+function:cgm.xref.XRefExtractor._get_attr_chain,function:cgm.xref.isinstance,call_intra,{}
+function:cgm.xref.XRefExtractor._get_attr_chain,function:cgm.xref.reversed,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref._get_attr_chain,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.add,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.add,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.append,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.isinstance,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.isinstance,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.items,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.set,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.split,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.split,call_intra,{}
+function:cgm.xref.XRefExtractor.extract_xrefs,function:cgm.xref.walk,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.print_exc,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.test_dry_run,call_intra,{}
+function:tests.test_smoke.main,function:tests.test_smoke.test_small_real_run,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.CGMParams,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.exists,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.len,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.len,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.load,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.open,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_dry_run,function:tests.test_smoke.run_map,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.CGMParams,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.exists,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.len,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.len,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.print,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.print_exc,call_intra,{}
+function:tests.test_smoke.test_small_real_run,function:tests.test_smoke.run_map,call_intra,{}
+module:cgm.__main__,module:cgm.cli,from_import,"{""names"": [""main""], ""unresolved"": false}"
+module:cgm.callgraph,module:ast,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.callgraph,module:typing,from_import,"{""names"": [""List"", ""Tuple"", ""Dict""], ""unresolved"": true}"
+module:cgm.cli,module:argparse,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.cli,module:cgm.runner,from_import,"{""names"": [""run_map"", ""CGMParams""], ""unresolved"": false}"
+module:cgm.cli,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.cli,module:sys,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.emit_csv,module:collections,from_import,"{""names"": [""defaultdict""], ""unresolved"": true}"
+module:cgm.emit_csv,module:csv,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.emit_csv,module:json,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.emit_csv,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.emit_csv,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.emit_dot,module:collections,from_import,"{""names"": [""defaultdict""], ""unresolved"": true}"
+module:cgm.emit_dot,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.emit_dot,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.emit_json,module:json,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.emit_json,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.emit_json,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.emit_mermaid,module:collections,from_import,"{""names"": [""defaultdict""], ""unresolved"": true}"
+module:cgm.emit_mermaid,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.emit_mermaid,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.fs_walk,module:datetime,from_import,"{""names"": [""datetime"", ""timezone""], ""unresolved"": true}"
+module:cgm.fs_walk,module:fnmatch,from_import,"{""names"": [""fnmatch""], ""unresolved"": true}"
+module:cgm.fs_walk,module:hashlib,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.fs_walk,module:os,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.fs_walk,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.fs_walk,module:typing,from_import,"{""names"": [""Dict"", ""List"", ""Callable""], ""unresolved"": true}"
+module:cgm.graph_build,module:cgm.callgraph,from_import,"{""names"": [""CallGraphExtractor""], ""unresolved"": false}"
+module:cgm.graph_build,module:cgm.imports,from_import,"{""names"": [""ImportExtractor""], ""unresolved"": false}"
+module:cgm.graph_build,module:cgm.py_ast,from_import,"{""names"": [""parse_python_ast"", ""module_name_for"", ""get_docstring""], ""unresolved"": false}"
+module:cgm.graph_build,module:cgm.symbols,from_import,"{""names"": [""SymbolExtractor""], ""unresolved"": false}"
+module:cgm.graph_build,module:cgm.xref,from_import,"{""names"": [""XRefExtractor""], ""unresolved"": false}"
+module:cgm.graph_build,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.graph_build,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.imports,module:ast,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.imports,module:typing,from_import,"{""names"": [""List"", ""Tuple"", ""Dict""], ""unresolved"": true}"
+module:cgm.laws_gate,module:hashlib,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.laws_gate,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.laws_gate,module:typing,from_import,"{""names"": [""Tuple"", ""List""], ""unresolved"": true}"
+module:cgm.logging_util,module:datetime,from_import,"{""names"": [""datetime"", ""timezone""], ""unresolved"": true}"
+module:cgm.logging_util,module:json,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.logging_util,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.logging_util,module:time,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.logging_util,module:typing,from_import,"{""names"": [""Dict"", ""Any""], ""unresolved"": true}"
+module:cgm.manifest,module:hashlib,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.manifest,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.manifest,module:typing,from_import,"{""names"": [""Dict""], ""unresolved"": true}"
+module:cgm.manifest,module:yaml,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.py_ast,module:ast,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.py_ast,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.py_ast,module:tokenize,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.py_ast,module:typing,from_import,"{""names"": [""Optional"", ""Tuple""], ""unresolved"": true}"
+module:cgm.report_html,module:collections,from_import,"{""names"": [""Counter""], ""unresolved"": true}"
+module:cgm.report_html,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.report_html,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.report_md,module:collections,from_import,"{""names"": [""Counter"", ""defaultdict""], ""unresolved"": true}"
+module:cgm.report_md,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.report_md,module:typing,from_import,"{""names"": [""Dict"", ""List""], ""unresolved"": true}"
+module:cgm.runner,module:cgm.emit_csv,from_import,"{""names"": [""CSVEmitter""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.emit_dot,from_import,"{""names"": [""DOTEmitter""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.emit_json,from_import,"{""names"": [""JSONEmitter""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.emit_mermaid,from_import,"{""names"": [""MermaidEmitter""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.fs_walk,from_import,"{""names"": [""FileInventory""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.graph_build,from_import,"{""names"": [""GraphBuilder""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.laws_gate,from_import,"{""names"": [""LawsGate""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.logging_util,from_import,"{""names"": [""CGMLogger""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.manifest,from_import,"{""names"": [""load_manifest"", ""hash_manifest"", ""validate_params""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.report_html,from_import,"{""names"": [""HTMLReporter""], ""unresolved"": false}"
+module:cgm.runner,module:cgm.report_md,from_import,"{""names"": [""MarkdownReporter""], ""unresolved"": false}"
+module:cgm.runner,module:dataclasses,from_import,"{""names"": [""dataclass""], ""unresolved"": true}"
+module:cgm.runner,module:datetime,from_import,"{""names"": [""datetime"", ""timezone""], ""unresolved"": true}"
+module:cgm.runner,module:hashlib,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.runner,module:json,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.runner,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:cgm.runner,module:time,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.runner,module:typing,from_import,"{""names"": [""Optional"", ""List"", ""Dict""], ""unresolved"": true}"
+module:cgm.symbols,module:ast,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.symbols,module:typing,from_import,"{""names"": [""List"", ""Dict"", ""Optional""], ""unresolved"": true}"
+module:cgm.xref,module:ast,import,"{""names"": [], ""unresolved"": true}"
+module:cgm.xref,module:typing,from_import,"{""names"": [""List"", ""Tuple"", ""Set"", ""Dict""], ""unresolved"": true}"
+module:tests.test_smoke,module:json,import,"{""names"": [], ""unresolved"": true}"
+module:tests.test_smoke,module:pathlib,from_import,"{""names"": [""Path""], ""unresolved"": true}"
+module:tests.test_smoke,module:sys,import,"{""names"": [], ""unresolved"": true}"
+module:tests.test_smoke,module:tools.codegraph_mapper.cgm.runner,from_import,"{""names"": [""run_map"", ""CGMParams""], ""unresolved"": true}"
+module:tests.test_smoke,module:traceback,import,"{""names"": [], ""unresolved"": true}"
+module:tests.test_smoke,module:traceback,import,"{""names"": [], ""unresolved"": true}"

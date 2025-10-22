@@ -1,0 +1,172 @@
+{
+  "id": "6ea0f2ff-a00a-46e0-88fc-22933d9e67e2",
+  "timestamp": "2025-09-24T20:04:46.633+00:00Z",
+  "content": [
+    {
+      "id": "b1e48971-580f-401c-a301-f31850e5f241",
+      "pattern": "id",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "22a8b4df-8447-437a-ac73-6ea2b36d198d",
+      "pattern": "content",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "fd1b13b1-43db-46cb-9d70-d01a4039a8ea",
+      "pattern": "level",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "05a9996e-403b-49ef-863c-b6820ab6f966",
+      "pattern": "hits",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "76c6a1a8-f173-40b5-8ff8-6faceb6cee0d",
+      "pattern": "parent_id",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "07b6f473-d972-42b5-85c0-8b97ba78c197",
+      "pattern": "children_ids",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "b153d748-8722-4259-9924-a676f97eb377",
+      "pattern": "created_at",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    },
+    {
+      "id": "85687fce-70c8-43ec-97ff-3c0a1675ed68",
+      "pattern": "metadata",
+      "embedding": [],
+      "frequency": 1,
+      "last_used": "2025-09-24T14:25:34.156294Z",
+      "timestamp": "2025-09-24T14:26:35.274260Z",
+      "similarity_threshold": 0.8,
+      "compression": {
+        "ratio": 1.0,
+        "ris_importance": 0.0,
+        "warp_stable": true,
+        "tfid_anchor": 0.618034
+      },
+      "metadata": {
+        "migrated_from": "legacy_format",
+        "original_type": "cache_entry",
+        "migration_date": "2025-09-24T14:25:34.156294Z"
+      }
+    }
+  ],
+  "type": "fractal_cache",
+  "metadata": {
+    "converted_from": "list_format",
+    "original_length": 8,
+    "conversion_date": "2025-09-24T20:04:46.633+00:00Z"
+  }
+}

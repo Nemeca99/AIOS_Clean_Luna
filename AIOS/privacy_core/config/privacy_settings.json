@@ -1,0 +1,22 @@
+{
+  "mode": "semi-auto",
+  "version": "1.0.0",
+  "last_updated": "2025-10-10T19:40:04.775146",
+  "learning": {
+    "conversation_only": true,
+    "passive_monitoring": false,
+    "predictive": false,
+    "always_listening": false,
+    "behavior_tracking": false
+  },
+  "consent": {
+    "full_auto_enabled": false,
+    "user_acknowledged": false,
+    "can_be_disabled_anytime": true
+  },
+  "data_retention": {
+    "conversations": true,
+    "behavioral_data": false,
+    "max_age_days": 365
+  }
+}

@@ -1,0 +1,252 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_063241_fast
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: deepseek-r1-0528-qwen3-8b (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.14B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 100] Iteration 2 (moderate)
+  Total cycles: 100.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 150] Iteration 3 (moderate)
+  Total cycles: 150.97B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 201] Iteration 4 (moderate)
+  Total cycles: 201.29B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 251] Iteration 5 (moderate)
+  Total cycles: 251.69B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 302] Iteration 6 (moderate)
+  Total cycles: 302.17B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 352] Iteration 7 (moderate)
+  Total cycles: 352.51B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 402] Iteration 8 (moderate)
+  Total cycles: 402.85B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 453] Iteration 9 (moderate)
+  Total cycles: 453.20B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 503] Iteration 10 (moderate)
+  Total cycles: 503.62B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 553] Iteration 11 (moderate)
+  Total cycles: 554.00B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 604] Iteration 12 (moderate)
+  Total cycles: 604.43B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 654] Iteration 13 (moderate)
+  Total cycles: 654.87B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 705] Iteration 14 (moderate)
+  Total cycles: 705.23B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 755] Iteration 15 (moderate)
+  Total cycles: 755.71B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 806] Iteration 16 (moderate)
+  Total cycles: 806.17B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 856] Iteration 17 (moderate)
+  Total cycles: 856.54B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 906] Iteration 18 (moderate)
+  Total cycles: 906.96B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 957] Iteration 19 (moderate)
+  Total cycles: 957.29B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1007] Iteration 20 (moderate)
+  Total cycles: 1007.65B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1058] Iteration 21 (moderate)
+  Total cycles: 1058.09B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1108] Iteration 22 (moderate)
+  Total cycles: 1108.48B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1158] Iteration 23 (moderate)
+  Total cycles: 1158.85B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1209] Iteration 24 (moderate)
+  Total cycles: 1209.29B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1259] Iteration 25 (moderate)
+  Total cycles: 1259.77B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1310] Iteration 26 (moderate)
+  Total cycles: 1310.17B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1360] Iteration 27 (moderate)
+  Total cycles: 1360.51B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1410] Iteration 28 (moderate)
+  Total cycles: 1410.88B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1461] Iteration 29 (moderate)
+  Total cycles: 1461.26B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1511] Iteration 30 (moderate)
+  Total cycles: 1511.47B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1561] Iteration 31 (moderate)
+  Total cycles: 1561.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1611] Iteration 32 (moderate)
+  Total cycles: 1611.98B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1662] Iteration 33 (moderate)
+  Total cycles: 1662.24B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1712] Iteration 34 (moderate)
+  Total cycles: 1712.47B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[HEARTBEAT 1762] Iteration 35 (moderate)
+  Total cycles: 1762.69B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [WARNING] AUDITOR didn't respond - skipping
+
+[LIMIT REACHED] 1800.44B cycles - stopping
+  Heartbeats: 1800
+  Iterations: 35
+[SECURITY_CORE] Stopped - law files unlocked

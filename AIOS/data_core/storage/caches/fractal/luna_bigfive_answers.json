@@ -1,0 +1,362 @@
+{
+  "N2": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.78)",
+    "timestamp": 1759282644.5302067,
+    "trait": "neuroticism"
+  },
+  "A3": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759282644.5302067,
+    "trait": "agreeableness"
+  },
+  "O2": {
+    "answer": "Neither Accurate nor Inaccurate (Score: 3/5, Weight: 0.40)",
+    "timestamp": 1759282644.5302067,
+    "trait": "openness"
+  },
+  "O1": {
+    "answer": "Neither Accurate nor Inaccurate (Score: 3/5, Weight: 0.40)",
+    "timestamp": 1759282644.534219,
+    "trait": "openness"
+  },
+  "E2": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759282644.534219,
+    "trait": "extraversion"
+  },
+  "C2": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759282644.534219,
+    "trait": "conscientiousness"
+  },
+  "N3": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.78)",
+    "timestamp": 1759282644.5372074,
+    "trait": "neuroticism"
+  },
+  "E1": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759282644.5372074,
+    "trait": "extraversion"
+  },
+  "O3": {
+    "answer": "Neither Accurate nor Inaccurate (Score: 3/5, Weight: 0.40)",
+    "timestamp": 1759282644.5372074,
+    "trait": "openness"
+  },
+  "A1": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759283069.1835158,
+    "trait": "agreeableness"
+  },
+  "A2": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759283083.5648868,
+    "trait": "agreeableness"
+  },
+  "E3": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759283083.5648868,
+    "trait": "extraversion"
+  },
+  "N1": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.78)",
+    "timestamp": 1759283090.762851,
+    "trait": "neuroticism"
+  },
+  "C3": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759283811.51365,
+    "trait": "conscientiousness"
+  },
+  "C1": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759283918.8540654,
+    "trait": "conscientiousness"
+  },
+  "C57": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759364480.2982774,
+    "trait": "conscientiousness"
+  },
+  "O27": {
+    "answer": "Neither Accurate nor Inaccurate (Score: 3/5, Weight: 0.40)",
+    "timestamp": 1759364480.2982774,
+    "trait": "openness"
+  },
+  "C59": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759364480.2982774,
+    "trait": "conscientiousness"
+  },
+  "O31": {
+    "answer": "Neither Accurate nor Inaccurate (Score: 3/5, Weight: 0.40)",
+    "timestamp": 1759370320.749366,
+    "trait": "openness"
+  },
+  "A45": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759370320.749366,
+    "trait": "agreeableness"
+  },
+  "E22": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759370320.749366,
+    "trait": "extraversion"
+  },
+  "E21": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759370338.3847687,
+    "trait": "extraversion"
+  },
+  "E20": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759370338.3847687,
+    "trait": "extraversion"
+  },
+  "E18": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759378348.2697058,
+    "trait": "extraversion"
+  },
+  "C56": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759378348.2697058,
+    "trait": "conscientiousness"
+  },
+  "E16": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759378557.2850308,
+    "trait": "extraversion"
+  },
+  "E17": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759378557.2850308,
+    "trait": "extraversion"
+  },
+  "E19": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759378557.2850308,
+    "trait": "extraversion"
+  },
+  "O36": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759378691.8621614,
+    "trait": "openness"
+  },
+  "A48": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759378691.8621614,
+    "trait": "agreeableness"
+  },
+  "C52": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759378691.8621614,
+    "trait": "conscientiousness"
+  },
+  "A39": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759379222.0277057,
+    "trait": "agreeableness"
+  },
+  "A41": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759379222.0277057,
+    "trait": "agreeableness"
+  },
+  "C51": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759379436.1299095,
+    "trait": "conscientiousness"
+  },
+  "A40": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759379486.6913474,
+    "trait": "agreeableness"
+  },
+  "E13": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759379486.6913474,
+    "trait": "extraversion"
+  },
+  "N11": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759379981.5716426,
+    "trait": "neuroticism"
+  },
+  "N10": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759379981.5716426,
+    "trait": "neuroticism"
+  },
+  "N5": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759380062.7294226,
+    "trait": "neuroticism"
+  },
+  "O32": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759380304.322365,
+    "trait": "openness"
+  },
+  "A46": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759380304.322365,
+    "trait": "agreeableness"
+  },
+  "O25": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759380304.322365,
+    "trait": "openness"
+  },
+  "A43": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759380438.2503562,
+    "trait": "agreeableness"
+  },
+  "A37": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759380438.2503562,
+    "trait": "agreeableness"
+  },
+  "N8": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759380609.1518245,
+    "trait": "neuroticism"
+  },
+  "O30": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759380896.8631568,
+    "trait": "openness"
+  },
+  "O26": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759380896.8631568,
+    "trait": "openness"
+  },
+  "C55": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759389110.250367,
+    "trait": "conscientiousness"
+  },
+  "C50": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759389485.3233168,
+    "trait": "conscientiousness"
+  },
+  "O33": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759389984.6680975,
+    "trait": "openness"
+  },
+  "N9": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759443097.9607599,
+    "trait": "neuroticism"
+  },
+  "N12": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759443097.9607599,
+    "trait": "neuroticism"
+  },
+  "A38": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759443881.5168304,
+    "trait": "agreeableness"
+  },
+  "E14": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759443881.5168304,
+    "trait": "extraversion"
+  },
+  "E15": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759443881.5168304,
+    "trait": "extraversion"
+  },
+  "C49": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759445030.5813801,
+    "trait": "conscientiousness"
+  },
+  "E23": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759445030.5813801,
+    "trait": "extraversion"
+  },
+  "A44": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759445093.2459395,
+    "trait": "agreeableness"
+  },
+  "C58": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759445385.5122092,
+    "trait": "conscientiousness"
+  },
+  "C60": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759445385.5122092,
+    "trait": "conscientiousness"
+  },
+  "C54": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759452586.676916,
+    "trait": "conscientiousness"
+  },
+  "O28": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759452586.676916,
+    "trait": "openness"
+  },
+  "E24": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.80)",
+    "timestamp": 1759453264.8998392,
+    "trait": "extraversion"
+  },
+  "O35": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759454158.9718535,
+    "trait": "openness"
+  },
+  "A47": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759454158.9718535,
+    "trait": "agreeableness"
+  },
+  "O29": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759456190.854495,
+    "trait": "openness"
+  },
+  "C53": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.60)",
+    "timestamp": 1759457966.169499,
+    "trait": "conscientiousness"
+  },
+  "N7": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759459344.8759046,
+    "trait": "neuroticism"
+  },
+  "N4": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759459344.8759046,
+    "trait": "neuroticism"
+  },
+  "N6": {
+    "answer": "Moderately Inaccurate (Score: 2/5, Weight: 0.30)",
+    "timestamp": 1759865760.4533632,
+    "trait": "neuroticism"
+  },
+  "O34": {
+    "answer": "Moderately Accurate (Score: 4/5, Weight: 0.70)",
+    "timestamp": 1759868887.6603699,
+    "trait": "openness"
+  },
+  "A42": {
+    "answer": "Very Accurate (Score: 5/5, Weight: 0.90)",
+    "timestamp": 1759868987.2415168,
+    "trait": "agreeableness"
+  }
+}

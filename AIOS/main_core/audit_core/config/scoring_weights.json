@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0",
+  "description": "Audit scoring weights and thresholds",
+  
+  "penalties": {
+    "critical_issue": -25,
+    "performance_issue": -8,
+    "real_safety_issue": -6,
+    "missing_feature": -5,
+    "code_smell": -0.5
+  },
+  
+  "code_smell_penalties": {
+    "print_instead_of_log": {
+      "penalty_per_count": 10,
+      "max_penalty": 5
+    },
+    "uninitialized_var": {
+      "penalty_per_count": 20,
+      "max_penalty": 3
+    },
+    "random_no_seed": {
+      "penalty_per_instance": 2,
+      "max_penalty": 2
+    },
+    "requests_no_timeout": {
+      "penalty_per_count": 10,
+      "max_penalty": 1
+    }
+  },
+  
+  "bonuses": {
+    "has_logging": 1,
+    "has_type_hints": 1,
+    "has_docstrings": 1,
+    "fast_import_1ms": 3,
+    "fast_import_10ms": 1,
+    "zero_real_safety_issues": 4,
+    "zero_perf_issues_and_fast": 2,
+    "zero_critical_and_missing": 2,
+    "excellence_bonus_threshold": 95,
+    "excellence_bonus_points": 2
+  },
+  
+  "thresholds": {
+    "production_ready_score": 85,
+    "warning_threshold": 70,
+    "critical_threshold": 0,
+    "slow_import_ms": 200,
+    "fast_import_1ms": 1.0,
+    "fast_import_10ms": 10.0,
+    "fast_import_50ms": 50.0
+  },
+  
+  "caps": {
+    "max_critical_count": 3,
+    "max_perf_count": 5,
+    "max_safety_count": 5,
+    "max_missing_count": 5,
+    "max_code_smell_penalty": 10,
+    "max_bonus": 20,
+    "max_total_penalty": 80
+  }
+}
+

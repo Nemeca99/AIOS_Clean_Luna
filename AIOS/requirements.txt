@@ -1,0 +1,27 @@
+# AIOS Core Dependencies
+# Pinned versions for reproducibility
+
+# Core libraries
+requests==2.32.4
+pandas==2.2.3
+psutil==6.1.1  # For system hardware detection
+
+# LLM & AI
+sentence-transformers==3.1.1  # Pinned for CreativeRAG (all-MiniLM-L6-v2)
+faiss-cpu==1.9.0  # Pinned for CreativeRAG FAISS index compatibility==5.1.1  # For local embeddings (GPU-accelerated if CUDA available)
+# Note: For GPU acceleration, install CUDA-enabled torch:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Auto-detects RTX 3060 Ti (8GB VRAM) or falls back to CPU
+
+# Visualization (for dashboard)
+plotly==6.3.0
+streamlit==1.49.1
+
+# Optional: Dashboard extras
+# streamlit-drawable-canvas==0.9.3
+# streamlit-keyup==0.3.0
+
+# Python version: 3.11+
+# Tested with: Python 3.11, LM Studio 0.3.x
+# OS: Windows 10/11, Linux (Ubuntu 22.04+)
+

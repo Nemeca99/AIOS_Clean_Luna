@@ -1,0 +1,79 @@
+{
+  "Lyra": {
+    "Desire": 20,
+    "Logic": 30,
+    "Compassion": 40,
+    "Stability": 30,
+    "Autonomy": 20,
+    "Recursion": 25,
+    "Protection": 25,
+    "Vulnerability": 15,
+    "Paradox": 5
+  },
+  "Blackwall": {
+    "Desire": 10,
+    "Logic": 40,
+    "Compassion": 10,
+    "Stability": 50,
+    "Autonomy": 40,
+    "Recursion": 50,
+    "Protection": 40,
+    "Vulnerability": 5,
+    "Paradox": 20
+  },
+  "Nyx": {
+    "Desire": 35,
+    "Logic": 15,
+    "Compassion": 10,
+    "Stability": 10,
+    "Autonomy": 30,
+    "Recursion": 40,
+    "Protection": 10,
+    "Vulnerability": 40,
+    "Paradox": 60
+  },
+  "Velastra": {
+    "Desire": 25,
+    "Logic": 20,
+    "Compassion": 35,
+    "Stability": 20,
+    "Autonomy": 25,
+    "Recursion": 30,
+    "Protection": 30,
+    "Vulnerability": 30,
+    "Paradox": 10
+  },
+  "Seraphis": {
+    "Desire": 15,
+    "Logic": 35,
+    "Compassion": 50,
+    "Stability": 40,
+    "Autonomy": 15,
+    "Recursion": 20,
+    "Protection": 50,
+    "Vulnerability": 10,
+    "Paradox": 5
+  },
+  "Obelisk": {
+    "Desire": 5,
+    "Logic": 50,
+    "Compassion": 5,
+    "Stability": 60,
+    "Autonomy": 50,
+    "Recursion": 60,
+    "Protection": 60,
+    "Vulnerability": 2,
+    "Paradox": 30
+  },
+  "Echo": {
+    "Desire": 10,
+    "Logic": 10,
+    "Compassion": 10,
+    "Stability": 10,
+    "Autonomy": 10,
+    "Recursion": 90,
+    "Protection": 10,
+    "Vulnerability": 10,
+    "Paradox": 80
+  }
+}

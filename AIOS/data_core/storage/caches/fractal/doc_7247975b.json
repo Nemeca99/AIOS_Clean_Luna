@@ -1,0 +1,19 @@
+{
+  "content": "# Run overnight dream cycle\npy main.py --dream-mode overnight --dream-duration 480\n\n# Run meditation mode\npy main.py --dream-mode meditation --dream-duration 60\n\n# Test dream system\npy main.py --dream-mode test --dream-duration 5\n```\n\n### Enterprise Commands\n```bash\n# Start API server\npy main.py --mode api --host 0.0.0.0 --port 5000\n\n# Start API server on custom port\npy main.py --mode api --host localhost --port 8000\n```\n\n### Streamlit Commands\n```bash\n# Launch Streamlit UI\npy main.py --streamlit\n```\n\n### System Maintenance Commands\n```bash\n# Cleanup old files\npy main.py --mode cleanup\n\n# Run interactive session (limited)\npy main.py --mode interactive\n```\n\n---\n\n## System Workflows\n\n### 1. System Initialization Workflow\n```\n1. Import Unicode safety layer\n2. Initialize core systems in order:\n   - Backup Core\n   - CARMA Core\n   - Data Core\n   - Dream Core\n   - Enterprise Core\n   - Luna Core\n   - Streamlit Core\n   - Utils Core\n   - Support Core\n3. Perform health checks\n4. Display system status\n5. Ready for operations\n```\n\n### 2. Luna Learning Workflow\n```\n1. Generate Big Five personality questions\n2. Process each question through:\n   - Trait classification\n   - Internal reasoning system\n   - Response value classification\n   - Existential budget assessment\n   - Model inference (with GSD)\n   - Response processing\n   - Arbiter assessment\n   - CFIA processing\n3. Update personality metrics\n4. Store learning data\n5. Trigger dream cycles if needed\n```",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 12,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.601181",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "b313038e-d665-49c0-96cf-a613458c33d9",
+  "title": "Murder count unchanged.",
+  "create_time": 1683682142.215626,
+  "update_time": 1745473808.643257,
+  "message_count": 2,
+  "messages": [
+    {
+      "id": "cb3f6279-4046-4abb-9b85-90464db2e81b",
+      "role": "assistant",
+      "content": "If there are 100 murders in a room and you kill one, there would still be 100 people left in the room. It's important to note that a person who has committed a murder is still considered a person, and the act of killing one person doesn't affect the total number of people in the room.",
+      "timestamp": 1683682146.597283,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "aaa20e64-866a-4842-852e-a3834d57b0db",
+      "role": "user",
+      "content": "If there are 100 murders in a room and you kill one how many are left?",
+      "timestamp": 1683682142.230642,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

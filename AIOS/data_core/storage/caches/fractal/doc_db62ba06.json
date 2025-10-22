@@ -1,0 +1,19 @@
+{
+  "content": "### Red Flags\n- Pass rate <90% → System regression\n- P95 >25s → Model performance issue\n- Routing 100% either model → Math engine broken\n- Boundary drift >0.1 → Runaway adaptation\n\n---\n\n## Emergency Procedures\n\n### Kill Switch: Disable Adaptive Routing\n\n**Option 1:** Environment variable\n```powershell\n$env:AIOS_ADAPTIVE_ENABLED = \"0\"\n```\n\n**Option 2:** Force all control bucket\n```python\n# In code\nfrom utils_core.adaptive_routing import AdaptiveConfig\nconfig = AdaptiveConfig(control_bucket_pct=1.0)  # 100% control, 0% treatment\n```\n\n### Rollback to Safe State\n\n```powershell\n# Revert to last known good commit\ngit log --oneline -10  # Find good commit\ngit checkout <commit_hash> -- luna_core/ support_core/ utils_core/\n\n# Or full rollback\ngit reset --hard <commit_hash>\n```\n\n### Clear All Caches\n\n```powershell\n# Nuclear option - fresh start\nRemove-Item -Recurse data_core\\analytics\\* -Force\nRemove-Item -Recurse data_core\\goldens\\current_results.json -Force\nRemove-Item -Recurse data_core\\goldens\\comparison_*.json -Force\n```\n\n---\n\n## Development Workflow\n\n### Adding New Golden Tests\n\n1. Create test case in `data_core/goldens/sample_set.json`\n2. Run baseline: `py tools\\golden_runner.py record ...`\n3. Commit baseline to git\n4. CI will enforce on future PRs\n\n### Monitoring New Features\n\n1. Add hypothesis in `qec_integration/aios_hypothesis_tester.py`\n2. Restart AIOS to load new hypothesis\n3. Check dashboard Hypotheses tab for results\n\n### Tuning Adaptive Routing",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 6,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.612754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

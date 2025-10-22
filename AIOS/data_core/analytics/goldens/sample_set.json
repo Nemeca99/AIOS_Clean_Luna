@@ -1,0 +1,87 @@
+[
+  {
+    "id": "trivial_greeting_1",
+    "question": "hi",
+    "trait": "general",
+    "expected_tier": "trivial_low",
+    "expected_source": "embedder",
+    "description": "Simple greeting - should route to embedder"
+  },
+  {
+    "id": "trivial_greeting_2",
+    "question": "hello",
+    "trait": "general",
+    "expected_tier": "trivial_low",
+    "expected_source": "embedder",
+    "description": "Simple greeting variant"
+  },
+  {
+    "id": "moderate_question_1",
+    "question": "How are you doing today?",
+    "trait": "general",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "Moderate complexity - should route to main model"
+  },
+  {
+    "id": "moderate_question_2",
+    "question": "What's your name?",
+    "trait": "general",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "Personal question - main model"
+  },
+  {
+    "id": "high_complexity_1",
+    "question": "Explain quantum computing in simple terms",
+    "trait": "general",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "High complexity technical question"
+  },
+  {
+    "id": "high_complexity_2",
+    "question": "How does machine learning work?",
+    "trait": "general",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "Technical explanation question"
+  },
+  {
+    "id": "personality_openness_1",
+    "question": "I am someone who i like music",
+    "trait": "openness",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "Big Five openness question"
+  },
+  {
+    "id": "personality_neuroticism_1",
+    "question": "I am someone who i get stressed easily",
+    "trait": "neuroticism",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "Big Five neuroticism question"
+  },
+  {
+    "id": "context_test_1",
+    "question": "Can you help me understand neural networks?",
+    "trait": "general",
+    "expected_tier": "moderate_high",
+    "expected_source": "main_model",
+    "description": "Complex question requiring explanation"
+  },
+  {
+    "id": "simple_affirmation_1",
+    "question": "ok",
+    "trait": "general",
+    "expected_tier": "trivial_low",
+    "expected_source": "embedder",
+    "description": "Simple affirmation - embedder"
+  }
+]
+
+
+
+
+

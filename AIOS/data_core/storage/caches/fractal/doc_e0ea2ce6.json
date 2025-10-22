@@ -1,0 +1,19 @@
+{
+  "content": "**Key Components**:\n- **FractalMyceliumCache**: Advanced caching with semantic clustering\n- **CARMAExecutiveBrain**: Goal-oriented processing\n- **CARMAMetaMemorySystem**: Memory consolidation\n- **CARMA100PerformanceSystem**: Performance optimization\n- **CARMAMyceliumNetwork**: Network simulation\n\n**Usage**:\n```bash\n# Run CARMA learning\npy main.py --mode carma --queries \"learning query 1\" \"learning query 2\"\n\n# Memory consolidation\npy main.py --mode memory\n```\n\n### 3. Data Core (`data_core/`)\n**Purpose**: Central data management pipeline for all AIOS data\n\n**Key Features**:\n- Unified data storage and retrieval\n- Data pipeline with ingestion, processing, and export\n- Analytics and monitoring\n- Data cleanup and maintenance\n- Format conversion (JSON, CSV, TXT)\n\n**Core Files**:\n- `data_core.py`: Main data management system\n- `FractalCache/`: Memory fragments storage\n- `ArbiterCache/`: Decision and learning data\n- `conversations/`: Conversation history\n- `config/`: System configuration\n\n**Data Directories**:\n- `logs/`: System logs\n- `temp/`: Temporary files\n- `cache/`: Cache data\n- `exports/`: Data exports\n- `imports/`: Data imports\n- `analytics/`: Analytics data\n\n**Usage**:\n```bash\n# View data statistics\npy main.py --data-stats\n\n# Clean up old data\npy main.py --data-cleanup --data-cleanup-days 30\n```\n\n### 4. Dream Core (`dream_core/`)\n**Purpose**: Biomimetic sleep system for memory consolidation and self-reflection",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 6,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.599177",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

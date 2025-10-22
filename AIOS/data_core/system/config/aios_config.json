@@ -1,0 +1,35 @@
+{
+  "AIOS_ROOT": "L:\\AIOS",
+  "PYTHON_ENV_PATH": "L:\\AIOS\\venv",
+  "LOG_DIR": "L:\\AIOS\\log\\monitoring",
+  "DEBUG_DIR": "L:\\AIOS\\temp\\debug",
+  "MONITORING_ENABLED": false,
+  "ADMIN_MODE": false,
+  "LOG_LEVEL": "INFO",
+  "MONITORING_CONFIG": {
+    "RealTimeLogging": true,
+    "CodeAnalysis": true,
+    "SystemMonitoring": true,
+    "PerformanceTracking": true,
+    "SecurityScanning": true,
+    "AutoErrorReporting": true,
+    "LogRetention": 30,
+    "MaxLogSize": 104857600,
+    "BCM_OVERLOAD_THRESHOLD": 85.0,
+    "BCM_MEMORY_THRESHOLD": 1000.0,
+    "BCM_AUTO_REMEDIATION": true,
+    "BCM_REMEDIATION_DELAY_MINUTES": 5
+  },
+  "SECURITY_CONFIG": {
+    "WSR_CHALLENGE_DURATION_MINUTES": 5,
+    "WSR_MAX_ATTEMPTS_PER_SESSION": 3,
+    "AUDIT_LOG_TO_EVENT_LOG": true,
+    "SESSION_TIMEOUT_MINUTES": 60
+  },
+  "PERFORMANCE_CONFIG": {
+    "CACHE_TTL_SECONDS": 300,
+    "MAX_CACHE_SIZE_MB": 100,
+    "METRICS_REFRESH_INTERVAL": 5,
+    "PROCESS_MONITORING_INTERVAL": 10
+  }
+}

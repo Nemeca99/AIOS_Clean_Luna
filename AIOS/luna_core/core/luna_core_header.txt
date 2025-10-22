@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+"""
+Luna Core System - Main Orchestrator
+Central system that coordinates all Luna subsystems
+"""
+
+# CRITICAL: Import Unicode safety layer FIRST
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent.parent))
+from utils_core.unicode_safe_output import setup_unicode_safe_output
+setup_unicode_safe_output()
+
+import json
+import time
+import uuid
+from typing import Dict, List, Optional, Any, Tuple
+from datetime import datetime
+
+# Import AIOS systems
+from support_core.support_core import (
+    SystemConfig, aios_config, aios_logger, aios_health_checker, aios_security_validator
+)
+from carma_core.carma_core import CARMASystem
+
+# Import core modules
+from .utils import HiveMindLogger, error_handler
+from .enums_and_dataclasses import LearningMode
+from .personality import LunaPersonalitySystem
+from .response_generator import LunaResponseGenerator
+from .learning_system import LunaLearningSystem
+
+# Import subsystems
+from ..systems.luna_ifs_personality_system import LunaIFSPersonalitySystem
+from ..systems.luna_semantic_compression_filter import LunaSemanticCompressionFilter
+from ..systems.luna_soul_metric_system import LunaSoulMetricSystem
+from ..systems.luna_token_time_econometric_system import LunaTokenTimeEconometricSystem
+from ..systems.luna_existential_budget_system import LunaExistentialBudgetSystem
+from ..systems.luna_response_value_classifier import LunaResponseValueClassifier
+from ..systems.luna_custom_inference_controller import LunaCustomInferenceController, InferenceControlConfig
+from ..systems.luna_arbiter_system import LunaArbiterSystem
+from ..systems.luna_cfia_system import LunaCFIASystem
+
+# Import model configuration
+from ..model_config import get_main_model, get_embedder_model, get_draft_model
+
+# Optional imports
+try:
+    from conversation_math_engine import ConversationMathEngine, ConversationMode
+    CONVERSATION_MATH_AVAILABLE = True
+except ImportError:
+    CONVERSATION_MATH_AVAILABLE = False
+
+try:
+    from carma_hypothesis_integration import CARMAHypothesisIntegration
+    HYPOTHESIS_INTEGRATION_AVAILABLE = True
+except ImportError:
+    HYPOTHESIS_INTEGRATION_AVAILABLE = False
+
+try:
+    from provenance import ProvenanceLogger, log_response_event, log_hypothesis_event, get_hypothesis_logger
+    PROVENANCE_AVAILABLE = True
+except ImportError:
+    PROVENANCE_AVAILABLE = False
+
+try:
+    from adaptive_routing import AdaptiveRouter, AdaptiveConfig, get_adaptive_router
+    ADAPTIVE_ROUTING_AVAILABLE = True
+except ImportError:
+    ADAPTIVE_ROUTING_AVAILABLE = False
+
+# === LUNA SYSTEM (MAIN ORCHESTRATOR) ===
+
+

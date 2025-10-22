@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Provenance metadata for code graph generation",
+  "required": ["tool", "version", "run_id", "params", "counts", "timestamps", "law_hash"],
+  "properties": {
+    "tool": {
+      "type": "string",
+      "description": "Tool name (codegraph-mapper)"
+    },
+    "version": {
+      "type": "string",
+      "description": "Tool version"
+    },
+    "run_id": {
+      "type": "string",
+      "description": "Unique run identifier (timestamp-based)"
+    },
+    "params": {
+      "type": "object",
+      "description": "Run parameters",
+      "properties": {
+        "root": {"type": "string"},
+        "out": {"type": "string"},
+        "include": {"type": "array", "items": {"type": "string"}},
+        "exclude": {"type": "array", "items": {"type": "string"}},
+        "dry_run": {"type": "boolean"},
+        "require_approval": {"type": "boolean"}
+      }
+    },
+    "counts": {
+      "type": "object",
+      "description": "Entity counts",
+      "properties": {
+        "files": {"type": "integer"},
+        "py_files": {"type": "integer"},
+        "nodes": {"type": "integer"},
+        "edges": {"type": "integer"},
+        "modules": {"type": "integer"},
+        "classes": {"type": "integer"},
+        "functions": {"type": "integer"},
+        "constants": {"type": "integer"}
+      }
+    },
+    "timestamps": {
+      "type": "object",
+      "description": "Time bounds",
+      "properties": {
+        "start": {"type": "string", "format": "date-time"},
+        "end": {"type": "string", "format": "date-time"},
+        "duration_ms": {"type": "integer"}
+      }
+    },
+    "law_hash": {
+      "type": "string",
+      "description": "SHA-256 hash of SCP-001 law files"
+    },
+    "manifest_sha256": {
+      "type": "string",
+      "description": "SHA-256 hash of tool.manifest.yaml"
+    },
+    "code_hash": {
+      "type": "string",
+      "description": "SHA-256 hash of cgm module code"
+    },
+    "budget_usage": {
+      "type": "object",
+      "description": "Resource usage metrics",
+      "properties": {
+        "cpu_ms": {"type": "integer"},
+        "files_opened": {"type": "integer"},
+        "ops_count": {"type": "integer"}
+      }
+    }
+  }
+}
+

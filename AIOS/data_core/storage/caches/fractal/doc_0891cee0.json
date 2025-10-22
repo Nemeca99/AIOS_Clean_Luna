@@ -1,0 +1,19 @@
+{
+  "content": "```bash\n# Clone the repository\ngit clone https://github.com/yourusername/AIOS_Clean.git\ncd AIOS_Clean\n\n# Create virtual environment\npython -m venv .venv\nsource .venv/bin/activate  # Windows: .venv\\Scripts\\activate\n\n# Install dependencies\npip install -r requirements.txt\n\n# Run minimal demo\ncd carma_minimal\npython test_demo.py\n```\n\n### Full System Test\n\n```bash\n# Seed the cache\npython \"HiveMind/seed_carma_cache.py\" --dir ./seed_corpus --limit 300\n\n# Run Luna personality system\npython \"HiveMind/luna_main.py\" --mode real_learning --questions 120\n\n# Run continuous Luna system (real-time output)\npython \"HiveMind/continuous_real_luna.py\"\n\n# Run human evaluation\npython human_eval/human_eval_prep.py --questions 120\n```\n\n## 🧠 What is CARMA?\n\nCARMA is a novel memory architecture for AI agents that combines:\n\n- **Fractal Memory Splitting**: Large documents are automatically split into semantically-specialized fragments\n- **Dual Cache System**: Parallel 'stack' and serialized 'chain' cache management\n- **Semantic Cross-linking**: Automatic creation of semantic connections between related fragments\n- **Reinforcement Learning**: Hit-based fragment strengthening and eviction\n- **Dream Cycles**: Two-tier sleep/dream consolidation for memory optimization\n- **Personality Drift**: Measurable personality changes through learning\n\n## 📊 Performance Results",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 2,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.595186",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}

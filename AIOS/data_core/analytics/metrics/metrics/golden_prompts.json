@@ -1,0 +1,19 @@
+{
+  "prompts": [
+    "hi",
+    "hello",
+    "thanks",
+    "ok",
+    "bye",
+    "How are you today?",
+    "Can you help me?",
+    "What is AI?",
+    "Tell me a joke",
+    "Good morning",
+    "Explain quantum computing in simple terms",
+    "How does machine learning work?",
+    "What are the benefits of renewable energy?",
+    "Describe the process of photosynthesis",
+    "How do neural networks learn from data?"
+  ]
+}

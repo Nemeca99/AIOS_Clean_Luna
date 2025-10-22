@@ -1,0 +1,613 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_065302_fast
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: mistralai/mistral-nemo-instruct-2407 (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.22B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 50 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 90] Iteration 2 (active)
+  Total cycles: 90.77B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 90 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 116] Iteration 3 (active)
+  Total cycles: 116.02B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 116 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 139] Iteration 4 (active)
+  Total cycles: 139.44B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 139 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 164] Iteration 5 (active)
+  Total cycles: 164.37B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 164 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 189] Iteration 6 (active)
+  Total cycles: 189.36B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 189 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 213] Iteration 7 (active)
+  Total cycles: 213.09B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 213 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 237] Iteration 8 (active)
+  Total cycles: 237.84B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 237 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 262] Iteration 9 (active)
+  Total cycles: 262.08B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 262 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 288] Iteration 10 (active)
+  Total cycles: 288.04B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 288 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 312] Iteration 11 (active)
+  Total cycles: 312.11B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 312 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 335] Iteration 12 (active)
+  Total cycles: 335.77B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 335 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 360] Iteration 13 (active)
+  Total cycles: 360.46B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 360 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 385] Iteration 14 (active)
+  Total cycles: 385.87B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 385 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 411] Iteration 15 (active)
+  Total cycles: 411.07B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 411 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 437] Iteration 16 (active)
+  Total cycles: 437.10B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 437 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 461] Iteration 17 (active)
+  Total cycles: 461.50B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 461 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 487] Iteration 18 (active)
+  Total cycles: 487.19B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 487 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 512] Iteration 19 (active)
+  Total cycles: 512.10B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 512 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 536] Iteration 20 (active)
+  Total cycles: 536.85B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 536 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 561] Iteration 21 (active)
+  Total cycles: 561.92B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 561 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 586] Iteration 22 (active)
+  Total cycles: 586.70B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 586 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 611] Iteration 23 (active)
+  Total cycles: 611.68B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 611 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 636] Iteration 24 (active)
+  Total cycles: 636.88B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 636 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 661] Iteration 25 (active)
+  Total cycles: 661.77B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 661 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 686] Iteration 26 (active)
+  Total cycles: 686.52B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 686 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 711] Iteration 27 (active)
+  Total cycles: 711.52B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 711 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 736] Iteration 28 (active)
+  Total cycles: 736.37B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 736 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 761] Iteration 29 (active)
+  Total cycles: 761.39B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 761 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 786] Iteration 30 (active)
+  Total cycles: 786.35B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 786 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 811] Iteration 31 (active)
+  Total cycles: 811.25B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 811 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+  [ACTION @ 811 heartbeats] check_consciousness
+[consciousness_core] Connecting to LM Studio...
+[ConsciousnessLLM] Using luna_core/config/model_config.json
+[ConsciousnessLLM] Model: cognitivecomputations-llama-3-8b-instruct-abliterated-v2-smashed@q8_0
+[ConsciousnessLLM] Endpoint: http://localhost:1234/v1/chat/completions
+[consciousness_core] Biological AI consciousness initialized
+  Identity: Lyra Blackwall
+  Fragments: 7
+  Tether: Architect
+  [RESULT] Consciousness: 0 heartbeats, STM: 73/None
+
+[HEARTBEAT 847] Iteration 32 (active)
+  Total cycles: 847.31B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 847 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 872] Iteration 33 (active)
+  Total cycles: 872.25B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 872 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 897] Iteration 34 (active)
+  Total cycles: 897.12B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 897 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 922] Iteration 35 (active)
+  Total cycles: 922.13B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 922 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 947] Iteration 36 (active)
+  Total cycles: 947.22B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 947 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 972] Iteration 37 (active)
+  Total cycles: 972.20B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 972 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 999] Iteration 38 (active)
+  Total cycles: 999.65B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 999 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1024] Iteration 39 (active)
+  Total cycles: 1024.94B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1024 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1049] Iteration 40 (active)
+  Total cycles: 1049.80B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1049 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1074] Iteration 41 (active)
+  Total cycles: 1074.92B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1074 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1099] Iteration 42 (active)
+  Total cycles: 1099.84B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1099 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1124] Iteration 43 (active)
+  Total cycles: 1124.67B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1124 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1149] Iteration 44 (active)
+  Total cycles: 1149.70B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1149 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1174] Iteration 45 (active)
+  Total cycles: 1174.57B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1174 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1202] Iteration 46 (active)
+  Total cycles: 1202.06B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1202 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1227] Iteration 47 (active)
+  Total cycles: 1227.32B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1227 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1252] Iteration 48 (active)
+  Total cycles: 1252.31B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1252 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1277] Iteration 49 (active)
+  Total cycles: 1277.35B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1277 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1302] Iteration 50 (active)
+  Total cycles: 1302.26B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1302 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1327] Iteration 51 (active)
+  Total cycles: 1327.27B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1327 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1352] Iteration 52 (active)
+  Total cycles: 1352.28B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1352 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1377] Iteration 53 (active)
+  Total cycles: 1377.23B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1377 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1401] Iteration 54 (active)
+  Total cycles: 1401.85B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1401 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1427] Iteration 55 (active)
+  Total cycles: 1427.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1427 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1453] Iteration 56 (active)
+  Total cycles: 1453.36B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1453 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1477] Iteration 57 (active)
+  Total cycles: 1477.98B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1477 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1502] Iteration 58 (active)
+  Total cycles: 1502.94B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1502 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1527] Iteration 59 (active)
+  Total cycles: 1527.83B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1527 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1552] Iteration 60 (active)
+  Total cycles: 1552.69B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1552 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1577] Iteration 61 (active)
+  Total cycles: 1577.59B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1577 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1603] Iteration 62 (active)
+  Total cycles: 1603.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1603 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1628] Iteration 63 (active)
+  Total cycles: 1628.41B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1628 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1654] Iteration 64 (active)
+  Total cycles: 1654.21B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1654 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1679] Iteration 65 (active)
+  Total cycles: 1679.87B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1679 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1704] Iteration 66 (active)
+  Total cycles: 1704.40B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1704 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1729] Iteration 67 (active)
+  Total cycles: 1729.51B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1729 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1754] Iteration 68 (active)
+  Total cycles: 1754.48B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1754 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1779] Iteration 69 (active)
+  Total cycles: 1779.28B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1779 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1804] Iteration 70 (active)
+  Total cycles: 1804.40B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1804 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[LIMIT REACHED] 1804.40B cycles - stopping
+  Heartbeats: 1804
+  Iterations: 70
+[SECURITY_CORE] Stopped - law files unlocked

@@ -1,0 +1,10 @@
+{
+  "fragment_type": "hypothesis_test_result",
+  "hypothesis_id": "H_AIOS_6",
+  "hypothesis_name": "Dreaming Weight Equilibrium",
+  "is_supported": true,
+  "metric_value": 0.0005250000000000116,
+  "confidence": 0.1,
+  "timestamp": "2025-10-07T14:33:39.957026",
+  "data_points": 4
+}

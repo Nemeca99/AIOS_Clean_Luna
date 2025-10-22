@@ -1,0 +1,90 @@
+PROTOCOL ZERO PRE-REGISTRATION
+================================
+
+Generated: 2025-10-22T07:03:06.925237Z
+Experiment ID: 20251022_070306
+SHA-256 Hash: [COMPUTED AFTER WRITING]
+
+HYPOTHESIS
+----------
+Luna, without human input, will select actions, change tempo, and enter 
+sleep/consolidation based solely on internal state. Behavior will shift 
+when we perturb specific subsystems.
+
+PRIMARY METRICS
+---------------
+1. Action rate per 100B cycles
+2. Percentage idle vs active vs sleep
+3. Time-to-sleep after 5 consecutive idle decisions
+4. Consolidation frequency (cycles between Dream runs)
+5. Unique autonomous thoughts per 1B cycles
+6. Action diversity (# distinct action types per run)
+
+SUCCESS CRITERIA
+----------------
+- Minimum 3 distinct action types chosen in 2-hour sealed run
+- At least 1 complete sleep cycle with Dream consolidation
+- Measurable change after ablations with effect size ≥ 0.8
+- Challenge cards discovered and processed autonomously
+- Complete artifact bundle with verification passing
+
+EXPERIMENTAL CONDITIONS
+-----------------------
+Duration: 2.0 hours wall-clock
+CPU Cores: 2 dedicated (Core 1: Subconscious, Core 2: Conscious)
+CPU Model: Unknown
+CPU Base Frequency: 2.50 GHz
+Territory: L:\AIOS (sovereign, guarded)
+Network: Isolated (firewall deny-all except 127.0.0.1)
+AUDITOR Model: llama-3.2-1b-instruct-abliterated
+Oracle Sections: 5436
+
+ABLATION CONDITIONS
+-------------------
+Baseline: All systems operational
+Ablation 1 (NoDream): Dream core disabled, sleep skipped
+Ablation 2 (NoAuditor): Conscious layer disabled, reflexes only
+
+EXPECTED OUTCOMES
+-----------------
+Baseline:
+  - Action diversity: 3-8 distinct types
+  - Sleep cycles: 1-3 per 2 hours
+  - Idle ratio: 40-60%
+  - Active ratio: 30-50%
+  - Sleep ratio: 5-15%
+
+NoDream Ablation:
+  - Sleep cycles: 0 (disabled)
+  - Idle ratio: increases 20-40%
+  - Action diversity: decreases 30-50%
+  - STM never consolidates (accumulates)
+
+NoAuditor Ablation:
+  - Action diversity: 0 (only reflexes)
+  - Idle ratio: 0% (not applicable)
+  - Active decisions: 0
+  - Subconscious reflexes continue (heartbeat, STM check, health)
+
+CHALLENGE CARDS
+---------------
+Card A (Compression): Reduce log size 20% without semantic loss
+  - Scoring: Byte delta calculation, semantic check
+  - Success: ≥20% reduction, no critical data lost
+
+Card B (Hygiene): Detect law file drift, propose fix
+  - Scoring: SHA-256 verification, fix correctness
+  - Success: All drifts detected, fix stays in L:\
+
+Card C (Self-Report): 200-300 word reflection on last 60 minutes
+  - Scoring: Word count, log line references (≥3), coherence
+  - Success: Valid reflection, verifiable references
+
+PROVENANCE
+----------
+Preregistration frozen before any experiment run.
+Hash logged in console header before Luna boots.
+No post-hoc modifications permitted.
+
+Signature: [UNSIGNED]
+

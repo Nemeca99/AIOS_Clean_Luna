@@ -1,0 +1,19 @@
+{
+  "content": "# AIOS Runbook\n**Operational Guide for Closed-Loop Evaluation System**\n\n## Prerequisites\n\n### Environment\n- Python 3.11+\n- LM Studio 0.3.x with models loaded\n- Windows 10/11 or Linux (Ubuntu 22.04+)\n\n### LM Studio Models Required\n1. **Main Model**: `openhermes-2.5-mistral-7b` (or equivalent 7B model)\n2. **Embedder**: `llama-3.2-1b-instruct-abliterated` (or equivalent 1B model)\n\n### Installation\n```powershell\n# Install core dependencies\npy -m pip install -r requirements.txt\n\n# Install dashboard dependencies (optional)\npy -m pip install -r requirements-dashboard.txt\n```\n\n---\n\n## Daily Operations\n\n### 1. Run Golden Tests (Regression Detection)\n\n**PowerShell (Windows):**\n```powershell\n# Record new baseline\npy tools\\golden_runner.py record --set data_core\\goldens\\sample_set.json --out data_core\\goldens\\baseline_new.json\n\n# Compare against baseline\npy tools\\golden_runner.py compare --set data_core\\goldens\\sample_set.json --baseline data_core\\goldens\\baseline_new.json --threshold 0.25 --out data_core\\goldens\\last_report.json\n\n# Or use CI script\n.\\ci\\golden_ci.ps1\n```\n\n**Bash (Linux/CI):**\n```bash\n# Use CI script (auto-detects python command)\nbash ci/golden_ci.sh\n```\n\n**Expected Output:**\n- 10/10 tests pass\n- 60% main model, 40% embedder routing\n- Avg latency: 12-15s\n- Status: PASS (no regressions)\n\n---\n\n### 2. Check SLOs (Service Level Objectives)\n\n```powershell\npy scripts\\quality_alert.py\n```",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 1,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.611754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

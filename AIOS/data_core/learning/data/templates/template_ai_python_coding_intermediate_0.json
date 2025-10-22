@@ -1,0 +1,15 @@
+{
+  "lesson_id": "template_ai_python_coding_intermediate_0",
+  "subject": "AI Python Coding",
+  "title": "Working with AI Libraries",
+  "content": "Popular AI libraries include TensorFlow, PyTorch, and Hugging Face Transformers. Each has its strengths: TensorFlow for production, PyTorch for research, and Hugging Face for pre-trained models. Start with one and learn it well.",
+  "difficulty": "intermediate",
+  "lesson_index": 0,
+  "created": "2025-09-28T18:28:44.171950",
+  "type": "template",
+  "metadata": {
+    "word_count": 33,
+    "char_count": 228,
+    "estimated_duration": 5
+  }
+}

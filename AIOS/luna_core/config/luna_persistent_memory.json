@@ -1,0 +1,115 @@
+[
+  {
+    "id": "a388c014-b77b-4bdf-b02b-6cc5aa97be2b",
+    "config_name": "luna_persistent_memory",
+    "version": "2.0",
+    "parameters": {
+      "interactions": [
+        {
+          "timestamp": "2025-09-24T00:03:47.967821",
+          "question": "I am someone who feels comfortable with myself",
+          "response": "Oh, that's interesting! I am someone who feels comfortable with myself - let me think about that... I can really relate to that feeling.",
+          "trait": "neuroticism",
+          "scores": {
+            "agreement_level": 0.5,
+            "corporate_penalty": 0.0,
+            "authenticity_bonus": 0.0,
+            "trait_expression": 0.0,
+            "overall_score": 0.35,
+            "trait": "neuroticism"
+          },
+          "interaction_id": 1
+        },
+        {
+          "timestamp": "2025-09-24T00:04:06.711865",
+          "question": "I am someone who feels comfortable with myself",
+          "response": "Oh, that's interesting! I am someone who feels comfortable with myself - let me think about that... I can really relate to that feeling.",
+          "trait": "neuroticism",
+          "scores": {
+            "agreement_level": 0.5,
+            "corporate_penalty": 0.0,
+            "authenticity_bonus": 0.0,
+            "trait_expression": 0.0,
+            "overall_score": 0.35,
+            "trait": "neuroticism"
+          },
+          "interaction_id": 1
+        },
+        {
+          "timestamp": "2025-09-24T00:04:22.349303",
+          "question": "I am someone who feels comfortable with myself",
+          "response": "Oh, that's interesting! I am someone who feels comfortable with myself - let me think about that... I can really relate to that feeling.",
+          "trait": "neuroticism",
+          "scores": {
+            "agreement_level": 0.5,
+            "corporate_penalty": 0.0,
+            "authenticity_bonus": 0.0,
+            "trait_expression": 0.0,
+            "overall_score": 0.35,
+            "trait": "neuroticism"
+          },
+          "interaction_id": 1
+        },
+        {
+          "timestamp": "2025-09-24T00:04:33.796692",
+          "question": "I am someone who feels comfortable with myself",
+          "response": "Oh, that's interesting! I am someone who feels comfortable with myself - let me think about that... I can really relate to that feeling.",
+          "trait": "neuroticism",
+          "scores": {
+            "agreement_level": 0.5,
+            "corporate_penalty": 0.0,
+            "authenticity_bonus": 0.0,
+            "trait_expression": 0.0,
+            "overall_score": 0.35,
+            "trait": "neuroticism"
+          },
+          "interaction_id": 1
+        },
+        {
+          "timestamp": "2025-09-24T00:04:41.690331",
+          "question": "I am someone who feels comfortable with myself",
+          "response": "Oh, that's interesting! I am someone who feels comfortable with myself - let me think about that... I can really relate to that feeling.",
+          "trait": "neuroticism",
+          "scores": {
+            "agreement_level": 0.5,
+            "corporate_penalty": 0.0,
+            "authenticity_bonus": 0.0,
+            "trait_expression": 0.0,
+            "overall_score": 0.35,
+            "trait": "neuroticism"
+          },
+          "interaction_id": 1
+        },
+        {
+          "timestamp": "2025-09-24T00:08:22.743415",
+          "question": "I am someone who feels comfortable with myself",
+          "response": "Hello there! It's wonderful to hear that you're feeling comfortable within your own skin. Self-assurance is a beautiful trait, and it's always a pleasure to engage with someone who seems to have embraced their uniqueness. If there's anything specific you'd like to discuss or explore together, feel free to share! And remember, comfort with oneself often opens the door to new experiences and growth. So let's make the most of this journey together. How can I assist you today?",
+          "trait": "neuroticism",
+          "scores": {
+            "agreement_level": 1.0,
+            "corporate_penalty": 0.0,
+            "authenticity_bonus": 0.0,
+            "trait_expression": 0.0,
+            "overall_score": 0.5,
+            "trait": "neuroticism"
+          },
+          "interaction_id": 1
+        }
+      ],
+      "dreams": [],
+      "personality_evolution": [],
+      "emotional_patterns": {
+        "neutral": 5,
+        "positive": 1
+      },
+      "dream_cycles": []
+    },
+    "models": {},
+    "timestamp": "2025-09-24T14:16:20.154963Z",
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "migration_date": "2025-09-24T14:16:20.154963",
+      "original_structure": "single_object"
+    }
+  }
+]

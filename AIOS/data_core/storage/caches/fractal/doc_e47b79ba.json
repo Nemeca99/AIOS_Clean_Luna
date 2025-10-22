@@ -1,0 +1,19 @@
+{
+  "content": "**SLO Thresholds:**\n- Pass rate ≥ 95%\n- P95 latency ≤ 20,000ms (20s)\n- Boundary drift ≤ 0.08\n\n**Exit Codes:**\n- `0` = All SLOs passing\n- `2` = SLO violation detected\n\n---\n\n### 3. Launch Quality Dashboard\n\n**PowerShell (Windows):**\n```powershell\n.\\scripts\\run_dashboard.ps1\n```\n\n**Bash (Linux):**\n```bash\nbash scripts/run_dashboard.sh\n```\n\n**Access:** http://localhost:8501\n\n**Dashboard Tabs:**\n1. **Overview** - A/B bucket split, routing sources\n2. **Hypotheses** - Pass rate trends, quality metrics\n3. **Routing** - Boundary drift charts, weight scatter\n4. **Drill-down** - Per-message event table\n5. **Settings** - Raw state inspection\n\n**Auto-refresh:** Enable 10s refresh in sidebar\n\n---\n\n### 4. Monitor Provenance Logs\n\n**View recent events:**\n```powershell\nGet-Content data_core\\analytics\\hypotheses.ndjson -Tail 10\n```\n\n**Count events by type:**\n```powershell\npy -c \"import json; events=[json.loads(l) for l in open('data_core/analytics/hypotheses.ndjson')]; print(f'Total: {len(events)}'); print({e.get('event_type','response') for e in events})\"\n```\n\n**Check adaptive routing state:**\n```powershell\nGet-Content data_core\\analytics\\adaptive_routing_state.json | ConvertFrom-Json\n```\n\n---\n\n## Troubleshooting\n\n### Golden Tests Failing (0/10 pass)\n\n**Symptom:** All tests return `source: unknown`\n\n**Causes:**\n1. LM Studio not running → Start LM Studio\n2. Models not loaded → Load both main + embedder models\n3. Wrong API endpoint → Check `luna_core/config/model_config.json`",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 2,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.611754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

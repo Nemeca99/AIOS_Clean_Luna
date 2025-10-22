@@ -1,0 +1,74 @@
+{
+  "H_AIOS_1": {
+    "hypothesis_id": "H_AIOS_1",
+    "hypothesis_name": "Weight-Quality Correlation",
+    "prediction": "Higher calculated weight correlates with better response quality",
+    "metric": "Pearson correlation coefficient",
+    "threshold": 0.7,
+    "metric_value": 0.9715749937479609,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.938028"
+  },
+  "H_AIOS_2": {
+    "hypothesis_id": "H_AIOS_2",
+    "hypothesis_name": "Context Pressure Effect",
+    "prediction": "More context messages increases response time",
+    "metric": "Linear regression slope",
+    "threshold": 0.5,
+    "metric_value": -782.6086956521746,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.947027"
+  },
+  "H_AIOS_3": {
+    "hypothesis_id": "H_AIOS_3",
+    "hypothesis_name": "Embedder Efficiency",
+    "prediction": "Embedder responses are >= 2x faster than main model",
+    "metric": "Speed ratio",
+    "threshold": 2.0,
+    "metric_value": 4.0,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.949027"
+  },
+  "H_AIOS_4": {
+    "hypothesis_id": "H_AIOS_4",
+    "hypothesis_name": "Dynamic Weight Accumulation",
+    "prediction": "Same question + different context yields different routing",
+    "metric": "Routing variance per question",
+    "threshold": 0.3,
+    "metric_value": 0.0,
+    "is_supported": false,
+    "data_points": 4,
+    "confidence": 0.1,
+    "timestamp": "2025-10-07T14:33:39.953029"
+  },
+  "H_AIOS_5": {
+    "hypothesis_id": "H_AIOS_5",
+    "hypothesis_name": "CARMA Memory Advantage",
+    "prediction": "More CARMA fragments retrieved improves response quality",
+    "metric": "Pearson correlation coefficient",
+    "threshold": 0.6,
+    "metric_value": 0.4783704583146916,
+    "is_supported": false,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.955027"
+  },
+  "H_AIOS_6": {
+    "hypothesis_id": "H_AIOS_6",
+    "hypothesis_name": "Dreaming Weight Equilibrium",
+    "prediction": "Dreaming system converges to equilibrium weight (0.495)",
+    "metric": "Convergence to 0.495",
+    "threshold": 0.01,
+    "metric_value": 0.0005250000000000116,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.1,
+    "timestamp": "2025-10-07T14:33:39.957026"
+  }
+}

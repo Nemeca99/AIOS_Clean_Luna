@@ -1,0 +1,11 @@
+# FAISS indices are binary (prevent line-ending corruption)
+*.faiss binary
+
+# JSONL files should use LF (consistency)
+*.jsonl text eol=lf
+
+# Python files use LF
+*.py text eol=lf
+
+# Markdown uses LF
+*.md text eol=lf

@@ -1,0 +1,19 @@
+{
+  "content": "CARMA builds upon established research in:\n- Neural Turing Machines and Differentiable Neural Computers\n- Retrieval-Augmented Generation (RAG)\n- Compressive memory and episodic memory research\n- Mycelium-inspired distributed systems\n\nSee [PUBLIC_CLAIM.md](PUBLIC_CLAIM.md) for detailed prior art assessment.\n\n## ⚠️ Safety and Ethics\n\nThis system includes persistent memory capabilities and should be used responsibly. See [SAFETY.md](SAFETY.md) for detailed safety guidelines.\n\n**Important**: This is a research system and should not be used in production without extensive testing and safety review.\n\n## 📄 License\n\nLicensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.\n\n## 🤝 Contributing\n\nWe welcome contributions! Please see our contributing guidelines and code of conduct.\n\n## 📞 Contact\n\n- Issues: [GitHub Issues](https://github.com/yourusername/AIOS_Clean/issues)\n- Email: [Your contact email]\n- Paper: [arXiv link when available]\n\n## 🙏 Acknowledgments\n\n- The mycelium network for architectural inspiration\n- The open-source AI community for foundational research\n- All contributors and testers\n\n---",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 6,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.596178",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}

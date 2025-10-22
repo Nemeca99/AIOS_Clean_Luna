@@ -1,0 +1,19 @@
+{
+  "content": "# AIOS Clean - Experimental AI System\n\nAn experimental modular AI system exploring personality simulation, memory management, and response optimization through component separation.\n\n## Overview\n\nThis project represents an exploration into modular AI architecture, investigating whether complex AI systems can be decomposed into interchangeable components. The system consists of multiple independent modules that can theoretically be swapped or combined in different configurations.\n\n## Experimental Components\n\n### Core Modules\n- **Luna Core**: An experimental personality simulation system\n- **CARMA Core**: A memory retrieval and management system\n- **Data Core**: Data storage and management utilities\n- **Dream Core**: Memory consolidation and processing experiments\n- **Support Core**: System monitoring and utility functions\n\n### Additional Modules\n- **Backup Core**: File backup and versioning system\n- **Enterprise Core**: API and business logic experiments\n- **Streamlit Core**: Web interface experiments\n- **Utils Core**: Shared utility functions\n\n## Theoretical Approach\n\nThe system explores several theoretical concepts:",
+  "metadata": {
+    "source": "README.md",
+    "type": "documentation",
+    "chunk": 1,
+    "total_chunks": 6,
+    "added_at": "2025-10-07T23:45:31.603755",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "README"
+  ]
+}

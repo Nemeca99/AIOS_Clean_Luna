@@ -1,0 +1,109 @@
+# AIOS Production Baseline Configuration
+# Frozen at v1.0.0-prod release
+# Date: 2025-10-07
+
+version: "1.0.0"
+release_date: "2025-10-07"
+
+# Golden Test Baseline
+golden_tests:
+  file: "data_core/goldens/baseline_results.json"
+  total_tests: 10
+  avg_latency_ms: 12465
+  routing_split:
+    main_model: 60.0  # percent
+    embedder: 40.0    # percent
+  frozen_at: "2025-10-07T17:48:00"
+
+# SLO Thresholds
+slos:
+  pass_rate: 0.95      # 95% minimum
+  p95_latency_ms: 20000  # 20 seconds
+  mean_latency_ms: 15000  # 15 seconds
+  boundary_drift: 0.08  # ±8% max
+  recall_at_5: 0.85    # 85% minimum
+  error_rate: 0.01     # 1% maximum
+
+# Adaptive Routing Configuration
+adaptive_routing:
+  enabled: true
+  ab_split: 0.10  # 10% treatment at launch
+  control_bucket_pct: 0.90
+  base_boundary: 0.5
+  max_drift: 0.08
+  min_samples_before_adapt: 10
+  adaptation_strength: 0.1
+
+# Canary Rollout Policy
+canary:
+  start_pct: 10
+  target_pct: 100
+  step_pct: 10
+  advance_threshold:
+    consecutive_passes: 3
+    pass_rate_min: 0.98
+    p95_latency_max_ms: 20000
+    boundary_drift_max: 0.05
+  rollback_threshold:
+    consecutive_failures: 2
+
+# Memory Quality Configuration
+memory:
+  total_fragments: 129
+  dedup_threshold: 0.85  # Similarity threshold
+  decay_policy:
+    base_days: 90
+    decay_rate: 0.01  # 1% per day
+    freshness_hours: 24
+    freshness_multiplier: 2.0
+    min_score: 0.1
+  retrieval_qa:
+    file: "data_core/retrieval_qa/qa_set.json"
+    test_cases: 10
+    target_recall_at_5: 0.85
+
+# Data Governance
+data_governance:
+  auto_hash_conv_id: true
+  pii_redaction_enabled: true
+  retention:
+    hot_days: 14
+    cold_days: 90
+    audit_days: 365
+  log_rotation:
+    max_size_mb: 50
+    keep_rotations: 10
+    compress: true
+
+# Model Configuration
+models:
+  main_model:
+    name: "openhermes-2.5-mistral-7b"
+    endpoint: "http://localhost:1234/v1/chat/completions"
+    expected_latency_ms: 8000
+    max_latency_ms: 30000
+  embedder:
+    name: "llama-3.2-1b-instruct-abliterated"
+    endpoint: "http://localhost:1234/v1/chat/completions"
+    expected_latency_ms: 2000
+    max_latency_ms: 5000
+
+# Monitoring
+monitoring:
+  dashboard_port: 8501
+  github_actions_interval_min: 30
+  nightly_maintenance_hour: 2  # 2 AM
+  slack_notifications: true
+
+# Schema Version
+schema_version: "1.0"
+ndjson_format: "v1.0"
+
+# Environment
+environment: "production"
+python_version: "3.11+"
+tested_os:
+  - "Windows 10/11"
+  - "Ubuntu 22.04+"
+lm_studio_version: "0.3.x"
+

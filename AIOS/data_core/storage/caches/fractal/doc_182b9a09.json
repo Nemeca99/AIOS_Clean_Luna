@@ -1,0 +1,19 @@
+{
+  "content": "### What Needs External Validation:\n- ⚠️ Performance vs SOTA (no HELM/LongBench comparison yet)\n- ⚠️ Scalability (tested locally only, no distributed deployment)\n- ⚠️ Stress testing (no formal load tests or chaos engineering)\n- ⚠️ Cross-environment (Windows/LM Studio only, not cloud-deployed)\n\n## Publication-Ready Results\n\nThe system automatically generates publication-ready results from provenance logs:\n\n```bash\n# 1. Run deterministic golden tests (generates provenance.ndjson)\npython main.py --execution-mode real --deterministic --test-suite --golden --report results.json\n\n# 2. Convert provenance to publication tables\npython provenance_to_results.py --input data_core/analytics/provenance.ndjson --outdir analytics_out\n\n# 3. Generate complete paper from template + results\npython generate_paper.py --results analytics_out/RESULTS.md --template PAPER_METHODS_RESULTS.md --output AIOS_Clean_Paper.md\n\n# 4. Your publication-ready paper is ready!\ncat AIOS_Clean_Paper.md\n```\n\n**Generated outputs:**\n- `summary_by_arch_layer_backend.csv` - Latency percentiles, accept rates, token counts\n- `routing_accuracy.csv` - Tier routing accuracy by architecture  \n- `RESULTS.md` - Auto-generated tables ready for papers\n\n## 📚 **Documentation**\n\n- **`MODEL_BENCHMARK_RESULTS.md`** - Complete benchmark comparison of 3 models\n- **`MODEL_SWITCHING_GUIDE.md`** - Step-by-step model switching instructions  \n- **`BENCHMARK_SYSTEM_STATUS.md`** - System status and verification details\n\n## Contributing",
+  "metadata": {
+    "source": "README.md",
+    "type": "documentation",
+    "chunk": 5,
+    "total_chunks": 6,
+    "added_at": "2025-10-07T23:45:31.604754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "README"
+  ]
+}

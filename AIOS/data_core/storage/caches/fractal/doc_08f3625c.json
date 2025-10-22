@@ -1,0 +1,19 @@
+{
+  "content": "3. **Luna Personality System** (`luna_main.py`)\n   - RAG-driven personality responses\n   - Learning and adaptation\n   - Fatigue and energy management\n\n4. **Continuous Luna System** (`continuous_real_luna.py`)\n   - Real-time continuous operation\n   - Windows console encoding support\n   - Background processing capability\n   - Progress indicators and monitoring\n\n5. **Human Evaluation Framework** (`human_eval/`)\n   - Blinded evaluation system\n   - Statistical analysis\n   - Reproducible metrics\n\n## 🔬 Reproducibility\n\n**Reproducibility**: All code, seed data, and experiment scripts used for the results in this repository are included under `experiments/`. To reproduce the primary 120-question run, follow REPRODUCE.md and run `python \"HiveMind/luna_main.py\" --mode real_learning --questions 120`. Results and raw logs are in `logs/` and correspond to commit `SHA: <paste-digest-here>`.\n\nSee [REPRODUCE.md](REPRODUCE.md) for detailed reproduction instructions.\n\n## 📁 Repository Structure",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 4,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.595186",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}

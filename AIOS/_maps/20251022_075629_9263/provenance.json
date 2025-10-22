@@ -1,0 +1,44 @@
+{
+  "tool": "codegraph-mapper",
+  "version": "1.0.0",
+  "run_id": "20251022_075629_9263",
+  "params": {
+    "root": "L:\\AIOS",
+    "out_base": "L:\\AIOS\\_maps",
+    "include": [
+      "**/*.py"
+    ],
+    "exclude": [
+      "**/__pycache__/**",
+      "**/.venv/**",
+      "**/.git/**",
+      "**/python/Lib/**"
+    ],
+    "dry_run": false,
+    "require_approval": false,
+    "allow_large": true,
+    "no_dot": false,
+    "no_mermaid": false,
+    "budget_ms": null
+  },
+  "counts": {
+    "nodes": 9170,
+    "edges": 78950,
+    "modules": 1729,
+    "py_files": 1722,
+    "parse_failures": 7
+  },
+  "timestamps": {
+    "start": "2025-10-22T07:56:37.453816+00:00",
+    "end": "2025-10-22T07:56:40.792820+00:00",
+    "duration_ms": 10868
+  },
+  "law_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "manifest_sha256": "cdbbf14e711046e05ad54ae2638a0b644d3502826f77874a7522623221c038b3",
+  "code_hash": "ffc9b89e3f2c976888228be3d278168e71eb5c6d8130a5bc56de597af52d68da",
+  "budget_usage": {
+    "cpu_ms": 923,
+    "files_opened": 1729,
+    "ops_count": 10899
+  }
+}

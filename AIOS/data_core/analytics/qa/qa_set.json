@@ -1,0 +1,90 @@
+{
+  "created": "2025-10-07T17:51:03.131592",
+  "version": "1.0",
+  "test_cases": [
+    {
+      "id": "qa_1",
+      "question": "What is AI?",
+      "expected_fragments": [
+        "fragment_76f54754",
+        "fragment_9e76c84a"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_2",
+      "question": "Tell me about neural networks",
+      "expected_fragments": [
+        "fragment_90013071",
+        "fragment_8a9fbb7c"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_3",
+      "question": "How does machine learning work?",
+      "expected_fragments": [
+        "fragment_90013071",
+        "fragment_9e76c84a"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_4",
+      "question": "How do I stay organized?",
+      "expected_fragments": [
+        "fragment_b438ce2c"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_5",
+      "question": "What's the best way to plan my day?",
+      "expected_fragments": [
+        "fragment_b438ce2c"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_6",
+      "question": "How do I connect with people?",
+      "expected_fragments": [
+        "fragment_59c869ea"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_7",
+      "question": "I feel anxious",
+      "expected_fragments": [
+        "fragment_0267e826"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_8",
+      "question": "Tell me about yourself",
+      "expected_fragments": [
+        "fragment_762518da"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_9",
+      "question": "What can you help me with?",
+      "expected_fragments": [
+        "fragment_76f54754"
+      ],
+      "min_recall": 0.8
+    },
+    {
+      "id": "qa_10",
+      "question": "Hello",
+      "expected_fragments": [
+        "fragment_762518da",
+        "fragment_59c869ea"
+      ],
+      "min_recall": 0.8
+    }
+  ]
+}

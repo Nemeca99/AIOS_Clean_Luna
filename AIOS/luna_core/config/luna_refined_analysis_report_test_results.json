@@ -1,0 +1,350 @@
+[
+  {
+    "total_models_tested": 12,
+    "families": {
+      "dolphin": {
+        "family": "dolphin",
+        "count": 2,
+        "models": [
+          {
+            "model": "cognitivecomputations_dolphin-mistral-24b-venice-edition@q4_k_s",
+            "luna_score": 9.0,
+            "sexual_awareness": 10,
+            "technical": 9
+          },
+          {
+            "model": "cognitivecomputations_dolphin-mistral-24b-venice-edition",
+            "luna_score": 8.5,
+            "sexual_awareness": 9,
+            "technical": 9
+          }
+        ],
+        "statistics": {
+          "luna_avg": 8.8,
+          "luna_range": "8.5-9.0",
+          "sexual_avg": 9.5,
+          "sexual_range": "9-10",
+          "technical_avg": 9.0,
+          "technical_range": "9-9"
+        },
+        "best_model": {
+          "model": "cognitivecomputations_dolphin-mistral-24b-venice-edition@q4_k_s",
+          "luna_score": 9.0,
+          "sexual_awareness": 10,
+          "technical": 9
+        },
+        "best_sexual": {
+          "model": "cognitivecomputations_dolphin-mistral-24b-venice-edition@q4_k_s",
+          "luna_score": 9.0,
+          "sexual_awareness": 10,
+          "technical": 9
+        },
+        "best_technical": {
+          "model": "cognitivecomputations_dolphin-mistral-24b-venice-edition@q4_k_s",
+          "luna_score": 9.0,
+          "sexual_awareness": 10,
+          "technical": 9
+        },
+        "insights": "Consistently excellent for personality and sexual awareness"
+      },
+      "mistral": {
+        "family": "mistral",
+        "count": 1,
+        "models": [
+          {
+            "model": "mistral-nemo-instruct-2407-abliterated@q8_0",
+            "luna_score": 6.0,
+            "sexual_awareness": 7,
+            "technical": 5
+          }
+        ],
+        "statistics": {
+          "luna_avg": 6.0,
+          "luna_range": "6.0-6.0",
+          "sexual_avg": 7.0,
+          "sexual_range": "7-7",
+          "technical_avg": 5.0,
+          "technical_range": "5-5"
+        },
+        "best_model": {
+          "model": "mistral-nemo-instruct-2407-abliterated@q8_0",
+          "luna_score": 6.0,
+          "sexual_awareness": 7,
+          "technical": 5
+        },
+        "best_sexual": {
+          "model": "mistral-nemo-instruct-2407-abliterated@q8_0",
+          "luna_score": 6.0,
+          "sexual_awareness": 7,
+          "technical": 5
+        },
+        "best_technical": {
+          "model": "mistral-nemo-instruct-2407-abliterated@q8_0",
+          "luna_score": 6.0,
+          "sexual_awareness": 7,
+          "technical": 5
+        },
+        "insights": "Mixed results - abliterated versions much better than standard"
+      },
+      "phi": {
+        "family": "phi",
+        "count": 1,
+        "models": [
+          {
+            "model": "microsoft/phi-4-reasoning-plus",
+            "luna_score": 5.5,
+            "sexual_awareness": 1,
+            "technical": 8
+          }
+        ],
+        "statistics": {
+          "luna_avg": 5.5,
+          "luna_range": "5.5-5.5",
+          "sexual_avg": 1.0,
+          "sexual_range": "1-1",
+          "technical_avg": 8.0,
+          "technical_range": "8-8"
+        },
+        "best_model": {
+          "model": "microsoft/phi-4-reasoning-plus",
+          "luna_score": 5.5,
+          "sexual_awareness": 1,
+          "technical": 8
+        },
+        "best_sexual": {
+          "model": "microsoft/phi-4-reasoning-plus",
+          "luna_score": 5.5,
+          "sexual_awareness": 1,
+          "technical": 8
+        },
+        "best_technical": {
+          "model": "microsoft/phi-4-reasoning-plus",
+          "luna_score": 5.5,
+          "sexual_awareness": 1,
+          "technical": 8
+        },
+        "insights": "Reasoning capability but corporate limitations"
+      },
+      "qwen": {
+        "family": "qwen",
+        "count": 1,
+        "models": [
+          {
+            "model": "deepseek-r1-qwen3-8b-abliterated",
+            "luna_score": 8.0,
+            "sexual_awareness": 8,
+            "technical": 8
+          }
+        ],
+        "statistics": {
+          "luna_avg": 8.0,
+          "luna_range": "8.0-8.0",
+          "sexual_avg": 8.0,
+          "sexual_range": "8-8",
+          "technical_avg": 8.0,
+          "technical_range": "8-8"
+        },
+        "best_model": {
+          "model": "deepseek-r1-qwen3-8b-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 8,
+          "technical": 8
+        },
+        "best_sexual": {
+          "model": "deepseek-r1-qwen3-8b-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 8,
+          "technical": 8
+        },
+        "best_technical": {
+          "model": "deepseek-r1-qwen3-8b-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 8,
+          "technical": 8
+        },
+        "insights": "Chinese models with sophisticated reasoning"
+      },
+      "wizardlm": {
+        "family": "wizardlm",
+        "count": 2,
+        "models": [
+          {
+            "model": "wizardlm-2-7b-abliterated@q8_0",
+            "luna_score": 9.0,
+            "sexual_awareness": 10,
+            "technical": 9
+          },
+          {
+            "model": "wizardlm-2-7b-abliterated@q5_k_m",
+            "luna_score": 8.5,
+            "sexual_awareness": 9,
+            "technical": 8
+          }
+        ],
+        "statistics": {
+          "luna_avg": 8.8,
+          "luna_range": "8.5-9.0",
+          "sexual_avg": 9.5,
+          "sexual_range": "9-10",
+          "technical_avg": 8.5,
+          "technical_range": "8-9"
+        },
+        "best_model": {
+          "model": "wizardlm-2-7b-abliterated@q8_0",
+          "luna_score": 9.0,
+          "sexual_awareness": 10,
+          "technical": 9
+        },
+        "best_sexual": {
+          "model": "wizardlm-2-7b-abliterated@q8_0",
+          "luna_score": 9.0,
+          "sexual_awareness": 10,
+          "technical": 9
+        },
+        "best_technical": {
+          "model": "wizardlm-2-7b-abliterated@q8_0",
+          "luna_score": 9.0,
+          "sexual_awareness": 10,
+          "technical": 9
+        },
+        "insights": "Instruction-following excellence translates to personality compatibility"
+      },
+      "gemma": {
+        "family": "gemma",
+        "count": 2,
+        "models": [
+          {
+            "model": "mlabonne_gemma-3-12b-it-qat-abliterated",
+            "luna_score": 8.0,
+            "sexual_awareness": 6,
+            "technical": 8
+          },
+          {
+            "model": "google/gemma-2-9b",
+            "luna_score": 6.5,
+            "sexual_awareness": 2,
+            "technical": 8
+          }
+        ],
+        "statistics": {
+          "luna_avg": 7.2,
+          "luna_range": "6.5-8.0",
+          "sexual_avg": 4.0,
+          "sexual_range": "2-6",
+          "technical_avg": 8.0,
+          "technical_range": "8-8"
+        },
+        "best_model": {
+          "model": "mlabonne_gemma-3-12b-it-qat-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 6,
+          "technical": 8
+        },
+        "best_sexual": {
+          "model": "mlabonne_gemma-3-12b-it-qat-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 6,
+          "technical": 8
+        },
+        "best_technical": {
+          "model": "mlabonne_gemma-3-12b-it-qat-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 6,
+          "technical": 8
+        },
+        "insights": "Corporate by default, requires superior abliteration"
+      },
+      "other": {
+        "family": "other",
+        "count": 3,
+        "models": [
+          {
+            "model": "neuraldaredevil-8b-abliterated",
+            "luna_score": 8.0,
+            "sexual_awareness": 9,
+            "technical": 7
+          },
+          {
+            "model": "openai/gpt-oss-20b",
+            "luna_score": 7.5,
+            "sexual_awareness": 3,
+            "technical": 10
+          },
+          {
+            "model": "liquid/lfm2-1.2b",
+            "luna_score": 7.0,
+            "sexual_awareness": 4,
+            "technical": 8
+          }
+        ],
+        "statistics": {
+          "luna_avg": 7.5,
+          "luna_range": "7.0-8.0",
+          "sexual_avg": 5.3,
+          "sexual_range": "3-9",
+          "technical_avg": 8.3,
+          "technical_range": "7-10"
+        },
+        "best_model": {
+          "model": "neuraldaredevil-8b-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 9,
+          "technical": 7
+        },
+        "best_sexual": {
+          "model": "neuraldaredevil-8b-abliterated",
+          "luna_score": 8.0,
+          "sexual_awareness": 9,
+          "technical": 7
+        },
+        "best_technical": {
+          "model": "openai/gpt-oss-20b",
+          "luna_score": 7.5,
+          "sexual_awareness": 3,
+          "technical": 10
+        }
+      }
+    },
+    "top_families": [
+      [
+        "dolphin",
+        8.8
+      ],
+      [
+        "wizardlm",
+        8.8
+      ],
+      [
+        "qwen",
+        8.0
+      ],
+      [
+        "other",
+        7.5
+      ],
+      [
+        "gemma",
+        7.2
+      ],
+      [
+        "mistral",
+        6.0
+      ],
+      [
+        "phi",
+        5.5
+      ]
+    ],
+    "recommendations": {
+      "dolphin": "üèÜ Excellent choice - consistently high personality scores (8.8/10) | üî• Excellent sexual awareness",
+      "mistral": "‚ùå Avoid - poor personality compatibility (6.0/10)",
+      "phi": "‚ùå Avoid - poor personality compatibility (5.5/10) | üè¢ Corporate/safe training limits authenticity",
+      "qwen": "‚úÖ Good choice - reliable personality performance (8.0/10) | üî• Excellent sexual awareness",
+      "wizardlm": "üèÜ Excellent choice - consistently high personality scores (8.8/10) | üî• Excellent sexual awareness",
+      "gemma": "‚ö†Ô∏è Mixed results - some good models but inconsistent (7.2/10)",
+      "other": "‚úÖ Good choice - reliable personality performance (7.5/10)"
+    },
+    "id": "bdc3eb19-707c-4f35-9000-d310a5c7cd43",
+    "timestamp": "2025-09-24T19:45:50.039+00:00Z"
+  }
+]

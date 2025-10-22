@@ -1,0 +1,19 @@
+{
+  "content": "**Usage**:\n```bash\n# Run Luna learning session\npy main.py --mode luna --questions 3\n\n# Classify a question\npy main.py --classify \"I am someone who loves to learn new things\"\n\n# View Shadow Score\npy main.py --shadow-score\n\n# Activate Emergence Zone\npy main.py --activate-zone creative_exploration --zone-duration 30\n```\n\n### 7. Streamlit Core (`streamlit_core/`)\n**Purpose**: Web-based user interface system\n\n**Key Features**:\n- Streamlit web application\n- Real-time system monitoring\n- Interactive Luna chat interface\n- Meditation engine integration\n- Persistent state management\n\n**Core Files**:\n- `streamlit_core.py`: Main Streamlit system\n\n**Integration**: Designed to work with `support_core/streamlit_app.py` for the web interface.\n\n**Usage**:\n```bash\n# Launch Streamlit UI\npy main.py --streamlit\n```\n\n### 8. Support Core (`support_core/`)\n**Purpose**: System utilities, monitoring, and support functions\n\n**Key Features**:\n- System health monitoring\n- Cache operations\n- Embedding management\n- FAISS operations\n- Recovery systems\n- GUI and monitoring dashboards\n\n**Core Files**:\n- `support_core.py`: Main support system\n- `aios_gui.py`: GUI interface\n- `aios_monitoring_dashboard.py`: Monitoring dashboard\n- `system_monitor.py`: System monitoring",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 9,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.600183",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

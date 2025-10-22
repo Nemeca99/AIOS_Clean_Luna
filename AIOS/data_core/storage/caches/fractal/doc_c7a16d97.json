@@ -1,0 +1,19 @@
+{
+  "content": "### Key Features\n- **Modular Architecture**: 9 self-contained core systems with inter-core communication\n- **Neurodivergent-Affirming AI**: Designed to support and validate neurodivergent traits\n- **Advanced Memory Management**: Fractal cache system with memory consolidation\n- **Personality Development**: Big Five personality assessment integration\n- **Dream Meditation System**: Biomimetic sleep cycles for memory processing\n- **Token-Time Econometrics**: Resource optimization and existential budget management\n- **Multi-Model Support**: Integration with LM Studio and various LLM models\n- **Real-time Monitoring**: Comprehensive health checks and system analytics\n\n### System Philosophy\nThe system follows these core principles:\n1. **Neurodivergent Affirmation**: Supporting rather than \"fixing\" neurodivergent traits\n2. **Autonomous Learning**: Self-directed knowledge acquisition and personality development\n3. **Resource Efficiency**: Optimized token usage and computational resource management\n4. **Transparency**: Clear logging and monitoring of all system operations\n5. **Modularity**: Self-contained systems that can operate independently\n\n---\n\n## Architecture",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 2,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.597176",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

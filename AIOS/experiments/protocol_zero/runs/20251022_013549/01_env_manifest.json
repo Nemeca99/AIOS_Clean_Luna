@@ -1,0 +1,18 @@
+{
+  "experiment_id": "20251022_013549",
+  "timestamp": "2025-10-22T01:35:50.568537Z",
+  "duration_hours": 0.1,
+  "cpu_model": "Unknown",
+  "cpu_freq": "2.50",
+  "auditor_model": "llama-3.2-1b-instruct-abliterated",
+  "oracle_sections": 5436,
+  "hypothesis": "Luna will autonomously select actions based on internal state without human input",
+  "success_criteria": {
+    "min_action_types": 3,
+    "min_sleep_cycles": 1,
+    "ablation_effect_size": 0.8,
+    "challenge_discovery": true
+  },
+  "ablation_mode": null,
+  "duration_cycles": null
+}

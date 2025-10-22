@@ -1,0 +1,13 @@
+# AIOS GUI Requirements
+# Core GUI framework
+PySimpleGUI>=4.60.0
+
+# Data visualization
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# System monitoring
+psutil>=5.8.0
+
+# Additional utilities
+Pillow>=8.3.0  # For image handling in GUI

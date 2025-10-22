@@ -1,0 +1,240 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Cursor Dark High Contrast",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "workbench.panel.showLabels": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorCustomizations": {},
+    "pythonIndent.trimLinesWithOnlyWhitespace": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.terminal.copySelection"
+    ],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingComments": "always",
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "terminal.integrated.autoReplies": {},
+    "terminal.integrated.enableVisualBell": true,
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-NoLogo", "-ExecutionPolicy", "Bypass"]
+        },
+        "Command Prompt": {
+            "path": "C:\\Windows\\System32\\cmd.exe",
+            "args": ["/K", "chcp 65001"],
+            "icon": "terminal-cmd"
+        }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.chat.followUps": "always",
+    "github.copilot.chat.codesearch.enabled": true,
+    "python.defaultInterpreterPath": "C:\\Users\\nemec\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Python 3.12",
+    "dev.containers.executeInWSL": true,
+    "git.autofetch": true,
+    "redhat.telemetry.enabled": true,
+    "workbench.editorAssociations": {
+        "*.rule": "customFileEditor",
+        "*.mdc": "customFileEditor",
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.svg": "default"
+    },
+    "github.copilot.selectedCompletionModel": "",
+    "wolf.updateFrequency": 100,
+    "json.schemas": [],
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.settings.applyToAllProfiles": [
+        "python.analysis.useLibraryCodeForTypes",
+        "projectManager.git.baseFolders",
+        "github.copilot.enable",
+        "chat.editor.fontSize"
+    ],
+    "python.analysis.stubPath": "",
+    "gitlens.graph.layout": "editor",
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+    "github.copilot.chat.edits.temporalContext.enabled": true,
+    "github.copilot.enable": {
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true
+    },
+    "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+    "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+    "github.copilot.chat.languageContext.typescript.enabled": true,
+    "cSpell.customDictionaries": {},
+    "git.openRepositoryInParentFolders": "always",
+    "chat.agent.maxRequests": 100,
+    "chat.editor.wordWrap": "on",
+    "chat.edits2.enabled": true,
+    "chat.tools.autoApprove": true,
+    "github.copilot.chat.codeGeneration.instructions": [
+        "Follow the portfolio project organization principles",
+        "Use shared utilities when available",
+        "Maintain consistent code style across projects",
+        "Include proper error handling and logging",
+        "Follow DRY principles and avoid code duplication"
+    ],
+    "projectManager.git.maxDepthRecursion": 0,
+    "markdownlint.config": {},
+    "markdown.updateLinksOnFileMove.enabled": "always",
+    "vscode-ollama.baseUrl": "http://127.0.0.1:11434",
+    "vscode-ollama.model": "llama3:latest",
+    "vscode-ollama.maxTokens": 4096,
+    "vscode-ollama.keepAlive": "30 minutes",
+    "vscode-ollama.performanceMode": "Base (Default)",
+    "vscode-ollama.systemPrompt": "You are an AI assistant helping with portfolio development. You understand the project structure with shared_utils, Custom_LLM, Extension_Converter, and other projects. Always follow DRY principles, use shared utilities when available, maintain consistent code style, and provide helpful, efficient solutions. Be aware of the portfolio organization and coding standards.",
+    "localaipilot.general.inlineSuggestions": true,
+    "terminal.integrated.suggest.enabled": true,
+    "explorer.confirmDelete": false,
+    "projectManager.git.baseFolders": [
+        "D:\\Portfolio\\Portfolio_Projects"
+    ],
+    "yaml.schemas": {
+        "file:///c%3A/Users/nemec/.cursor/extensions/continue.continue-1.2.6-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "editor.fontSize": 25,
+    "chat.editor.fontSize": 22,
+    "debug.console.fontSize": 18,
+    "terminal.integrated.fontSize": 20,
+    "markdown.preview.fontSize": 18,
+    "cursor.composer.textSizeScale": 1.3,
+    "cursor.diffs.useCharacterLevelDiffs": true,
+    "cursor.cpp.enablePartialAccepts": true,
+    "window.newWindowProfile": "Default",
+    "notebook.output.wordWrap": true,
+    "window.commandCenter": true,
+    "diffEditor.maxComputationTime": 0,
+    "cursorStats.enableLogging": true,
+    "cursorStats.refreshInterval": 10,
+    "terminal.integrated.automationProfile.windows": {
+        "path": "C:\\Windows\\System32\\cmd.exe",
+        "args": ["/K", "chcp 65001"]
+    },
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "D:\\Portfolio\\Portfolio_Projects\\shared_utils;D:\\Portfolio\\Portfolio_Projects\\Custom_LLM;D:\\Portfolio\\Portfolio_Projects\\Extension_Converter",
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONIOENCODING": "utf-8"
+    },
+    "cursorStats.showTotalRequests": true,
+    "projectManager.git.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        ".haxelib",
+        "backup",
+        "backups",
+        "datasets"
+    ],
+    "files.autoSave": "afterDelay",
+    "editor.cursorStyle": "block",
+    "git.suggestSmartCommit": false,
+    "cursorpyright.analysis.stubPath": "",
+    "cursor.composer.shouldAllowCustomModes": true,
+    "json.schemaDownload.enable": true,
+    "explorer.incrementalNaming": "smart",
+    "git.ignoreLimitWarning": true,
+    "git.ignoreSubmodules": true,
+    "git.autofetch": false,
+    "git.autofetchPeriod": 0,
+    "terminal.integrated.hideOnStartup": "whenEmpty",
+    "terminal.integrated.suggest.cdPath": "relative",
+    "cursorpyright.analysis.typeCheckingMode": "recommended",
+    "cursorpyright.analysis.useTypingExtensions": true,
+    "python.autoComplete.extraPaths": [
+        "D:\\Portfolio\\Portfolio_Projects\\shared_utils",
+        "D:\\Portfolio\\Portfolio_Projects\\Custom_LLM",
+        "D:\\Portfolio\\Portfolio_Projects\\Extension_Converter",
+        "D:\\Portfolio\\Portfolio_Projects\\Custom_LLM\\core",
+        "D:\\Portfolio\\Portfolio_Projects\\Custom_LLM\\web",
+        "D:\\Portfolio\\Portfolio_Projects\\Extension_Converter\\core",
+        "D:\\Portfolio\\Portfolio_Projects\\Extension_Converter\\converters"
+    ],
+    "projectManager.confirmSwitchOnActiveWindow": "onlyUsingSideBar",
+    "projectManager.hg.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        ".haxelib",
+        "datasets"
+    ],
+    "projectManager.hg.maxDepthRecursion": 0,
+    "projectManager.vscode.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        "datasets"
+    ],
+    "projectManager.vscode.maxDepthRecursion": 0,
+    "projectManager.any.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test",
+        "datasets"
+    ],
+    "projectManager.any.maxDepthRecursion": 0,
+    "pylint.importStrategy": "fromEnvironment",
+    "cursor.composer.queueMessageDefaultBehavior": "queue",
+    "cursorpyright.analysis.diagnosticSeverityOverrides": {},
+    "cursorpyright.analysis.disableWorkspaceSymbol": true,
+    "cursorpyright.nodeEnvVars": {},
+    "files.associations": {
+        "*.py": "python"
+    },
+    "python.createEnvironment.contentButton": "show",
+    "python.experiments.optInto": [
+        
+    ],
+    "python.globalModuleInstallation": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.shellIntegration.enabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": true,
+    "Python_Config.pythonVersion": "3.12",
+    "cursor.composer.usageSummaryDisplay": "always",
+    "database-client.autoSync": true,
+    "python.languageServer": "None",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.createEnvironment.trigger": "off",
+    "workbench.sideBar.location": "right",
+    "makefile.configureOnOpen": true,
+    "svelte.enable-ts-plugin": true,
+    "containers.commands.attach": "${containerCommand} exec -it ${containerId} ${shellCommand}",
+    "cursor.general.enableShadowWorkspace": true,
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "workbench.trustedDomains.promptInTrustedWorkspace": true,
+    "workspace.searchLimit": 100,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.workspaceSymbols.scope": "currentProject",
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+    "terminal.integrated.inheritEnv": true,
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.enablePersistentSessions": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.rightClickBehavior": "selectWord",
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.fastScrollSensitivity": 5,
+    "terminal.integrated.mouseWheelScrollSensitivity": 3,
+    "terminal.integrated.unicodeVersion": "11"
+}

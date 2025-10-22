@@ -1,0 +1,19 @@
+{
+  "content": "### LM Studio Configuration\n- **Host**: `localhost:1234`\n- **Endpoints**:\n  - Chat: `/v1/chat/completions`\n  - Embeddings: `/v1/embeddings`\n  - Models: `/v1/models`\n\n### GSD (Speculative Decoding) Configuration\n- **Enabled**: Yes (with clean parameters)\n- **Draft Model**: Uses smaller model for draft tokens\n- **Verification**: Main model verifies and accepts/rejects drafts\n- **Logit Bias**: Removed to prevent \"parable\" loops\n\n### Path Configuration\nAll data paths have been updated to use `data_core/` instead of `Data/`:\n- `data_core/FractalCache/` - Memory fragments\n- `data_core/ArbiterCache/` - Decision data\n- `data_core/conversations/` - Chat history\n- `data_core/config/` - Configuration files\n- `data_core/logs/` - System logs\n\n---\n\n## Model Integration\n\n### LM Studio Integration\nThe system integrates with LM Studio for LLM inference:\n\n**Setup Requirements**:\n1. Install LM Studio\n2. Load desired models\n3. Start server on `localhost:1234`\n4. Ensure models are available via API\n\n**Model Loading**:\n```bash\n# Load main model (7B)\n# Load daily driver (1B)\n# Ensure models are available\n```",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 15,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.602235",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

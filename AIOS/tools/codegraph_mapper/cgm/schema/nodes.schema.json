@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "description": "Array of code graph nodes (files, modules, classes, functions, constants)",
+  "items": {
+    "type": "object",
+    "required": ["id", "kind", "name"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique node identifier (e.g., module:luna_core.personality)"
+      },
+      "kind": {
+        "enum": ["file", "module", "class", "function", "const"],
+        "description": "Type of node"
+      },
+      "path": {
+        "type": "string",
+        "description": "Absolute Windows path (for file/module nodes)"
+      },
+      "name": {
+        "type": "string",
+        "description": "Base name of the entity"
+      },
+      "qualname": {
+        "type": "string",
+        "description": "Fully qualified name (e.g., luna_core.personality:ClassName.method)"
+      },
+      "span": {
+        "type": "object",
+        "description": "Source code span (line/col positions)",
+        "properties": {
+          "start": {
+            "type": "object",
+            "properties": {
+              "line": {"type": "integer"},
+              "col": {"type": "integer"}
+            }
+          },
+          "end": {
+            "type": "object",
+            "properties": {
+              "line": {"type": "integer"},
+              "col": {"type": "integer"}
+            }
+          }
+        }
+      },
+      "doc": {
+        "type": "string",
+        "description": "First line of docstring (if present)"
+      },
+      "hash": {
+        "type": "string",
+        "description": "SHA-256 hash of file content (for file/module nodes)"
+      },
+      "meta": {
+        "type": "object",
+        "description": "Additional metadata (encoding, size, mtime, etc.)"
+      }
+    }
+  }
+}
+

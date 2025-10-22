@@ -1,0 +1,14 @@
+[
+  {
+    "hypothesis_id": "H_AIOS_2",
+    "hypothesis_name": "Context Pressure Effect",
+    "prediction": "More context messages increases response time",
+    "metric": "Linear regression slope",
+    "threshold": 0.5,
+    "metric_value": -782.6086956521746,
+    "is_supported": true,
+    "data_points": 4,
+    "confidence": 0.5,
+    "timestamp": "2025-10-07T14:33:39.947027"
+  }
+]

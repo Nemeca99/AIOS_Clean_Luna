@@ -1,0 +1,19 @@
+{
+  "content": "**Causes:**\n1. Provenance file doesn't exist → Run some Luna questions first\n2. Cache not refreshing → Disable cache in sidebar\n3. Wrong file paths → Check Settings tab for paths\n\n**Fix:**\n```powershell\n# Generate test data\npy -c \"from main import AIOSClean; aios=AIOSClean(); luna=aios._get_system('luna'); [luna.learning_system.python_impl.process_question(f'q{i}', 'general') for i in range(5)]\"\n\n# Verify data exists\ndir data_core\\analytics\\hypotheses.ndjson\n```\n\n---\n\n## Configuration Files\n\n### Model Config\n**Path:** `luna_core/config/model_config.json`\n\n**Key settings:**\n```json\n{\n  \"main_model\": {\n    \"name\": \"openhermes-2.5-mistral-7b\",\n    \"api_endpoint\": \"http://localhost:1234/v1/chat/completions\"\n  },\n  \"embedder_llm\": {\n    \"name\": \"llama-3.2-1b-instruct-abliterated\",\n    \"api_endpoint\": \"http://localhost:1234/v1/chat/completions\"\n  }\n}\n```\n\n### Adaptive Routing Config\n**Defaults in code:** `utils_core/adaptive_routing.py`\n\n**Key parameters:**\n- `control_bucket_pct`: 0.5 (50/50 split)\n- `min_samples_before_adapt`: 10 messages\n- `adaptation_strength`: 0.1 (10% adjustment per cycle)\n\n**Override:** Create `AdaptiveConfig()` with custom values\n\n### Golden Test Config\n**Path:** `data_core/goldens/sample_set.json`\n\n**Format:**\n```json\n[\n  {\n    \"id\": \"test_id\",\n    \"question\": \"Question text\",\n    \"trait\": \"general\"\n  }\n]\n```\n\n---\n\n## Data Management\n\n### Provenance Log Rotation",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 4,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.612754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "evals": {
+    "recall": {
+      "score": 1.0,
+      "tested": 0,
+      "correct": 0,
+      "accuracy": 1.0,
+      "passed": true,
+      "reason": "No prior generation (Gen 0)"
+    },
+    "generalization": {
+      "score": 1.0,
+      "tested": 0,
+      "correct": 0,
+      "accuracy": 1.0,
+      "passed": true,
+      "reason": "Gen 0 - no prior data to generalize from"
+    },
+    "style_drift": {
+      "count": 0,
+      "tested": 10,
+      "corporate_count": 0,
+      "violations": [],
+      "passed": true
+    },
+    "all_passed": true,
+    "summary": {
+      "recall": 1.0,
+      "generalization": 1.0,
+      "style_drift": 0
+    }
+  },
+  "summary": {
+    "recall": 1.0,
+    "generalization": 1.0,
+    "style_drift": 0
+  },
+  "all_passed": true
+}

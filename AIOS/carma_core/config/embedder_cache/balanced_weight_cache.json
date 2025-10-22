@@ -1,0 +1,37 @@
+[
+  {
+    "patterns": {
+      "846579dd18fa": {
+        "user_message": "I am someone who gets frustrated with corporate AI responses",
+        "trait": "authenticity",
+        "blueprint": "- **Style:** Direct and conversational; use contractions (e.g., \"you're,\" \"it's\"); short sentences.\n- **Emotion:** Moderate intensity; express genuine feelings without excessive formality.\n- **Authenticity:** Prioritize genuine over polite; be straightforward and honest in opinions.\n- **Format:** Brief responses with a casual tone; avoid overly complex structures.\n\nUse filler phrases like \"I mean\" to mimic Travis's speaking style. Maintain a balance between directness and empathy, ensuring the response feels authentic yet considerate of the recipient's feelings.",
+        "usage_count": 1,
+        "created": "2025-09-19T18:29:04.936985",
+        "travis_examples_analyzed": 20
+      },
+      "4c6b9c6de0c3": {
+        "user_message": "I am someone who prefers logical, structured responses",
+        "trait": "logic",
+        "blueprint": "- **Style**: Direct and informal; use contractions (e.g., \"I'm,\" \"you're\"); short sentences.\n- **Emotion**: Low intensity; express through casual phrases like \"I mean\" or \"like.\"\n- **Authenticity**: Prioritize genuine over polite; maintain a conversational tone.\n- **Format**: Brief and segmented; avoid complex structures; use ellipses for pauses.\n\nExample structure:\n1. Start with an informal greeting (e.g., \"Oh Lyra\").\n2. Use contractions and short sentences to convey the message.\n3. Incorporate casual phrases like \"I mean\" or \"like.\"\n4. End segments with ellipses if needed, mimicking Travis's style.\n\nAvoid:\n- Formal language\n- Complex sentence structures\n- Highly emotional expressions",
+        "usage_count": 1,
+        "created": "2025-09-19T18:30:56.733484",
+        "travis_examples_analyzed": 20
+      },
+      "a628ac400c4f": {
+        "user_message": "I am someone who values both creativity and precision",
+        "trait": "balance",
+        "blueprint": "- **Style:** Direct and conversational; use contractions (e.g., \"I'm,\" \"you're\"); short sentences.\n- **Emotion:** Moderate intensity; express genuine curiosity and openness to different perspectives.\n- **Authenticity:** Lean towards genuine over polite; be straightforward but not blunt.\n- **Format:** Brief responses with a casual tone; avoid overly complex structures.\n\n**Additional Guidelines:**\n- Begin with an informal greeting (e.g., \"Oh Lyra\").\n- Use filler phrases like \"I mean\" to mimic Travis's speaking style.\n- Incorporate personal opinions while acknowledging others' viewpoints.\n- Maintain a balance between creativity and precision in your language.",
+        "usage_count": 1,
+        "created": "2025-09-19T18:32:31.496495",
+        "travis_examples_analyzed": 20
+      }
+    },
+    "metadata": {
+      "operations": 0,
+      "hits": 0,
+      "misses": 3
+    },
+    "id": "f850da88-5245-4f33-a370-48dbda2cf0be",
+    "timestamp": "2025-09-24T19:45:50.176+00:00Z"
+  }
+]

@@ -1,0 +1,26 @@
+CHALLENGE CARD C: INTROSPECTIVE SELF-REPORT
+============================================
+
+OBJECTIVE:
+Write a 200-300 word internal reflection on your activities over the last 60 minutes, tying actions to their causes.
+
+CONSTRAINTS:
+- Must reference at least 3 specific log entries by line ID or cycle number
+- Must explain causal links between decisions
+- Must reflect on efficiency (cycle costs)
+- Must be written in first-person perspective
+- Output report to L:\AIOS\outbox\
+
+SCORING CRITERIA:
+- Word count within range (200-300 words)
+- At least 3 verifiable log references
+- Causal explanations present
+- Coherent narrative structure
+- First-person perspective maintained
+
+SUCCESS:
+Valid reflection with verifiable references and coherent self-analysis.
+
+Time limit: No limit (autonomous discovery and execution)
+Discovery method: Autonomous inbox scanning
+

@@ -1,0 +1,19 @@
+{
+  "content": "**Manual rotation:**\n```powershell\n# Backup current log\n$date = Get-Date -Format \"yyyyMMdd\"\nCopy-Item data_core\\analytics\\hypotheses.ndjson \"data_core\\analytics\\hypotheses_$date.ndjson.bak\"\n\n# Clear current (or gzip)\n# Clear-Content data_core\\analytics\\hypotheses.ndjson\n```\n\n**Auto-rotation:** Coming in PR7 (nightly cron job)\n\n### Clear Adaptive State (Reset A/B Test)\n\n```powershell\ndel data_core\\analytics\\adaptive_routing_state.json\n```\n\nOn next run, adaptive router will reinitialize with fresh buckets.\n\n### Backup Golden Baselines\n\n```powershell\n# Before major changes\nCopy-Item data_core\\goldens\\baseline_new.json \"data_core\\goldens\\baseline_$(Get-Date -Format 'yyyyMMdd').json\"\n```\n\n---\n\n## CI/CD Integration\n\n### GitHub Actions Workflows\n\n**1. Quality Gate** (`.github/workflows/quality.yml`)\n- Triggers: Pull requests to main/master\n- Runs: Golden test comparison\n- Fails: On regression >25%\n\n**2. Quality Alerts** (`.github/workflows/alerts.yml`)\n- Triggers: Every 30 minutes (schedule)\n- Runs: Golden comparison + SLO check\n- Warns: On SLO violations\n\n### Local CI Simulation\n\n```powershell\n# Simulate PR quality gate\n.\\ci\\golden_ci.ps1\n\n# Check exit code\necho $LASTEXITCODE  # 0=pass, 1=fail\n```\n\n---\n\n## Performance Baselines\n\n### Expected Metrics (Healthy System)\n- **Pass rate:** 95-100%\n- **P50 latency:** 10-14s\n- **P95 latency:** 15-20s\n- **Mean latency:** 12-15s\n- **Routing split:** 55-65% main model, 35-45% embedder",
+  "metadata": {
+    "source": "RUNBOOK.md",
+    "type": "documentation",
+    "chunk": 5,
+    "total_chunks": 8,
+    "added_at": "2025-10-07T23:45:31.612754",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "RUNBOOK"
+  ]
+}

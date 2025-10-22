@@ -1,0 +1,12 @@
+{
+  "added": [
+    "data_core\\luna_notes\\consciousness_notes.txt",
+    "data_core\\luna_notes\\autonomy_log.txt",
+    "data_core\\luna_notes\\cycle_summary.txt"
+  ],
+  "removed": [],
+  "modified": [
+    "consciousness_core\\drift_logs\\freeform_thoughts.jsonl"
+  ],
+  "unchanged": 17949
+}

@@ -1,0 +1,10 @@
+{
+  "fragment_type": "hypothesis_test_result",
+  "hypothesis_id": "H_AIOS_2",
+  "hypothesis_name": "Context Pressure Effect",
+  "is_supported": true,
+  "metric_value": -782.6086956521746,
+  "confidence": 0.5,
+  "timestamp": "2025-10-07T14:33:39.947027",
+  "data_points": 4
+}

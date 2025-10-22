@@ -1,0 +1,19 @@
+{
+  "content": "### Adding New Features\n1. **Core System**: Add to appropriate core directory\n2. **Integration**: Update main.py for CLI integration\n3. **Documentation**: Update this documentation\n4. **Testing**: Add test cases and validation\n5. **Backup**: Test with backup system\n\n### Code Standards\n- **Python 3.11+** compatibility\n- **Type hints** for all functions\n- **Docstrings** for all classes and methods\n- **Error handling** with proper logging\n- **Unicode safety** for all text processing\n\n### Testing\n```bash\n# Run comprehensive tests\npy main.py --mode test\n\n# Test specific components\npy main.py --mode luna --questions 1\npy main.py --mode carma --queries \"test\"\npy main.py --mode health\n```\n\n---\n\n## Performance Optimization\n\n### System Optimization\n```bash\n# Run full system optimization\npy main.py --mode optimize\n\n# Memory consolidation\npy main.py --mode memory\n\n# Data cleanup\npy main.py --data-cleanup\n```\n\n### Token Optimization\n- **Response Value Classifier**: Optimizes token allocation\n- **Existential Budget**: Manages token usage\n- **Efficiency Requirements**: Varies by complexity tier\n- **GSD Integration**: Speeds up inference\n\n### Memory Optimization\n- **Fractal Cache**: Efficient memory storage\n- **Consolidation**: Reduces fragment count\n- **Dream Cycles**: Processes and organizes memories\n- **Cleanup**: Removes old and duplicate data",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 19,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.602744",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

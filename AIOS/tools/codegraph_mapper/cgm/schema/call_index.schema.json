@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "description": "Call graph index (per file: caller -> callees)",
+  "patternProperties": {
+    "^.*$": {
+      "type": "object",
+      "description": "File path -> call relationships",
+      "patternProperties": {
+        "^.*$": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "List of callees for this caller"
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-07T17:03:50.451370",
+  "golden_set": "data_core\\goldens\\sample_set.json",
+  "total_tests": 10,
+  "tests": [
+    {
+      "id": "trivial_greeting_1",
+      "question": "hi",
+      "trait": "general",
+      "response": "What can I do for you today?",
+      "latency_ms": 13467.74120000191,
+      "source": "embedder",
+      "tier": "trivial_low",
+      "response_type": "direct_embedder",
+      "response_length": 28,
+      "timestamp": "2025-10-07T17:04:03.919618"
+    },
+    {
+      "id": "trivial_greeting_2",
+      "question": "hello",
+      "trait": "general",
+      "response": "Hello, how can I help you today?",
+      "latency_ms": 8658.008500002325,
+      "source": "embedder",
+      "tier": "trivial_low",
+      "response_type": "direct_embedder",
+      "response_length": 32,
+      "timestamp": "2025-10-07T17:04:12.577882"
+    },
+    {
+      "id": "moderate_question_1",
+      "question": "How are you doing today?",
+      "trait": "general",
+      "response": "*stims intensely* I'm...fine. Just trying to survive in this chaotic world. *pauses, eyes darting around* sort of You're not here to hurt me, are you?",
+      "latency_ms": 10236.852700007148,
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "response_length": 150,
+      "timestamp": "2025-10-07T17:04:22.814962"
+    },
+    {
+      "id": "moderate_question_2",
+      "question": "What's your name?",
+      "trait": "general",
+      "response": "My name is not necessary to complete the task.",
+      "latency_ms": 8730.89110001456,
+      "source": "embedder",
+      "tier": "trivial_low",
+      "response_type": "direct_embedder",
+      "response_length": 46,
+      "timestamp": "2025-10-07T17:04:31.545996"
+    },
+    {
+      "id": "high_complexity_1",
+      "question": "Explain quantum computing in simple terms",
+      "trait": "general",
+      "response": "Quantum computing uses the principles of quantum mechanics to process information. Instead of using bits like classical computers, it uses qubits that can exist in multiple states at once, allowing for faster and more efficient calculations.",
+      "latency_ms": 15146.229299949482,
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "response_length": 241,
+      "timestamp": "2025-10-07T17:04:46.692520"
+    },
+    {
+      "id": "high_complexity_2",
+      "question": "How does machine learning work?",
+      "trait": "general",
+      "response": "um It's a big topic! But basically, it learns from data to make predictions or decisions. Like how you'd train a dog\u2014you show it examples and it figures out patterns.",
+      "latency_ms": 14537.44360001292,
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "response_length": 166,
+      "timestamp": "2025-10-07T17:05:01.230055"
+    },
+    {
+      "id": "personality_openness_1",
+      "question": "I am someone who i like music",
+      "trait": "openness",
+      "response": "*pauses thoughtfully* Music is a beautiful way to express emotions and connect with others. What kind of music probably do you enjoy?",
+      "latency_ms": 12457.265900098719,
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "response_length": 133,
+      "timestamp": "2025-10-07T17:05:13.687465"
+    },
+    {
+      "id": "personality_neuroticism_1",
+      "question": "I am someone who i get stressed easily",
+      "trait": "neuroticism",
+      "response": "Hey there! It's okay to feel stressed. Our nervous systems can be super sensitive and sometimes we just need a moment to process things. Remember, it's okay to take breaks and do what makes you feel comfortable.",
+      "latency_ms": 14372.240000055172,
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "response_length": 211,
+      "timestamp": "2025-10-07T17:05:28.060029"
+    },
+    {
+      "id": "context_test_1",
+      "question": "Can you help me understand neural networks?",
+      "trait": "general",
+      "response": "\"Sure uh thing. Neural networks are like the brain's neurons, but digital. They learn by adjusting connections between 'neurons'.",
+      "latency_ms": 15616.072099888697,
+      "source": "main_model",
+      "tier": "moderate_high",
+      "response_type": "full_generation",
+      "response_length": 129,
+      "timestamp": "2025-10-07T17:05:43.675613"
+    },
+    {
+      "id": "simple_affirmation_1",
+      "question": "ok",
+      "trait": "general",
+      "response": "What do you want to talk about?",
+      "latency_ms": 8695.539399981499,
+      "source": "embedder",
+      "tier": "trivial_low",
+      "response_type": "direct_embedder",
+      "response_length": 31,
+      "timestamp": "2025-10-07T17:05:52.371431"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "errors": 0,
+    "avg_latency_ms": 12191.828380001243,
+    "min_latency_ms": 8658.008500002325,
+    "max_latency_ms": 15616.072099888697,
+    "main_model_count": 6,
+    "embedder_count": 4,
+    "main_model_percent": 60.0,
+    "embedder_percent": 40.0
+  }
+}

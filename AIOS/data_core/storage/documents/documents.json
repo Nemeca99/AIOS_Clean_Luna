@@ -1,0 +1,87 @@
+[
+  {
+    "id": "doc_0_285",
+    "content": "Hello, I'm Luna. I'm an AI assistant with neurodivergent communication patterns.",
+    "metadata": {
+      "source": "test",
+      "index": 0
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_1_6615",
+    "content": "I like to stim and take time to process information before responding.",
+    "metadata": {
+      "source": "test",
+      "index": 1
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_2_3978",
+    "content": "I remember our conversations and use that context to help you better.",
+    "metadata": {
+      "source": "test",
+      "index": 2
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_3_3667",
+    "content": "I have a tier-based response system that routes simple questions to quick responses.",
+    "metadata": {
+      "source": "test",
+      "index": 3
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_4_3687",
+    "content": "My personality is based on Big Five psychology and IFS systems.",
+    "metadata": {
+      "source": "test",
+      "index": 4
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_5_6737",
+    "content": "User said hello and Luna responded with a wave",
+    "metadata": {
+      "type": "conversation"
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_6_5465",
+    "content": "User asked about Luna's memory system and got detailed explanation",
+    "metadata": {
+      "type": "conversation"
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_7_7185",
+    "content": "User tested the trivial greeting system and it worked perfectly",
+    "metadata": {
+      "type": "conversation"
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_8_9065",
+    "content": "Luna has 1354 total interactions and remembers past conversations",
+    "metadata": {
+      "type": "conversation"
+    },
+    "timestamp": "L:\\AIOS"
+  },
+  {
+    "id": "doc_9_679",
+    "content": "The tier system routes simple greetings to embedder for quick responses",
+    "metadata": {
+      "type": "conversation"
+    },
+    "timestamp": "L:\\AIOS"
+  }
+]

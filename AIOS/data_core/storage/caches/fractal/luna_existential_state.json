@@ -1,0 +1,14 @@
+{
+  "age": 5,
+  "current_token_pool": 51282,
+  "max_token_pool": 64000,
+  "karma_quota": 506.25,
+  "current_karma": 30.699611505028606,
+  "total_responses": 523,
+  "last_age_up": 1759953650.2855606,
+  "last_regression": 0.0,
+  "survival_threshold": 0.1,
+  "existential_anxiety_level": 0.4,
+  "regression_count": 0,
+  "permanent_knowledge_level": 5
+}

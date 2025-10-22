@@ -1,0 +1,14 @@
+[
+  {
+    "hypothesis_id": "H_AIOS_4",
+    "hypothesis_name": "Dynamic Weight Accumulation",
+    "prediction": "Same question + different context yields different routing",
+    "metric": "Routing variance per question",
+    "threshold": 0.3,
+    "metric_value": 0.0,
+    "is_supported": false,
+    "data_points": 4,
+    "confidence": 0.1,
+    "timestamp": "2025-10-07T14:33:39.953029"
+  }
+]

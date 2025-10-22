@@ -1,0 +1,162 @@
+[
+  {
+    "id": "aa30c740-7831-4994-b7b7-ef32411223a6",
+    "pattern": "id",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "e80229cf-23d4-4412-b9eb-a996ce8e2e7e",
+    "pattern": "content",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "cf821f9e-c24a-4503-9713-4219c7a452ce",
+    "pattern": "level",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "70253e86-4255-4251-a5e6-c6092e030fe5",
+    "pattern": "hits",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "69ac2154-f860-4453-9d2e-e16df7796684",
+    "pattern": "parent_id",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "57d4229b-1276-43bf-a0de-8cba71400be4",
+    "pattern": "children_ids",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "285f5798-2bf8-4b19-b7aa-2e2708e62ae5",
+    "pattern": "created_at",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  },
+  {
+    "id": "183fd8af-a820-4b1b-a13f-ec75f5e2a9db",
+    "pattern": "metadata",
+    "embedding": [],
+    "frequency": 1,
+    "last_used": "2025-09-24T14:25:34.153799Z",
+    "timestamp": "2025-09-24T14:26:35.272761Z",
+    "similarity_threshold": 0.8,
+    "compression": {
+      "ratio": 1.0,
+      "ris_importance": 0.0,
+      "warp_stable": true,
+      "tfid_anchor": 0.618034
+    },
+    "metadata": {
+      "migrated_from": "legacy_format",
+      "original_type": "cache_entry",
+      "migration_date": "2025-09-24T14:25:34.153799Z"
+    }
+  }
+]

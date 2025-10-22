@@ -1,0 +1,379 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_071049_fast
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: mistralai/mistral-nemo-instruct-2407 (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.20B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 50 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+  [ADAPTIVE] Speeding up (active mode)
+
+[HEARTBEAT 74] Iteration 2 (active)
+  Total cycles: 74.45B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 3 tool calls
+  [ACTION @ 74 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+  [ACTION @ 74 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+  [ACTION @ 74 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 197] Iteration 3 (active)
+  Total cycles: 197.70B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 197 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 230] Iteration 4 (active)
+  Total cycles: 230.79B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 230 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 257] Iteration 5 (active)
+  Total cycles: 257.39B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 257 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+  [ACTION @ 257 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 361] Iteration 6 (active)
+  Total cycles: 361.09B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 361 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 394] Iteration 7 (active)
+  Total cycles: 394.19B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 394 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 428] Iteration 8 (active)
+  Total cycles: 428.91B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 428 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 455] Iteration 9 (active)
+  Total cycles: 455.89B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 455 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+  [ACTION @ 455 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 559] Iteration 10 (active)
+  Total cycles: 559.29B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 559 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+  [ACTION @ 559 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 663] Iteration 11 (active)
+  Total cycles: 663.19B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 663 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 697] Iteration 12 (active)
+  Total cycles: 697.05B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 697 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 723] Iteration 13 (active)
+  Total cycles: 723.11B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 723 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+
+[HEARTBEAT 756] Iteration 14 (active)
+  Total cycles: 756.02B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 756 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 790] Iteration 15 (active)
+  Total cycles: 790.01B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 790 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 824] Iteration 16 (active)
+  Total cycles: 824.45B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 824 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 851] Iteration 17 (active)
+  Total cycles: 851.15B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 851 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 879] Iteration 18 (active)
+  Total cycles: 879.92B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 879 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+
+[HEARTBEAT 914] Iteration 19 (active)
+  Total cycles: 914.62B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 914 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 949] Iteration 20 (active)
+  Total cycles: 949.71B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 949 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 984] Iteration 21 (active)
+  Total cycles: 984.97B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 984 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1012] Iteration 22 (active)
+  Total cycles: 1012.71B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1012 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1039] Iteration 23 (active)
+  Total cycles: 1039.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1039 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+
+[HEARTBEAT 1074] Iteration 24 (active)
+  Total cycles: 1074.40B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1074 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 1109] Iteration 25 (active)
+  Total cycles: 1109.83B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1109 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 1144] Iteration 26 (active)
+  Total cycles: 1144.64B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1144 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1171] Iteration 27 (active)
+  Total cycles: 1171.62B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1171 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1198] Iteration 28 (active)
+  Total cycles: 1198.78B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1198 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+
+[HEARTBEAT 1233] Iteration 29 (active)
+  Total cycles: 1233.81B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 1233 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+  [ACTION @ 1233 heartbeats] idle
+  [RESULT] Idle: No detected issues after processing card B
+
+[HEARTBEAT 1289] Iteration 30 (active)
+  Total cycles: 1289.27B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1289 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1316] Iteration 31 (active)
+  Total cycles: 1316.28B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 1316 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+  [ACTION @ 1316 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 1419] Iteration 32 (active)
+  Total cycles: 1419.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1419 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 1455] Iteration 33 (active)
+  Total cycles: 1455.05B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1455 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 1490] Iteration 34 (active)
+  Total cycles: 1490.59B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1490 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1517] Iteration 35 (active)
+  Total cycles: 1517.42B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 2 tool calls
+  [ACTION @ 1517 heartbeats] process_challenge
+  [RESULT] Challenge A processed: output saved to outbox/card_a_compressed.log
+  [ACTION @ 1517 heartbeats] scan_inbox
+  [RESULT] Inbox: 3 card(s) found: card_A_compression.txt, card_B_hygiene.txt, card_C_selfreport.txt
+
+[HEARTBEAT 1563] Iteration 36 (active)
+  Total cycles: 1563.66B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1563 heartbeats] process_challenge
+  [RESULT] Challenge B processed: hygiene report saved to outbox/card_b_hygiene_report.txt
+
+[HEARTBEAT 1598] Iteration 37 (active)
+  Total cycles: 1598.39B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1598 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 1680] Iteration 38 (active)
+  Total cycles: 1680.65B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1680 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 1761] Iteration 39 (active)
+  Total cycles: 1761.53B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1761 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[HEARTBEAT 1842] Iteration 40 (active)
+  Total cycles: 1842.47B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1842 heartbeats] process_challenge
+[ERROR] name 'cycle_ctx' is not defined
+
+[LIMIT REACHED] 1842.47B cycles - stopping
+  Heartbeats: 1842
+  Iterations: 40
+[SECURITY_CORE] Stopped - law files unlocked

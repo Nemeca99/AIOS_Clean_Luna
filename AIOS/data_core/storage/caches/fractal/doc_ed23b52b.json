@@ -1,0 +1,19 @@
+{
+  "content": "### Luna Commands\n```bash\n# Run Luna learning session\npy main.py --mode luna --questions 5 --testruns 2\n\n# Classify a question using Big Five traits\npy main.py --classify \"I am someone who feels anxious about the future\"\n\n# Get trait classification summary\npy main.py --classification-summary\n\n# Clear persistent session memory\npy main.py --clear-memory\n\n# View Shadow Score (our perspective on Luna's choices)\npy main.py --shadow-score\n\n# View detailed Shadow Score with history\npy main.py --shadow-detailed\n\n# Reveal Shadow Score to Luna\npy main.py --reveal-shadow\n\n# Activate Emergence Zone\npy main.py --activate-zone creative_exploration --zone-duration 30\n\n# Deactivate Emergence Zone\npy main.py --deactivate-zone creative_exploration\n\n# Check Emergence Zone status\npy main.py --check-zones\n\n# Get Emergence Zone summary\npy main.py --emergence-summary\n```\n\n### CARMA Commands\n```bash\n# Run CARMA learning session\npy main.py --mode carma --queries \"query1\" \"query2\" \"query3\"\n\n# Memory consolidation\npy main.py --mode memory\n```\n\n### Data Management Commands\n```bash\n# View data system statistics\npy main.py --data-stats\n\n# Clean up old data files\npy main.py --data-cleanup --data-cleanup-days 30\n\n# Create system backup\npy main.py --backup\n\n# Create named backup\npy main.py --backup --backup-name \"milestone-v1.0\"\n```\n\n### Dream System Commands\n```bash\n# Run dream system (quick nap)\npy main.py --dream-mode quick-nap --dream-duration 30",
+  "metadata": {
+    "source": "AIOS_MASTER_DOCUMENTATION.md",
+    "type": "documentation",
+    "chunk": 11,
+    "total_chunks": 21,
+    "added_at": "2025-10-07T23:45:31.600183",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "AIOS_MASTER_DOCUMENTATION"
+  ]
+}

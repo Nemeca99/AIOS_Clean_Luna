@@ -1,0 +1,15 @@
+{
+  "lesson_id": "template_ai_prompt_engineering_advanced_0",
+  "subject": "AI Prompt Engineering",
+  "title": "Chain-of-Thought Prompting",
+  "content": "Chain-of-thought prompting asks the AI to show its reasoning process step by step. This leads to more accurate and reliable results, especially for complex problems. Use phrases like 'think step by step' or 'show your work'.",
+  "difficulty": "advanced",
+  "lesson_index": 0,
+  "created": "2025-09-28T18:28:44.170950",
+  "type": "template",
+  "metadata": {
+    "word_count": 36,
+    "char_count": 224,
+    "estimated_duration": 5
+  }
+}

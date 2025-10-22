@@ -1,0 +1,33 @@
+{
+  "id": "67f8744c-8bf8-8011-a6c7-192f1cef1d8c",
+  "title": "Google Doc Access Help",
+  "create_time": 1744335948.703166,
+  "update_time": 1745473819.311125,
+  "message_count": 3,
+  "messages": [
+    {
+      "id": "2073b0e9-d0d7-4296-accb-4ce747214d00",
+      "role": "assistant",
+      "content": "It appears you've shared a link to a Google Document titled \"v1_2 – AI Onboarding System.\" To access the document, please ensure you're signed into your Google account and have the necessary permissions. If you encounter issues, consider enabling JavaScript in your browser or updating to a supported browser version. If you need assistance with the document's content or have specific questions, feel free to provide more details. ",
+      "timestamp": 1744335948.8296242,
+      "content_type": "text",
+      "weight": 1.0
+    },
+    {
+      "id": "c62ec188-ac85-4635-b15a-befdd31f0696",
+      "role": "assistant",
+      "content": "```unknown\nsearch(\"https://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=drivesdk\")\n```",
+      "timestamp": 1744335948.7847145,
+      "content_type": "code",
+      "weight": 1.0
+    },
+    {
+      "id": "bbb21b2c-427c-4985-8b69-7a949651264f",
+      "role": "user",
+      "content": "https://docs.google.com/document/d/1G9e1Prww5kBo7SvoBIAfCIScN94R63vvvAYbqsxbMr4/edit?usp=drivesdk",
+      "timestamp": 1744335948.705081,
+      "content_type": "text",
+      "weight": 1.0
+    }
+  ]
+}

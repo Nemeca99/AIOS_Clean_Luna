@@ -1,0 +1,98 @@
+graph TD
+  %% AIOS CodeGraph - Package Level
+
+  backup_core["backup_core"]
+  carma_core["carma_core"]
+  consciousness_core["consciousness_core"]
+  containment["containment"]
+  data_core["data_core"]
+  dream_core["dream_core"]
+  enterprise_core["enterprise_core"]
+  experiments["experiments"]
+  fractal_core["fractal_core"]
+  game_core["game_core"]
+  infra_core["infra_core"]
+  luna_chat["luna_chat"]
+  luna_core["luna_core"]
+  luna_cycle_agent["luna_cycle_agent"]
+  luna_start["luna_start"]
+  main["main"]
+  main_core["main_core"]
+  marketplace_core["marketplace_core"]
+  music_core["music_core"]
+  privacy_core["privacy_core"]
+  python["python"]
+  rag_core["rag_core"]
+  scripts["scripts"]
+  security_core["security_core"]
+  streamlit_app["streamlit_app"]
+  streamlit_core["streamlit_core"]
+  support_core["support_core"]
+  template_core["template_core"]
+  test_security_validator["test_security_validator"]
+  tools["tools"]
+  utils_core["utils_core"]
+
+  backup_core --> utils_core
+  carma_core --> fractal_core
+  carma_core --> support_core
+  carma_core --> utils_core
+  consciousness_core --> utils_core
+  data_core --> utils_core
+  dream_core --> utils_core
+  enterprise_core --> carma_core
+  enterprise_core --> main
+  enterprise_core --> utils_core
+  fractal_core --> support_core
+  infra_core --> carma_core
+  infra_core --> main
+  infra_core --> utils_core
+  luna_chat --> consciousness_core
+  luna_chat --> luna_core
+  luna_core --> carma_core
+  luna_core --> consciousness_core
+  luna_core --> fractal_core
+  luna_core --> rag_core
+  luna_core --> support_core
+  luna_core --> utils_core
+  luna_cycle_agent --> consciousness_core
+  luna_cycle_agent --> containment
+  luna_cycle_agent --> dream_core
+  luna_cycle_agent --> experiments
+  luna_cycle_agent --> rag_core
+  luna_cycle_agent --> security_core
+  luna_start --> containment
+  luna_start --> luna_cycle_agent
+  main --> consciousness_core
+  main --> luna_core
+  main --> main_core
+  main --> rag_core
+  main_core --> backup_core
+  main_core --> carma_core
+  main_core --> data_core
+  main_core --> dream_core
+  main_core --> enterprise_core
+  main_core --> luna_core
+  main_core --> rag_core
+  main_core --> streamlit_core
+  main_core --> support_core
+  main_core --> utils_core
+  rag_core --> utils_core
+  scripts --> carma_core
+  scripts --> consciousness_core
+  scripts --> data_core
+  scripts --> luna_core
+  scripts --> main_core
+  scripts --> rag_core
+  streamlit_app --> carma_core
+  streamlit_app --> fractal_core
+  streamlit_app --> luna_core
+  streamlit_core --> utils_core
+  support_core --> main
+  support_core --> utils_core
+  test_security_validator --> containment
+  test_security_validator --> luna_cycle_agent
+  test_security_validator --> security_core
+
+  %% Style
+  classDef core fill:#e1f5ff,stroke:#333,stroke-width:2px

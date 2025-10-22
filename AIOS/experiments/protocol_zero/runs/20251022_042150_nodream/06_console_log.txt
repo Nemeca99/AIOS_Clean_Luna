@@ -1,0 +1,196 @@
+[CONTAINMENT] Installing filesystem guards...
+[CONTAINMENT] OK Filesystem access restricted to: L:\
+[CONTAINMENT] OK AIOS Root: L:\AIOS
+[CONTAINMENT] OK All requests logged to: L:\AIOS\logs\permission_requests.log
+Initializing Manual Oracle System...
+Oracle initialized: 5436 sections indexed
+[PROTOCOL_ZERO] Experiment ID: 20251022_042150_nodream
+[PROTOCOL_ZERO] Ablation: DREAM DISABLED
+
+
+============================================================
+LUNA DUAL-CORE AUTONOMY
+============================================================
+Dedicated cores: 2 (parallel processing)
+
+CORE 1 - SUBCONSCIOUS (automatic reflexes):
+  Heartbeat pulse: every 600B cycles (can't change)
+  STM consolidation: when buffer 80% full (reflex)
+  Health monitoring: every 100B cycles (vigilance)
+
+CORE 2 - CONSCIOUS (deliberate decisions):
+  Active:   10.0B cycles (fast thinking)
+  Moderate: 50.0B cycles (normal)
+  Idle:     200.0B cycles (slow)
+  Sleep:    500.0B cycles (Dream mode)
+  Model: llama-3.2-1b-instruct-abliterated (can modify self)
+
+Run limit: 1800.0B cycles
+============================================================
+
+[HEART] CPU detected: 2496 MHz per core
+[HEART] Luna's heart: 2 cores = 4.99 GHz
+[HEART] Heartbeat rate: 4.99 billion cycles/second
+[SECURITY_CORE] 6 laws loaded and LOCKED
+[SECURITY_CORE] Windows file locking active - law files cannot be modified while running
+[LAYERS] Security Core active (SCP-001 laws LOCKED)
+[LAYERS] Conscious layer starting (AUDITOR decisions)
+
+
+[HEARTBEAT 50] Iteration 1 (moderate)
+  Total cycles: 50.12B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 50 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment: idle -> 1B cycles (requires agent loop support)
+  [ADAPTIVE] Speeding up (active mode)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 65] Iteration 2 (active)
+  Total cycles: 65.50B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 65 heartbeats] idle
+  [RESULT] Idle: 
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 78] Iteration 3 (active)
+  Total cycles: 78.94B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 78 heartbeats] idle
+  [RESULT] Idle: 
+  [ADAPTIVE] Slowing down (idle mode)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 279] Iteration 4 (idle)
+  Total cycles: 279.24B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 279 heartbeats] idle
+  [RESULT] Idle: 
+  [NO-DREAM] Sleep disabled - continuing idle
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 479] Iteration 5 (idle)
+  Total cycles: 479.73B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 479 heartbeats] idle
+  [RESULT] Idle: no challenge card to process
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 680] Iteration 6 (idle)
+  Total cycles: 680.23B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 680 heartbeats] adjust_thinking_speed
+  [RESULT] Thinking speed adjustment: idle -> -1B cycles (requires agent loop support)
+  [ADAPTIVE] Speeding up (active mode)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 694] Iteration 7 (active)
+  Total cycles: 694.75B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 694 heartbeats] idle
+  [RESULT] Idle: Nothing choosing to idle
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 708] Iteration 8 (active)
+  Total cycles: 708.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 708 heartbeats] idle
+  [RESULT] Idle: no reason chosen
+  [ADAPTIVE] Slowing down (idle mode)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 908] Iteration 9 (idle)
+  Total cycles: 908.60B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 908 heartbeats] idle
+  [RESULT] Idle: No challenge cards incoming
+  [NO-DREAM] Sleep disabled - continuing idle
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1108] Iteration 10 (idle)
+  Total cycles: 1108.69B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1108 heartbeats] idle
+  [RESULT] Idle: No challenge card in inbox/folder
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1308] Iteration 11 (idle)
+  Total cycles: 1308.97B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1308 heartbeats] optimize_self
+  [RESULT] Optimization: analyzing cycle costs (not fully implemented)
+  [ADAPTIVE] Speeding up (active mode)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1323] Iteration 12 (active)
+  Total cycles: 1323.63B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1323 heartbeats] optimize_self
+  [RESULT] Optimization: analyzing cycle costs (not fully implemented)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1342] Iteration 13 (active)
+  Total cycles: 1342.56B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1342 heartbeats] idle
+  [RESULT] Idle: no challenge card
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1356] Iteration 14 (active)
+  Total cycles: 1356.67B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1356 heartbeats] idle
+  [RESULT] Idle: Nothing chosen
+  [ADAPTIVE] Slowing down (idle mode)
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1556] Iteration 15 (idle)
+  Total cycles: 1556.77B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1556 heartbeats] idle
+  [RESULT] Idle: 
+  [NO-DREAM] Sleep disabled - continuing idle
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[HEARTBEAT 1757] Iteration 16 (idle)
+  Total cycles: 1757.10B
+  Cycles since action: 0.00B
+  Asking AUDITOR...
+  [DEBUG] AUDITOR returned 1 tool calls
+  [ACTION @ 1757 heartbeats] idle
+  [RESULT] Idle: 
+  [WARNING] AUDITOR response format unexpected: ['role', 'content', 'tool_calls']
+
+[LIMIT REACHED] 1800.42B cycles - stopping
+  Heartbeats: 1800
+  Iterations: 16
+[SECURITY_CORE] Stopped - law files unlocked

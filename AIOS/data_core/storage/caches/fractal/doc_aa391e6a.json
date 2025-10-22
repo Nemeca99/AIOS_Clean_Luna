@@ -1,0 +1,19 @@
+{
+  "content": "### Latency Improvements\n- **Response Time**: Reduced from ~100s to ~15-25s for large local models\n- **Token Efficiency**: Up to 90% reduction in token usage for repeated context\n- **Memory Growth**: Linear, predictable fragment growth with automatic splitting\n\n### Human Evaluation Results\n- **Overall Performance**: 14.2% improvement over baseline (3.85 vs 3.37)\n- **Personality Traits**: Significant improvements across all Big Five traits\n- **Effect Sizes**: Range from 0.38 (small) to 1.64 (very large)\n\n## 🏗️ Architecture\n\n```\n┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐\n│   Input Query   │───▶│  CARMA Cache     │───▶│  LLM Response   │\n└─────────────────┘    └──────────────────┘    └─────────────────┘\n                              │\n                              ▼\n                       ┌──────────────────┐\n                       │ Fractal Mycelium │\n                       │ Memory Network   │\n                       └──────────────────┘\n```\n\n### Key Components\n\n1. **Fractal Mycelium Cache** (`fractal_mycelium_cache.py`)\n   - Self-organizing knowledge fragments\n   - Automatic splitting when size thresholds exceeded\n   - Cross-linking between related fragments\n\n2. **CARMA Consciousness System** (`carma_100_percent_consciousness.py`)\n   - 12-indicator consciousness assessment\n   - Dream cycle management\n   - Memory consolidation and aging",
+  "metadata": {
+    "source": "data_core/docs/MAIN_README.md",
+    "type": "documentation",
+    "chunk": 3,
+    "total_chunks": 7,
+    "added_at": "2025-10-07T23:45:31.595186",
+    "category": "core_documentation"
+  },
+  "access_count": 0,
+  "last_accessed": null,
+  "reinforcement_weight": 1.0,
+  "tags": [
+    "documentation",
+    "core",
+    "data_core_docs_MAIN_README"
+  ]
+}
