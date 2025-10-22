@@ -10,9 +10,11 @@
   "model": {
     "base_model": "microsoft/DialoGPT-small",
     "use_instruct": false,
-    "lora_rank": 16,
-    "lora_alpha": 16,
-    "quantization": "none"
+    "lora_rank": 32,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "quantization": "none",
+    "note": "DialoGPT-small (117M) fits in available GPU memory. LoRA r=32/alpha=32 per ChatGPT recommendation."
   },
   "training": {
     "smoke_test_steps": 200,

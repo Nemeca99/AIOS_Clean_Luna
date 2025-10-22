@@ -1,2 +1,2 @@
 gen_id,parent,weights_sha256,data_delta_sha256,steps,lr,loss_final,eval_recall,eval_gen,eval_tone,weight_change_%,promoted_to_head,timestamp
-0,base,director,7b261d25,20,1.5e-05,8.141466331481933,1.0,1.0,0,0.0,True,2025-10-22T16:17:30.300396
+0,base,52a939d2,c170a054,400,1.5e-05,2.7964264941215515,1.0,0.15,0,0.0,True,2025-10-22T17:52:56.224038

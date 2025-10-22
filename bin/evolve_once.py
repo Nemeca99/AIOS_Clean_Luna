@@ -1,13 +1,19 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 -u
 """
 Evolution CLI - Manual trigger for evolution cycles.
 
 Usage:
-    python bin/evolve_once.py --reason "smoke test" --steps 200
-    python bin/evolve_once.py --reason "production run"
+    python -u bin/evolve_once.py --reason "smoke test" --steps 200
+    python -u bin/evolve_once.py --reason "production run"
 """
 
 import sys
+import os
+
+# Force unbuffered output for Cursor visibility
+os.environ['PYTHONUNBUFFERED'] = '1'
+sys.stdout.reconfigure(line_buffering=True)
+sys.stderr.reconfigure(line_buffering=True)
 import argparse
 from pathlib import Path
 

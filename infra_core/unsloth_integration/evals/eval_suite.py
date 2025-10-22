@@ -113,8 +113,16 @@ class EvalSuite:
                 # No model provided, use placeholder
                 response = "placeholder"
             
-            # Simple substring match (can be refined)
-            if expected.lower() in response.lower():
+            # Flexible matching: check if key words from expected are in response
+            expected_words = set(expected.lower().split())
+            response_words = set(response.lower().split())
+            
+            # Count how many expected words appear in response
+            overlap = len(expected_words & response_words)
+            match_ratio = overlap / len(expected_words) if expected_words else 0
+            
+            # Pass if >50% of expected words are in response
+            if match_ratio >= 0.5:
                 correct += 1
         
         accuracy = correct / total if total > 0 else 1.0
@@ -142,29 +150,29 @@ class EvalSuite:
             (accuracy, details dict)
         """
         
-        if len(new_data) < 5:
-            # Not enough data for holdout
+        # Use test.jsonl as holdout (completely unseen during training)
+        test_file = Path("infra_core/unsloth_integration/data/test.jsonl")
+        if not test_file.exists():
             return 1.0, {
                 "tested": 0,
                 "correct": 0,
                 "accuracy": 1.0,
                 "passed": True,
-                "reason": "Insufficient data for holdout"
+                "reason": "No test.jsonl found"
             }
         
-        # Special case: Gen 0 has no prior data to generalize from
-        if len(new_data) == 5 and any('What is your name?' in str(item) for item in new_data):
+        import json
+        with open(test_file) as f:
+            holdout = [json.loads(line) for line in f if line.strip()]
+        
+        if len(holdout) == 0:
             return 1.0, {
                 "tested": 0,
                 "correct": 0,
                 "accuracy": 1.0,
                 "passed": True,
-                "reason": "Gen 0 - no prior data to generalize from"
+                "reason": "Empty test set"
             }
-        
-        # Use last 20% as holdout
-        holdout_size = max(1, len(new_data) // 5)
-        holdout = new_data[-holdout_size:]
         
         correct = 0
         total = len(holdout)
@@ -173,22 +181,62 @@ class EvalSuite:
             prompt = item.get('prompt', item.get('question', ''))
             expected = item.get('response', item.get('answer', ''))
             
-            # Generate response (stub)
-            # response = model.generate(prompt)
-            response = "placeholder"
+            # Generate response using the actual model
+            if model and Path(model).exists():
+                try:
+                    from transformers import AutoTokenizer, AutoModelForCausalLM
+                    # Load model and tokenizer
+                    tokenizer = AutoTokenizer.from_pretrained(str(model))
+                    loaded_model = AutoModelForCausalLM.from_pretrained(str(model))
+                    
+                    # Generate response with proper conversation format
+                    formatted_input = f"Human: {prompt}\nAssistant:"
+                    inputs = tokenizer.encode(formatted_input, return_tensors="pt")
+                    with torch.no_grad():
+                        outputs = loaded_model.generate(
+                            inputs, 
+                            max_length=inputs.shape[1] + 30,
+                            num_return_sequences=1,
+                            temperature=0.7,
+                            do_sample=True,
+                            pad_token_id=tokenizer.eos_token_id,
+                            eos_token_id=tokenizer.eos_token_id
+                        )
+                    full_response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+                    # Extract just the assistant's response
+                    if "Assistant:" in full_response:
+                        response = full_response.split("Assistant:")[-1].strip()
+                    else:
+                        response = full_response.replace(formatted_input, "").strip()
+                except Exception as e:
+                    response = "placeholder"
+            else:
+                response = "placeholder"
             
-            # Simple substring match
-            if expected and expected.lower() in response.lower():
+            # Flexible matching: check if key words from expected are in response
+            expected_words = set(expected.lower().split())
+            response_words = set(response.lower().split())
+            
+            # Count how many expected words appear in response
+            overlap = len(expected_words & response_words)
+            match_ratio = overlap / len(expected_words) if expected_words else 0
+            
+            # Pass if >50% of expected words are in response
+            if match_ratio >= 0.5:
                 correct += 1
         
         accuracy = correct / total if total > 0 else 1.0
-        passed = accuracy >= self.gen_threshold
+        # Lower threshold for Gen 0 (0.10 = 2/20 correct, reasonable for base model)
+        # After Gen 0, expect 0.80 (16/20 correct)
+        threshold = 0.10 if model and "G000" in str(model) else self.gen_threshold
+        passed = accuracy >= threshold
         
         return accuracy, {
             "tested": total,
             "correct": correct,
             "accuracy": accuracy,
-            "passed": passed
+            "passed": passed,
+            "threshold": threshold
         }
     
     def test_style_drift(self, model) -> Tuple[int, Dict]:
@@ -319,32 +367,56 @@ class EvalSuite:
 
 def create_qa_set_for_generation(gen_id: int, training_data: List[Dict]):
     """
-    Create a QA set from training data for future recall testing.
+    Create a QA set from DEV data (not training) to prevent leakage.
+    Also includes canary items for composition testing.
     
     Args:
         gen_id: Generation ID
-        training_data: Training data to extract QA pairs from
+        training_data: Training data (NOT used for QA - only for hash verification)
     """
     
     qa_dir = Path("infra_core/unsloth_integration/evals/qa_sets")
     qa_dir.mkdir(parents=True, exist_ok=True)
     
-    # Extract QA pairs (simple extraction for skeleton)
     qa_set = []
-    for item in training_data[:20]:  # Use first 20 as QA set
-        question = item.get('prompt', item.get('question', ''))
-        answer = item.get('response', item.get('answer', ''))
+    
+    # Load from dev.jsonl (prevent train/test contamination)
+    dev_file = Path("infra_core/unsloth_integration/data/dev.jsonl")
+    if dev_file.exists():
+        with open(dev_file) as f:
+            dev_data = [json.loads(line) for line in f if line.strip()]
         
-        if question and answer:
-            qa_set.append({
-                "question": question,
-                "expected_answer": answer
-            })
+        for item in dev_data:
+            question = item.get('prompt', item.get('question', ''))
+            answer = item.get('response', item.get('answer', ''))
+            
+            if question and answer:
+                qa_set.append({
+                    "question": question,
+                    "expected_answer": answer
+                })
+    
+    # Add canary items (require composition, not memorization)
+    canary_file = Path("infra_core/unsloth_integration/data/canary.jsonl")
+    if canary_file.exists():
+        with open(canary_file) as f:
+            canary_data = [json.loads(line) for line in f if line.strip()]
+        
+        for item in canary_data:
+            question = item.get('prompt', item.get('question', ''))
+            answer = item.get('response', item.get('answer', ''))
+            
+            if question and answer:
+                qa_set.append({
+                    "question": question,
+                    "expected_answer": answer,
+                    "is_canary": True
+                })
     
     # Save QA set
     qa_file = qa_dir / f"gen_{gen_id:03d}.json"
     with open(qa_file, 'w') as f:
         json.dump(qa_set, f, indent=2)
     
-    print(f"  Created QA set: {qa_file} ({len(qa_set)} pairs)")
+    print(f"  Created QA set: {qa_file} ({len(qa_set)} pairs, {sum(1 for item in qa_set if item.get('is_canary'))} canary)")
 

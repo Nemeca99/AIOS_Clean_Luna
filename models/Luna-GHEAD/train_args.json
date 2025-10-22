@@ -1,13 +1,13 @@
 {
   "gen_id": 0,
   "parent": "microsoft/DialoGPT-small",
-  "steps": 20,
+  "steps": 400,
   "learning_rate": 1.5e-05,
   "batch_size": 2,
   "gradient_accumulation": 4,
-  "training_examples": 5,
-  "loss_start": 0.0,
-  "loss_final": 8.141466331481933,
-  "walltime_minutes": 0.1591254949569702,
+  "training_examples": 506,
+  "loss_start": 8.347309112548828,
+  "loss_final": 2.7964264941215515,
+  "walltime_minutes": 1.114893921216329,
   "weight_change_%": 0.0
 }

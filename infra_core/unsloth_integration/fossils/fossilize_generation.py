@@ -167,15 +167,22 @@ def fossilize_generation(
     print(f"  ✅ EVAL.md")
     artifacts['eval'] = str(eval_file)
     
-    # Calculate model hash
+    # Calculate model hash (Merkle tree style for directories)
     if model_file.exists():
         if model_file.is_dir():
-            # For directories, hash the main model file
-            main_model = model_file / "pytorch_model.bin"
-            if main_model.exists():
-                weights_sha = calculate_sha256(main_model)
-            else:
-                weights_sha = "directory_model"
+            # Merkle tree hash: combine hashes of all files in directory
+            import hashlib
+            file_hashes = []
+            for file in sorted(model_file.rglob("*")):
+                if file.is_file():
+                    rel_path = str(file.relative_to(model_file))
+                    file_hash = calculate_sha256(file)
+                    combined = f"{rel_path}:{file_hash}"
+                    file_hashes.append(combined)
+            
+            # Hash the combined list
+            merkle_content = "\n".join(file_hashes)
+            weights_sha = hashlib.sha256(merkle_content.encode()).hexdigest()
         elif model_file.stat().st_size > 100:
             weights_sha = calculate_sha256(model_file)
         else:

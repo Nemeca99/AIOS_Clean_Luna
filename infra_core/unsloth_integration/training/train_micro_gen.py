@@ -129,14 +129,15 @@ def train_micro_generation(
             batch["labels"] = torch.tensor([f["labels"] for f in features])
             return batch
         
-        # Training arguments
+        # Training arguments (with ChatGPT's recommended optimizations)
         training_args = TrainingArguments(
             output_dir=f"models/tmp_train_gen{gen_id}",
             per_device_train_batch_size=1,  # Small for CPU
             gradient_accumulation_steps=4,
-            warmup_steps=2,
+            warmup_steps=max(2, int(steps * 0.1)),  # 10% warmup
             max_steps=steps,
             learning_rate=train_config['learning_rate'],
+            lr_scheduler_type="cosine",  # Cosine decay with warmup
             logging_steps=5,
             save_steps=steps,  # Save at end
             save_total_limit=1,
@@ -144,6 +145,9 @@ def train_micro_generation(
             dataloader_pin_memory=False,  # CPU training
             seed=42,
             report_to="none",  # Disable W&B
+            max_grad_norm=1.0,  # Gradient clipping
+            weight_decay=0.1,  # Regularization
+            label_smoothing_factor=0.05,  # Modest label smoothing
         )
         
         # Trainer
@@ -154,8 +158,24 @@ def train_micro_generation(
             data_collator=data_collator,
         )
         
-        # Record start loss
-        loss_start = None
+        # Record baseline loss (eval before training)
+        print(f"\n   Evaluating baseline loss...")
+        eval_dataloader = trainer.get_eval_dataloader(dataset)
+        eval_loss = 0.0
+        eval_steps = 0
+        model.eval()
+        with torch.no_grad():
+            for batch in eval_dataloader:
+                # Move batch to CPU (model is on CPU)
+                batch = {k: v.cpu() if hasattr(v, 'cpu') else v for k, v in batch.items()}
+                outputs = model(**batch)
+                eval_loss += outputs.loss.item()
+                eval_steps += 1
+                if eval_steps >= 5:  # Quick baseline (5 batches)
+                    break
+        loss_start = eval_loss / max(eval_steps, 1) if eval_steps > 0 else 0.0
+        print(f"   Baseline loss: {loss_start:.2f}")
+        model.train()
         
         # Train!
         print(f"\n   Training {steps} steps...")
@@ -217,7 +237,8 @@ def train_micro_generation(
     print(f"\n✅ Training complete:")
     print(f"   Steps: {steps}")
     print(f"   Time: {elapsed:.1f}s ({elapsed/60:.1f} min)")
-    print(f"   Loss: {training_stats['loss_start']:.2f} → {training_stats['loss_final']:.2f}")
+    loss_delta = training_stats['loss_final'] - training_stats['loss_start']
+    print(f"   Loss: {training_stats['loss_start']:.2f} → {training_stats['loss_final']:.2f} (Δ {loss_delta:+.2f})")
     print(f"   Model: {model_path}")
     
     return model_path, training_stats
@@ -301,25 +322,27 @@ def load_training_data(gen_id: int, new_conversations: Optional[List[Dict]] = No
             training_data.extend(replay_data[:100])  # Max 100 replay samples
             print(f"  Loaded {len(training_data)} replay samples from Gen {gen_id-1}")
     
-    # Add new conversations
+    # Add new conversations (either provided or from train.jsonl)
     if new_conversations:
         training_data.extend(new_conversations)
         print(f"  Added {len(new_conversations)} new conversations")
     else:
-        # Load from file if not provided
-        new_file = Path(f"infra_core/unsloth_integration/data/gen_{gen_id:03d}_new.json")
-        if new_file.exists():
-            with open(new_file) as f:
-                new_data = json.load(f)
+        # Load from train.jsonl
+        train_file = Path("infra_core/unsloth_integration/data/train.jsonl")
+        if train_file.exists():
+            with open(train_file) as f:
+                new_data = [json.loads(line) for line in f if line.strip()]
             training_data.extend(new_data)
-            print(f"  Loaded {len(new_data)} new conversations from {new_file}")
+            print(f"  Loaded {len(new_data)} examples from train.jsonl")
+        else:
+            print(f"  ⚠️ No train.jsonl found")
     
-    # If no data, use placeholder
+    # If still no data, use minimal placeholder
     if not training_data:
-        print(f"  ⚠️ No training data found, using placeholder")
+        print(f"  ⚠️ No training data found, using minimal placeholder")
         training_data = [
-            {"prompt": "What is AIOS?", "response": "AI Operating System"},
             {"prompt": "What is your name?", "response": "Luna"},
+            {"prompt": "What is AIOS?", "response": "AI Operating System"}
         ]
     
     print(f"  Total training examples: {len(training_data)}")

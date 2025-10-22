@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "created": "2025-10-22T16:20:00",
+  "splits": {
+    "train": {
+      "count": 106,
+      "sha256": "1aea268521ffe3c03c8c02eba3f9c6d27ab464545680a5a282a001ff801c0650"
+    },
+    "dev": {
+      "count": 20,
+      "sha256": "4747aa28e689a2006a823f20bc79a74df6b7a143c884aaee8bca5b0b84b2ba12"
+    },
+    "test": {
+      "count": 20,
+      "sha256": "23e30d4daa94389488084f5c5e86f51c6bd617fd4fd2adb40f188883f0942260"
+    },
+    "canary": {
+      "count": 3,
+      "sha256": "2e1a8577047ee51b0a2ee87e4a8abdccf69642b2d88441f637ad5a0a6563b347"
+    }
+  }
+}

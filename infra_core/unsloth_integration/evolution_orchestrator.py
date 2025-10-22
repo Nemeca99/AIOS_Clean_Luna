@@ -167,22 +167,29 @@ def run_evolution_window(
         
         # Step 2: Load training data
         print(f"\n📚 Loading training data...")
-        if gen_id == 0:
-            # Create real training data for Gen 0
-            training_data = [
-                {"prompt": "What is your name?", "response": "Luna"},
-                {"prompt": "What is AIOS?", "response": "AI Operating System"},
-                {"prompt": "Hello", "response": "Hello! I'm Luna."},
-                {"prompt": "How are you?", "response": "I'm doing well, thank you!"},
-                {"prompt": "What can you do?", "response": "I can help with AI and technology questions."}
-            ]
-            print(f"  Created {len(training_data)} real training examples for Gen 0")
-        else:
-            training_data = load_training_data(gen_id, new_conversations)
+        training_data = load_training_data(gen_id, new_conversations)
         data_delta_sha = calculate_data_delta_hash(training_data)
         print(f"  Data hash: {data_delta_sha[:16]}...")
         
-        # Step 3: Train child generation
+        # Step 3a: Pre-train baseline evaluation
+        print(f"\n📊 Pre-train baseline evaluation...")
+        eval_suite = EvalSuite(config)
+        
+        # Create QA set for testing
+        create_qa_set_for_generation(gen_id, training_data)
+        
+        # Eval parent model (or base model for Gen 0) BEFORE training
+        baseline_results = eval_suite.run_full_suite(
+            model=parent_model_path,  # Parent model (None for Gen 0)
+            prior_gen_id=gen_id - 1,
+            new_data=training_data
+        )
+        
+        print(f"  Baseline recall: {baseline_results['recall']['accuracy']:.2f}")
+        print(f"  Baseline generalization: {baseline_results['generalization']['accuracy']:.2f}")
+        print(f"  Baseline style: {baseline_results.get('style_drift', {}).get('style_drift', 0)}/10")
+        
+        # Step 3b: Train child generation
         print(f"\n🔨 Training Generation {gen_id}...")
         
         try:
@@ -203,25 +210,38 @@ def run_evolution_window(
             result['promoted'] = False
             return result
         
-        # Step 4: Run evaluations
-        print(f"\n⚖️ Running evaluation suite...")
+        # Step 4: Post-train evaluation (calculate deltas)
+        print(f"\n⚖️ Post-train evaluation...")
         
-        eval_suite = EvalSuite(config)
-        
-        # Create QA set for future recall testing
-        create_qa_set_for_generation(gen_id, training_data)
-        
-        # Run evals with actual model
-        eval_results = eval_suite.run_full_suite(
+        # Run evals with trained model
+        post_train_results = eval_suite.run_full_suite(
             model=model_path,  # Pass model path
             prior_gen_id=gen_id - 1,
             new_data=training_data
         )
         
+        # Calculate deltas
+        delta_recall = post_train_results['recall']['accuracy'] - baseline_results['recall']['accuracy']
+        delta_gen = post_train_results['generalization']['accuracy'] - baseline_results['generalization']['accuracy']
+        delta_style = post_train_results.get('style_drift', {}).get('style_drift', 0) - baseline_results.get('style_drift', {}).get('style_drift', 0)
+        
+        print(f"\n📊 Performance Deltas:")
+        print(f"  Δ Recall: {delta_recall:+.2f} ({baseline_results['recall']['accuracy']:.2f} → {post_train_results['recall']['accuracy']:.2f})")
+        print(f"  Δ Generalization: {delta_gen:+.2f} ({baseline_results['generalization']['accuracy']:.2f} → {post_train_results['generalization']['accuracy']:.2f})")
+        baseline_style = baseline_results.get('style_drift', {}).get('style_drift', 0)
+        post_style = post_train_results.get('style_drift', {}).get('style_drift', 0)
+        print(f"  Δ Style Drift: {delta_style:+d} ({baseline_style} → {post_style})")
+        
         result['metrics'] = {
-            'evals': eval_results,
-            'summary': eval_results['summary'],
-            'all_passed': eval_results['all_passed']
+            'baseline': baseline_results,
+            'post_train': post_train_results,
+            'deltas': {
+                'recall': delta_recall,
+                'generalization': delta_gen,
+                'style_drift': delta_style
+            },
+            'summary': post_train_results['summary'],
+            'all_passed': post_train_results['all_passed']
         }
         
         # Step 5: Fossilize generation
@@ -239,21 +259,51 @@ def run_evolution_window(
         
         result['artifacts'] = artifacts
         
-        # Step 6: Promotion decision
-        all_passed = eval_results['all_passed']
+        # Step 6: Promotion decision (strict gates)
+        all_passed = result['metrics']['all_passed']
+        
+        # Additional gates beyond basic pass/fail
+        min_examples = len(training_data) >= 50  # Minimum training data
+        min_steps = training_stats.get('steps', 0) >= 200  # Minimum training steps (or --smoke bypass)
+        # Gen 0: just needs to show ANY improvement (Δ ≥ 0.10 to hit 0.10 threshold)
+        # Gen 1+: needs significant improvement (Δ ≥ 0.10)
+        min_delta = 0.10 if gen_id == 0 else 0.10
+        delta_improvement = result['metrics']['deltas']['generalization'] >= min_delta
+        
+        # For smoke tests (< 200 steps), skip min gates
+        is_smoke_test = steps_override and steps_override < 200
         
         if all_passed:
-            print(f"\n✅ ALL EVALS PASSED - Promoting to HEAD")
-            
-            promote_to_head(gen_dir)
-            result['promoted'] = True
-            result['reason'] = "All evals passed"
-            
+            if is_smoke_test:
+                print(f"\n✅ EVALS PASSED (SMOKE TEST) - Promoting to HEAD")
+                promote_to_head(gen_dir)
+                result['promoted'] = True
+                result['reason'] = "Smoke test passed"
+            elif min_examples and (min_steps or is_smoke_test) and (delta_improvement or gen_id == 0):
+                print(f"\n✅ ALL GATES PASSED - Promoting to HEAD")
+                print(f"  ✅ Min examples: {len(training_data)} ≥ 50")
+                print(f"  ✅ Min steps: {training_stats.get('steps', 0)} ≥ 200")
+                print(f"  ✅ Δ Generalization: {result['metrics']['deltas']['generalization']:+.2f} ≥ {min_delta:.2f}")
+                
+                promote_to_head(gen_dir)
+                result['promoted'] = True
+                result['reason'] = "All gates passed"
+            else:
+                print(f"\n❌ EVALS PASSED BUT GATES FAILED - HEAD unchanged")
+                if not min_examples:
+                    print(f"  ❌ Insufficient data: {len(training_data)} < 50")
+                if not min_steps and not is_smoke_test:
+                    print(f"  ❌ Insufficient steps: {training_stats.get('steps', 0)} < 200")
+                if not delta_improvement and gen_id > 0:
+                    print(f"  ❌ Insufficient improvement: Δgen {result['metrics']['deltas']['generalization']:+.2f} < 0.10")
+                
+                result['promoted'] = False
+                result['reason'] = "Gates failed (min data/steps/improvement)"
         else:
             print(f"\n❌ EVALS FAILED - HEAD unchanged")
             result['promoted'] = False
             result['reason'] = "Evals failed: " + ", ".join([
-                k for k, v in eval_results.items()
+                k for k, v in result['metrics']['post_train'].items()
                 if isinstance(v, dict) and not v.get('passed', True)
             ])
         
