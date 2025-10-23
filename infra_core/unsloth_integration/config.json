@@ -8,14 +8,14 @@
     "max_tokens_processed": 10000000
   },
   "model": {
-    "base_model": "microsoft/DialoGPT-small",
+    "base_model": "Qwen/Qwen2.5-0.5B",
     "use_instruct": false,
     "lora_rank": 32,
     "lora_alpha": 32,
     "lora_dropout": 0.05,
     "quantization": "none",
     "max_seq_length": 512,
-    "note": "DialoGPT-small (117M params) proven working. Small dataset only (100-500 examples) to prevent catastrophic forgetting."
+    "note": "Qwen2.5-0.5B (500M params) fits RTX 3060 Ti comfortably. 4x larger than DialoGPT-small, can handle 22K dataset."
   },
   "training": {
     "smoke_test_steps": 200,

@@ -1,0 +1,75 @@
+{
+  "baseline": {
+    "recall": {
+      "score": 1.0,
+      "tested": 0,
+      "correct": 0,
+      "accuracy": 1.0,
+      "passed": true,
+      "reason": "No prior generation (Gen 0)"
+    },
+    "generalization": {
+      "score": 0.0,
+      "tested": 20,
+      "correct": 0,
+      "accuracy": 0.0,
+      "passed": false,
+      "threshold": 0.8
+    },
+    "style_drift": {
+      "count": 0,
+      "tested": 10,
+      "corporate_count": 0,
+      "violations": [],
+      "passed": true
+    },
+    "all_passed": false,
+    "summary": {
+      "recall": 1.0,
+      "generalization": 0.0,
+      "style_drift": 0
+    }
+  },
+  "post_train": {
+    "recall": {
+      "score": 1.0,
+      "tested": 0,
+      "correct": 0,
+      "accuracy": 1.0,
+      "passed": true,
+      "reason": "No prior generation (Gen 0)"
+    },
+    "generalization": {
+      "score": 0.4,
+      "tested": 20,
+      "correct": 8,
+      "accuracy": 0.4,
+      "passed": true,
+      "threshold": 0.1
+    },
+    "style_drift": {
+      "count": 0,
+      "tested": 10,
+      "corporate_count": 0,
+      "violations": [],
+      "passed": true
+    },
+    "all_passed": true,
+    "summary": {
+      "recall": 1.0,
+      "generalization": 0.4,
+      "style_drift": 0
+    }
+  },
+  "deltas": {
+    "recall": 0.0,
+    "generalization": 0.4,
+    "style_drift": 0
+  },
+  "summary": {
+    "recall": 1.0,
+    "generalization": 0.4,
+    "style_drift": 0
+  },
+  "all_passed": true
+}

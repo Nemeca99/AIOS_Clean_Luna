@@ -167,6 +167,42 @@ def fossilize_generation(
     print(f"  ✅ EVAL.md")
     artifacts['eval'] = str(eval_file)
     
+    # 9. Model card JSON (digital signature + metadata)
+    model_card = {
+        "generation_id": gen_id,
+        "parent": parent_gen or "base",
+        "model_hash": weights_sha,
+        "data_hash": data_delta_sha,
+        "config_hash": hashlib.sha256(json.dumps(training_args, sort_keys=True).encode()).hexdigest(),
+        "training": {
+            "steps": training_args.get('steps', 0),
+            "learning_rate": training_args.get('learning_rate', 0),
+            "loss_curve": {
+                "start": training_args.get('loss_start', 0),
+                "final": training_args.get('loss_final', 0),
+                "delta": training_args.get('loss_delta', 0)
+            },
+            "time_seconds": training_args.get('time_seconds', 0)
+        },
+        "evaluation": {
+            "recall": metrics.get('summary', {}).get('recall', 0),
+            "generalization": metrics.get('summary', {}).get('generalization', 0),
+            "style_drift": metrics.get('summary', {}).get('style_drift', 0),
+            "deltas": {
+                "recall": metrics.get('deltas', {}).get('recall', 0),
+                "generalization": metrics.get('deltas', {}).get('generalization', 0),
+                "style_drift": metrics.get('deltas', {}).get('style_drift', 0)
+            }
+        },
+        "promoted": promoted,
+        "timestamp": datetime.now().isoformat(),
+        "digital_signature": f"SHA256:{weights_sha[:16]}+{data_delta_sha[:16]}"
+    }
+    model_card_file = gen_dir / "MODEL_CARD.json"
+    model_card_file.write_text(json.dumps(model_card, indent=2))
+    print(f"  ✅ MODEL_CARD.json")
+    artifacts['model_card'] = str(model_card_file)
+    
     # Calculate model hash (Merkle tree style for directories)
     if model_file.exists():
         if model_file.is_dir():
@@ -278,13 +314,18 @@ def update_lineage_ledger(
         with open(ledger_path, 'w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow([
-                'gen_id', 'parent', 'weights_sha256', 'data_delta_sha256',
+                'gen_id', 'parent', 'weights_sha256', 'data_delta_sha256', 'config_sha256',
                 'steps', 'lr', 'loss_final', 'eval_recall', 'eval_gen',
                 'eval_tone', 'weight_change_%', 'promoted_to_head', 'timestamp'
             ])
     
     # Extract metrics
     summary = metrics.get('summary', {})
+    
+    # Hash the config to track hyperparameter changes
+    import json
+    config_str = json.dumps(training_args, sort_keys=True)
+    config_sha = hashlib.sha256(config_str.encode()).hexdigest()
     
     # Append row
     with open(ledger_path, 'a', newline='') as f:
@@ -294,6 +335,7 @@ def update_lineage_ledger(
             parent_gen or 'base',
             weights_sha[:8],
             data_delta_sha[:8],
+            config_sha[:8],  # Config hash for hyperparameter tracking
             training_args.get('steps', 0),
             training_args.get('learning_rate', 0),
             training_args.get('loss_final', 0.0),

@@ -83,17 +83,20 @@ def train_micro_generation(
         # Try GPU first, fall back to CPU
         use_gpu = torch.cuda.is_available()
         device = "cuda" if use_gpu else "cpu"
-        dtype = torch.float16 if use_gpu else torch.float32
+        # Use FP32 always for stability (FP16 has gradient issues with Qwen)
+        dtype = torch.float32
         
         print(f"   Loading model: {model_name}")
         print(f"   Device: {device} ({'GPU: ' + torch.cuda.get_device_name(0) if use_gpu else 'CPU'})")
+        print(f"   Precision: {'FP16' if dtype == torch.float16 else 'FP32'}")
         print(f"   Max sequence length: {max_seq_length}")
         
-        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir="L:/AI_Models/huggingface")
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
             torch_dtype=dtype,
-            device_map=device
+            device_map=device,
+            cache_dir="L:/AI_Models/huggingface"
         )
         
         # Add padding token if missing
@@ -129,9 +132,9 @@ def train_micro_generation(
         )
         
         # Training arguments (with ChatGPT's recommended optimizations)
-        batch_size = 4 if use_gpu else 1  # Larger batch for GPU
-        grad_accum = 2 if use_gpu else 4  # Less accumulation needed for GPU
-        fp16 = False  # Disable fp16 to avoid gradient issues
+        batch_size = 1 if use_gpu else 1  # Small batch for FP32 1.5B model
+        grad_accum = 8 if use_gpu else 8  # High accumulation for effective batch
+        fp16 = False  # Disable FP16 - use FP32 for stability
         
         training_args = TrainingArguments(
             output_dir=f"models/tmp_train_gen{gen_id}",
@@ -146,12 +149,17 @@ def train_micro_generation(
             save_total_limit=1,
             remove_unused_columns=False,
             dataloader_pin_memory=use_gpu,  # Pin memory for GPU
+            dataloader_num_workers=4 if use_gpu else 0,  # Parallel data loading on GPU
+            dataloader_persistent_workers=use_gpu,  # Keep workers alive between epochs
             fp16=fp16,  # Use fp16 on GPU
+            fp16_full_eval=False,  # Use FP32 for eval to avoid numerical issues
             seed=42,
             report_to="none",  # Disable W&B
-            max_grad_norm=1.0,  # Gradient clipping
-            weight_decay=0.1,  # Regularization
-            label_smoothing_factor=0.05,  # Modest label smoothing
+            max_grad_norm=0.5,  # Lower gradient clipping for FP16 stability
+            weight_decay=0.01,  # Lower weight decay for FP16
+            label_smoothing_factor=0.0,  # Disable label smoothing for FP16 stability
+            optim="adamw_torch",  # Use PyTorch AdamW (more stable than default)
+            gradient_checkpointing=True,  # Save VRAM by recomputing gradients
         )
         
         # Trainer

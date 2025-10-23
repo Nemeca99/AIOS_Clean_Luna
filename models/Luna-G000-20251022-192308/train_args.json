@@ -1,0 +1,13 @@
+{
+  "gen_id": 0,
+  "parent": "Qwen/Qwen2.5-0.5B",
+  "steps": 400,
+  "learning_rate": 5e-06,
+  "batch_size": 2,
+  "gradient_accumulation": 4,
+  "training_examples": 22493,
+  "loss_start": 2.7732735157012938,
+  "loss_final": 2.5979221415519715,
+  "walltime_minutes": 43.778427668412526,
+  "weight_change_%": 0.0
+}
