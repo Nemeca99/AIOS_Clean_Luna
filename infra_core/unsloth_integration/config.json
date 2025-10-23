@@ -14,12 +14,13 @@
     "lora_alpha": 32,
     "lora_dropout": 0.05,
     "quantization": "none",
-    "note": "DialoGPT-small (117M) fits in available GPU memory. LoRA r=32/alpha=32 per ChatGPT recommendation."
+    "max_seq_length": 512,
+    "note": "DialoGPT-small (117M params) proven working. Small dataset only (100-500 examples) to prevent catastrophic forgetting."
   },
   "training": {
     "smoke_test_steps": 200,
     "production_steps": 1200,
-    "learning_rate": 1.5e-5,
+    "learning_rate": 5e-6,
     "batch_size": 2,
     "gradient_accumulation": 4
   },

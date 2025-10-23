@@ -78,62 +78,65 @@ def train_micro_generation(
         
         # Load base model
         model_name = config['model']['base_model']
-        max_seq_length = 512  # Smaller for CPU training
+        max_seq_length = config['model'].get('max_seq_length', 512)
+        
+        # Try GPU first, fall back to CPU
+        use_gpu = torch.cuda.is_available()
+        device = "cuda" if use_gpu else "cpu"
+        dtype = torch.float16 if use_gpu else torch.float32
         
         print(f"   Loading model: {model_name}")
+        print(f"   Device: {device} ({'GPU: ' + torch.cuda.get_device_name(0) if use_gpu else 'CPU'})")
+        print(f"   Max sequence length: {max_seq_length}")
+        
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(
             model_name,
-            torch_dtype=torch.float32,  # CPU training
-            device_map="cpu"
+            torch_dtype=dtype,
+            device_map=device
         )
         
         # Add padding token if missing
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
         
-        # Format training data
+        # Format training data as plain text strings
+        formatted_texts = []
+        for item in training_data:
+            prompt = item.get('prompt', item.get('question', ''))
+            response = item.get('response', item.get('answer', ''))
+            text = f"Human: {prompt}\nAssistant: {response}"
+            formatted_texts.append(text)
+        
+        # Create dataset from plain text
+        dataset = Dataset.from_dict({"text": formatted_texts})
+        
+        # Tokenize
         def tokenize_function(examples):
-            # Conversation format: Human: prompt\nAssistant: response
-            texts = []
-            for prompt, response in zip(examples['prompt'], examples['response']):
-                text = f"Human: {prompt}\nAssistant: {response}"
-                texts.append(text)
-            
-            # Tokenize
-            tokenized = tokenizer(
-                texts,
+            return tokenizer(
+                examples["text"],
                 truncation=True,
-                padding=True,
                 max_length=max_seq_length,
-                return_tensors="pt"
+                padding=False,  # Collator will pad
             )
-            # Convert to lists for dataset compatibility
-            tokenized = {k: v.tolist() for k, v in tokenized.items()}
-            tokenized["labels"] = tokenized["input_ids"].copy()
-            return tokenized
         
-        # Convert to dataset format
-        dataset = Dataset.from_list([
-            {"prompt": item.get('prompt', item.get('question', '')),
-             "response": item.get('response', item.get('answer', ''))}
-            for item in training_data
-        ])
-        dataset = dataset.map(tokenize_function, batched=True)
+        dataset = dataset.map(tokenize_function, batched=True, remove_columns=["text"])
         
-        # Data collator - simple one for causal LM
-        def data_collator(features):
-            batch = {}
-            batch["input_ids"] = torch.tensor([f["input_ids"] for f in features])
-            batch["attention_mask"] = torch.tensor([f["attention_mask"] for f in features])
-            batch["labels"] = torch.tensor([f["labels"] for f in features])
-            return batch
+        # Data collator - use built-in for proper device handling
+        data_collator = DataCollatorForLanguageModeling(
+            tokenizer=tokenizer,
+            mlm=False  # Causal LM, not masked LM
+        )
         
         # Training arguments (with ChatGPT's recommended optimizations)
+        batch_size = 4 if use_gpu else 1  # Larger batch for GPU
+        grad_accum = 2 if use_gpu else 4  # Less accumulation needed for GPU
+        fp16 = False  # Disable fp16 to avoid gradient issues
+        
         training_args = TrainingArguments(
             output_dir=f"models/tmp_train_gen{gen_id}",
-            per_device_train_batch_size=1,  # Small for CPU
-            gradient_accumulation_steps=4,
+            per_device_train_batch_size=batch_size,
+            gradient_accumulation_steps=grad_accum,
             warmup_steps=max(2, int(steps * 0.1)),  # 10% warmup
             max_steps=steps,
             learning_rate=train_config['learning_rate'],
@@ -142,7 +145,8 @@ def train_micro_generation(
             save_steps=steps,  # Save at end
             save_total_limit=1,
             remove_unused_columns=False,
-            dataloader_pin_memory=False,  # CPU training
+            dataloader_pin_memory=use_gpu,  # Pin memory for GPU
+            fp16=fp16,  # Use fp16 on GPU
             seed=42,
             report_to="none",  # Disable W&B
             max_grad_norm=1.0,  # Gradient clipping
@@ -166,8 +170,8 @@ def train_micro_generation(
         model.eval()
         with torch.no_grad():
             for batch in eval_dataloader:
-                # Move batch to CPU (model is on CPU)
-                batch = {k: v.cpu() if hasattr(v, 'cpu') else v for k, v in batch.items()}
+                # Move batch to same device as model
+                batch = {k: v.to(model.device) if hasattr(v, 'to') else v for k, v in batch.items()}
                 outputs = model(**batch)
                 eval_loss += outputs.loss.item()
                 eval_steps += 1
@@ -330,7 +334,7 @@ def load_training_data(gen_id: int, new_conversations: Optional[List[Dict]] = No
         # Load from train.jsonl
         train_file = Path("infra_core/unsloth_integration/data/train.jsonl")
         if train_file.exists():
-            with open(train_file) as f:
+            with open(train_file, encoding='utf-8') as f:
                 new_data = [json.loads(line) for line in f if line.strip()]
             training_data.extend(new_data)
             print(f"  Loaded {len(new_data)} examples from train.jsonl")

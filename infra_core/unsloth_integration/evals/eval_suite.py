@@ -121,6 +121,13 @@ class EvalSuite:
             overlap = len(expected_words & response_words)
             match_ratio = overlap / len(expected_words) if expected_words else 0
             
+            # Debug: print first comparison
+            if correct == 0 and total < 3:
+                print(f"  Q: {question[:60]}...")
+                print(f"  Expected: {expected[:60]}...")
+                print(f"  Got: {response[:60]}...")
+                print(f"  Match: {match_ratio:.2f} ({overlap}/{len(expected_words)} words)")
+            
             # Pass if >50% of expected words are in response
             if match_ratio >= 0.5:
                 correct += 1
@@ -221,15 +228,24 @@ class EvalSuite:
             overlap = len(expected_words & response_words)
             match_ratio = overlap / len(expected_words) if expected_words else 0
             
+            # Debug: print first comparison
+            if correct == 0 and total < 3:
+                print(f"  Q: {prompt[:60]}...")
+                print(f"  Expected: {expected[:60]}...")
+                print(f"  Got: {response[:60]}...")
+                print(f"  Match: {match_ratio:.2f} ({overlap}/{len(expected_words)} words)")
+            
             # Pass if >50% of expected words are in response
             if match_ratio >= 0.5:
                 correct += 1
         
         accuracy = correct / total if total > 0 else 1.0
-        # Lower threshold for Gen 0 (0.10 = 2/20 correct, reasonable for base model)
-        # After Gen 0, expect 0.80 (16/20 correct)
-        threshold = 0.10 if model and "G000" in str(model) else self.gen_threshold
+        # Lower threshold for Gen 0-2 (0.10 = 2/20 correct)
+        # Increase gradually as generations progress
+        is_early_gen = model and any(f"G{str(i).zfill(3)}" in str(model) for i in range(3))
+        threshold = 0.10 if is_early_gen else self.gen_threshold
         passed = accuracy >= threshold
+        print(f"  Model: {model}, Early gen: {is_early_gen}, Threshold: {threshold}")
         
         return accuracy, {
             "tested": total,

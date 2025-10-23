@@ -2,16 +2,16 @@
 
 **Parent**: None (Gen 0)
 **Training Steps**: 400
-**Training Time**: 1.114893921216329 minutes
+**Training Time**: 1.6606220126152038 minutes
 
 ## Eval Results
 - **Recall**: 1.000 ❌ (>0.90 required)
-- **Generalization**: 0.150 ❌ (>0.80 required)
+- **Generalization**: 0.000 ❌ (>0.80 required)
 - **Style Drift**: 0/10 ❌ (<2 required)
 
 ## Decision
-✅ **PROMOTED TO HEAD** (evals passed)
+❌ **REJECTED** (evals failed)
 
 ## Notes
-- All evaluation gates passed
-- Generation promoted to HEAD
+- Generation failed evaluation gates
+- HEAD remains at parent generation

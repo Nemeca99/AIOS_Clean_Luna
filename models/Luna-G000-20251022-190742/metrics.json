@@ -40,11 +40,11 @@
       "reason": "No prior generation (Gen 0)"
     },
     "generalization": {
-      "score": 0.15,
+      "score": 0.0,
       "tested": 20,
-      "correct": 3,
-      "accuracy": 0.15,
-      "passed": true,
+      "correct": 0,
+      "accuracy": 0.0,
+      "passed": false,
       "threshold": 0.1
     },
     "style_drift": {
@@ -54,22 +54,22 @@
       "violations": [],
       "passed": true
     },
-    "all_passed": true,
+    "all_passed": false,
     "summary": {
       "recall": 1.0,
-      "generalization": 0.15,
+      "generalization": 0.0,
       "style_drift": 0
     }
   },
   "deltas": {
     "recall": 0.0,
-    "generalization": 0.15,
+    "generalization": 0.0,
     "style_drift": 0
   },
   "summary": {
     "recall": 1.0,
-    "generalization": 0.15,
+    "generalization": 0.0,
     "style_drift": 0
   },
-  "all_passed": true
+  "all_passed": false
 }
