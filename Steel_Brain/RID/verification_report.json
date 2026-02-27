@@ -1,0 +1,48 @@
+{
+  "timestamp_utc": "2026-02-14T06:40:51.103888+00:00",
+  "python_version": "3.11.0",
+  "project_root": "L:\\Steel_Brain",
+  "steps": [
+    {
+      "name": "rid_check",
+      "command": "python -m RID --check",
+      "passed": true,
+      "stdout": "[OK] RID validation passed: imports, equations, FIDF loop (2 steps).\n",
+      "stderr": ""
+    },
+    {
+      "name": "pytest",
+      "command": "python -m pytest RID/tests/ -v",
+      "passed": true,
+      "stdout": "_loss_fraction PASSED                         [ 15%]\nRID/tests/test_rid.py::test_ltp_n_adequacy PASSED                        [ 20%]\nRID/tests/test_rid.py::test_ltp_n_invalid PASSED                         [ 25%]\nRID/tests/test_rid.py::test_stability_scalar_unity PASSED                [ 30%]\nRID/tests/test_rid.py::test_rsr_n PASSED                                 [ 35%]\nRID/tests/test_rid.py::test_carnot_bound PASSED                          [ 40%]\nRID/tests/test_rid.py::test_lambda_mismatch PASSED                       [ 45%]\nRID/tests/test_rid.py::test_coupling_amplified_loss PASSED               [ 50%]\nRID/tests/test_rid.py::test_temporal_mismatch_condition PASSED           [ 55%]\nRID/tests/test_rid.py::test_cost_depth_factorial PASSED                  [ 60%]\nRID/tests/test_rid.py::test_effective_system_efficiency PASSED           [ 65%]\nRID/tests/test_rid.py::test_voltage_law_violated PASSED                  [ 70%]\nRID/tests/test_rid.py::test_invariant_preserving_factorization_identity PASSED [ 75%]\nRID/tests/test_rid.py::test_phase_boundary_divergence_near PASSED        [ 80%]\nRID/tests/test_rid.py::test_rate_scaling PASSED                          [ 85%]\nRID/tests/test_rid.py::test_divergence_indicator PASSED                  [ 90%]\nRID/tests/test_rid.py::test_diagnostic_step_nominal PASSED               [ 95%]\nRID/tests/test_rid.py::test_diagnostic_step_intervene_rle PASSED         [100%]\n\n============================= 20 passed in 0.22s ==============================\n",
+      "stderr": ""
+    },
+    {
+      "name": "verify_accomplishments_doc",
+      "command": "python RID/verify_accomplishments_doc.py",
+      "passed": true,
+      "stdout": "10)=1, (5,10)=0.5, (15,10)=1\n  [PASS] Extrusion LTP at 75A: 90A and 80A capacity => 1\n  [PASS] Discrepancy_01(0.65, 0.70) = 0.05\n  [PASS] RSR for 415 vs 420\u00b0F normalized 0.65,0.70 => 0.95\n  [PASS] RSR (1,1)=1, (1,0)=0\n  [PASS] S_n product: (1,1,1)=1, (0.5,0.5,0.5)=0.125\n  [PASS] effective_system_efficiency(0.95, 0.8) = 0.8 (capped)\n  [PASS] effective_system_efficiency(0.7, 0.8) = 0.7 (no cap)\n  [PASS] voltage_law_violated: S_n>LTP_input only when violated\n  [PASS] Extrusion proxy U_n=0 => RLE=1.0\n  [PASS] Extrusion proxy U_n=25 => RLE=0.5\n  [PASS] Extrusion proxy U_n=50 => RLE=0.0\n  [PASS] Extrusion proxy: RLE decreases as demand increases\n  [PASS] Doc narrative: RSR~0.95, LTP=1, RLE worst\n\nTotal: 16 passed, 0 failed\nNo contradictions found; document and RID implementation are consistent.\n",
+      "stderr": ""
+    },
+    {
+      "name": "real_world_example",
+      "command": "python -m RID.examples.real_world_example",
+      "passed": true,
+      "stdout": "rvene_rle\n  step 3: S_n=0.613 RSR=0.850 LTP=0.889 RLE=0.812 -> mandatory_descent\n  step 4: S_n=0.552 RSR=0.920 LTP=0.800 RLE=0.750 -> intervene_ltp\n\nInterpretation (for your app):\n  Step 0: intervene_rle -- Retained fraction RLE < 1; intervene at transition/loss laye...\n  Step 1: intervene_rle -- Retained fraction RLE < 1; intervene at transition/loss laye...\n  Step 2: intervene_rle -- Retained fraction RLE < 1; intervene at transition/loss laye...\n  Step 3: mandatory_descent -- LTP < 1; perform mandatory descent / structural expansion....\n  Step 4: intervene_ltp -- Structural adequacy LTP < 1; intervene at structure/demand l...\n\nRID run complete. Use S_n < 1 or non-'continue' actions to trigger alerts or descent in your system.\n============================================================\n",
+      "stderr": ""
+    },
+    {
+      "name": "verify_external_consistency",
+      "command": "python RID/verify_external_consistency.py",
+      "passed": true,
+      "stdout": "consistency (implementation vs source specs)\n==========================================================\n  [PASS] Spec phrase: RLE_n or RLE definition\n  [PASS] Spec phrase: capacity before / E_n variable\n  [PASS] Spec phrase: loss / U_n variable\n  [PASS] Spec phrase: capacity after (or E_next)\n  [PASS] Spec phrase: LTP definition\n  [PASS] Spec phrase: LTP min(1, ...)\n  [PASS] Spec phrase: demand\n  [PASS] Spec phrase: RSR definition\n  [PASS] Spec phrase: RSR = 1 - D\n  [PASS] Spec phrase: stability scalar\n  [PASS] Spec phrase: S_n product\n  [PASS] Spec: structural support (spec symbol or term)\n  [PASS] Spec: SEOL voltage law (exceed)\n  [PASS] Spec: SEOL Input boundary\n  [PASS] Spec: LTP in SEOL\n\nTotal: 15 passed, 0 failed\nImplementation is traceable to source specifications (extracted text).\n",
+      "stderr": ""
+    }
+  ],
+  "all_passed": true,
+  "summary": {
+    "total_steps": 5,
+    "passed": 5,
+    "failed": 0
+  }
+}

@@ -1,0 +1,34 @@
+--- Page 1 ---
+The Law of Compressed State Dynamics (RLE
+ Framework)
+This document formalizes the axiomatic structure underlying the Recursive Loss Equation (RLE). It is
+intended as a field-level statement describing how bounded observables arise from additive,
+combinatorial, and irreversible internal system dynamics.
+Axiom I — Physical Irreversibility
+All physical systems accumulate irreversible change. Entropy increases monotonically; energy
+dissipation, fatigue, and degradation cannot be undone by representation or normalization.
+Axiom II — Additive State Accretion
+System evolution occurs through additive accumulation of states. Each step introduces a new
+configuration that coexists with all prior configurations. No state is removed; history is preserved.
+Axiom III — Combinatorial Expansion
+As states accumulate, the number of possible internal configurations grows multiplicatively and may
+increase exponentially or factorially with depth. This growth represents real internal cost, fragility, and
+recovery complexity.
+Axiom IV — Compression by Normalization
+Systems employ normalization (division) to collapse internal combinatorial complexity into bounded
+observables. This compression preserves ratios while discarding configurational detail.
+Axiom V — Observational Invariance
+Multiple distinct internal configurations may map to the same observable value. Equality of observation
+does not imply equality of physical state.
+Core Equation (Recursive Loss Equation)
+RLE_n = (E_{n+1} − U_n) / E_n , where 0 ≤ RLE_n ≤ 1
+The Recursive Loss Equation expresses system survivability as a bounded ratio. It contains no
+multiplicative growth terms; all apparent exponential or factorial behavior resides in the hidden internal
+state space, not in the observable scalar.
+Law Statement
+
+
+--- Page 2 ---
+A system may undergo exponential or factorial growth in internal configuration space while exhibiting
+stable bounded observables. The cost of depth is paid internally, not reported externally. Normalization
+preserves observability at the expense of hidden fragility.

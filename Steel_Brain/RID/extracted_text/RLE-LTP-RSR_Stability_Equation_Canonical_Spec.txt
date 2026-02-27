@@ -1,0 +1,99 @@
+--- Page 1 ---
+Canonical Stability Equation Specification
+ RLE–LTP–RSR (Stability Triangle) with Rate Normalization
+ Version: 1.0    |    Date: 2026-01-09
+1. Scope
+This document defines a single, dimensionless stability/efficiency equation built only from three
+invariants (RSR, LTP, RLE) plus an external time base (Δt). It specifies: variables, domains, core
+identities, rate scaling, and the minimal diagnostic logic gate.
+2. Variables and Domains
+Symbol
+Domain
+Meaning (minimal)
+Δt
+(0, ∞)
+Observer-defined sampling interval (refresh rate).
+f
+(0, ∞)
+Update frequency (cycles/sec).  f = 1/Δt.  If using RPM: f = RPM/60.
+E_n
+(0, ∞)
+Usable capacity before transition n→n+1 (resource-agnostic).
+U_n
+[0, E_n]
+Irrecoverable loss incurred during transition n→n+1.
+RLE_n
+[0, 1]
+Retained usable fraction across transition n→n+1.
+RSR_n
+[0, 1]
+Reconstruction fidelity at step n (how trustworthy the system’s self-state is).
+■_n
+(0, ∞)
+Structural support available at the current representation/layer.
+d_n
+(0, ∞)
+Compression demand (required precision/coordination burden).
+LTP_n
+[0, 1]
+Structural adequacy index at step n.
+S_n
+[0, 1]
+System Stability / System Efficiency at step n (the bounded health scalar).
+3. Core Equations (Triangle Definitions)
+3.1 Recursive Loss Equation (RLE)
+RLE is the transition invariant (retained usable fraction):
+RLE_n ≡ (E_{n+1} − U_n) / E_n, with RLE_n ∈ [0,1].
+Derived loss fraction: Λ_n ≡ 1 − RLE_n.
+3.2 Layer Transition Principle Index (LTP)
+LTP is used operationally as a bounded adequacy index:
+LTP_n ≡ min(1, ■_n / d_n), with LTP_n ∈ [0,1].
+Interpretation: if ■_n ≥ d_n then LTP_n = 1 (structure meets demand). If ■_n < d_n then LTP_n < 1
+(structural strain; descent may be required).
+3.3 Recursive State Reconstruction (RSR)
+
+
+--- Page 2 ---
+RSR measures reconstruction fidelity (trustworthiness of present state estimate):
+Let y_n be the current observable input, and ■_n be the system’s reconstruction (filtered/delayed echo)
+of the prior output/state. Choose any normalized discrepancy D(·,·) with range [0,1]. Then:
+RSR_n ≡ 1 − D(y_n, ■_n), with RSR_n ∈ [0,1].
+RSR does not predict; it detects onset of divergence (phase/lag/echo becoming structure).
+4. The Stability Equation (System Efficiency Scalar)
+Define the bounded system stability/efficiency scalar as the multiplicative closure of the triangle:
+S_n ≡ RSR_n · LTP_n · RLE_n, with S_n ∈ [0,1].
+Unity Baseline: S_n = 1 indicates the system is nominally aligned at the current layer and sampling
+interval (no detectable reconstruction drift, no structural inadequacy, and full retained fraction across the
+last transition). Any S_n < 1 indicates hidden loss/strain somewhere in the triangle.
+5. Rate Normalization (Changing Δt / RPM)
+The time base is external: Δt is chosen by the observer. Convert RPM to frequency as:
+f = 1/Δt (Hz) or f = RPM/60.
+If you change the rate by a multiplier m (m = f_new / f_old = Δt_old / Δt_new) while holding internal
+structure fixed, the expected normalized stability scales approximately as:
+S_expected(new) ≈ S_old / m.
+This is a diagnostic scaling law: deviations indicate that per-cycle losses, reconstruction drift, or
+structural adequacy are changing under the new rate.
+Define a divergence indicator:
+ΔS = S_observed(new) − S_expected(new).
+Interpretation: ΔS < 0 suggests the system cannot maintain the new rate without accumulating additional
+loss (feedback onset risk). ΔS ≥ 0 indicates headroom at that rate.
+6. Minimal Diagnostic Logic Gate (Operational Loop)
+At each step n (each sample):
+1) Compute RSR_n (foreground signal).
+2) If RSR_n is below threshold, evaluate LTP_n (structure vs demand).
+3) If LTP_n < 1, perform mandatory descent / structural expansion (layer change).
+4) After any action/transition, compute RLE_n and update S_n.
+Reference pseudologic:
+IF S_n == 1: continue (RSR loop)
+ELSE: locate which factor is non-unitary (RSR, LTP, or RLE) and intervene at that
+layer.
+7. Notes and Non-Claims (kept strict)
+
+
+--- Page 3 ---
+ S_n localizes strain but does not uniquely identify a physical component; many mechanisms can map
+to the same factor drop.
+ Δt changes the resolution of reconstruction; comparing S across different Δt requires explicit rate
+normalization (Section 5).
+ This spec defines a dimensionless stability scalar and its lawful use; it does not assert empirical
+universality by itself.
